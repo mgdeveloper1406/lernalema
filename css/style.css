@@ -1,0 +1,86 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 23, 48);
+}
+h1 {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* color: rgb(149, 149, 190); */
+    color: rgb(250, 250, 250);
+    padding: 0.2rem 1.5rem;
+}
+#black {
+    color: rgb(0, 0, 0);
+}
+#red {
+    color: rgb(255, 0, 0);
+}
+#yellow {
+    color: rgb(255, 215, 0);
+}
+.chevron {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+}
+#german-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 250px;
+    margin: 8rem auto 3.1rem;
+    background-color: rgb(92, 40, 66);
+    border-radius: 5px;
+}
+#german-word {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.8rem;
+    letter-spacing: .1rem;
+    color: rgb(255, 215, 0);
+    /* font-family: dinosaur, sans-serif;
+    font-weight: 900;
+    font-style: italic; */
+}
+input#english {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: rgb(41, 35, 70);
+    color: rgb(97, 183, 223);
+    display: block;
+    margin: 0 auto;
+    padding: .5rem 0;
+    border: none;
+    border-radius: 3px;
+}
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+#copyright {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    margin: 0;
+}
