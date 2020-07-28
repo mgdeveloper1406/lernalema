@@ -67,6 +67,7 @@ h2 {
 }
 #german-box {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 530px;
@@ -75,16 +76,31 @@ h2 {
     background-color: rgb(92, 40, 66);
     border-radius: 5px;
 }
-#german-word {
+h3#german-word {
     font-family: 'dinosaur', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 3.8rem;
     letter-spacing: .1rem;
     color: rgb(255, 215, 0);
+    margin: 0 0 1rem 0;
     /* font-family: dinosaur, sans-serif;
     font-weight: 900;
     font-style: italic; */
+}
+h4#german-plural,
+span.curly-braces {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: .13rem;
+    color: rgb(255, 215, 0);
+    display: inline;
+    margin: 0;
+}
+span.curly-braces {
+    color: rgb(255, 255, 255);
 }
 input#english {
     font-family: 'Nunito', sans-serif;
