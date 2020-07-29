@@ -1,6 +1,11 @@
 // On document ready, a random German word (and its plural form) will load in the German box. The German box color will correspond to the word's category.
 
 $(document).ready(function() {
+    function getRandom(object) {
+        let theKeys = Object.keys(object);
+        return theKeys[Math.floor(Math.random() * theKeys.length)];
+    }
+
     let wordArray = [
         {
             german: 'die Kartoffel',
@@ -28,9 +33,10 @@ $(document).ready(function() {
         },
     ];
     
-    let randomWord = wordArray[Math.floor(Math.random() * wordArray.length)];
-    $('german-word').html(randomWord.german);
-    $('german-plural').html(this.randomWord.plural);
+    let randomWord = wordArray[getRandom(wordArray)];
+    console.log(randomWord.german);
+    $('#german-word').html(randomWord.german);
+    $('#german-plural').html(randomWord.plural);
 }); 
 
 
