@@ -83,18 +83,22 @@ h3#german-word {
     font-size: 3.8rem;
     letter-spacing: .1rem;
     color: rgb(255, 215, 0);
-    margin: 0 0 1rem 0;
-    /* font-family: dinosaur, sans-serif;
-    font-weight: 900;
-    font-style: italic; */
+    margin: 0 0 .1rem 0;
+}
+span#line {
+    display: block;
+    height: 7px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: .4rem;
 }
 h4#german-plural,
 span.curly-braces {
     font-family: 'dinosaur', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
-    letter-spacing: .13rem;
     color: rgb(255, 215, 0);
     display: inline;
     margin: 0;
@@ -102,7 +106,7 @@ span.curly-braces {
 span.curly-braces {
     color: rgb(255, 255, 255);
 }
-input#english {
+input#your-translation {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-style: normal;
