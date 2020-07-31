@@ -120,6 +120,21 @@ input#your-translation {
     border: none;
     border-radius: 3px;
 }
+#submit {
+    margin: 1rem auto;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(10, 48, 78);
+    background-color: aliceblue;
+    border: none;
+    border-radius: 2px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
 footer {
     width: 100%;
     position: fixed;
