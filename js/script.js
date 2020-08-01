@@ -109,17 +109,8 @@ function getRandom(object) {
 
 let randomWord = wordArray[getRandom(wordArray)];
 console.log(randomWord.german);
-// $('#german-word').html(randomWord.german);
-// $('#german-plural').html(randomWord.plural);
-
-function updateWord() {
-    $('#german-word').html(randomWord.german);
-    $('#german-plural').html(randomWord.plural);
-}
-updateWord();
-
-
-
+$('#german-word').html(randomWord.german);
+$('#german-plural').html(randomWord.plural);
 
 const categoryColors = () => {
     if (randomWord.category === 'people') {
@@ -132,25 +123,23 @@ const categoryColors = () => {
         $('#german-word, #german-plural').css('color', '#f0f8ff');
         $('#line').css('backgroundColor', '#ffd700');
         $('.curly-braces').css('color', '#ffd700');
-    } else {
-
-    }
+    } 
 };
 categoryColors();
 
 $('#submit').on('click', function() {
     let answer = $('#your-translation').val();
-    if (answer === randomWord.translation) {
-        return randomWord.next();
-        updateWord();
+    if (answer === randomWord.translation) {  
+        randomWord = wordArray.splice(0, 1)[getRandom(wordArray)];
         // $('#german-word').html(randomWord.german);
         // $('#german-plural').html(randomWord.plural);
+        $('#your-translation').val('');
     } else {
         console.log(`Your answer was "${answer}"`);
         console.log(`The correct translation is "${randomWord.translation}"`);
+        
     }
 });
-
 
 // $(document).keypress(function(event) {
 //     if (event.key === 'Enter') {
