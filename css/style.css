@@ -149,3 +149,20 @@ footer {
     padding: 20px 30px;
     margin: 0;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 615px) {
+    #german-box {
+        width: 350px;
+        height: 200px;
+        margin: 4rem auto 2.1rem;
+    }
+    h3#german-word {
+        font-size: 3.1rem;
+    }
+    h4#german-plural,
+    span.curly-braces {
+        font-size: 1.4rem;
+    }
+}
