@@ -156,7 +156,7 @@ footer {
     #german-box {
         width: 350px;
         height: 200px;
-        margin: 4rem auto 2.1rem;
+        margin: 4.7rem auto 2.1rem;
     }
     h3#german-word {
         font-size: 3.1rem;
@@ -164,5 +164,9 @@ footer {
     h4#german-plural,
     span.curly-braces {
         font-size: 1.4rem;
+    }
+    input#your-translation {
+        width: 300px;
+        font-size: 1.7rem;
     }
 }
