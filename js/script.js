@@ -129,11 +129,11 @@ categoryColors();
 
 $('#submit').on('click', function() {
     let answer = $('#your-translation').val();
-    if (answer === randomWord.translation) {  
-        randomWord = wordArray.splice(0, 1)[getRandom(wordArray)];
-        // $('#german-word').html(randomWord.german);
-        // $('#german-plural').html(randomWord.plural);
+    if (answer === randomWord.translation) { 
         $('#your-translation').val('');
+        randomWord = wordArray.splice(0, 1)[getRandom(wordArray)];
+        $('#german-word').html(randomWord.german);
+        $('#german-plural').html(randomWord.plural);
     } else {
         console.log(`Your answer was "${answer}"`);
         console.log(`The correct translation is "${randomWord.translation}"`);
