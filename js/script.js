@@ -68,7 +68,7 @@
 //     // });
 // }); 
 
-
+// the array of words
 let wordArray = [
     {
         german: 'die Kartoffel',
@@ -102,6 +102,7 @@ let wordArray = [
     }
 ];
 
+// this picks a random word from the word array
 function getRandom(object) {
     let theKeys = Object.keys(object);
     return theKeys[Math.floor(Math.random() * theKeys.length)];
@@ -109,9 +110,12 @@ function getRandom(object) {
 
 let randomWord = wordArray[getRandom(wordArray)];
 console.log(randomWord.german);
+
+// this populates the flashcard words, when the document loads
 $('#german-word').html(randomWord.german);
 $('#german-plural').html(randomWord.plural);
 
+// this changes the flashcards' colors, based on the given word's category
 const categoryColors = () => {
     if (randomWord.category === 'people') {
         $('#german-box').css('backgroundColor', '#008b8b');
@@ -125,19 +129,20 @@ const categoryColors = () => {
         $('.curly-braces').css('color', '#ffd700');
     } 
 };
+
 categoryColors();
 
+// on clicking the submit button, the code below should check that the user's input matches the correct translation given in the word array. if so, the input field should clear, and the flashcard should progress on to the next random word. else, the console logs the input and the answer, to help move the user on, if needed. (NOTE: I also want to add a skip button.)
 $('#submit').on('click', function() {
     let answer = $('#your-translation').val();
     if (answer === randomWord.translation) { 
         $('#your-translation').val('');
-        randomWord = wordArray.splice(0, 1)[getRandom(wordArray)];
+        // randomWord = wordArray.splice(0, 1)[getRandom(wordArray)];
         $('#german-word').html(randomWord.german);
         $('#german-plural').html(randomWord.plural);
     } else {
         console.log(`Your answer was "${answer}"`);
         console.log(`The correct translation is "${randomWord.translation}"`);
-        
     }
 });
 
