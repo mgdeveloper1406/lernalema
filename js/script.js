@@ -40,6 +40,12 @@ function gimmeWords() {
             plural: 'die Häuser',
             translation: 'house',
             category: 'home'
+        },
+        {
+            german: 'der Schuh',
+            plural: 'die Schuhe',
+            translation: 'shoe',
+            category: 'home'
         }
     ];
 
@@ -65,6 +71,11 @@ const categoryColors = () => {
         $('#german-word, #german-plural').css('color', '#f0f8ff');
         $('#line').css('backgroundColor', '#ffd700');
         $('.curly-braces').css('color', '#ffd700');
+    } else if (randomWord.category === 'home') {
+        $('#german-box').css('backgroundColor', '#5c2842');
+        $('#german-word, #german-plural').css('color', '#ffd700');
+        $('#line').css('backgroundColor', '#f0f8ff');
+        $('.curly-braces').css('color', '#f0f8ff');
     } 
 };
 
