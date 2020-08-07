@@ -7,7 +7,8 @@ function getRandom(object) {
 // let randomWord = wordArray[getRandom(wordArray)];
 let randomWord;
 let wordArray;
-let usedWords = [];
+// let usedWords = [];
+// let usedWords;
 
 function gimmeWords() {
     wordArray = [
@@ -52,9 +53,18 @@ function gimmeWords() {
     randomWord = wordArray[getRandom(wordArray)];
     console.log(randomWord.german);
 
+    // console.log(wordArray.indexOf(randomWord));
+
     // this populates the flashcard words, when the document loads
     $('#german-word').html(randomWord.german);
     $('#german-plural').html(randomWord.plural);
+
+    // wordArray.length = wordArray.length - i;
+
+    const i = wordArray.indexOf(randomWord);
+    // console.log(i);
+    wordArray.splice(i);
+    console.log(wordArray);
 };
 
 gimmeWords();
@@ -86,16 +96,31 @@ $('#submit').on('click', function() {
     let answer = $('#your-translation').val();
     if (answer === randomWord.translation) { 
         $('#your-translation').val('');
-        // randomWord = wordArray.splice(0, 1)[getRandom(wordArray)];
-        usedWords.push(randomWord);
+        // usedWords.push(randomWord);
+        // console.log(usedWords);
+       
+        // wordArray.push(randomWord);
+        // wordArray.pop();
+
+    
         gimmeWords();
         categoryColors();
+
+        // let usedIndex = wordArray.indexOf(this.randomWord);
+
+        // usedWords = wordArray.splice(usedIndex, 1);
+        // randomWord = wordArray.splice(0, 1)[getRandom(wordArray)];
+        // usedWords = wordArray.splice(0, 1);
         // $('#german-word').html(randomWord.german);
         // $('#german-plural').html(randomWord.plural);
     } else {
         console.log(`Your answer was "${answer}"`);
         console.log(`The correct translation is "${randomWord.translation}"`);
     }
+    
+    if (wordArray.length <= 0) {
+        alert(`You're done!`);
+    } 
 });
 
 //--------------------------------------------------------------------
