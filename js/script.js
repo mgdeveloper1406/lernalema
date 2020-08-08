@@ -46,7 +46,7 @@ wordArray = [
     }
 ];
 
-// this helps to pick a random word from the word array
+// getRandom and gimmeWords work in conjunction to pick a random word from wordArray
 function getRandom(object) {
     let theKeys = Object.keys(object);
     return theKeys[Math.floor(Math.random() * theKeys.length)];
@@ -90,20 +90,34 @@ const categoryColors = () => {
 
 categoryColors();
 
+// get the index of the current random word, splice it from the array, and then push it to the end of the array (so it can be popped out)
 function moveWord() {
     i = wordArray.indexOf(randomWord);
     wordArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]);
 };
 
-// on clicking the submit button, the code below should check that the user's input matches the correct translation given in the word array. if so, the input field should clear, and the flashcard should progress on to the next random word. else, the console logs the input and the answer, to help move the user on, if needed. (NOTE: I also want to add a skip button.)
+// on submission, check that the user's input matches the correct translation given in the word array. if so, clear the input field and display the next flashcard. else, the console logs the input and the answer, to help move the user on, if needed. 
 $('#submit').on('click', function() {
+    // convert the user's input to lowercase, to match the answer in the array
+    $('#your-translation').val (function() {
+        return this.value.toLowerCase();
+    });
+
     let answer = $('#your-translation').val();
-    
     if (answer === randomWord.translation) { 
+        // reset the input field
         $('#your-translation').val('');
+        
+        // move the current word to the end of the array
         moveWord();
+        
+        // pop (i.e., remove) the last word in the array
         wordArray.pop();
+        
+        // randomize wordArray and populate the flashcards 
         gimmeWords();
+        
+        // assign the flashcards' colors
         categoryColors();
     } else {
         console.log(`Your answer was "${answer}"`);
