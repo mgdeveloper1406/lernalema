@@ -1,3 +1,8 @@
+// change the chameleon's color every time submit is clicked
+const chameleonColors = () => {
+    $('#chameleon').attr('src', 'images/german-flash-03.svg');
+};
+
 // this picks a random word from the word array
 function getRandom(object) {
     let theKeys = Object.keys(object);
@@ -7,6 +12,9 @@ function getRandom(object) {
 // let randomWord = wordArray[getRandom(wordArray)];
 let randomWord;
 let wordArray;
+let i;
+// let chameleonArray;
+// let flashIndex;
 // let usedWords = [];
 // let usedWords;
 
@@ -47,7 +55,8 @@ function gimmeWords() {
             plural: 'die Schuhe',
             translation: 'shoe',
             category: 'home'
-        }
+        },
+        // {}
     ];
 
     randomWord = wordArray[getRandom(wordArray)];
@@ -59,12 +68,11 @@ function gimmeWords() {
     $('#german-word').html(randomWord.german);
     $('#german-plural').html(randomWord.plural);
 
-    // wordArray.length = wordArray.length - i;
+    // wordArray = wordArray.length - 1;
 
-    const i = wordArray.indexOf(randomWord);
     // console.log(i);
-    wordArray.splice(i);
-    console.log(wordArray);
+    // wordArray.splice(i);
+    // console.log(wordArray);
 };
 
 gimmeWords();
@@ -91,6 +99,21 @@ const categoryColors = () => {
 
 categoryColors();
 
+// function removeWord() {
+//     const i = wordArray.indexOf(randomWord);
+//     wordArray.splice(i, 1);
+//     wordArray.push(wordArray[i]);
+//     wordArray.pop();
+//     console.log(wordArray); 
+// };
+
+function moveWord() {
+    i = wordArray.indexOf(randomWord);
+    wordArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]);
+    // wordArray.pop(wordArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]));
+    // console.log(wordArray); 
+};
+
 // on clicking the submit button, the code below should check that the user's input matches the correct translation given in the word array. if so, the input field should clear, and the flashcard should progress on to the next random word. else, the console logs the input and the answer, to help move the user on, if needed. (NOTE: I also want to add a skip button.)
 $('#submit').on('click', function() {
     let answer = $('#your-translation').val();
@@ -102,7 +125,9 @@ $('#submit').on('click', function() {
         // wordArray.push(randomWord);
         // wordArray.pop();
 
-    
+        moveWord();
+        console.log(wordArray);
+
         gimmeWords();
         categoryColors();
 
@@ -121,6 +146,8 @@ $('#submit').on('click', function() {
     if (wordArray.length <= 0) {
         alert(`You're done!`);
     } 
+
+    chameleonColors();
 });
 
 //--------------------------------------------------------------------
