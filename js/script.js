@@ -104,7 +104,7 @@ $('#submit').on('click', function() {
     });
 
     let answer = $('#your-translation').val();
-    if (answer === randomWord.translation) { 
+    if ((answer === randomWord.translation) || (answer === `the ${randomWord.translation}`)) { 
         // reset the input field
         $('#your-translation').val('');
         
