@@ -9,10 +9,22 @@ const chameleonColors = () => {
 
 wordArray = [
     {
-        german: 'die Kartoffel',
-        plural: 'die Kartoffeln',
-        translation: 'potato',
-        category: 'food'
+        german: 'die Person',
+        plural: 'die Menschen',
+        translation: 'person',
+        category: 'people',
+    },
+    {
+        german: 'die Frau',
+        plural: 'die Frauen',
+        translation: 'woman',
+        category: 'people',
+    },
+    {
+        german: 'der Mann',
+        plural: 'die Männer',
+        translation: 'man',
+        category: 'people',
     },
     {
         german: 'das Mädchen',
@@ -25,6 +37,36 @@ wordArray = [
         plural: 'die Jungen',
         translation: 'boy',
         category: 'people'
+    },
+    {
+        german: 'die Tochter',
+        plural: 'die Töchter',
+        translation: 'daughter',
+        category: 'people',
+    },
+    {
+        german: 'der Sohn',
+        plural: 'die Söhne',
+        translation: 'son',
+        category: 'people',
+    },
+    {
+        german: 'die Mutter',
+        plural: 'die Mütter',
+        translation: 'mother',
+        category: 'people',
+    },
+    {
+        german: 'der Vater',
+        plural: 'die Väter',
+        translation: 'father',
+        category: 'people',
+    },
+    {
+        german: 'die Kartoffel',
+        plural: 'die Kartoffeln',
+        translation: 'potato',
+        category: 'food'
     },
     {
         german: 'der Apfel',
