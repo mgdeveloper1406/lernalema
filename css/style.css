@@ -22,7 +22,13 @@ header {
     /* background-color: rgb(97, 183, 223); */
     background-color: rgb(62, 47, 79);
 }
-img#chameleon {
+img {
+    display: none;
+}
+.active {
+    display: block;
+}
+.chameleon {
     height: 73px;
 }
 section#header-title {
