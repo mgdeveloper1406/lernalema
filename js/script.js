@@ -1,23 +1,15 @@
 let randomWord;
 let wordArray;
 let i;
-// let currentImageIndex;
-// let totalImages = $('img').length;
 
 // change the chameleon's color every time submit is clicked
-// const chameleonColors = () => {
-//     let americanFlash = $('.chameleon').attr('src', 'images/flash-american.png');
-//     let germanFlash = $('.chameleon').attr('src', 'images/flash-german-03.png')
-//     let defaultFlash = $('.chameleon').attr('src', 'images/flash-chameleon.svg')
-    
-//     if ($('.chameleon').src === 'images/flash-chameleon.svg') {
-//         germanFlash;
-//     } else if ($('.chameleon').src === 'images/flash-german-03.png') {
-//         americanFlash;
-//     } else if ($('.chameleon').src === 'images/flash-american.png') {
-//         defaultFlash;
-//     }
-// };
+const chameleonColors = () => {
+    $('.active').next('img').addClass('active').prev('img').removeClass('active');
+    if ($('#four').hasClass('active')) {
+        $('#one').addClass('active');
+        $('#four').removeClass('active');
+    }
+};
 
 wordArray = [
     {
@@ -182,11 +174,5 @@ $('#submit').on('click', function() {
         alert(`You're done!`);
     } 
 
-    // chameleonColors();
-
-    $('.active').next('img').addClass('active').prev('img').removeClass('active');
-    if ($('#three').hasClass('active')) {
-        $('#one').addClass('active').removeClass('active');
-    }
-   
+    chameleonColors();
 });
