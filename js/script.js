@@ -89,6 +89,66 @@ wordArray = [
         plural: 'die Schuhe',
         translation: 'shoe',
         category: 'home'
+    },
+    {
+        german: 'der Bär',
+        plural: 'die Bären',
+        translation: 'bear',
+        category: 'animals'
+    },
+    {
+        german: 'die Biene',
+        plural: 'die Bienen',
+        translation: 'bee',
+        category: 'animals'
+    },
+    {
+        german: 'das Eichhörnchen',
+        plural: 'die Eichhörnchen',
+        translation: 'squirrel',
+        category: 'animals'
+    },
+    {
+        german: 'die Ente',
+        plural: 'die Enten',
+        translation: 'duck',
+        category: 'animals'
+    },
+    {
+        german: 'der Fisch',
+        plural: 'die Fische',
+        translation: 'fish',
+        category: 'animals'
+    },
+    {
+        german: 'die Fledermaus',
+        plural: 'die Fledermäuse',
+        translation: 'bat',
+        category: 'animals'
+    },
+    {
+        german: 'der Fuchs',
+        plural: 'die Füchse',
+        translation: 'fox',
+        category: 'animals'
+    },
+    {
+        german: 'der Hai',
+        plural: 'die Haie',
+        translation: 'shark',
+        category: 'animals'
+    },
+    {
+        german: 'der Hund',
+        plural: 'die Hunde',
+        translation: 'dog',
+        category: 'animals'
+    },
+    {
+        german: 'der Käfer',
+        plural: 'die Käfer',
+        translation: 'beetle',
+        category: 'animals'
     }
 ];
 
@@ -131,7 +191,12 @@ const categoryColors = () => {
         $('#german-word, #german-plural').css('color', '#ffd700');
         $('#line').css('backgroundColor', '#f0f8ff');
         $('.curly-braces').css('color', '#f0f8ff');
-    } 
+    } else if (randomWord.category === 'animals') {
+        $('#german-box').css('backgroundColor', '#d66c45');
+        $('#german-word, #german-plural').css('color', '#f0f8ff');
+        $('#line').css('backgroundColor', '#ffd700');
+        $('.curly-braces').css('color', '#ffd700');
+    }
 };
 
 categoryColors();
