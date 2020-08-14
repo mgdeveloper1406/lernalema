@@ -67,15 +67,75 @@ wordArray = [
         category: 'people',
     },
     {
+        german: 'der Apfel',
+        plural: 'die Äpfel',
+        translation: 'apple',
+        category: 'food'
+    },
+    {
+        german: 'der Apfelsaft',
+        plural: 'die Apfelsäfte',
+        translation: 'apple juice',
+        category: 'food',
+    },
+    {
+        german: 'das Bier',
+        plural: 'die Biere',
+        translation: 'beer',
+        category: 'food',
+    },
+    {
+        german: 'das Brot',
+        plural: 'die Brote',
+        translation: 'bread',
+        category: 'food',
+    },
+    {
+        german: 'das Ei',
+        plural: 'die Eier',
+        translation: 'egg',
+        category: 'food',
+    },
+    {
+        german: 'das Fleisch',
+        plural: 'das Fleisch',
+        translation: 'meat',
+        category: 'food',
+    },
+    {
+        german: 'das Gemüse',
+        plural: 'die Gemüse',
+        translation: 'vegetable',
+        category: 'food',
+    },
+    {
+        german: 'der Kaffee',
+        plural: 'die Kaffees',
+        translation: 'coffee',
+        category: 'food',
+    },
+    {
+        german: 'die Karotte',
+        plural: 'die Karotten',
+        translation: 'carrot',
+        category: 'food',
+    },
+    {
         german: 'die Kartoffel',
         plural: 'die Kartoffeln',
         translation: 'potato',
         category: 'food'
     },
     {
-        german: 'der Apfel',
-        plural: 'die Äpfel',
-        translation: 'apple',
+        german: 'der Käse',
+        plural: 'die Käse',
+        translation: 'cheese',
+        category: 'food'
+    },
+    {
+        german: 'der Tee',
+        plural: 'die Tees',
+        translation: 'tea',
         category: 'food'
     },
     {
