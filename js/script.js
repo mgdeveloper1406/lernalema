@@ -192,8 +192,8 @@ const categoryColors = () => {
         $('#line').css('backgroundColor', '#f0f8ff');
         $('.curly-braces').css('color', '#f0f8ff');
     } else if (randomWord.category === 'animals') {
-        $('#german-box').css('backgroundColor', '#d66c45');
-        $('#german-word, #german-plural').css('color', '#f0f8ff');
+        $('#german-box').css('backgroundColor', '#0994bd');
+        $('#german-word, #german-plural').css('color', '#ffffff');
         $('#line').css('backgroundColor', '#ffd700');
         $('.curly-braces').css('color', '#ffd700');
     }
