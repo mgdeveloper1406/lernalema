@@ -113,6 +113,9 @@ span#line {
     border-radius: 5px;
     margin-bottom: .4rem;
 }
+#plural-zone {
+    display: block;
+}
 h4#german-plural,
 span.curly-braces {
     font-family: 'dinosaur', sans-serif;
