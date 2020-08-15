@@ -365,6 +365,71 @@ wordArray = [
         plural: 'die Wolken',
         translation: 'cloud',
         category: 'nature'
+    },
+    {
+        german: 'Auf Wiedersehen!',
+        translation: 'goodbye',
+        category: 'phrases'
+    },
+    {
+        german: 'Bis bald!',
+        translation: 'see you soon',
+        category: 'phrases'
+    },
+    {
+        german: 'Bis später!',
+        translation: 'see you later',
+        category: 'phrases'
+    },
+    {
+        german: 'Bitte!',
+        translation: 'please',
+        category: 'phrases'
+    },
+    {
+        german: 'Danke!',
+        translation: 'thank you',
+        category: 'phrases'
+    },
+    {
+        german: 'Entschuldigung!',
+        translation: 'sorry',
+        category: 'phrases'
+    },
+    {
+        german: 'Guten Abend!',
+        translation: 'good evening',
+        category: 'phrases'
+    },
+    {
+        german: 'Guten Morgen!',
+        translation: 'good morning',
+        category: 'phrases'
+    },
+    {
+        german: 'Gute Nacht!',
+        translation: 'good night',
+        category: 'phrases'
+    },
+    {
+        german: 'Guten Tag!',
+        translation: 'good day',
+        category: 'phrases'
+    },
+    {
+        german: 'Hallo!',
+        translation: 'hello',
+        category: 'phrases'
+    },
+    {
+        german: 'Ja!',
+        translation: 'yeah',
+        category: 'phrases'
+    },
+    {
+        german: 'Nein!',
+        translation: 'no',
+        category: 'phrases'
     }
 ];
 
@@ -396,28 +461,39 @@ const categoryColors = () => {
         $('#german-box').css('backgroundColor', '#008b8b');
         $('#german-word, #german-plural').css('color', '#f0f8ff');
         $('#line').css('backgroundColor', '#ffd700');
+        $('#plural-zone').css('display', 'block');
         $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'food') {
         $('#german-box').css('backgroundColor', '#f44336');
         $('#german-word, #german-plural').css('color', '#f0f8ff');
         $('#line').css('backgroundColor', '#ffd700');
+        $('#plural-zone').css('display', 'block');
         $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'home') {
         $('#german-box').css('backgroundColor', '#5c2842');
         $('#german-word, #german-plural').css('color', '#ffd700');
         $('#line').css('backgroundColor', '#f0f8ff');
+        $('#plural-zone').css('display', 'block');
         $('.curly-braces').css('color', '#f0f8ff');
     } else if (randomWord.category === 'animals') {
         $('#german-box').css('backgroundColor', '#0994bd');
         $('#german-word, #german-plural').css('color', '#ffffff');
         $('#line').css('backgroundColor', '#ffd700');
+        $('#plural-zone').css('display', 'block');
         $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'nature') {
         $('#german-box').css('backgroundColor', '#2e8b57');
         $('#german-word, #german-plural').css('color', '#ffffff');
         $('#line').css('backgroundColor', '#ffd700');
+        $('#plural-zone').css('display', 'block');
         $('.curly-braces').css('color', '#ffd700');
-    }
+    } else if (randomWord.category === 'phrases') {
+        $('#german-box').css('backgroundColor', '#ce3c5e');
+        $('#german-word').css('color', '#ffffff');
+        $('#plural-zone').css('display', 'none');
+        $('#line').css('backgroundColor', '#ffd700');
+        // $('.curly-braces').css('color', '#ffd700');
+    } 
 };
 
 categoryColors();
@@ -436,7 +512,7 @@ $('#submit').on('click', function() {
     });
 
     let answer = $('#your-translation').val();
-    if ((answer === randomWord.translation) || (answer === `the ${randomWord.translation}`)) { 
+    if ((answer === randomWord.translation) || (answer === `the ${randomWord.translation}`) || (answer === `${randomWord.translation}!`)) { 
         // reset the input field
         $('#your-translation').val('');
         
