@@ -209,6 +209,84 @@ wordArray = [
         plural: 'die Käfer',
         translation: 'beetle',
         category: 'animals'
+    },
+    {
+        german: 'der Baum',
+        plural: 'die Bäume',
+        translation: 'tree',
+        category: 'nature'
+    },
+    {
+        german: 'der Berg',
+        plural: 'die Berge',
+        translation: 'mountain',
+        category: 'nature'
+    },
+    {
+        german: 'das Blatt',
+        plural: 'die Blätter',
+        translation: 'leaf',
+        category: 'nature'
+    },
+    {
+        german: 'die Blume',
+        plural: 'die Blumen',
+        translation: 'flower',
+        category: 'nature'
+    },
+    {
+        german: 'der Fluss',
+        plural: 'die Flüsse',
+        translation: 'river',
+        category: 'nature'
+    },
+    {
+        german: 'der Himmel',
+        plural: 'die Himmel',
+        translation: 'sky',
+        category: 'nature'
+    },
+    {
+        german: 'der Hügel',
+        plural: 'die Hügel',
+        translation: 'hill',
+        category: 'nature'
+    },
+    {
+        german: 'das Meer',
+        plural: 'die Meere',
+        translation: 'sea',
+        category: 'nature'
+    },
+    {
+        german: 'der Ozean',
+        plural: 'die Ozeane',
+        translation: 'ocean',
+        category: 'nature'
+    },
+    {
+        german: 'der See',
+        plural: 'die Seen',
+        translation: 'lake',
+        category: 'nature'
+    },
+    {
+        german: 'der Stein',
+        plural: 'die Steine',
+        translation: 'rock',
+        category: 'nature'
+    },
+    {
+        german: 'der Stern',
+        plural: 'die Sterne',
+        translation: 'star',
+        category: 'nature'
+    },
+    {
+        german: 'die Wolke',
+        plural: 'die Wolken',
+        translation: 'cloud',
+        category: 'nature'
     }
 ];
 
@@ -253,6 +331,11 @@ const categoryColors = () => {
         $('.curly-braces').css('color', '#f0f8ff');
     } else if (randomWord.category === 'animals') {
         $('#german-box').css('backgroundColor', '#0994bd');
+        $('#german-word, #german-plural').css('color', '#ffffff');
+        $('#line').css('backgroundColor', '#ffd700');
+        $('.curly-braces').css('color', '#ffd700');
+    } else if (randomWord.category === 'nature') {
+        $('#german-box').css('backgroundColor', '#2e8b57');
         $('#german-word, #german-plural').css('color', '#ffffff');
         $('#line').css('backgroundColor', '#ffd700');
         $('.curly-braces').css('color', '#ffd700');
