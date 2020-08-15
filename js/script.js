@@ -187,6 +187,12 @@ wordArray = [
         category: 'animals'
     },
     {
+        german: 'der Frosch',
+        plural: 'die Frösche',
+        translation: 'frog',
+        category: 'animals'
+    },
+    {
         german: 'der Fuchs',
         plural: 'die Füchse',
         translation: 'fox',
@@ -208,6 +214,60 @@ wordArray = [
         german: 'der Käfer',
         plural: 'die Käfer',
         translation: 'beetle',
+        category: 'animals'
+    },
+    {
+        german: 'die Katze',
+        plural: 'die Katzen',
+        translation: 'cat',
+        category: 'animals'
+    },
+    {
+        german: 'die Kuh',
+        plural: 'due Kühe',
+        translation: 'cow',
+        category: 'animals'
+    },
+    {
+        german: 'die Maus',
+        plural: 'die Mäuse',
+        translation: 'mouse',
+        category: 'animals'
+    },
+    {
+        german: 'das Pferd',
+        plural: 'die Pferde',
+        translation: 'horse',
+        category: 'animals'
+    },
+    {
+        german: 'die Schildkröte',
+        plural: 'die Schildkröten',
+        translation: 'turtle',
+        category: 'animals'
+    },
+    {
+        german: 'das Schwein',
+        plural: 'die Schweine',
+        translation: 'pig',
+        category: 'animals'
+    },
+    {
+        german: 'die Spinne',
+        plural: 'die Spinnen',
+        translation: 'spider',
+        category: 'animals'
+    },
+    {
+        german: 'der Vogel',
+        plural: 'die Vögel',
+        translation: 'bird',
+        category: 'animals'
+    },
+    {
+        german: 'der Waschbär',
+        plural: 'die Waschbären',
+        translation: 'raccoon',
         category: 'animals'
     },
     {
@@ -259,6 +319,12 @@ wordArray = [
         category: 'nature'
     },
     {
+        german: 'der Mond',
+        plural: 'die Monde',
+        translation: 'moon',
+        category: 'nature'
+    },
+    {
         german: 'der Ozean',
         plural: 'die Ozeane',
         translation: 'ocean',
@@ -271,6 +337,12 @@ wordArray = [
         category: 'nature'
     },
     {
+        german: 'die Sonne',
+        plural: 'die Sonnen',
+        translation: 'sun',
+        category: 'nature'
+    },
+    {
         german: 'der Stein',
         plural: 'die Steine',
         translation: 'rock',
@@ -280,6 +352,12 @@ wordArray = [
         german: 'der Stern',
         plural: 'die Sterne',
         translation: 'star',
+        category: 'nature'
+    },
+    {
+        german: 'der Wald',
+        plural: 'die Wälder',
+        translation: 'forest',
         category: 'nature'
     },
     {
