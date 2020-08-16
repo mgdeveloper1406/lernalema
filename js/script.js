@@ -413,7 +413,7 @@ wordArray = [
     },
     {
         german: 'Guten Tag!',
-        translation: 'good day',
+        translation: ['good day', 'good afternoon'],
         category: 'phrases'
     },
     {
@@ -423,7 +423,7 @@ wordArray = [
     },
     {
         german: 'Ja!',
-        translation: 'yeah',
+        translation: ['yes', 'yeah'],
         category: 'phrases'
     },
     {
@@ -512,7 +512,7 @@ $('#submit').on('click', function() {
     });
 
     let answer = $('#your-translation').val();
-    if ((answer === randomWord.translation) || (answer === `the ${randomWord.translation}`) || (answer === `${randomWord.translation}!`)) { 
+    if ((answer === randomWord.translation) || (answer === `the ${randomWord.translation}`) || (answer === `${randomWord.translation}!`) || (answer === randomWord.translation[0]) || (answer === randomWord.translation[1])) { 
         // reset the input field
         $('#your-translation').val('');
         
