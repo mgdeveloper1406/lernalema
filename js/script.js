@@ -503,8 +503,8 @@ function moveWord() {
     wordArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]);
 };
 
-// on submission, check that the user's input matches the correct translation given in the word array. if so, clear the input field and display the next flashcard. else, the console logs the input and the answer, and the input field flashes red while the input value fades. 
-$('#submit').on('click', function() {
+// check that the user's input matches the translation given in the word array. if so, clear the input field and display the next flashcard. else, the console logs the input and the answer, and the input field flashes red while the input value fades. 
+function checkAnswer() {
     // convert the user's input to lowercase, to match the answer in the array
     $('#your-translation').val (function() {
         return this.value.toLowerCase();
@@ -549,4 +549,13 @@ $('#submit').on('click', function() {
     } 
 
     chameleonColors();
+};
+
+$('#submit').on('click', checkAnswer);
+
+$(document).keypress(function(event) {
+    if (event.keyCode === 13) {
+        checkAnswer();
+        event.preventDefault();
+    }
 });
