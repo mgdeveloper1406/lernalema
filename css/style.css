@@ -143,6 +143,17 @@ input#your-translation {
     border: none;
     border-radius: 3px;
 }
+/* activated with js, bzzt turns the input red */
+.add-bzzt {
+    animation-name: bzzt;
+    animation-duration: 2s;
+}
+@keyframes bzzt {
+    0%   {background-color: #292346;}
+    25%  {background-color: #a90000;}
+    50%  {background-color: #a90000;}
+    100% {background-color: #292346;}
+}
 #submit {
     margin: 1rem auto;
     display: block;
