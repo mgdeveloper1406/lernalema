@@ -388,12 +388,12 @@ wordArray = [
     },
     {
         german: 'Danke!',
-        translation: 'thank you',
+        translation: ['thank you', 'thanks'],
         category: 'phrases'
     },
     {
         german: 'Entschuldigung!',
-        translation: 'sorry',
+        translation: ['sorry', 'pardon'],
         category: 'phrases'
     },
     {
