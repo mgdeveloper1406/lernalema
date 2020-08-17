@@ -492,7 +492,6 @@ const categoryColors = () => {
         $('#german-word').css('color', '#ffffff');
         $('#plural-zone').css('display', 'none');
         $('#line').css('backgroundColor', '#ffd700');
-        // $('.curly-braces').css('color', '#ffd700');
     } 
 };
 
@@ -504,7 +503,7 @@ function moveWord() {
     wordArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]);
 };
 
-// on submission, check that the user's input matches the correct translation given in the word array. if so, clear the input field and display the next flashcard. else, the console logs the input and the answer, to help move the user on, if needed. 
+// on submission, check that the user's input matches the correct translation given in the word array. if so, clear the input field and display the next flashcard. else, the console logs the input and the answer, and the input field flashes red while the input value fades. 
 $('#submit').on('click', function() {
     // convert the user's input to lowercase, to match the answer in the array
     $('#your-translation').val (function() {
@@ -530,6 +529,19 @@ $('#submit').on('click', function() {
     } else {
         console.log(`Your answer was "${answer}"`);
         console.log(`The correct translation is "${randomWord.translation}"`);
+        
+        // attach the 2s "bzzt" css animation to the input. this makes the input area flash red and fade back to plum. the timeout function then removes bzzt, so it can be readded if the user's next attempt on the same flashcard is also wrong.
+        $('#your-translation').addClass('add-bzzt');
+        setTimeout(function() {
+            $('#your-translation').removeClass('add-bzzt');
+        }, 2000);
+
+        // the animation fades the input text, and then the callback function clears the text value and restores the opacity for the user's next translation attempt
+        $('#your-translation').animate({
+            'opacity': '0.1',
+        }, 2000, function(){
+            $('#your-translation').val('').css('opacity', '1');
+        });
     }
     
     if (wordArray.length <= 0) {
