@@ -295,6 +295,12 @@ wordArray = [
         category: 'nature'
     },
     {
+        german: 'das Feuer',
+        plural: 'die Feuer',
+        translation: 'fire',
+        category: 'nature'
+    },
+    {
         german: 'der Fluss',
         plural: 'die Flüsse',
         translation: 'river',
@@ -310,6 +316,12 @@ wordArray = [
         german: 'der Hügel',
         plural: 'die Hügel',
         translation: 'hill',
+        category: 'nature'
+    },
+    {
+        german: 'die Luft',
+        plural: 'n/a',
+        translation: 'air',
         category: 'nature'
     },
     {
@@ -358,6 +370,12 @@ wordArray = [
         german: 'der Wald',
         plural: 'die Wälder',
         translation: 'forest',
+        category: 'nature'
+    },
+    {
+        german: 'der Wind',
+        plural: 'die Winde',
+        translation: 'wind',
         category: 'nature'
     },
     {
