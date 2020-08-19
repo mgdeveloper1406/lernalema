@@ -185,7 +185,7 @@ input#your-translation {
 }
 .modal-content {
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
     margin: auto;
     padding: 0;
     border: 1px solid rgb(136, 136, 136);
@@ -206,6 +206,15 @@ input#your-translation {
 }
 .modal-body {
     padding: 2px 16px;
+    text-align: center;
+}
+h1#congrats {
+    color: rgb(201, 124, 194);
+    margin: 2rem 0 1rem 0;
+}
+h2#congrats-sub {
+    color: rgb(109, 103, 93);
+    text-transform: uppercase;
 }
 .modal-footer {
     padding: 2px 16px;
@@ -219,7 +228,7 @@ input#your-translation {
     font-size: 1rem;
     text-transform: uppercase;
     color: rgb(240, 248, 255);
-    background-color: rgb(10, 48, 78);
+    background-color: rgb(42, 134, 134);
     border: none;
     border-radius: 2px;
     padding: .5rem 1rem;
