@@ -145,8 +145,16 @@ input#your-translation {
 }
 /* activated with js, bzzt turns the input red */
 .add-bzzt {
+    -webkit-animation-name: bzzt;
+    -webkit-animation-duration: 2s;
     animation-name: bzzt;
     animation-duration: 2s;
+}
+@-webkit-keyframes bzzt {
+    0%   {background-color: #292346;}
+    25%  {background-color: #a90000;}
+    50%  {background-color: #a90000;}
+    100% {background-color: #292346;}
 }
 @keyframes bzzt {
     0%   {background-color: #292346;}
