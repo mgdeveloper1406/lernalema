@@ -214,20 +214,33 @@ h1#congrats {
     font-size: 3rem;
 }
 h2#congrats-sub {
-    color: rgb(109, 103, 93);
+    font-size: 1.2rem;
     text-transform: uppercase;
-    padding-bottom: 1rem;
+    letter-spacing: .12rem;
+    color: rgb(109, 103, 93);
+    padding-bottom: 1.5rem;
 }
-#flash-bubble {
-    display: block;
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/flash-level-bubble.svg');
+    background-repeat: no-repeat;
+    background-position: center;
     height: 300px;
-    margin: 0 auto;
+}
+#level {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 7.8rem;
+    color: rgb(248 248 255);
 }
 .modal-footer {
     padding: 2px 16px;
 }
 #continue {
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     display: block;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -242,7 +255,7 @@ h2#congrats-sub {
     cursor: pointer;
 }
 #continue:hover {
-    background-color: rgb(42, 134, 134);
+    background-color: rgb(201, 124, 194);
 }
 
 /* FOOTER */
@@ -269,10 +282,6 @@ footer {
 
         .modal-content {
             width: 70%;
-        }
-        #flash-bubble {
-            height: auto;
-            width: 95%;
         }
 }
 
