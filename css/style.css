@@ -176,7 +176,7 @@ input#your-translation {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 15%;
+    padding-top: 10%;
     left: 0;
     top: 0;
     width: 100%;
@@ -190,7 +190,7 @@ input#your-translation {
     padding: 0;
     border: 1px solid rgb(136, 136, 136);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 60%;
+    width: 50%;
     -webkit-animation-name: drop-modal;
     -webkit-animation-duration: 0.4s;
     animation-name: drop-modal;
@@ -210,11 +210,18 @@ input#your-translation {
 }
 h1#congrats {
     color: rgb(201, 124, 194);
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 0;
+    font-size: 3rem;
 }
 h2#congrats-sub {
     color: rgb(109, 103, 93);
     text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+#flash-bubble {
+    display: block;
+    height: 300px;
+    margin: 0 auto;
 }
 .modal-footer {
     padding: 2px 16px;
@@ -228,11 +235,14 @@ h2#congrats-sub {
     font-size: 1rem;
     text-transform: uppercase;
     color: rgb(240, 248, 255);
-    background-color: rgb(42, 134, 134);
+    background-color: rgb(128 84 181);
     border: none;
     border-radius: 2px;
-    padding: .5rem 1rem;
+    padding: .5rem 3rem;
     cursor: pointer;
+}
+#continue:hover {
+    background-color: rgb(42, 134, 134);
 }
 
 /* FOOTER */
