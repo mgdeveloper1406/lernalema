@@ -1,6 +1,7 @@
 let randomWord;
 let wordArray;
 let i;
+let level = 1;
 
 // change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
@@ -521,6 +522,12 @@ function moveWord() {
     wordArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]);
 };
 
+// update the modal-box level by one 
+function updateLevel() {
+    level += 1;
+    $('#level').html(level);
+}
+
 // check that the user's input matches the translation given in the word array. if so, clear the input field and display the next flashcard. else, the console logs the input and the answer, and the input field flashes red while the input value fades. 
 function checkAnswer() {
     // convert the user's input to lowercase, to match the answer in the array
@@ -562,8 +569,11 @@ function checkAnswer() {
         });
     }
     
+    // when the wordArray is empty, display the next-level modal box and update the level that the user has reached
     if (wordArray.length <= 0) {
-        alert(`You're done!`);
+        // alert(`You're done!`);
+        updateLevel();
+        $('.modal').css('display', 'block');
     } 
 
     chameleonColors();
