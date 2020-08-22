@@ -2,6 +2,7 @@ let randomWord;
 let wordArray;
 let i;
 let level = 1;
+let round2;
 
 // change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
@@ -452,6 +453,8 @@ wordArray = [
     }
 ];
 
+round2 = [];
+
 // getRandom and gimmeWords work in conjunction to pick a random word from wordArray
 function getRandom(object) {
     let theKeys = Object.keys(object);
@@ -469,6 +472,8 @@ function gimmeWords() {
         // this populates the flashcard words, when the document loads
         $('#german-word').html(randomWord.german);
         $('#german-plural').html(randomWord.plural);
+        // this populates the input placeholder
+        $('input').attr('placeholder', `Translate ${randomWord.german}`);
     }
 };
 
