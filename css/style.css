@@ -143,6 +143,11 @@ input#your-translation {
     border: none;
     border-radius: 3px;
 }
+input#your-translation::placeholder {
+    opacity: .7;
+    font-style: italic;
+    font-size: 1.5rem;
+}
 /* activated with js, bzzt turns the input red */
 .add-bzzt {
     -webkit-animation-name: bzzt;
