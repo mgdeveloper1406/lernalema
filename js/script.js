@@ -13,29 +13,451 @@ const chameleonColors = () => {
     }
 };
 
+// wordArray = [
+//     {
+//         german: 'die Person',
+//         plural: 'die Menschen',
+//         translation: 'person',
+//         category: 'people',
+//     },
+//     {
+//         german: 'die Frau',
+//         plural: 'die Frauen',
+//         translation: 'woman',
+//         category: 'people',
+//     },
+//     {
+//         german: 'der Mann',
+//         plural: 'die Männer',
+//         translation: 'man',
+//         category: 'people',
+//     },
+//     {
+//         german: 'das Mädchen',
+//         plural: 'die Mädchen',
+//         translation: 'girl',
+//         category: 'people'
+//     },
+//     {
+//         german: 'der Junge',
+//         plural: 'die Jungen',
+//         translation: 'boy',
+//         category: 'people'
+//     },
+//     {
+//         german: 'die Tochter',
+//         plural: 'die Töchter',
+//         translation: 'daughter',
+//         category: 'people',
+//     },
+//     {
+//         german: 'der Sohn',
+//         plural: 'die Söhne',
+//         translation: 'son',
+//         category: 'people',
+//     },
+//     {
+//         german: 'die Mutter',
+//         plural: 'die Mütter',
+//         translation: 'mother',
+//         category: 'people',
+//     },
+//     {
+//         german: 'der Vater',
+//         plural: 'die Väter',
+//         translation: 'father',
+//         category: 'people',
+//     },
+//     {
+//         german: 'der Apfel',
+//         plural: 'die Äpfel',
+//         translation: 'apple',
+//         category: 'food'
+//     },
+//     {
+//         german: 'der Apfelsaft',
+//         plural: 'die Apfelsäfte',
+//         translation: 'apple juice',
+//         category: 'food',
+//     },
+//     {
+//         german: 'das Bier',
+//         plural: 'die Biere',
+//         translation: 'beer',
+//         category: 'food',
+//     },
+//     {
+//         german: 'das Brot',
+//         plural: 'die Brote',
+//         translation: 'bread',
+//         category: 'food',
+//     },
+//     {
+//         german: 'das Ei',
+//         plural: 'die Eier',
+//         translation: 'egg',
+//         category: 'food',
+//     },
+//     {
+//         german: 'das Fleisch',
+//         plural: 'das Fleisch',
+//         translation: 'meat',
+//         category: 'food',
+//     },
+//     {
+//         german: 'das Gemüse',
+//         plural: 'die Gemüse',
+//         translation: 'vegetable',
+//         category: 'food',
+//     },
+//     {
+//         german: 'der Kaffee',
+//         plural: 'die Kaffees',
+//         translation: 'coffee',
+//         category: 'food',
+//     },
+//     {
+//         german: 'die Karotte',
+//         plural: 'die Karotten',
+//         translation: 'carrot',
+//         category: 'food',
+//     },
+//     {
+//         german: 'die Kartoffel',
+//         plural: 'die Kartoffeln',
+//         translation: 'potato',
+//         category: 'food'
+//     },
+//     {
+//         german: 'der Käse',
+//         plural: 'die Käse',
+//         translation: 'cheese',
+//         category: 'food'
+//     },
+//     {
+//         german: 'der Tee',
+//         plural: 'die Tees',
+//         translation: 'tea',
+//         category: 'food'
+//     },
+//     {
+//         german: 'das Haus',
+//         plural: 'die Häuser',
+//         translation: 'house',
+//         category: 'home'
+//     },
+//     {
+//         german: 'der Schuh',
+//         plural: 'die Schuhe',
+//         translation: 'shoe',
+//         category: 'home'
+//     },
+//     {
+//         german: 'der Bär',
+//         plural: 'die Bären',
+//         translation: 'bear',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'die Biene',
+//         plural: 'die Bienen',
+//         translation: 'bee',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'das Eichhörnchen',
+//         plural: 'die Eichhörnchen',
+//         translation: 'squirrel',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'die Ente',
+//         plural: 'die Enten',
+//         translation: 'duck',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'der Fisch',
+//         plural: 'die Fische',
+//         translation: 'fish',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'die Fledermaus',
+//         plural: 'die Fledermäuse',
+//         translation: 'bat',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'der Frosch',
+//         plural: 'die Frösche',
+//         translation: 'frog',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'der Fuchs',
+//         plural: 'die Füchse',
+//         translation: 'fox',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'der Hai',
+//         plural: 'die Haie',
+//         translation: 'shark',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'der Hund',
+//         plural: 'die Hunde',
+//         translation: 'dog',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'der Käfer',
+//         plural: 'die Käfer',
+//         translation: 'beetle',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'die Katze',
+//         plural: 'die Katzen',
+//         translation: 'cat',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'die Kuh',
+//         plural: 'due Kühe',
+//         translation: 'cow',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'die Maus',
+//         plural: 'die Mäuse',
+//         translation: 'mouse',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'das Pferd',
+//         plural: 'die Pferde',
+//         translation: 'horse',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'die Schildkröte',
+//         plural: 'die Schildkröten',
+//         translation: 'turtle',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'das Schwein',
+//         plural: 'die Schweine',
+//         translation: 'pig',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'die Spinne',
+//         plural: 'die Spinnen',
+//         translation: 'spider',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'der Vogel',
+//         plural: 'die Vögel',
+//         translation: 'bird',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'der Waschbär',
+//         plural: 'die Waschbären',
+//         translation: 'raccoon',
+//         category: 'animals'
+//     },
+//     {
+//         german: 'der Baum',
+//         plural: 'die Bäume',
+//         translation: 'tree',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'der Berg',
+//         plural: 'die Berge',
+//         translation: 'mountain',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'das Blatt',
+//         plural: 'die Blätter',
+//         translation: 'leaf',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'die Blume',
+//         plural: 'die Blumen',
+//         translation: 'flower',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'das Feuer',
+//         plural: 'die Feuer',
+//         translation: 'fire',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'der Fluss',
+//         plural: 'die Flüsse',
+//         translation: 'river',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'der Himmel',
+//         plural: 'die Himmel',
+//         translation: 'sky',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'der Hügel',
+//         plural: 'die Hügel',
+//         translation: 'hill',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'die Luft',
+//         plural: 'n/a',
+//         translation: 'air',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'das Meer',
+//         plural: 'die Meere',
+//         translation: 'sea',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'der Mond',
+//         plural: 'die Monde',
+//         translation: 'moon',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'der Ozean',
+//         plural: 'die Ozeane',
+//         translation: 'ocean',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'der See',
+//         plural: 'die Seen',
+//         translation: 'lake',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'die Sonne',
+//         plural: 'die Sonnen',
+//         translation: 'sun',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'der Stein',
+//         plural: 'die Steine',
+//         translation: 'rock',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'der Stern',
+//         plural: 'die Sterne',
+//         translation: 'star',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'der Wald',
+//         plural: 'die Wälder',
+//         translation: 'forest',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'der Wind',
+//         plural: 'die Winde',
+//         translation: 'wind',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'die Wolke',
+//         plural: 'die Wolken',
+//         translation: 'cloud',
+//         category: 'nature'
+//     },
+//     {
+//         german: 'Auf Wiedersehen!',
+//         translation: 'goodbye',
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Bis bald!',
+//         translation: 'see you soon',
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Bis später!',
+//         translation: 'see you later',
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Bitte!',
+//         translation: 'please',
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Danke!',
+//         translation: ['thank you', 'thanks'],
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Entschuldigung!',
+//         translation: ['sorry', 'pardon'],
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Guten Abend!',
+//         translation: 'good evening',
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Guten Morgen!',
+//         translation: 'good morning',
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Gute Nacht!',
+//         translation: 'good night',
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Guten Tag!',
+//         translation: ['good day', 'good afternoon'],
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Hallo!',
+//         translation: 'hello',
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Ja!',
+//         translation: ['yes', 'yeah'],
+//         category: 'phrases'
+//     },
+//     {
+//         german: 'Nein!',
+//         translation: 'no',
+//         category: 'phrases'
+//     }
+// ];
+
 wordArray = [
-    {
-        german: 'die Person',
-        plural: 'die Menschen',
-        translation: 'person',
-        category: 'people',
-    },
     {
         german: 'die Frau',
         plural: 'die Frauen',
         translation: 'woman',
-        category: 'people',
-    },
-    {
-        german: 'der Mann',
-        plural: 'die Männer',
-        translation: 'man',
-        category: 'people',
-    },
-    {
-        german: 'das Mädchen',
-        plural: 'die Mädchen',
-        translation: 'girl',
         category: 'people'
     },
     {
@@ -45,28 +467,22 @@ wordArray = [
         category: 'people'
     },
     {
-        german: 'die Tochter',
-        plural: 'die Töchter',
-        translation: 'daughter',
-        category: 'people',
+        german: 'das Mädchen',
+        plural: 'die Mädchen',
+        translation: 'girl',
+        category: 'people'
     },
     {
-        german: 'der Sohn',
-        plural: 'die Söhne',
-        translation: 'son',
-        category: 'people',
+        german: 'der Mann',
+        plural: 'die Männer',
+        translation: 'man',
+        category: 'people'
     },
     {
-        german: 'die Mutter',
-        plural: 'die Mütter',
-        translation: 'mother',
-        category: 'people',
-    },
-    {
-        german: 'der Vater',
-        plural: 'die Väter',
-        translation: 'father',
-        category: 'people',
+        german: 'die Person',
+        plural: 'die Menschen',
+        translation: 'person',
+        category: 'people'
     },
     {
         german: 'der Apfel',
@@ -75,57 +491,9 @@ wordArray = [
         category: 'food'
     },
     {
-        german: 'der Apfelsaft',
-        plural: 'die Apfelsäfte',
-        translation: 'apple juice',
-        category: 'food',
-    },
-    {
-        german: 'das Bier',
-        plural: 'die Biere',
-        translation: 'beer',
-        category: 'food',
-    },
-    {
         german: 'das Brot',
         plural: 'die Brote',
         translation: 'bread',
-        category: 'food',
-    },
-    {
-        german: 'das Ei',
-        plural: 'die Eier',
-        translation: 'egg',
-        category: 'food',
-    },
-    {
-        german: 'das Fleisch',
-        plural: 'das Fleisch',
-        translation: 'meat',
-        category: 'food',
-    },
-    {
-        german: 'das Gemüse',
-        plural: 'die Gemüse',
-        translation: 'vegetable',
-        category: 'food',
-    },
-    {
-        german: 'der Kaffee',
-        plural: 'die Kaffees',
-        translation: 'coffee',
-        category: 'food',
-    },
-    {
-        german: 'die Karotte',
-        plural: 'die Karotten',
-        translation: 'carrot',
-        category: 'food',
-    },
-    {
-        german: 'die Kartoffel',
-        plural: 'die Kartoffeln',
-        translation: 'potato',
         category: 'food'
     },
     {
@@ -135,325 +503,81 @@ wordArray = [
         category: 'food'
     },
     {
+        german: 'die Milch',
+        plural: 'die Milche',
+        translation: 'milk',
+        category: 'food'
+    },
+    {
+        german: 'das Wasser',
+        plural: 'die Wasser',
+        translation: 'water',
+        category: 'food'
+    }
+];
+
+round2 = [
+    {
+        german: 'das Kind',
+        plural: 'die Kinder',
+        translation: 'child',
+        category: 'people'
+    },
+    {
+        german: 'die Mutter',
+        plural: 'die Mütter',
+        translation: 'mother',
+        category: 'people'
+    },
+    {
+        german: 'der Sohn',
+        plural: 'die Söhne',
+        translation: 'son',
+        category: 'people'
+    },
+    {
+        german: 'die Tochter',
+        plural: 'die Töchter',
+        translation: 'daughter',
+        category: 'people'
+    },
+    {
+        german: 'der Vater',
+        plural: 'die Väter',
+        translation: 'father',
+        category: 'people'
+    },
+    {
+        german: 'der Honig',
+        plural: 'die Honige',
+        translation: 'honey',
+        category: 'food'
+    },
+    {
+        german: 'der Kaffee',
+        plural: 'die Kaffees',
+        translation: 'coffee',
+        category: 'food'
+    },
+    {
+        german: 'der Keks',
+        plural: 'die Kekse',
+        translation: 'cookie',
+        category: 'food'
+    },
+    {
         german: 'der Tee',
         plural: 'die Tees',
         translation: 'tea',
         category: 'food'
     },
     {
-        german: 'das Haus',
-        plural: 'die Häuser',
-        translation: 'house',
-        category: 'home'
-    },
-    {
-        german: 'der Schuh',
-        plural: 'die Schuhe',
-        translation: 'shoe',
-        category: 'home'
-    },
-    {
-        german: 'der Bär',
-        plural: 'die Bären',
-        translation: 'bear',
-        category: 'animals'
-    },
-    {
-        german: 'die Biene',
-        plural: 'die Bienen',
-        translation: 'bee',
-        category: 'animals'
-    },
-    {
-        german: 'das Eichhörnchen',
-        plural: 'die Eichhörnchen',
-        translation: 'squirrel',
-        category: 'animals'
-    },
-    {
-        german: 'die Ente',
-        plural: 'die Enten',
-        translation: 'duck',
-        category: 'animals'
-    },
-    {
-        german: 'der Fisch',
-        plural: 'die Fische',
-        translation: 'fish',
-        category: 'animals'
-    },
-    {
-        german: 'die Fledermaus',
-        plural: 'die Fledermäuse',
-        translation: 'bat',
-        category: 'animals'
-    },
-    {
-        german: 'der Frosch',
-        plural: 'die Frösche',
-        translation: 'frog',
-        category: 'animals'
-    },
-    {
-        german: 'der Fuchs',
-        plural: 'die Füchse',
-        translation: 'fox',
-        category: 'animals'
-    },
-    {
-        german: 'der Hai',
-        plural: 'die Haie',
-        translation: 'shark',
-        category: 'animals'
-    },
-    {
-        german: 'der Hund',
-        plural: 'die Hunde',
-        translation: 'dog',
-        category: 'animals'
-    },
-    {
-        german: 'der Käfer',
-        plural: 'die Käfer',
-        translation: 'beetle',
-        category: 'animals'
-    },
-    {
-        german: 'die Katze',
-        plural: 'die Katzen',
-        translation: 'cat',
-        category: 'animals'
-    },
-    {
-        german: 'die Kuh',
-        plural: 'due Kühe',
-        translation: 'cow',
-        category: 'animals'
-    },
-    {
-        german: 'die Maus',
-        plural: 'die Mäuse',
-        translation: 'mouse',
-        category: 'animals'
-    },
-    {
-        german: 'das Pferd',
-        plural: 'die Pferde',
-        translation: 'horse',
-        category: 'animals'
-    },
-    {
-        german: 'die Schildkröte',
-        plural: 'die Schildkröten',
-        translation: 'turtle',
-        category: 'animals'
-    },
-    {
-        german: 'das Schwein',
-        plural: 'die Schweine',
-        translation: 'pig',
-        category: 'animals'
-    },
-    {
-        german: 'die Spinne',
-        plural: 'die Spinnen',
-        translation: 'spider',
-        category: 'animals'
-    },
-    {
-        german: 'der Vogel',
-        plural: 'die Vögel',
-        translation: 'bird',
-        category: 'animals'
-    },
-    {
-        german: 'der Waschbär',
-        plural: 'die Waschbären',
-        translation: 'raccoon',
-        category: 'animals'
-    },
-    {
-        german: 'der Baum',
-        plural: 'die Bäume',
-        translation: 'tree',
-        category: 'nature'
-    },
-    {
-        german: 'der Berg',
-        plural: 'die Berge',
-        translation: 'mountain',
-        category: 'nature'
-    },
-    {
-        german: 'das Blatt',
-        plural: 'die Blätter',
-        translation: 'leaf',
-        category: 'nature'
-    },
-    {
-        german: 'die Blume',
-        plural: 'die Blumen',
-        translation: 'flower',
-        category: 'nature'
-    },
-    {
-        german: 'das Feuer',
-        plural: 'die Feuer',
-        translation: 'fire',
-        category: 'nature'
-    },
-    {
-        german: 'der Fluss',
-        plural: 'die Flüsse',
-        translation: 'river',
-        category: 'nature'
-    },
-    {
-        german: 'der Himmel',
-        plural: 'die Himmel',
-        translation: 'sky',
-        category: 'nature'
-    },
-    {
-        german: 'der Hügel',
-        plural: 'die Hügel',
-        translation: 'hill',
-        category: 'nature'
-    },
-    {
-        german: 'die Luft',
-        plural: 'n/a',
-        translation: 'air',
-        category: 'nature'
-    },
-    {
-        german: 'das Meer',
-        plural: 'die Meere',
-        translation: 'sea',
-        category: 'nature'
-    },
-    {
-        german: 'der Mond',
-        plural: 'die Monde',
-        translation: 'moon',
-        category: 'nature'
-    },
-    {
-        german: 'der Ozean',
-        plural: 'die Ozeane',
-        translation: 'ocean',
-        category: 'nature'
-    },
-    {
-        german: 'der See',
-        plural: 'die Seen',
-        translation: 'lake',
-        category: 'nature'
-    },
-    {
-        german: 'die Sonne',
-        plural: 'die Sonnen',
-        translation: 'sun',
-        category: 'nature'
-    },
-    {
-        german: 'der Stein',
-        plural: 'die Steine',
-        translation: 'rock',
-        category: 'nature'
-    },
-    {
-        german: 'der Stern',
-        plural: 'die Sterne',
-        translation: 'star',
-        category: 'nature'
-    },
-    {
-        german: 'der Wald',
-        plural: 'die Wälder',
-        translation: 'forest',
-        category: 'nature'
-    },
-    {
-        german: 'der Wind',
-        plural: 'die Winde',
-        translation: 'wind',
-        category: 'nature'
-    },
-    {
-        german: 'die Wolke',
-        plural: 'die Wolken',
-        translation: 'cloud',
-        category: 'nature'
-    },
-    {
-        german: 'Auf Wiedersehen!',
-        translation: 'goodbye',
-        category: 'phrases'
-    },
-    {
-        german: 'Bis bald!',
-        translation: 'see you soon',
-        category: 'phrases'
-    },
-    {
-        german: 'Bis später!',
-        translation: 'see you later',
-        category: 'phrases'
-    },
-    {
-        german: 'Bitte!',
-        translation: 'please',
-        category: 'phrases'
-    },
-    {
-        german: 'Danke!',
-        translation: ['thank you', 'thanks'],
-        category: 'phrases'
-    },
-    {
-        german: 'Entschuldigung!',
-        translation: ['sorry', 'pardon'],
-        category: 'phrases'
-    },
-    {
-        german: 'Guten Abend!',
-        translation: 'good evening',
-        category: 'phrases'
-    },
-    {
-        german: 'Guten Morgen!',
-        translation: 'good morning',
-        category: 'phrases'
-    },
-    {
-        german: 'Gute Nacht!',
-        translation: 'good night',
-        category: 'phrases'
-    },
-    {
-        german: 'Guten Tag!',
-        translation: ['good day', 'good afternoon'],
-        category: 'phrases'
-    },
-    {
-        german: 'Hallo!',
-        translation: 'hello',
-        category: 'phrases'
-    },
-    {
-        german: 'Ja!',
-        translation: ['yes', 'yeah'],
-        category: 'phrases'
-    },
-    {
-        german: 'Nein!',
-        translation: 'no',
-        category: 'phrases'
+        german: 'der Zucker',
+        plural: 'die Zucker',
+        translation: 'sugar',
+        category: 'food'
     }
 ];
-
-round2 = [];
 
 // getRandom and gimmeWords work in conjunction to pick a random word from wordArray
 function getRandom(object) {
@@ -591,4 +715,10 @@ $(document).keypress(function(event) {
         checkAnswer();
         event.preventDefault();
     }
+});
+
+$('#continue').on('click', function() {
+    $('.modal').css('display', 'none');
+    wordArray.push.apply(wordArray, round2);
+    console.info(wordArray);
 });
