@@ -1,5 +1,6 @@
 let randomWord;
 let wordArray;
+let holderArray;
 let i;
 let level = 1;
 let round2;
@@ -516,6 +517,8 @@ wordArray = [
     }
 ];
 
+holderArray = [];
+
 round2 = [
     {
         german: 'das Kind',
@@ -592,6 +595,7 @@ function gimmeWords() {
         // using the getRandom function, this assigns the value of the random word
         randomWord = wordArray[getRandom(wordArray)];
         console.log(randomWord.german);
+        console.log(wordArray.length);
 
         // this populates the flashcard words, when the document loads
         $('#german-word').html(randomWord.german);
@@ -648,7 +652,8 @@ categoryColors();
 // get the index of the current random word, splice it from the array, and then push it to the end of the array (so it can be popped out)
 function moveWord() {
     i = wordArray.indexOf(randomWord);
-    wordArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]);
+    // wordArray.pop(wordArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]));
+    holderArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]);
 };
 
 // update the modal-box level by one 
@@ -673,7 +678,7 @@ function checkAnswer() {
         moveWord();
         
         // pop (i.e., remove) the last word in the array
-        wordArray.pop();
+        // wordArray.pop();
         
         // randomize wordArray and populate the flashcards 
         gimmeWords();
@@ -700,7 +705,6 @@ function checkAnswer() {
     
     // when the wordArray is empty, display the next-level modal box and update the level that the user has reached
     if (wordArray.length <= 0) {
-        // alert(`You're done!`);
         updateLevel();
         $('.modal').css('display', 'block');
     } 
@@ -710,6 +714,7 @@ function checkAnswer() {
 
 $('#submit').on('click', checkAnswer);
 
+// allow the user to advance with the Enter key, and prevent said key from refreshing the page 
 $(document).keypress(function(event) {
     if (event.keyCode === 13) {
         checkAnswer();
@@ -720,5 +725,7 @@ $(document).keypress(function(event) {
 $('#continue').on('click', function() {
     $('.modal').css('display', 'none');
     wordArray.push.apply(wordArray, round2);
+    gimmeWords();
+    categoryColors();
     console.info(wordArray);
 });
