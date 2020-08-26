@@ -22,14 +22,14 @@ header {
     /* background-color: rgb(97, 183, 223); */
     background-color: rgb(62, 47, 79);
 }
-img {
+img.chameleon {
     display: none;
 }
-.active {
+img.chameleon.active {
     display: block;
 }
 .chameleon {
-    height: 73px;
+    height: 53px;
 }
 section#header-title {
     padding-left: .8rem;
@@ -85,6 +85,20 @@ h2 {
 
 /* MAIN */
 
+#help-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+.help-icons {
+    height: 40px;
+    filter: opacity(.7);
+    cursor: pointer;
+}
+.help-icons:hover {
+    filter: opacity(1);
+}
 #german-box {
     display: flex;
     flex-direction: column;
@@ -92,7 +106,7 @@ h2 {
     justify-content: center;
     width: 555px;
     height: 250px;
-    margin: 8rem auto 2.1rem;
+    margin: 3rem auto 2.1rem;
     background-color: rgb(92, 40, 66);
     border-radius: 5px;
 }
@@ -306,7 +320,7 @@ footer {
     #german-box {
         width: 350px;
         height: 200px;
-        margin: 4.7rem auto 2.1rem;
+        margin: 2rem auto 2.1rem;
     }
     h3#german-word {
         font-size: 3.1rem;
