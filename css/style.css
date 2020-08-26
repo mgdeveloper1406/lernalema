@@ -91,10 +91,40 @@ h2 {
     justify-content: flex-end;
     padding: 2rem;
 }
+#hint-container {
+    display: flex;
+    align-items: center;
+}
+#hint-message {
+    background-color: #fb5444;
+    padding: 1rem 1.3rem;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: rgb(240, 248, 255);
+    /* display: inline-block; */
+    display: none;
+    position: relative;
+}
+#hint-message::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: -6px;
+    background-color: #fb5444;
+    border-radius: 2px;
+    /* transform: rotate(45deg) translateY(-50%); */
+    top: 36%;
+    transform: rotate(45deg);
+}
 .help-icons {
     height: 40px;
     filter: opacity(.7);
     cursor: pointer;
+    margin-left: 1rem;
 }
 .help-icons:hover {
     filter: opacity(1);
