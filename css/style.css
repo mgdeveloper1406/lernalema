@@ -89,24 +89,32 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 2rem;
+    padding: 1.5rem 0 .5rem;
 }
-#hint-container {
+#icon-container {
     display: flex;
     align-items: center;
+    background-color: rgb(27, 23, 48);
+    height: 84px;
+    z-index: 2;
 }
 #hint-message {
-    background-color: #fb5444;
+    background-color: rgb(191, 255, 223);
     padding: 1rem 1.3rem;
     border-radius: 10px;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 1.1rem;
-    color: rgb(240, 248, 255);
-    /* display: inline-block; */
-    display: none;
-    position: relative;
+    color: rgb(16, 115, 106);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: -100%;
+    width: 300px;
+    height: 80px;
+    z-index: 1;
 }
 #hint-message::after {
     content: '';
@@ -114,9 +122,8 @@ h2 {
     width: 15px;
     height: 15px;
     right: -6px;
-    background-color: #fb5444;
+    background-color: rgb(191, 255, 223);
     border-radius: 2px;
-    /* transform: rotate(45deg) translateY(-50%); */
     top: 36%;
     transform: rotate(45deg);
 }
@@ -124,7 +131,7 @@ h2 {
     height: 40px;
     filter: opacity(.7);
     cursor: pointer;
-    margin-left: 1rem;
+    padding-right: 2rem;
 }
 .help-icons:hover {
     filter: opacity(1);
