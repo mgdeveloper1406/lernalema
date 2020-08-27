@@ -459,61 +459,71 @@ wordArray = [
         german: 'die Frau',
         plural: 'die Frauen',
         translation: 'woman',
-        category: 'people'
+        category: 'people',
+        hint: 'If not "man," then ___.'
     },
     {
         german: 'der Junge',
         plural: 'die Jungen',
         translation: 'boy',
-        category: 'people'
+        category: 'people',
+        hint: 'If not "girl," then ___.'
     },
     {
         german: 'das Mädchen',
         plural: 'die Mädchen',
         translation: 'girl',
-        category: 'people'
+        category: 'people',
+        hint: 'If not "boy," then ___.'
     },
     {
         german: 'der Mann',
         plural: 'die Männer',
         translation: 'man',
-        category: 'people'
+        category: 'people',
+        hint: 'If not "woman," then ___.'
     },
     {
         german: 'die Person',
         plural: 'die Menschen',
         translation: 'person',
-        category: 'people'
+        category: 'people',
+        hint: 'A human, an individual.'
     },
     {
         german: 'der Apfel',
         plural: 'die Äpfel',
         translation: 'apple',
-        category: 'food'
+        category: 'food',
+        hint: 'Eat one per day to keep the doctor away.'
     },
     {
         german: 'das Brot',
         plural: 'die Brote',
         translation: 'bread',
-        category: 'food'
+        category: 'food',
+        hint: 'Focaccia, ciabatta, rye, brioche, sourdough, etc.'
     },
     {
         german: 'der Käse',
         plural: 'die Käse',
         translation: 'cheese',
-        category: 'food'
+        category: 'food',
+        hint: 'What do you say when you have your picture taken?'
     },
     {
         german: 'die Milch',
         plural: 'die Milche',
         translation: 'milk',
-        category: 'food'
+        category: 'food',
+        hint: 'Goes well with cookies.'
     },
     {
         german: 'das Wasser',
         plural: 'die Wasser',
         translation: 'water',
-        category: 'food'
+        category: 'food',
+        hint: 'H₂0—you should probably drink more of this!'
     }
 ];
 
@@ -600,8 +610,12 @@ function gimmeWords() {
         // this populates the flashcard words, when the document loads
         $('#german-word').html(randomWord.german);
         $('#german-plural').html(randomWord.plural);
+        
         // this populates the input placeholder
         $('input').attr('placeholder', `Translate ${randomWord.german}`);
+
+        // this populates the hint message
+        $('#hint-message').html(randomWord.hint);
     }
 };
 
@@ -710,6 +724,9 @@ function checkAnswer() {
     } 
 
     chameleonColors();
+
+    // reset the hint message's original position
+    $('#hint-message').css('right', '-100%');
 };
 
 $('#submit').on('click', checkAnswer);
@@ -720,6 +737,13 @@ $(document).keypress(function(event) {
         checkAnswer();
         event.preventDefault();
     }
+});
+
+// the hint will slide out sideways and bounce back a bit
+$('#hint-icon').on('click', function() {
+    $('#hint-message').animate({'right': '110px'}, 600, function() {
+        $('#hint-message').animate({'right': '95px'}, 300);
+    });
 });
 
 $('#continue').on('click', function() {
