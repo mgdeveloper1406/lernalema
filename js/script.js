@@ -740,9 +740,9 @@ $(document).keypress(function(event) {
 });
 
 // the hint will slide out sideways and bounce back a bit
-$('#hint-icon').on('click', function() {
-    $('#hint-message').animate({'right': '110px'}, 600, function() {
-        $('#hint-message').animate({'right': '95px'}, 300);
+$('#hint-bulb').on('click', function() {
+    $('#hint-message').animate({'right': '145px'}, 600, function() {
+        $('#hint-message').animate({'right': '130px'}, 300);
     });
 });
 
