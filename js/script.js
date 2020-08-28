@@ -746,6 +746,11 @@ $('#hint-bulb').on('click', function() {
     });
 });
 
+// set the correct translation in the input field, when the answer key is clicked
+$('#answer-key').on('click', function() { 
+    $('input').val(randomWord.translation);
+});
+
 $('#continue').on('click', function() {
     $('.modal').css('display', 'none');
     wordArray.push.apply(wordArray, round2);
