@@ -91,6 +91,7 @@ h2 {
     align-items: center;
     justify-content: flex-end;
     /* padding: .5rem 0; */
+    padding-top: .5rem;
 }
 #icon-container {
     display: flex;
@@ -373,9 +374,6 @@ footer {
 
     /* MAIN */
 
-    #help-row {
-        padding: 0;
-    }
     #german-box {
         width: 350px;
         height: 200px;
