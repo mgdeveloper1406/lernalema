@@ -168,6 +168,7 @@ span#line {
 }
 #plural-zone {
     display: block;
+    margin-bottom: 1rem;
 }
 h4#german-plural,
 span.curly-braces {
@@ -376,8 +377,8 @@ footer {
 
     #german-box {
         width: 350px;
-        height: 200px;
-        margin: 1rem auto 2.1rem;
+        height: 170px;
+        margin: 1rem auto;
     }
     h3#german-word {
         font-size: 3.1rem;
@@ -389,6 +390,10 @@ footer {
     input#your-translation {
         width: 300px;
         font-size: 1.7rem;
+        padding: .2rem 0;
+    }
+    #submit {
+        padding: .5rem auto;
     }
 }
 
