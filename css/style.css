@@ -209,16 +209,34 @@ input#your-translation::placeholder {
     animation-duration: 2s;
 }
 @-webkit-keyframes bzzt {
-    0%   {background-color: #292346;}
-    25%  {background-color: #a90000;}
-    50%  {background-color: #a90000;}
-    100% {background-color: #292346;}
+    0%   {background-color: rgb(41, 35, 70);}
+    25%  {background-color: rgb(169, 0, 0);}
+    50%  {background-color: rgb(169, 0, 0);}
+    100% {background-color: rgb(41, 35, 70);}
 }
 @keyframes bzzt {
-    0%   {background-color: #292346;}
-    25%  {background-color: #a90000;}
-    50%  {background-color: #a90000;}
-    100% {background-color: #292346;}
+    0%   {background-color: rgb(41, 35, 70);}
+    25%  {background-color: rgb(169, 0, 0);}
+    50%  {background-color: rgb(169, 0, 0);}
+    100% {background-color: rgb(41, 35, 70);}
+}
+.add-sparkle {
+    -webkit-animation-name: sparkle;
+    -webkit-animation-duration: 2s;
+    animation-name: sparkle;
+    animation-duration: 2s;
+}
+@-webkit-keyframes sparkle {
+    0%   {background-color: rgb(41, 35, 70);}
+    25%  {background-color: rgb(179, 230, 217);}
+    50%  {background-color: rgb(179, 230, 217);}
+    100% {background-color: rgb(41, 35, 70);}
+}
+@keyframes sparkle {
+    0%   {background-color: rgb(41, 35, 70);}
+    25%  {background-color: rgb(179, 230, 217);}
+    50%  {background-color: rgb(179, 230, 217);}
+    100% {background-color: rgb(41, 35, 70);}
 }
 #submit {
     margin: 1rem auto;
