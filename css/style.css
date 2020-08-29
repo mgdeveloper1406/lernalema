@@ -107,14 +107,14 @@ h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgb(16, 115, 106);
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     right: -100%;
-    width: 300px;
+    width: 250px;
     height: 80px;
     z-index: 1;
 }
