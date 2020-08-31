@@ -534,61 +534,71 @@ round2 = [
         german: 'das Kind',
         plural: 'die Kinder',
         translation: 'child',
-        category: 'people'
+        category: 'people',
+        hint: 'A young person, an offspring.'
     },
     {
         german: 'die Mutter',
         plural: 'die Mütter',
         translation: 'mother',
-        category: 'people'
+        category: 'people',
+        hint: 'A woman with a child.'
     },
     {
         german: 'der Sohn',
         plural: 'die Söhne',
         translation: 'son',
-        category: 'people'
+        category: 'people',
+        hint: 'A male child.'
     },
     {
         german: 'die Tochter',
         plural: 'die Töchter',
         translation: 'daughter',
-        category: 'people'
+        category: 'people',
+        hint: 'A female child.'
     },
     {
         german: 'der Vater',
         plural: 'die Väter',
         translation: 'father',
-        category: 'people'
+        category: 'people',
+        hint: 'A man with a child.'
     },
     {
         german: 'der Honig',
         plural: 'die Honige',
         translation: 'honey',
-        category: 'food'
+        category: 'food',
+        hint: 'A sweetener made by bees.'
     },
     {
         german: 'der Kaffee',
         plural: 'die Kaffees',
         translation: 'coffee',
-        category: 'food'
+        category: 'food',
+        hint: 'A drink that wakes you up.'
     },
     {
         german: 'der Keks',
         plural: 'die Kekse',
         translation: 'cookie',
-        category: 'food'
+        category: 'food',
+        hint: 'A snack you dunk in milk.'
     },
     {
         german: 'der Tee',
         plural: 'die Tees',
         translation: 'tea',
-        category: 'food'
+        category: 'food',
+        hint: 'The result of steeping leaves in hot water.'
     },
     {
         german: 'der Zucker',
         plural: 'die Zucker',
         translation: 'sugar',
-        category: 'food'
+        category: 'food',
+        hint: 'Put this in your coffee to make it sweet.'
     }
 ];
 
