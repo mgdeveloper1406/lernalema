@@ -104,6 +104,45 @@ li:hover {
     color: rgb(253, 253, 253);
 }
 
+/* CATEGORIES  */
+
+#categories-wrapper {
+    top: -100%;
+    /* top: 75.38px; */
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+}
+#categories-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#food-ring,
+#people-ring {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 5px solid rgb(48, 224, 61);
+    width: 65px;
+    height: 65px;
+}
+#food-color {
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(244, 67, 54);
+}
+#people-color {
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(0, 139, 139);
+}
+
 /* MAIN */
 
 #help-row {
@@ -280,7 +319,7 @@ input#your-translation::placeholder {
 .modal {
     display: none;
     position: fixed;
-    z-index: 3;
+    z-index: 4;
     padding-top: 6%;
     left: 0;
     top: 0;
@@ -424,7 +463,7 @@ footer {
     li {
         font-size: .5rem;
     }
-    
+
     /* MODAL BOX */
 
     .modal {
