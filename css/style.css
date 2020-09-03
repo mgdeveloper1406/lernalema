@@ -107,7 +107,8 @@ li:hover {
 /* CATEGORIES  */
 
 #categories-wrapper {
-    top: -100%;
+    display: none;
+    /* top: -100%; */
     /* top: 75.38px; */
     background-color: rgb(245, 245, 245);
     width: 100%;
