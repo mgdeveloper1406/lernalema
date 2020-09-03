@@ -771,3 +771,22 @@ $('#continue').on('click', function() {
     categoryColors();
     console.info(wordArray);
 });
+
+// make the category selection area appear under the header, when the categories link is clicked
+$('#open-categories').on('click', function() {
+    $('#categories-wrapper').css('top', '75.38px');
+});
+
+// let selected = on, let not selected = off. if on, add words with that category to wordArray and set a ring around the category's circle. if off, move words to holderArray. if a certain category is unable to be selected because there are no applicable words in the round, disable that category. 
+
+let on = false;
+
+$('#select-food').on('click', function() {
+    if (on === true) {
+        on = false;
+        $('#food-circle').css('border', '3px solid rgb(245, 245, 245)');
+    } else {
+        on = true;
+        $('#food-circle').css('border', '3px solid rgb(165, 175, 232)');
+    }
+});
