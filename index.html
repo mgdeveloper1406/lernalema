@@ -33,18 +33,26 @@
        </section>
        <nav>
            <ul>
-               <li>Categories</li>
+               <li id="open-categories">Categories</li>
            </ul>
        </nav>
    </header>
    <section id="categories-wrapper">
        <div id="categories-box">
-           <div id="food-ring">
-               <div id="food-color"></div>
-           </div>
-           <div id="people-ring">
-               <div id="people-color"></div>
-           </div>
+           <input type="checkbox" name="select-food" id="select-food" />
+           <label class="category-buttons" for="select-food">
+               <div id="food-circle">
+                   <div id="food-color"></div>
+               </div>
+               <p class="label-text">Food</p>
+           </label>
+           <input type="checkbox" name="select-people" id="select-people" />
+           <label class="category-buttons" for="select-people">
+               <div id="people-circle">
+                   <div id="people-color"></div>
+               </div>
+               <p class="label-text">People</p>
+           </label>
        </div>
    </section>
    <main>
