@@ -13,6 +13,18 @@ body {
     /* background-color: rgb(27, 23, 48); */
     background-color: rgb(26, 18, 47);
 }
+button {
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    padding: .5rem 3rem;
+    cursor: pointer;
+}
 
 /* HEADER */
 
@@ -103,14 +115,20 @@ li {
 li:hover {
     color: rgb(253, 253, 253);
 }
+.header-shadow {
+    border-bottom: 1px solid #3F51B5;
+    box-shadow: 1px 3px 5px 1px #9E9E9E;
+    position: relative;
+    z-index: 4;
+}
 
 /* CATEGORIES  */
 
 #categories-wrapper {
     display: none;
-    /* top: -100%; */
-    /* top: 75.38px; */
     background-color: rgb(245, 245, 245);
+    box-shadow: 1px 2px 7px 1px #545454;
+    border-bottom: 1px solid #9E9E9E;
     width: 100%;
     position: absolute;
     z-index: 3;
@@ -169,6 +187,15 @@ li:hover {
     text-align: center;
     margin: .2rem 0 0 0;
 }
+#select-categories {
+    margin: 1rem auto;
+    color: rgb(240, 248, 255);
+    background-color: rgb(128, 84, 181);
+}
+#select-categories:hover,
+#continue:hover {
+    background-color: rgb(201, 124, 194);
+}
 
 /* MAIN */
 
@@ -176,13 +203,11 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    /* padding: .5rem 0; */
     padding-top: .5rem;
 }
 #icon-container {
     display: flex;
     align-items: center;
-    /* background-color: rgb(27, 23, 48); */
     background-color: rgb(26, 18, 47);
     height: 84px;
     z-index: 2;
@@ -327,18 +352,9 @@ input#your-translation::placeholder {
 }
 #submit {
     margin: 1rem auto;
-    display: block;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1rem;
-    text-transform: uppercase;
     color: rgb(10, 48, 78);
     background-color: rgb(240, 248, 255);
-    border: none;
-    border-radius: 2px;
     padding: .5rem 1rem;
-    cursor: pointer;
 }
 
 /* NEXT-LEVEL MODAL BOX */
@@ -412,21 +428,8 @@ figure {
 }
 #continue {
     margin: 1.5rem auto;
-    display: block;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1rem;
-    text-transform: uppercase;
     color: rgb(240, 248, 255);
-    background-color: rgb(128 84 181);
-    border: none;
-    border-radius: 2px;
-    padding: .5rem 3rem;
-    cursor: pointer;
-}
-#continue:hover {
-    background-color: rgb(201, 124, 194);
+    background-color: rgb(128, 84, 181);
 }
 
 /* FOOTER */
