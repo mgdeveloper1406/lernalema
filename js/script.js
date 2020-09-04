@@ -774,8 +774,14 @@ $('#continue').on('click', function() {
 
 // make the category selection area appear under the header, when the categories link is clicked
 $('#open-categories').on('click', function() {
-    $('header').addClass('header-shadow');
-    $('#categories-wrapper').slideDown(800);
+    if ($('#categories-wrapper').css('display') == ('none')) {
+        $('header').addClass('header-shadow');
+    } else {
+        setTimeout(function removeHeaderShadow() {
+            $('header').removeClass('header-shadow');
+        }, 800);
+    }
+    $('#categories-wrapper').slideToggle(800);
 });
 
 // let selected = on, let not selected = off. if on, add words with that category to wordArray and set a ring around the category's circle. if off, move words to holderArray. if a certain category is unable to be selected because there are no applicable words in the round, disable that category. 
