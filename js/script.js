@@ -622,7 +622,7 @@ function gimmeWords() {
         $('#german-plural').html(randomWord.plural);
         
         // this populates the input placeholder
-        $('input').attr('placeholder', `Translate ${randomWord.german}`);
+        $('#your-translation').attr('placeholder', `Translate ${randomWord.german}`);
 
         // this populates the hint message
         $('#hint-message').html(randomWord.hint);
@@ -788,13 +788,23 @@ $('#open-categories').on('click', function() {
 
 let on = false;
 
-$('#select-food').on('click', function() {
+// $('#select-food').on('click', function() {
+//     if (on === true) {
+//         on = false;
+//         $('#food-circle').css('border', '3px solid rgb(245, 245, 245)');
+//     } else {
+//         on = true;
+//         $('#food-circle').css('border', '3px solid rgb(165, 175, 232)');
+//     }
+// });
+
+$('input[type=checkbox]').on('click', function() {
     if (on === true) {
         on = false;
-        $('#food-circle').css('border', '3px solid rgb(245, 245, 245)');
+        $(this).next('label').children('div').css('border', '3px solid rgb(245, 245, 245)');
     } else {
         on = true;
-        $('#food-circle').css('border', '3px solid rgb(165, 175, 232)');
+        $(this).next('label').children('div').css('border', '3px solid rgb(165, 175, 232)');
     }
 });
 
