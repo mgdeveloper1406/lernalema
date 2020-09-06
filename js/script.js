@@ -797,3 +797,13 @@ $('#select-food').on('click', function() {
         $('#food-circle').css('border', '3px solid rgb(165, 175, 232)');
     }
 });
+
+// select categories and close the selection panel
+$('#select-categories').on('click', function() {
+    if ($('#categories-wrapper').css('display') == ('block')) {
+        setTimeout(function removeHeaderShadow() {
+            $('header').removeClass('header-shadow');
+        }, 800);
+    }
+    $('#categories-wrapper').slideUp(800);
+});
