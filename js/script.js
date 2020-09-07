@@ -784,28 +784,9 @@ $('#open-categories').on('click', function() {
     $('#categories-wrapper').slideToggle(800);
 });
 
-// let selected = on, let not selected = off. if on, add words with that category to wordArray and set a ring around the category's circle. if off, move words to holderArray. if a certain category is unable to be selected because there are no applicable words in the round, disable that category. 
-
-let on = false;
-
-// $('#select-food').on('click', function() {
-//     if (on === true) {
-//         on = false;
-//         $('#food-circle').css('border', '3px solid rgb(245, 245, 245)');
-//     } else {
-//         on = true;
-//         $('#food-circle').css('border', '3px solid rgb(165, 175, 232)');
-//     }
-// });
-
+// toggle the visibility of the purple .selection-circle around the category-color label divs, when the corresponding input is checked (i.e., clicked)
 $('input[type=checkbox]').on('click', function() {
-    if (on === true) {
-        on = false;
-        $(this).next('label').children('div').css('border', '3px solid rgb(245, 245, 245)');
-    } else {
-        on = true;
-        $(this).next('label').children('div').css('border', '3px solid rgb(165, 175, 232)');
-    }
+    $(this).next('label').children('div').children('div').toggle();
 });
 
 // select categories and close the selection panel
