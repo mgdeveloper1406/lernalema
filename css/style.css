@@ -370,6 +370,37 @@ input#your-translation::placeholder {
     background-color: rgb(240, 248, 255);
     padding: .5rem 1rem;
 }
+#countdown-row {
+    display: flex;
+    justify-content: flex-end;
+}
+#countdown-container {
+    width: 120px;
+    margin-right: 2rem;
+}
+#countdown-text {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    margin: 1.5rem auto;
+}
+#countdown {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    background-color: rgb(97, 183, 223);
+    background-color: rgb(204, 50, 93);
+    color: rgb(255, 255, 255);
+    display: block;
+    border-radius: 2px;
+    padding: .3rem 0;
+}
 
 /* NEXT-LEVEL MODAL BOX */
 
@@ -450,7 +481,7 @@ figure {
 
 footer {
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 #copyright {
