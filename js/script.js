@@ -673,6 +673,19 @@ const categoryColors = () => {
 
 categoryColors();
 
+// a countdown that lets users know how many words are in the round
+function updateCountdown() {
+    if (wordArray.length == 1) {
+        $('#countdown-text').html('There is <span id="countdown"></span> in this round');
+        $('#countdown').html(`${wordArray.length} word`);
+    } else if (wordArray.length >= 2 || wordArray.length == 0) {
+        $('#countdown-text').html('There are <span id="countdown"></span> in this round');
+        $('#countdown').html(`${wordArray.length} words`);
+    }
+};
+
+updateCountdown();
+
 // get the index of the current random word, splice it from the array, and then push it to the end of the array (so it can be popped out)
 function moveWord() {
     i = wordArray.indexOf(randomWord);
@@ -734,6 +747,7 @@ function checkAnswer() {
     } 
 
     chameleonColors();
+    updateCountdown();
 
     // reset the hint message's original position
     $('#hint-message').css('right', '-100%');
@@ -769,6 +783,7 @@ $('#continue').on('click', function() {
     wordArray.push.apply(wordArray, round2);
     gimmeWords();
     categoryColors();
+    updateCountdown();
     console.info(wordArray);
 });
 
