@@ -686,6 +686,12 @@ function updateCountdown() {
 
 updateCountdown();
 
+function updateCountdown2() {
+    $('#countdown-number').html(wordArray.length);
+};
+
+updateCountdown2();
+
 // get the index of the current random word, splice it from the array, and then push it to the end of the array (so it can be popped out)
 function moveWord() {
     i = wordArray.indexOf(randomWord);
@@ -748,6 +754,7 @@ function checkAnswer() {
 
     chameleonColors();
     updateCountdown();
+    updateCountdown2();
 
     // reset the hint message's original position
     $('#hint-message').css('right', '-100%');
@@ -784,6 +791,7 @@ $('#continue').on('click', function() {
     gimmeWords();
     categoryColors();
     updateCountdown();
+    updateCountdown2();
     console.info(wordArray);
 });
 
