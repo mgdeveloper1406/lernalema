@@ -674,23 +674,40 @@ const categoryColors = () => {
 categoryColors();
 
 // a countdown that lets users know how many words are in the round
+// function updateCountdown() {
+//     if (wordArray.length == 1) {
+//         $('#countdown-text').html('This round has <span id="countdown"></span> word remaining');
+//         // $('#countdown').html(`${wordArray.length} word`);
+//     } else if (wordArray.length >= 2 || wordArray.length == 0) {
+//         $('#countdown-text').html('This round has <span id="countdown"></span> words remaining');
+//         // $('#countdown').html(`${wordArray.length} words`);
+//     }
+//     $('#countdown').html(wordArray.length);
+// };
+
 function updateCountdown() {
     if (wordArray.length == 1) {
-        $('#countdown-text').html('There is <span id="countdown"></span> in this round');
-        $('#countdown').html(`${wordArray.length} word`);
+        $('#countdown-container').html('<span class="countdown-text">This round has</span> <span id="countdown"></span> <span class="countdown-text">word remaining</span>');
+        // $('#countdown').html(`${wordArray.length} word`);
     } else if (wordArray.length >= 2 || wordArray.length == 0) {
-        $('#countdown-text').html('There are <span id="countdown"></span> in this round');
-        $('#countdown').html(`${wordArray.length} words`);
+        $('#countdown-container').html('<span class="countdown-text">This round has</span> <span id="countdown"></span> <span class="countdown-text">words remaining</span>');
+        // $('#countdown').html(`${wordArray.length} words`);
     }
+    $('#countdown').html(wordArray.length);
 };
 
 updateCountdown();
 
-function updateCountdown2() {
-    $('#countdown-number').html(wordArray.length);
+function revealCountdownText() {
+    $('#countdown').mouseenter(function() {
+        $('.countdown-text').animate({'opacity': '1'}, 2000);
+    });
+    $('#countdown').mouseleave(function() {
+        $('.countdown-text').animate({'opacity': '0'}, 2000);
+    });
 };
 
-updateCountdown2();
+revealCountdownText();
 
 // get the index of the current random word, splice it from the array, and then push it to the end of the array (so it can be popped out)
 function moveWord() {
@@ -754,7 +771,7 @@ function checkAnswer() {
 
     chameleonColors();
     updateCountdown();
-    updateCountdown2();
+    revealCountdownText();
 
     // reset the hint message's original position
     $('#hint-message').css('right', '-100%');
@@ -791,7 +808,7 @@ $('#continue').on('click', function() {
     gimmeWords();
     categoryColors();
     updateCountdown();
-    updateCountdown2();
+    revealCountdownText();
     console.info(wordArray);
 });
 
