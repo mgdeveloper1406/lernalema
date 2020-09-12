@@ -831,6 +831,32 @@ $('input[type=checkbox]').on('click', function() {
 
 // select categories and close the selection panel
 $('#select-categories').on('click', function() {
+    // let testArray = [];
+    // testArray = testArray.push.apply(wordArray, round2);
+
+    testArray = wordArray.concat(round2);
+    
+    // if (($('#select-people').is(':checked') === true)) {
+    //     // wordArray.push.apply(holderArray.splice(randomWord.category == 'people'));
+    //     // wordArray.push.apply(randomWord);
+
+    //     testArray.forEach(element => {
+    //         if (category === 'people') {
+    //             wordArray.push(element);
+    //         } 
+    //     });
+    // }
+
+    console.log(testArray);
+    console.log(wordArray);
+    // console.log(`Test Array: ${testArray}`);
+    // console.log(`Word Array: ${wordArray}`);
+
+    gimmeWords();
+    categoryColors();
+    updateCountdown();
+    // revealCountdownText();
+    
     if ($('#categories-wrapper').css('display') == ('block')) {
         setTimeout(function removeHeaderShadow() {
             $('header').removeClass('header-shadow');
