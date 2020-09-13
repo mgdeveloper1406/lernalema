@@ -463,7 +463,7 @@ figure {
 
 footer {
     width: 100%;
-    position: relative;
+    position: fixed;
     bottom: 0;
 }
 #copyright {
