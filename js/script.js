@@ -1,6 +1,6 @@
 let randomWord;
 let wordArray;
-let holderArray;
+let solvedArray;
 let i;
 let level = 1;
 let round2;
@@ -527,7 +527,7 @@ wordArray = [
     }
 ];
 
-holderArray = [];
+solvedArray = [];
 
 round2 = [
     {
@@ -713,7 +713,7 @@ revealCountdownText();
 function moveWord() {
     i = wordArray.indexOf(randomWord);
     // wordArray.pop(wordArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]));
-    holderArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]);
+    solvedArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]);
 };
 
 // update the modal-box level by one 
@@ -831,31 +831,25 @@ $('input[type=checkbox]').on('click', function() {
 
 // select categories and close the selection panel
 $('#select-categories').on('click', function() {
-    // let testArray = [];
-    // testArray = testArray.push.apply(wordArray, round2);
-
-    testArray = wordArray.concat(round2);
+    let holderArray = [];
+    holderArray = wordArray.concat(round2);
+    wordArray.length = 0;
     
-    // if (($('#select-people').is(':checked') === true)) {
-    //     // wordArray.push.apply(holderArray.splice(randomWord.category == 'people'));
-    //     // wordArray.push.apply(randomWord);
+    if (($('#select-people').is(':checked') === true)) {
+        holderArray.forEach(randomWord => {
+            if (randomWord.category === 'people') {
+                wordArray.push(randomWord);
+            } 
+        });
+    }
 
-    //     testArray.forEach(element => {
-    //         if (category === 'people') {
-    //             wordArray.push(element);
-    //         } 
-    //     });
-    // }
-
-    console.log(testArray);
+    console.log(holderArray);
     console.log(wordArray);
-    // console.log(`Test Array: ${testArray}`);
-    // console.log(`Word Array: ${wordArray}`);
 
     gimmeWords();
     categoryColors();
     updateCountdown();
-    // revealCountdownText();
+    revealCountdownText();
     
     if ($('#categories-wrapper').css('display') == ('block')) {
         setTimeout(function removeHeaderShadow() {
