@@ -4,6 +4,7 @@ let solvedArray;
 let i;
 let level = 1;
 let round2;
+let round3;
 
 // change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
@@ -403,16 +404,6 @@ const chameleonColors = () => {
 //         category: 'phrases'
 //     },
 //     {
-//         german: 'Bitte!',
-//         translation: 'please',
-//         category: 'phrases'
-//     },
-//     {
-//         german: 'Danke!',
-//         translation: ['thank you', 'thanks'],
-//         category: 'phrases'
-//     },
-//     {
 //         german: 'Entschuldigung!',
 //         translation: ['sorry', 'pardon'],
 //         category: 'phrases'
@@ -437,21 +428,6 @@ const chameleonColors = () => {
 //         translation: ['good day', 'good afternoon'],
 //         category: 'phrases'
 //     },
-//     {
-//         german: 'Hallo!',
-//         translation: 'hello',
-//         category: 'phrases'
-//     },
-//     {
-//         german: 'Ja!',
-//         translation: ['yes', 'yeah'],
-//         category: 'phrases'
-//     },
-//     {
-//         german: 'Nein!',
-//         translation: 'no',
-//         category: 'phrases'
-//     }
 // ];
 
 wordArray = [
@@ -491,39 +467,34 @@ wordArray = [
         hint: 'A human, an individual.'
     },
     {
-        german: 'der Apfel',
-        plural: 'die Äpfel',
-        translation: 'apple',
-        category: 'food',
-        hint: 'Eat one per day to keep the doctor away.'
+        german: 'eins',
+        translation: 'one',
+        category: 'numbers'
     },
     {
-        german: 'das Brot',
-        plural: 'die Brote',
-        translation: 'bread',
-        category: 'food',
-        hint: 'Focaccia, ciabatta, rye, brioche, sourdough, etc.'
+        german: 'Bitte!',
+        translation: 'please',
+        category: 'phrases'
     },
     {
-        german: 'der Käse',
-        plural: 'die Käse',
-        translation: 'cheese',
-        category: 'food',
-        hint: 'What do you say when you have your picture taken?'
+        german: 'Danke!',
+        translation: ['thank you', 'thanks'],
+        category: 'phrases'
     },
     {
-        german: 'die Milch',
-        plural: 'die Milche',
-        translation: 'milk',
-        category: 'food',
-        hint: 'Goes well with cookies.'
+        german: 'Hallo!',
+        translation: 'hello',
+        category: 'phrases'
     },
     {
-        german: 'das Wasser',
-        plural: 'die Wasser',
-        translation: 'water',
-        category: 'food',
-        hint: 'H₂0—you should probably drink more of this!'
+        german: 'Ja!',
+        translation: ['yes', 'yeah'],
+        category: 'phrases'
+    },
+    {
+        german: 'Nein!',
+        translation: 'no',
+        category: 'phrases'
     }
 ];
 
@@ -565,6 +536,45 @@ round2 = [
         category: 'people',
         hint: 'A man with a child.'
     },
+    {
+        german: 'der Apfel',
+        plural: 'die Äpfel',
+        translation: 'apple',
+        category: 'food',
+        hint: 'Eat one per day to keep the doctor away.'
+    },
+    {
+        german: 'das Brot',
+        plural: 'die Brote',
+        translation: 'bread',
+        category: 'food',
+        hint: 'Focaccia, ciabatta, rye, brioche, sourdough, etc.'
+    },
+    {
+        german: 'der Käse',
+        plural: 'die Käse',
+        translation: 'cheese',
+        category: 'food',
+        hint: 'What do you say when you have your picture taken?'
+    },
+    {
+        german: 'die Milch',
+        plural: 'die Milche',
+        translation: 'milk',
+        category: 'food',
+        hint: 'Goes well with cookies.'
+    },
+    {
+        german: 'das Wasser',
+        plural: 'die Wasser',
+        translation: 'water',
+        category: 'food',
+        hint: 'H₂0—you should probably drink more of this!'
+    }
+    
+];
+
+round3 = [
     {
         german: 'der Honig',
         plural: 'die Honige',
@@ -668,7 +678,12 @@ const categoryColors = () => {
         $('#german-word').css('color', '#ffffff');
         $('#plural-zone').css('display', 'none');
         $('#line').css('backgroundColor', '#ffd700');
-    } 
+    } else if (randomWord.category === 'numbers') {
+        $('#german-box').css('backgroundColor', '#6b6a9e');
+        $('#german-word').css('color', '#ffffff');
+        $('#plural-zone').css('display', 'none');
+        $('#line').css('backgroundColor', '#ffd700');
+    }
 };
 
 categoryColors();
