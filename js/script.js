@@ -467,34 +467,34 @@ wordArray = [
         hint: 'A human, an individual.'
     },
     {
-        german: 'eins',
-        translation: 'one',
-        category: 'numbers'
-    },
-    {
         german: 'Bitte!',
         translation: 'please',
-        category: 'phrases'
+        category: 'phrases',
+        hint: `What's the magic word?`
     },
     {
         german: 'Danke!',
         translation: ['thank you', 'thanks'],
-        category: 'phrases'
+        category: 'phrases',
+        hint: 'A polite way to acknowledge kindness.'
     },
     {
         german: 'Hallo!',
         translation: 'hello',
-        category: 'phrases'
+        category: 'phrases',
+        hint: 'A way to greet someone.'
     },
     {
         german: 'Ja!',
         translation: ['yes', 'yeah'],
-        category: 'phrases'
+        category: 'phrases',
+        hint: 'A way to agree.'
     },
     {
         german: 'Nein!',
         translation: 'no',
-        category: 'phrases'
+        category: 'phrases',
+        hint: 'Nein means nein!'
     }
 ];
 
@@ -535,6 +535,36 @@ round2 = [
         translation: 'father',
         category: 'people',
         hint: 'A man with a child.'
+    },
+    {
+        german: 'eins',
+        translation: 'one',
+        category: 'numbers',
+        hint: 'The loneliest number.'
+    },
+    {
+        german: 'zwei',
+        translation: 'two',
+        category: 'numbers',
+        hint: 'It takes __ to tango.'
+    },
+    {
+        german: 'drei',
+        translation: 'three',
+        category: 'numbers',
+        hint: 'How many sides does a triangle have?'
+    },
+    {
+        german: 'vier',
+        translation: 'four',
+        category: 'numbers',
+        hint: 'You need this many quarters to make $1.'
+    },
+    {
+        german: 'fünf',
+        translation: 'five',
+        category: 'numbers',
+        hint: 'V, as a Roman numeral.'
     },
     {
         german: 'der Apfel',
