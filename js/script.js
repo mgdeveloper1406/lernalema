@@ -802,6 +802,7 @@ $('#answer-key').on('click', function() {
     }, 2000);
 });
 
+// continue button in modal popup; this progresses users to the next level
 $('#continue').on('click', function() {
     $('.modal').css('display', 'none');
     wordArray.push.apply(wordArray, round2);
@@ -810,6 +811,7 @@ $('#continue').on('click', function() {
     updateCountdown();
     revealCountdownText();
     console.info(wordArray);
+    console.log(round2)
 });
 
 // make the category selection area appear under the header, when the categories link is clicked
