@@ -151,14 +151,18 @@ li:hover {
 }
 #select-animals,
 #select-food,
-#select-people {
+#select-numbers,
+#select-people,
+#select-phrases {
     clip-path: inset(100% 100% 100% 100%);
     position: absolute;
     visibility: hidden;
 }
 #animals-color,
 #food-color,
-#people-color {
+#numbers-color,
+#people-color,
+#phrases-color {
     border-radius: 100%;
     width: 45px;
     height: 45px;
@@ -173,8 +177,14 @@ li:hover {
 #food-color {
     background-color: rgb(244, 67, 54);
 }
+#numbers-color {
+    background-color: rgb(107, 106, 158);
+}
 #people-color {
     background-color: rgb(0, 139, 139);
+}
+#phrases-color {
+    background-color: rgb(206, 60, 94);
 }
 .label-text {
     font-family: 'dinosaur', sans-serif;
