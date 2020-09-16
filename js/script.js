@@ -845,7 +845,11 @@ $('#hint-bulb').on('click', function() {
 
 // set the correct translation in the input field, when the answer key is clicked
 $('#answer-key').on('click', function() { 
-    $('input').val(randomWord.translation).addClass('add-sparkle');
+    if (typeof randomWord.translation === 'string') {
+        $('input').val(randomWord.translation).addClass('add-sparkle');
+    } else {
+        $('input').val(randomWord.translation[0]).addClass('add-sparkle');
+    }
     setTimeout(function endSparkle() {
         $('input').removeClass('add-sparkle');
     }, 2000);
