@@ -430,217 +430,220 @@ const chameleonColors = () => {
 //     },
 // ];
 
-wordArray = [
-    {
-        german: 'die Frau',
-        plural: 'die Frauen',
-        translation: 'woman',
-        category: 'people',
-        hint: 'If not "man," then ___.'
-    },
-    {
-        german: 'der Junge',
-        plural: 'die Jungen',
-        translation: 'boy',
-        category: 'people',
-        hint: 'If not "girl," then ___.'
-    },
-    {
-        german: 'das Mädchen',
-        plural: 'die Mädchen',
-        translation: 'girl',
-        category: 'people',
-        hint: 'If not "boy," then ___.'
-    },
-    {
-        german: 'der Mann',
-        plural: 'die Männer',
-        translation: 'man',
-        category: 'people',
-        hint: 'If not "woman," then ___.'
-    },
-    {
-        german: 'die Person',
-        plural: 'die Menschen',
-        translation: 'person',
-        category: 'people',
-        hint: 'A human, an individual.'
-    },
-    {
-        german: 'Bitte!',
-        translation: 'please',
-        category: 'phrases',
-        hint: `What's the magic word?`
-    },
-    {
-        german: 'Danke!',
-        translation: ['thank you', 'thanks'],
-        category: 'phrases',
-        hint: 'A polite way to acknowledge kindness.'
-    },
-    {
-        german: 'Hallo!',
-        translation: 'hello',
-        category: 'phrases',
-        hint: 'A way to greet someone.'
-    },
-    {
-        german: 'Ja!',
-        translation: ['yes', 'yeah'],
-        category: 'phrases',
-        hint: 'A way to agree.'
-    },
-    {
-        german: 'Nein!',
-        translation: 'no',
-        category: 'phrases',
-        hint: 'Nein means nein!'
-    }
-];
-
 solvedArray = [];
 
-round2 = [
-    {
-        german: 'das Kind',
-        plural: 'die Kinder',
-        translation: 'child',
-        category: 'people',
-        hint: 'A young person, an offspring.'
-    },
-    {
-        german: 'die Mutter',
-        plural: 'die Mütter',
-        translation: 'mother',
-        category: 'people',
-        hint: 'A woman with a child.'
-    },
-    {
-        german: 'der Sohn',
-        plural: 'die Söhne',
-        translation: 'son',
-        category: 'people',
-        hint: 'A male child.'
-    },
-    {
-        german: 'die Tochter',
-        plural: 'die Töchter',
-        translation: 'daughter',
-        category: 'people',
-        hint: 'A female child.'
-    },
-    {
-        german: 'der Vater',
-        plural: 'die Väter',
-        translation: 'father',
-        category: 'people',
-        hint: 'A man with a child.'
-    },
-    {
-        german: 'eins',
-        translation: 'one',
-        category: 'numbers',
-        hint: 'The loneliest number.'
-    },
-    {
-        german: 'zwei',
-        translation: 'two',
-        category: 'numbers',
-        hint: 'It takes __ to tango.'
-    },
-    {
-        german: 'drei',
-        translation: 'three',
-        category: 'numbers',
-        hint: 'How many sides does a triangle have?'
-    },
-    {
-        german: 'vier',
-        translation: 'four',
-        category: 'numbers',
-        hint: 'You need this many quarters to make $1.'
-    },
-    {
-        german: 'fünf',
-        translation: 'five',
-        category: 'numbers',
-        hint: 'V, as a Roman numeral.'
-    },
-    {
-        german: 'der Apfel',
-        plural: 'die Äpfel',
-        translation: 'apple',
-        category: 'food',
-        hint: 'Eat one per day to keep the doctor away.'
-    },
-    {
-        german: 'das Brot',
-        plural: 'die Brote',
-        translation: 'bread',
-        category: 'food',
-        hint: 'Focaccia, ciabatta, rye, brioche, sourdough, etc.'
-    },
-    {
-        german: 'der Käse',
-        plural: 'die Käse',
-        translation: 'cheese',
-        category: 'food',
-        hint: 'What do you say when you have your picture taken?'
-    },
-    {
-        german: 'die Milch',
-        plural: 'die Milche',
-        translation: 'milk',
-        category: 'food',
-        hint: 'Goes well with cookies.'
-    },
-    {
-        german: 'das Wasser',
-        plural: 'die Wasser',
-        translation: 'water',
-        category: 'food',
-        hint: 'H₂0—you should probably drink more of this!'
-    }
+gameArray = [
+    wordArray = [
+        {
+            german: 'die Frau',
+            plural: 'die Frauen',
+            translation: 'woman',
+            category: 'people',
+            hint: 'If not "man," then ___.'
+        },
+        {
+            german: 'der Junge',
+            plural: 'die Jungen',
+            translation: 'boy',
+            category: 'people',
+            hint: 'If not "girl," then ___.'
+        },
+        {
+            german: 'das Mädchen',
+            plural: 'die Mädchen',
+            translation: 'girl',
+            category: 'people',
+            hint: 'If not "boy," then ___.'
+        },
+        {
+            german: 'der Mann',
+            plural: 'die Männer',
+            translation: 'man',
+            category: 'people',
+            hint: 'If not "woman," then ___.'
+        },
+        {
+            german: 'die Person',
+            plural: 'die Menschen',
+            translation: 'person',
+            category: 'people',
+            hint: 'A human, an individual.'
+        },
+        {
+            german: 'Bitte!',
+            translation: 'please',
+            category: 'phrases',
+            hint: `What's the magic word?`
+        },
+        {
+            german: 'Danke!',
+            translation: ['thank you', 'thanks'],
+            category: 'phrases',
+            hint: 'A polite way to acknowledge kindness.'
+        },
+        {
+            german: 'Hallo!',
+            translation: 'hello',
+            category: 'phrases',
+            hint: 'A way to greet someone.'
+        },
+        {
+            german: 'Ja!',
+            translation: ['yes', 'yeah'],
+            category: 'phrases',
+            hint: 'A way to agree.'
+        },
+        {
+            german: 'Nein!',
+            translation: 'no',
+            category: 'phrases',
+            hint: 'Nein means nein!'
+        }
+    ],
     
+    round2 = [
+        {
+            german: 'das Kind',
+            plural: 'die Kinder',
+            translation: 'child',
+            category: 'people',
+            hint: 'A young person, an offspring.'
+        },
+        {
+            german: 'die Mutter',
+            plural: 'die Mütter',
+            translation: 'mother',
+            category: 'people',
+            hint: 'A woman with a child.'
+        },
+        {
+            german: 'der Sohn',
+            plural: 'die Söhne',
+            translation: 'son',
+            category: 'people',
+            hint: 'A male child.'
+        },
+        {
+            german: 'die Tochter',
+            plural: 'die Töchter',
+            translation: 'daughter',
+            category: 'people',
+            hint: 'A female child.'
+        },
+        {
+            german: 'der Vater',
+            plural: 'die Väter',
+            translation: 'father',
+            category: 'people',
+            hint: 'A man with a child.'
+        },
+        {
+            german: 'eins',
+            translation: 'one',
+            category: 'numbers',
+            hint: 'The loneliest number.'
+        },
+        {
+            german: 'zwei',
+            translation: 'two',
+            category: 'numbers',
+            hint: 'It takes __ to tango.'
+        },
+        {
+            german: 'drei',
+            translation: 'three',
+            category: 'numbers',
+            hint: 'How many sides does a triangle have?'
+        },
+        {
+            german: 'vier',
+            translation: 'four',
+            category: 'numbers',
+            hint: 'You need this many quarters to make $1.'
+        },
+        {
+            german: 'fünf',
+            translation: 'five',
+            category: 'numbers',
+            hint: 'V, as a Roman numeral.'
+        },
+        {
+            german: 'der Apfel',
+            plural: 'die Äpfel',
+            translation: 'apple',
+            category: 'food',
+            hint: 'Eat one per day to keep the doctor away.'
+        },
+        {
+            german: 'das Brot',
+            plural: 'die Brote',
+            translation: 'bread',
+            category: 'food',
+            hint: 'Focaccia, ciabatta, rye, brioche, sourdough, etc.'
+        },
+        {
+            german: 'der Käse',
+            plural: 'die Käse',
+            translation: 'cheese',
+            category: 'food',
+            hint: 'What do you say when you have your picture taken?'
+        },
+        {
+            german: 'die Milch',
+            plural: 'die Milche',
+            translation: 'milk',
+            category: 'food',
+            hint: 'Goes well with cookies.'
+        },
+        {
+            german: 'das Wasser',
+            plural: 'die Wasser',
+            translation: 'water',
+            category: 'food',
+            hint: 'H₂0—you should probably drink more of this!'
+        }
+        
+    ],
+    
+    round3 = [
+        {
+            german: 'der Honig',
+            plural: 'die Honige',
+            translation: 'honey',
+            category: 'food',
+            hint: 'A sweetener made by bees.'
+        },
+        {
+            german: 'der Kaffee',
+            plural: 'die Kaffees',
+            translation: 'coffee',
+            category: 'food',
+            hint: 'A drink that wakes you up.'
+        },
+        {
+            german: 'der Keks',
+            plural: 'die Kekse',
+            translation: 'cookie',
+            category: 'food',
+            hint: 'A snack you dunk in milk.'
+        },
+        {
+            german: 'der Tee',
+            plural: 'die Tees',
+            translation: 'tea',
+            category: 'food',
+            hint: 'The result of steeping leaves in hot water.'
+        },
+        {
+            german: 'der Zucker',
+            plural: 'die Zucker',
+            translation: 'sugar',
+            category: 'food',
+            hint: 'Put this in your coffee to make it sweet.'
+        }
+    ]
 ];
 
-round3 = [
-    {
-        german: 'der Honig',
-        plural: 'die Honige',
-        translation: 'honey',
-        category: 'food',
-        hint: 'A sweetener made by bees.'
-    },
-    {
-        german: 'der Kaffee',
-        plural: 'die Kaffees',
-        translation: 'coffee',
-        category: 'food',
-        hint: 'A drink that wakes you up.'
-    },
-    {
-        german: 'der Keks',
-        plural: 'die Kekse',
-        translation: 'cookie',
-        category: 'food',
-        hint: 'A snack you dunk in milk.'
-    },
-    {
-        german: 'der Tee',
-        plural: 'die Tees',
-        translation: 'tea',
-        category: 'food',
-        hint: 'The result of steeping leaves in hot water.'
-    },
-    {
-        german: 'der Zucker',
-        plural: 'die Zucker',
-        translation: 'sugar',
-        category: 'food',
-        hint: 'Put this in your coffee to make it sweet.'
-    }
-];
 
 // getRandom and gimmeWords work in conjunction to pick a random word from wordArray
 function getRandom(object) {
@@ -782,9 +785,6 @@ function checkAnswer() {
         // move the current word to the end of the array
         moveWord();
         
-        // pop (i.e., remove) the last word in the array
-        // wordArray.pop();
-        
         // randomize wordArray and populate the flashcards 
         gimmeWords();
         
@@ -809,10 +809,14 @@ function checkAnswer() {
     }
     
     // when the wordArray is empty, display the next-level modal box and update the level that the user has reached
-    if (wordArray.length <= 0) {
+    if (wordArray.length <= 0 && gameArray.length > 1) {
         updateLevel();
         $('.modal').css('display', 'block');
-    } 
+    } else if (wordArray.length == 0 && gameArray.length == 1) {
+        setTimeout(function waitForZero() {
+            alert(`Du sprichst Deutsch! Sort of!`);
+        }, 200);
+    }
 
     chameleonColors();
     updateCountdown();
@@ -850,13 +854,18 @@ $('#answer-key').on('click', function() {
 // continue button in modal popup; this progresses users to the next level
 $('#continue').on('click', function() {
     $('.modal').css('display', 'none');
-    wordArray.push.apply(wordArray, round2);
+
+    for (let nextArr = 1; nextArr < 2; nextArr++) {
+        if (gameArray.length > 1) {
+            wordArray.push.apply(wordArray, gameArray[nextArr]);
+            gameArray.splice(gameArray[nextArr], 1);
+        }
+    }
+
     gimmeWords();
     categoryColors();
     updateCountdown();
     revealCountdownText();
-    console.info(wordArray);
-    console.log(round2)
 });
 
 // make the category selection area appear under the header, when the categories link is clicked
