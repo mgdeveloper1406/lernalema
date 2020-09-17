@@ -130,13 +130,14 @@ li:hover {
 }
 #categories-box {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
 }
 .category-buttons {
     margin: 5px;
-    padding: 10px;
+    padding: 15px;
     position: relative;
 }
 .selection-circle {
@@ -151,6 +152,8 @@ li:hover {
 }
 #select-animals,
 #select-food,
+#select-home,
+#select-nature,
 #select-numbers,
 #select-people,
 #select-phrases {
@@ -160,6 +163,8 @@ li:hover {
 }
 #animals-color,
 #food-color,
+#home-color,
+#nature-color,
 #numbers-color,
 #people-color,
 #phrases-color {
@@ -170,12 +175,19 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 #animals-color {
     background-color: rgb(9, 148, 189);
 }
 #food-color {
     background-color: rgb(244, 67, 54);
+}
+#home-color {
+    background-color: rgb(92, 40, 66);
+}
+#nature-color {
+    background-color: rgb(46, 139, 87);
 }
 #numbers-color {
     background-color: rgb(107, 106, 158);
@@ -185,6 +197,9 @@ li:hover {
 }
 #phrases-color {
     background-color: rgb(206, 60, 94);
+}
+.category-icons {
+    height: 30px;
 }
 .label-text {
     font-family: 'dinosaur', sans-serif;
