@@ -670,6 +670,41 @@ gameArray = [
             translation: 'sugar',
             category: 'food',
             hint: 'Put this in your coffee to make it sweet.'
+        },
+        {
+            german: 'der Fisch',
+            plural: 'die Fische',
+            translation: 'fish',
+            category: 'animals',
+            hint: 'They have gills, scales, and fins.'
+        },
+        {
+            german: 'der Hund',
+            plural: 'die Hunde',
+            translation: 'dog',
+            category: 'animals',
+            hint: `Man's best friend.`
+        },
+        {
+            german: 'die Katze',
+            plural: 'die Katzen',
+            translation: 'cat',
+            category: 'animals',
+            hint: 'They always land on their feet.'
+        },
+        {
+            german: 'die Maus',
+            plural: 'die Mäuse',
+            translation: 'mouse',
+            category: 'animals',
+            hint: 'An animal or a computer device.'
+        },
+        {
+            german: 'der Vogel',
+            plural: 'die Vögel',
+            translation: 'bird',
+            category: 'animals',
+            hint: 'These feathered animals fly and sing.'
         }
     ]
 ];
