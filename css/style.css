@@ -199,7 +199,7 @@ li:hover {
     background-color: rgb(206, 60, 94);
 }
 .category-icons {
-    height: 30px;
+    width: 30px;
 }
 .label-text {
     font-family: 'dinosaur', sans-serif;
