@@ -607,6 +607,36 @@ gameArray = [
     
     round3 = [
         {
+            german: 'sechs',
+            translation: 'six',
+            category: 'numbers',
+            hint: 'A hexagon has this many sides.'
+        },
+        {
+            german: 'sieben',
+            translation: 'seven',
+            category: 'numbers',
+            hint: 'This number ate nine.'
+        },
+        {
+            german: 'acht',
+            translation: 'eight',
+            category: 'numbers',
+            hint: 'Magic __ ball.'
+        },
+        {
+            german: 'neun',
+            translation: 'nine',
+            category: 'numbers',
+            hint: 'Dial this number first, to call someone outside your office.'
+        },
+        {
+            german: 'zehn',
+            translation: 'ten',
+            category: 'numbers',
+            hint: 'The first two-digit number.'
+        },
+        {
             german: 'der Honig',
             plural: 'die Honige',
             translation: 'honey',
