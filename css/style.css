@@ -124,6 +124,30 @@ li:hover {
 
 /* CATEGORIES  */
 
+#lightning-container {
+    margin: 1rem;
+    text-align: center;
+}
+#tricolor-lightning {
+    height: 120px;
+    margin: .5rem;
+}
+h5 {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    color: rgb(255, 72, 0);
+    margin: 0 0 .1rem 0;
+}
+#lightning-text {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: rgb(95, 90, 81);
+}
 #categories-wrapper {
     display: none;
     background-color: rgb(245, 245, 245);
