@@ -709,7 +709,6 @@ gameArray = [
     ]
 ];
 
-
 // getRandom and gimmeWords work in conjunction to pick a random word from wordArray
 function getRandom(object) {
     let theKeys = Object.keys(object);
@@ -939,6 +938,8 @@ $('#continue').on('click', function() {
 
 // make the category selection area appear under the header, when the categories link is clicked
 $('#open-categories').on('click', function() {
+    $('#total-levels').html(gameArray.length);
+    
     if ($('#categories-wrapper').css('display') == ('none')) {
         $('header').addClass('header-shadow');
     } else {
