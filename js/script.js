@@ -938,8 +938,20 @@ $('#continue').on('click', function() {
 
 // make the category selection area appear under the header, when the categories link is clicked
 $('#open-categories').on('click', function() {
+    // update the number of levels remaining
     $('#total-levels').html(gameArray.length);
-    
+
+    // push the lengths of each round into arrLengths, then use the reduce() method to add the lengths and find the total number of game words
+    let arrLengths = [];
+    gameArray.forEach(arr => {
+        arrLengths.push(arr.length);
+    });
+    const reducer = (accumulator, currentValue) => accumulator + currentValue;
+    // NB: solvedArray.length added to include words that may have been spliced if the user has already started playing
+    const wordTotal = arrLengths.reduce(reducer, solvedArray.length);
+    $('#total-words').html(wordTotal);
+
+    // close the category selection, if the link is clicked again
     if ($('#categories-wrapper').css('display') == ('none')) {
         $('header').addClass('header-shadow');
     } else {
