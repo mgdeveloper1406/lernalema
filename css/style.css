@@ -124,6 +124,15 @@ li:hover {
 
 /* CATEGORIES  */
 
+#categories-wrapper {
+    display: none;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 1px 2px 7px 1px #545454;
+    border-bottom: 1px solid #9E9E9E;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+}
 #lightning-container {
     margin: 1rem;
     text-align: center;
@@ -147,15 +156,6 @@ h5 {
     font-style: normal;
     font-size: 1rem;
     color: rgb(95, 90, 81);
-}
-#categories-wrapper {
-    display: none;
-    background-color: rgb(245, 245, 245);
-    box-shadow: 1px 2px 7px 1px #545454;
-    border-bottom: 1px solid #9E9E9E;
-    width: 100%;
-    position: absolute;
-    z-index: 3;
 }
 #categories-box {
     display: flex;
