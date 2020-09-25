@@ -964,13 +964,15 @@ $('#open-categories').on('click', function() {
 
 $('#tricolor-lightning').on('click', function() {
     let lightningRound = [];
+    // needed to first splice words in wordArray and set them aside in solvedArray, to avoid duplicates. then the remaining rounds can be pushed into the lightningRound. finally, wordArray concatenates lightningRound and solvedArray.
     gameArray.forEach(round => {
-        if (round >= gameArray[1]) {
+        if (round === wordArray) {
+            solvedArray.push.apply(solvedArray, wordArray.splice(0));
+        } else {
             lightningRound.push.apply(lightningRound, round);
         }
     });
-    wordArray.push.apply(wordArray, lightningRound);
-    console.log(lightningRound);
+    wordArray = lightningRound.concat(solvedArray);
 
     gimmeWords();
     categoryColors();
