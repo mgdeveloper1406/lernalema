@@ -140,6 +140,7 @@ li:hover {
 #tricolor-lightning {
     height: 100px;
     margin: .5rem;
+    cursor: pointer;
 }
 h5 {
     font-family: 'dinosaur', sans-serif;
