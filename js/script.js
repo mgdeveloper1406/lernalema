@@ -962,6 +962,29 @@ $('#open-categories').on('click', function() {
     $('#categories-wrapper').slideToggle(800);
 });
 
+$('#tricolor-lightning').on('click', function() {
+    let lightningRound = [];
+    gameArray.forEach(round => {
+        if (round >= gameArray[1]) {
+            lightningRound.push.apply(lightningRound, round);
+        }
+    });
+    wordArray.push.apply(wordArray, lightningRound);
+    console.log(lightningRound);
+
+    gimmeWords();
+    categoryColors();
+    updateCountdown();
+    revealCountdownText();
+
+    if ($('#categories-wrapper').css('display') == ('block')) {
+        setTimeout(function removeHeaderShadow() {
+            $('header').removeClass('header-shadow');
+        }, 800);
+    }
+    $('#categories-wrapper').slideUp(800);
+});
+
 // toggle the visibility of the purple .selection-circle around the category-color label divs, when the corresponding input is checked (i.e., clicked)
 $('input[type=checkbox]').on('click', function() {
     $(this).next('label').children('div').children('div').toggle();
