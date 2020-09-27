@@ -674,11 +674,11 @@ const categoryColors = () => {
         $('#plural-zone').css('display', 'block');
         $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'home') {
-        $('#german-box').css('backgroundColor', '#5c2842');
-        $('#german-word, #german-plural').css('color', '#ffd700');
-        $('#line').css('backgroundColor', '#f0f8ff');
+        $('#german-box').css('backgroundColor', '#cd5c5c');
+        $('#german-word, #german-plural').css('color', '#ffffff');
+        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'block');
-        $('.curly-braces').css('color', '#f0f8ff');
+        $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'animals') {
         $('#german-box').css('backgroundColor', '#0994bd');
         $('#german-word, #german-plural').css('color', '#ffffff');
