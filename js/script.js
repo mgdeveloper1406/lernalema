@@ -17,66 +17,6 @@ const chameleonColors = () => {
 
 // wordArray = [
 //     {
-//         german: 'die Person',
-//         plural: 'die Menschen',
-//         translation: 'person',
-//         category: 'people',
-//     },
-//     {
-//         german: 'die Frau',
-//         plural: 'die Frauen',
-//         translation: 'woman',
-//         category: 'people',
-//     },
-//     {
-//         german: 'der Mann',
-//         plural: 'die Männer',
-//         translation: 'man',
-//         category: 'people',
-//     },
-//     {
-//         german: 'das Mädchen',
-//         plural: 'die Mädchen',
-//         translation: 'girl',
-//         category: 'people'
-//     },
-//     {
-//         german: 'der Junge',
-//         plural: 'die Jungen',
-//         translation: 'boy',
-//         category: 'people'
-//     },
-//     {
-//         german: 'die Tochter',
-//         plural: 'die Töchter',
-//         translation: 'daughter',
-//         category: 'people',
-//     },
-//     {
-//         german: 'der Sohn',
-//         plural: 'die Söhne',
-//         translation: 'son',
-//         category: 'people',
-//     },
-//     {
-//         german: 'die Mutter',
-//         plural: 'die Mütter',
-//         translation: 'mother',
-//         category: 'people',
-//     },
-//     {
-//         german: 'der Vater',
-//         plural: 'die Väter',
-//         translation: 'father',
-//         category: 'people',
-//     },
-//     {
-//         german: 'der Apfel',
-//         plural: 'die Äpfel',
-//         translation: 'apple',
-//         category: 'food'
-//     },
-//     {
 //         german: 'der Apfelsaft',
 //         plural: 'die Apfelsäfte',
 //         translation: 'apple juice',
@@ -86,12 +26,6 @@ const chameleonColors = () => {
 //         german: 'das Bier',
 //         plural: 'die Biere',
 //         translation: 'beer',
-//         category: 'food',
-//     },
-//     {
-//         german: 'das Brot',
-//         plural: 'die Brote',
-//         translation: 'bread',
 //         category: 'food',
 //     },
 //     {
@@ -113,12 +47,6 @@ const chameleonColors = () => {
 //         category: 'food',
 //     },
 //     {
-//         german: 'der Kaffee',
-//         plural: 'die Kaffees',
-//         translation: 'coffee',
-//         category: 'food',
-//     },
-//     {
 //         german: 'die Karotte',
 //         plural: 'die Karotten',
 //         translation: 'carrot',
@@ -128,18 +56,6 @@ const chameleonColors = () => {
 //         german: 'die Kartoffel',
 //         plural: 'die Kartoffeln',
 //         translation: 'potato',
-//         category: 'food'
-//     },
-//     {
-//         german: 'der Käse',
-//         plural: 'die Käse',
-//         translation: 'cheese',
-//         category: 'food'
-//     },
-//     {
-//         german: 'der Tee',
-//         plural: 'die Tees',
-//         translation: 'tea',
 //         category: 'food'
 //     },
 //     {
@@ -179,12 +95,6 @@ const chameleonColors = () => {
 //         category: 'animals'
 //     },
 //     {
-//         german: 'der Fisch',
-//         plural: 'die Fische',
-//         translation: 'fish',
-//         category: 'animals'
-//     },
-//     {
 //         german: 'die Fledermaus',
 //         plural: 'die Fledermäuse',
 //         translation: 'bat',
@@ -209,33 +119,15 @@ const chameleonColors = () => {
 //         category: 'animals'
 //     },
 //     {
-//         german: 'der Hund',
-//         plural: 'die Hunde',
-//         translation: 'dog',
-//         category: 'animals'
-//     },
-//     {
 //         german: 'der Käfer',
 //         plural: 'die Käfer',
 //         translation: 'beetle',
 //         category: 'animals'
 //     },
 //     {
-//         german: 'die Katze',
-//         plural: 'die Katzen',
-//         translation: 'cat',
-//         category: 'animals'
-//     },
-//     {
 //         german: 'die Kuh',
 //         plural: 'due Kühe',
 //         translation: 'cow',
-//         category: 'animals'
-//     },
-//     {
-//         german: 'die Maus',
-//         plural: 'die Mäuse',
-//         translation: 'mouse',
 //         category: 'animals'
 //     },
 //     {
@@ -260,12 +152,6 @@ const chameleonColors = () => {
 //         german: 'die Spinne',
 //         plural: 'die Spinnen',
 //         translation: 'spider',
-//         category: 'animals'
-//     },
-//     {
-//         german: 'der Vogel',
-//         plural: 'die Vögel',
-//         translation: 'bird',
 //         category: 'animals'
 //     },
 //     {
@@ -705,6 +591,41 @@ gameArray = [
             translation: 'bird',
             category: 'animals',
             hint: 'These feathered animals fly and sing.'
+        },
+        {
+            german: 'der Löffel',
+            plural: 'die Löffel',
+            translation: 'spoon',
+            category: 'home',
+            hint: 'You use this utensil to eat ice cream.'
+        },
+        {
+            german: 'die Schüssel',
+            plural: 'die Schüsseln',
+            translation: 'bowl',
+            category: 'home',
+            hint: 'A concave dish used for soup.'
+        },
+        {
+            german: 'die Tasse',
+            plural: 'die Tassen',
+            translation: 'cup',
+            category: 'home',
+            hint: 'You drink out of this.'
+        },
+        {
+            german: 'der Teller',
+            plural: 'die Teller',
+            translation: 'plate',
+            category: 'home',
+            hint: 'A flat dish that holds food.'
+        },
+        {
+            german: 'der Tisch',
+            plural: 'die Tische',
+            translation: 'table',
+            category: 'home',
+            hint: 'A flat surface; generally has four legs.'
         }
     ]
 ];
