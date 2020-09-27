@@ -5,6 +5,7 @@ let i;
 let level = 1;
 let round2;
 let round3;
+let round4;
 
 // change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
@@ -626,6 +627,44 @@ gameArray = [
             translation: 'table',
             category: 'home',
             hint: 'A flat surface; generally has four legs.'
+        }
+    ],
+
+    round4 = [
+        {
+            german: 'der Baum',
+            plural: 'die Bäume',
+            translation: 'tree',
+            category: 'nature',
+            hint: ''
+        },
+        {
+            german: 'die Blume',
+            plural: 'die Blumen',
+            translation: 'flower',
+            category: 'nature',
+            hint: ''
+        },
+        {
+            german: 'der Himmel',
+            plural: 'die Himmel',
+            translation: 'sky',
+            category: 'nature',
+            hint: ''
+        },
+        {
+            german: 'der Mond',
+            plural: 'die Monde',
+            translation: 'moon',
+            category: 'nature',
+            hint: ''
+        },
+        {
+            german: 'die Sonne',
+            plural: 'die Sonnen',
+            translation: 'sun',
+            category: 'nature',
+            hint: ''
         }
     ]
 ];
