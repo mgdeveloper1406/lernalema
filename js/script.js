@@ -890,8 +890,10 @@ function moveWord() {
 
 // update the modal-box level by one 
 function updateLevel() {
-    level += 1;
-    $('#level').html(level);
+    if ($('.modal').css('display') === 'none') {
+        level += 1;
+        $('#level').html(level);
+    }
 }
 
 // check that the user's input matches the translation given in the word array. if so, clear the input field and display the next flashcard. else, the console logs the input and the answer, and the input field flashes red while the input value fades. 
@@ -957,7 +959,7 @@ $(document).keypress(function(event) {
     if (event.keyCode === 13) {
         checkAnswer();
         event.preventDefault();
-    }
+    } 
 });
 
 // the hint will slide out sideways and bounce back a bit
