@@ -632,6 +632,36 @@ gameArray = [
 
     round4 = [
         {
+            german: 'Guten Abend!',
+            translation: 'good evening',
+            category: 'phrases',
+            hint: 'A late afternoon greeting.'
+        },
+        {
+            german: 'Guten Morgen!',
+            translation: 'good morning',
+            category: 'phrases',
+            hint: 'A way to greet someone before noon.'
+        },
+        {
+            german: 'Gute Nacht!',
+            translation: 'good night',
+            category: 'phrases',
+            hint: 'A nighttime greeting.'
+        },
+        {
+            german: 'Guten Tag!',
+            translation: 'good day',
+            category: 'phrases',
+            hint: 'A general greeting.'
+        },
+        {
+            german: 'Willkommen',
+            translation: 'welcome',
+            category: 'phrases',
+            hint: 'An invitation.'
+        },
+        {
             german: 'der Baum',
             plural: 'die Bäume',
             translation: 'tree',
