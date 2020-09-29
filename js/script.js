@@ -692,6 +692,46 @@ gameArray = [
             hint: 'Everyone will have this many minutes of fame.'
         },
         {
+            german: 'die Ente',
+            plural: 'die Enten',
+            translation: 'duck',
+            category: 'animals',
+            hint: 'Quack, quack.'
+
+        },
+        {
+            german: 'das Huhn',
+            plural: 'die Hühner',
+            translation: ['hen', 'chicken'],
+            category: 'animals',
+            hint: 'Cluck, cluck.'
+
+        },
+        {
+            german: 'die Kuh',
+            plural: 'die Kühe',
+            translation: 'cow',
+            category: 'animals',
+            hint: 'Moo.'
+
+        },
+        {
+            german: 'das Pferd',
+            plural: 'die Pferde',
+            translation: 'horse',
+            category: 'animals',
+            hint: 'Neigh.'
+
+        },
+        {
+            german: 'das Schwein',
+            plural: 'die Schweine',
+            translation: 'pig',
+            category: 'animals',
+            hint: 'Oink, oink.'
+
+        },
+        {
             german: 'der Baum',
             plural: 'die Bäume',
             translation: 'tree',
