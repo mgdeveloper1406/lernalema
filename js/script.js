@@ -662,6 +662,36 @@ gameArray = [
             hint: 'An invitation.'
         },
         {
+            german: 'elf',
+            translation: 'eleven',
+            category: 'numbers',
+            hint: 'This number sounds like "elven."'
+        },
+        {
+            german: 'zwölf',
+            translation: 'twelve',
+            category: 'numbers',
+            hint: 'The top number on a clock face.'
+        },
+        {
+            german: 'dreizehn',
+            translation: 'thirteen',
+            category: 'numbers',
+            hint: `A baker's dozen.`
+        },
+        {
+            german: 'vierzehn',
+            translation: 'fourteen',
+            category: 'numbers',
+            hint: 'The number of days in a fortnight.'
+        },
+        {
+            german: 'fünfzehn',
+            translation: 'fifteen',
+            category: 'numbers',
+            hint: 'Everyone will have this many minutes of fame.'
+        },
+        {
             german: 'der Baum',
             plural: 'die Bäume',
             translation: 'tree',
