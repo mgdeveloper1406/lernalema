@@ -636,35 +636,35 @@ gameArray = [
             plural: 'die Bäume',
             translation: 'tree',
             category: 'nature',
-            hint: ''
+            hint: 'What has a trunk and leaves?'
         },
         {
             german: 'die Blume',
             plural: 'die Blumen',
             translation: 'flower',
             category: 'nature',
-            hint: ''
+            hint: 'Something that blooms.'
         },
         {
             german: 'der Himmel',
             plural: 'die Himmel',
             translation: 'sky',
             category: 'nature',
-            hint: ''
+            hint: 'The blue expanse above us.'
         },
         {
             german: 'der Mond',
             plural: 'die Monde',
             translation: 'moon',
             category: 'nature',
-            hint: ''
+            hint: 'This heavenly body orbits Earth.'
         },
         {
             german: 'die Sonne',
             plural: 'die Sonnen',
             translation: 'sun',
             category: 'nature',
-            hint: ''
+            hint: 'The largest star in our solar system.'
         }
     ]
 ];
