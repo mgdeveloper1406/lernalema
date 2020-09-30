@@ -632,6 +632,41 @@ gameArray = [
 
     round4 = [
         {
+            german: 'der Bruder',
+            plural: 'die Brüder',
+            translation: 'brother',
+            category: 'people',
+            hint: 'A sibling that identifies as a boy.'
+        },
+        {
+            german: 'das Geshwister',
+            plural: 'die Geschwister',
+            translation: 'sibling',
+            category: 'people',
+            hint: 'A brother or a sister.'
+        },
+        {
+            german: 'die Oma',
+            plural: 'die Omas',
+            translation: 'grandma',
+            category: 'people',
+            hint: `Your parent's mother.`
+        },
+        {
+            german: 'der Opa',
+            plural: 'die Opas',
+            translation: 'grandpa',
+            category: 'people',
+            hint: `Your parent's father.`
+        },
+        {
+            german: 'die Schwester',
+            plural: 'die Schwestern',
+            translation: 'sister',
+            category: 'people',
+            hint: 'A sibling that identifies as a girl.'
+        },
+        {
             german: 'Guten Abend!',
             translation: 'good evening',
             category: 'phrases',
