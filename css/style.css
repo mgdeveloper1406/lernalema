@@ -498,13 +498,37 @@ figure {
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
+    margin-bottom: 1.5rem;
 }
 #level {
     font-family: 'dinosaur', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 7.8rem;
-    color: rgb(248 248 255);
+    color: rgb(248, 248, 255);
+}
+.review-arrows {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: rgb(109, 103, 93);
+}
+#mini-review {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: .03rem;
+    color: rgb(97, 183, 223);
+    padding: 0 .3rem;
+    display: inline;
+    cursor: pointer;
+}
+#mini-review:hover {
+    padding: 0 .1rem;
+    color: rgb(63, 101, 155);
 }
 .modal-footer {
     padding: 2px 16px;
