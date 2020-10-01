@@ -1016,6 +1016,12 @@ $('#answer-key').on('click', function() {
     }, 2000);
 });
 
+// open the end-of-round review 
+$('#mini-review').on('click', function() {
+    $('#modal-body').css('display', 'none');
+    $('#modal-review').css('display', 'block');
+});
+
 // continue button in modal popup; this progresses users to the next level
 $('#continue').on('click', function() {
     $('.modal').css('display', 'none');
