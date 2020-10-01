@@ -478,12 +478,14 @@ input#your-translation::placeholder {
     padding: 2px 16px;
     text-align: center;
 }
-h1#congrats {
+h1#congrats,
+h1#review-title {
     color: rgb(201, 124, 194);
     margin: 2rem 0;
     font-size: 3rem;
 }
-h2#congrats-sub {
+h2#congrats-sub,
+h2#review-sub {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .12rem;
@@ -530,6 +532,21 @@ figure {
     padding: 0;
     color: rgb(217, 159, 247);
     transition-duration: 2s;
+}
+#modal-review {
+    display: none;
+    padding: 2px 35px;
+    text-align: center;
+}
+.review-words {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    margin: 1.5rem auto;
+    width: fit-content;
+    cursor: pointer;
 }
 .modal-footer {
     padding: 2px 16px;
