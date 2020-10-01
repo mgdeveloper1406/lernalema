@@ -527,8 +527,9 @@ figure {
     cursor: pointer;
 }
 #mini-review:hover {
-    padding: 0 .1rem;
-    color: rgb(63, 101, 155);
+    padding: 0;
+    color: rgb(217, 159, 247);
+    transition-duration: 2s;
 }
 .modal-footer {
     padding: 2px 16px;
