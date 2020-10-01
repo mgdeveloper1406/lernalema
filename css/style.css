@@ -474,7 +474,7 @@ input#your-translation::placeholder {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1;}
 }
-.modal-body {
+#modal-body {
     padding: 2px 16px;
     text-align: center;
 }
@@ -491,6 +491,9 @@ h2#review-sub {
     letter-spacing: .12rem;
     color: rgb(109, 103, 93);
     padding-bottom: 1.5rem;
+}
+h2#review-sub {
+    text-transform: unset;
 }
 figure {
     display: flex;
@@ -548,7 +551,7 @@ figure {
     width: fit-content;
     cursor: pointer;
 }
-.modal-footer {
+#modal-footer {
     padding: 2px 16px;
 }
 #continue {
