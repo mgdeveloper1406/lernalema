@@ -975,6 +975,7 @@ function checkAnswer() {
     if (wordArray.length <= 0 && gameArray.length > 1) {
         updateLevel();
         $('.modal').css('display', 'block');
+        $('#modal-body').css('display', 'block');
     } else if (wordArray.length == 0 && gameArray.length == 1) {
         setTimeout(function waitForZero() {
             alert(`Du sprichst Deutsch! Sort of!`);
@@ -1028,6 +1029,22 @@ $('#mini-review').on('click', function() {
         let p = $('<p class="review-words"></p>');
         $(p).text(element.german);
         $('#review-box').append(p);
+
+        if (element.category === 'animals') {
+            $(p).css('color', '#0994bd');
+        } else if (element.category === 'food') {
+            $(p).css('color', '#f44336');
+        } else if (element.category === 'home') {
+            $(p).css('color', '#cd5c5c');
+        } else if (element.category === 'nature') {
+            $(p).css('color', '#2e8b57');
+        } else if (element.category === 'numbers') {
+            $(p).css('color', '#6b6a9e');
+        } else if (element.category === 'people') {
+            $(p).css('color', '#008b8b');
+        } else if (element.category === 'phrases') {
+            $(p).css('color', '#ce3c5e');
+        }
     });
     
     console.log(miniReviewArray);
@@ -1035,6 +1052,7 @@ $('#mini-review').on('click', function() {
 
 // continue button in modal popup; this progresses users to the next level
 $('#continue').on('click', function() {
+    $('#modal-review').css('display', 'none');
     $('.modal').css('display', 'none');
 
     for (let nextArr = 1; nextArr < 2; nextArr++) {
