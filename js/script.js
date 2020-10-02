@@ -318,6 +318,8 @@ const chameleonColors = () => {
 // ];
 
 solvedArray = [];
+miniReviewArray = [];
+endReviewArray = [];
 
 gameArray = [
     wordArray = [
@@ -1014,12 +1016,21 @@ $('#answer-key').on('click', function() {
     setTimeout(function endSparkle() {
         $('input').removeClass('add-sparkle');
     }, 2000);
+    miniReviewArray.push(randomWord);
 });
 
 // open the end-of-round review 
 $('#mini-review').on('click', function() {
     $('#modal-body').css('display', 'none');
     $('#modal-review').css('display', 'block');
+
+    miniReviewArray.forEach(element => {
+        let p = $('<p class="review-words"></p>');
+        $(p).text(element.german);
+        $('#review-box').append(p);
+    });
+    
+    console.log(miniReviewArray);
 });
 
 // continue button in modal popup; this progresses users to the next level
