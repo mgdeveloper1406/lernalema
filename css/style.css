@@ -542,7 +542,7 @@ figure {
     text-align: center;
 }
 #review-box {
-    height: 250px;
+    max-height: 250px;
     overflow-y: scroll;
     background-color: rgb(240, 248, 255);
 }
