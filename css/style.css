@@ -541,6 +541,11 @@ figure {
     padding: 2px 35px;
     text-align: center;
 }
+#review-box {
+    height: 250px;
+    overflow-y: scroll;
+    background-color: rgb(240, 248, 255);
+}
 .review-words {
     font-family: 'dinosaur', sans-serif;
     font-weight: 700;
