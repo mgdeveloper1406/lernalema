@@ -483,6 +483,7 @@ h1#review-title {
     color: rgb(201, 124, 194);
     margin: 2rem 0;
     font-size: 3rem;
+    padding: 0;
 }
 h2#congrats-sub,
 h2#review-sub {
@@ -650,7 +651,7 @@ footer {
     /* MODAL BOX */
 
     .modal {
-        padding-top: 20%;
+        padding-top: 10%;
     }
     .modal-content {
         width: 80%;
@@ -665,6 +666,15 @@ footer {
     figure {
         height: 235px;
         margin: 5px;
+    }
+    h1#review-title {
+        margin: 1.5rem auto 1rem;
+        font-size: 2.7rem;
+        line-height: 2.8rem;
+    }
+    h2#review-sub {
+        font-size: 1rem;
+        padding-bottom: 1rem;
     }
 
     /* FOOTER */
