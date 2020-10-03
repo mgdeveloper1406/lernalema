@@ -1026,25 +1026,35 @@ $('#mini-review').on('click', function() {
     $('#modal-review').css('display', 'block');
 
     miniReviewArray.forEach(element => {
-        let p = $('<p class="review-words"></p>');
-        $(p).text(element.german);
-        $('#review-box').append(p);
+        let reviewWords = $('<p class="review-words"></p>');
+        let reviewAccentL = $('<span class="review-accents"></span>');
+        let reviewAnswers = $('<p class="review-answers"></p>');
+        let reviewAccentR = $('<span class="review-accents"></span>');
+        $(reviewWords).text(element.german);
+        $(reviewAnswers).text(element.translation);
+        $('#review-box').append(reviewWords, reviewAccentL, reviewAnswers, reviewAccentR);
 
         if (element.category === 'animals') {
-            $(p).css('color', '#0994bd');
+            $(reviewWords).css('color', '#0994bd');
         } else if (element.category === 'food') {
-            $(p).css('color', '#f44336');
+            $(reviewWords).css('color', '#f44336');
         } else if (element.category === 'home') {
-            $(p).css('color', '#cd5c5c');
+            $(reviewWords).css('color', '#cd5c5c');
         } else if (element.category === 'nature') {
-            $(p).css('color', '#2e8b57');
+            $(reviewWords).css('color', '#2e8b57');
         } else if (element.category === 'numbers') {
-            $(p).css('color', '#6b6a9e');
+            $(reviewWords).css('color', '#6b6a9e');
         } else if (element.category === 'people') {
-            $(p).css('color', '#008b8b');
+            $(reviewWords).css('color', '#008b8b');
         } else if (element.category === 'phrases') {
-            $(p).css('color', '#ce3c5e');
+            $(reviewWords).css('color', '#ce3c5e');
         }
+
+        $(reviewWords).on('click', function() {
+            $(reviewAccentL).css('display', 'inline-block');
+            $(reviewAnswers).css('display', 'inline-block');
+            $(reviewAccentR).css('display', 'inline-block');
+        });
     });
 });
 
