@@ -1046,12 +1046,13 @@ $('#mini-review').on('click', function() {
             $(p).css('color', '#ce3c5e');
         }
     });
-    
-    console.log(miniReviewArray);
 });
 
 // continue button in modal popup; this progresses users to the next level
 $('#continue').on('click', function() {
+    endReviewArray.push.apply(endReviewArray, miniReviewArray.splice(0));
+    $('#review-box').text('');
+
     $('#modal-review').css('display', 'none');
     $('.modal').css('display', 'none');
 
