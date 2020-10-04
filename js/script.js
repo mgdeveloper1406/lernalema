@@ -1005,6 +1005,7 @@ $('#hint-bulb').on('click', function() {
     $('#hint-message').animate({'right': '145px'}, 600, function() {
         $('#hint-message').animate({'right': '130px'}, 300);
     });
+    miniReviewArray.push(randomWord);
 });
 
 // set the correct translation in the input field, when the answer key is clicked
