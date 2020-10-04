@@ -1031,7 +1031,14 @@ $('#mini-review').on('click', function() {
         let reviewAnswers = $('<p class="review-answers"></p>');
         let reviewAccentR = $('<span class="review-accents"></span>');
         $(reviewWords).text(element.german);
-        $(reviewAnswers).text(element.translation);
+        function arrayCheck() {
+            if (typeof element.translation === 'string') {
+                $(reviewAnswers).text(element.translation);
+            } else {
+                $(reviewAnswers).text(element.translation[0]);
+            }
+        };
+        arrayCheck();
         $('#review-box').append(reviewWords, reviewAccentL, reviewAnswers, reviewAccentR);
 
         if (element.category === 'animals') {
