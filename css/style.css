@@ -554,17 +554,14 @@ figure {
     font-style: normal;
     font-size: 1.5rem;
     letter-spacing: .1rem;
-    margin: 1.5rem auto 0;
+    margin: 1.5rem auto .2rem;
     width: fit-content;
     cursor: pointer;
 }
-.review-accents {
+.down-arrows {
     display: none;
-    width: 1.3rem;
-    height: 2px;
-    vertical-align: middle;
-    border-radius: 100px;
-    background-color: rgb(176, 196, 222);
+    height: 15px;
+    margin: 0 auto;
 }
 .review-answers {
     display: none;
