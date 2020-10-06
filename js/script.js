@@ -1026,6 +1026,14 @@ $('#mini-review').on('click', function() {
     $('#modal-body').css('display', 'none');
     $('#modal-review').css('display', 'block');
 
+    if (miniReviewArray.length == 1) {
+        $('#review-count').html(`this ${miniReviewArray.length} word`);
+        $('#each-it').html('it');
+    } else if (miniReviewArray.length >= 2) {
+        $('#review-count').html(`these ${miniReviewArray.length} words`);
+        $('#each-it').html('each word');
+    }
+
     miniReviewArray.forEach(element => {
         let reviewWords = $('<p class="review-words"></p>');
         let reviewAccentL = $('<span class="review-accents"></span>');
