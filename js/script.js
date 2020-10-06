@@ -1036,19 +1036,15 @@ $('#mini-review').on('click', function() {
 
     miniReviewArray.forEach(element => {
         let reviewWords = $('<p class="review-words"></p>');
-        let reviewAccentL = $('<span class="review-accents"></span>');
+        let downArrows = $('<img class="down-arrows" src="images/review-arrows.svg" />');
         let reviewAnswers = $('<p class="review-answers"></p>');
-        let reviewAccentR = $('<span class="review-accents"></span>');
         $(reviewWords).text(element.german);
-        function arrayCheck() {
-            if (typeof element.translation === 'string') {
-                $(reviewAnswers).text(element.translation);
-            } else {
-                $(reviewAnswers).text(element.translation[0]);
-            }
-        };
-        arrayCheck();
-        $('#review-box').append(reviewWords, reviewAccentL, reviewAnswers, reviewAccentR);
+        if (typeof element.translation === 'string') {
+            $(reviewAnswers).text(element.translation);
+        } else {
+            $(reviewAnswers).text(element.translation[0]);
+        }
+        $('#review-box').append(reviewWords, downArrows, reviewAnswers);
 
         if (element.category === 'animals') {
             $(reviewWords).css('color', '#0994bd');
@@ -1067,9 +1063,8 @@ $('#mini-review').on('click', function() {
         }
 
         $(reviewWords).on('click', function() {
-            $(reviewAccentL).css('display', 'inline-block');
-            $(reviewAnswers).css('display', 'inline-block');
-            $(reviewAccentR).css('display', 'inline-block');
+            $(downArrows).css('display', 'block');
+            $(reviewAnswers).hide().fadeIn(2000);
         });
     });
 });
