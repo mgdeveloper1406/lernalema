@@ -931,7 +931,7 @@ function updateLevel() {
         level += 1;
         $('#level').html(level);
     }
-}
+};
 
 // check that the user's input matches the translation given in the word array. if so, clear the input field and display the next flashcard. else, the console logs the input and the answer, and the input field flashes red while the input value fades. 
 function checkAnswer() {
@@ -1000,12 +1000,19 @@ $(document).keypress(function(event) {
     } 
 });
 
+// add (hint bulb and answer key) words to a mini review and remove duplicates 
+function buildMiniReview() {
+    miniReviewArray.push(randomWord);
+    $.uniqueSort(miniReviewArray);
+};
+
 // the hint will slide out sideways and bounce back a bit
 $('#hint-bulb').on('click', function() {
     $('#hint-message').animate({'right': '145px'}, 600, function() {
         $('#hint-message').animate({'right': '130px'}, 300);
     });
-    miniReviewArray.push(randomWord);
+
+    buildMiniReview();
 });
 
 // set the correct translation in the input field, when the answer key is clicked
@@ -1018,7 +1025,8 @@ $('#answer-key').on('click', function() {
     setTimeout(function endSparkle() {
         $('input').removeClass('add-sparkle');
     }, 2000);
-    miniReviewArray.push(randomWord);
+
+    buildMiniReview();
 });
 
 // open the end-of-round review 
