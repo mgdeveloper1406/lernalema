@@ -1,11 +1,14 @@
 let randomWord;
 let wordArray;
-let solvedArray;
+let solvedArray = [];
+let miniReviewArray = [];
+let endReviewArray = [];
 let i;
 let level = 1;
 let round2;
 let round3;
 let round4;
+let round5;
 
 // change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
@@ -316,10 +319,6 @@ const chameleonColors = () => {
 //         category: 'phrases'
 //     },
 // ];
-
-solvedArray = [];
-miniReviewArray = [];
-endReviewArray = [];
 
 gameArray = [
     wordArray = [
@@ -802,7 +801,40 @@ gameArray = [
             translation: 'sun',
             category: 'nature',
             hint: 'The largest star in our solar system.'
-        }
+        },
+
+        round5 = [
+            {
+                german: 'Auf Wiedersehen!',
+                translation: 'goodbye',
+                category: 'phrases',
+                hint: 'A parting phrase.'
+            },
+            {
+                german: 'Bis bald!',
+                translation: 'see you soon',
+                category: 'phrases',
+                hint: 'If "bis später" means "see you later," and "bald" means "soon" . . . you got this!'
+            },
+            {
+                german: 'Bis später!',
+                translation: 'see you later',
+                category: 'phrases',
+                hint: 'Said while leaving: "____, alligator!"'
+            },
+            {
+                german: 'Tschüss!',
+                translation: 'bye',
+                category: 'phrases',
+                hint: 'An informal parting phrase.'
+            },
+            {
+                german: 'Viel Glück!',
+                translation: 'good luck',
+                category: 'phrases',
+                hint: 'What does the idiom "break a leg" mean?'
+            },
+        ]
     ]
 ];
 
