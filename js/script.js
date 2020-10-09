@@ -909,6 +909,12 @@ const categoryColors = () => {
         $('#german-word').css('color', '#ffffff');
         $('#plural-zone').css('display', 'none');
         $('#line').css('backgroundColor', '#ffd700');
+    } else if (randomWord.category === 'wardrobe') {
+        $('#german-box').css('backgroundColor', '#5e93f3');
+        $('#german-word, #german-plural').css('color', '#ffffff');
+        $('#line').css('backgroundColor', '#ffd700');
+        $('#plural-zone').css('display', 'block');
+        $('.curly-braces').css('color', '#ffd700');
     }
 };
 
@@ -1100,6 +1106,8 @@ $('#mini-review').on('click', function() {
             $(reviewWords).css('color', '#008b8b');
         } else if (element.category === 'phrases') {
             $(reviewWords).css('color', '#ce3c5e');
+        } else if (element.category === 'wardrobe') {
+            $(reviewWords).css('color', '#5e93f3');
         }
 
         $(reviewWords).on('click', function() {
