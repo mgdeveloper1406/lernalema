@@ -1156,7 +1156,7 @@ $('#open-categories').on('click', function() {
     $('#categories-wrapper').slideToggle(800);
 });
 
-$('#tricolor-lightning').on('click', function() {
+$('#lightning-round').on('click', function() {
     let lightningRound = [];
     // needed to first splice words in wordArray and set them aside in solvedArray, to avoid duplicates. then the remaining rounds can be pushed into the lightningRound. finally, wordArray concatenates lightningRound and solvedArray.
     gameArray.forEach(round => {
