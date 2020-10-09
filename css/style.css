@@ -185,7 +185,8 @@ button#lightning-round:hover {
 #select-nature,
 #select-numbers,
 #select-people,
-#select-phrases {
+#select-phrases,
+#select-wardrobe {
     clip-path: inset(100% 100% 100% 100%);
     position: absolute;
     visibility: hidden;
@@ -196,7 +197,8 @@ button#lightning-round:hover {
 #nature-color,
 #numbers-color,
 #people-color,
-#phrases-color {
+#phrases-color,
+#wardrobe-color {
     border-radius: 100%;
     width: 45px;
     height: 45px;
@@ -226,6 +228,9 @@ button#lightning-round:hover {
 }
 #phrases-color {
     background-color: rgb(206, 60, 94);
+}
+#wardrobe-color {
+    background-color: rgb(94, 147, 243);
 }
 .category-icons {
     width: 20px;
