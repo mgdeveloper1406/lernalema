@@ -386,7 +386,37 @@ gameArray = [
             translation: 'no',
             category: 'phrases',
             hint: 'Nein means nein!'
-        }
+        },
+        {
+            german: 'eins',
+            translation: 'one',
+            category: 'numbers',
+            hint: 'The loneliest number.'
+        },
+        {
+            german: 'zwei',
+            translation: 'two',
+            category: 'numbers',
+            hint: 'It takes __ to tango.'
+        },
+        {
+            german: 'drei',
+            translation: 'three',
+            category: 'numbers',
+            hint: 'How many sides does a triangle have?'
+        },
+        {
+            german: 'vier',
+            translation: 'four',
+            category: 'numbers',
+            hint: 'You need this many quarters to make $1.'
+        },
+        {
+            german: 'fünf',
+            translation: 'five',
+            category: 'numbers',
+            hint: 'V, as a Roman numeral.'
+        },
     ],
     
     round2 = [
@@ -426,34 +456,34 @@ gameArray = [
             hint: 'A man with a child.'
         },
         {
-            german: 'eins',
-            translation: 'one',
+            german: 'sechs',
+            translation: 'six',
             category: 'numbers',
-            hint: 'The loneliest number.'
+            hint: 'A hexagon has this many sides.'
         },
         {
-            german: 'zwei',
-            translation: 'two',
+            german: 'sieben',
+            translation: 'seven',
             category: 'numbers',
-            hint: 'It takes __ to tango.'
+            hint: 'This number ate nine.'
         },
         {
-            german: 'drei',
-            translation: 'three',
+            german: 'acht',
+            translation: 'eight',
             category: 'numbers',
-            hint: 'How many sides does a triangle have?'
+            hint: 'Magic __ ball.'
         },
         {
-            german: 'vier',
-            translation: 'four',
+            german: 'neun',
+            translation: 'nine',
             category: 'numbers',
-            hint: 'You need this many quarters to make $1.'
+            hint: 'Dial this number first, to call someone outside your office.'
         },
         {
-            german: 'fünf',
-            translation: 'five',
+            german: 'zehn',
+            translation: 'ten',
             category: 'numbers',
-            hint: 'V, as a Roman numeral.'
+            hint: 'The first two-digit number.'
         },
         {
             german: 'der Apfel',
@@ -489,40 +519,46 @@ gameArray = [
             translation: 'water',
             category: 'food',
             hint: 'H₂0—you should probably drink more of this!'
+        },
+        {
+            german: 'das Hemd',
+            plural: 'die Hemden',
+            translation: 'shirt',
+            category: 'wardrobe',
+            hint: 'A garment to clothe the upper body.'
+        },
+        {
+            german: 'die Hose',
+            plural: 'die Hosen',
+            translation: 'pants',
+            category: 'wardrobe',
+            hint: `If you're a liar, these are on fire.`
+        },
+        {
+            german: 'das Kleid',
+            plural: 'die Kleider',
+            translation: 'dress',
+            category: 'wardrobe',
+            hint: 'Brides traditionally wear a white one.'
+        },
+        {
+            german: 'der Rock',
+            plural: 'die Röcke',
+            translation: 'skirt',
+            category: 'wardrobe',
+            hint: 'A lower-body garment that can be mini, midi, or maxi.'
+        },
+        {
+            german: 'die Unterwäsche',
+            plural: 'die Unterwäschen',
+            translation: 'underwear',
+            category: 'wardrobe',
+            hint: `Generally worn under your clothes, unless you're a superhero.` 
         }
     ],
     
     round3 = [
-        {
-            german: 'sechs',
-            translation: 'six',
-            category: 'numbers',
-            hint: 'A hexagon has this many sides.'
-        },
-        {
-            german: 'sieben',
-            translation: 'seven',
-            category: 'numbers',
-            hint: 'This number ate nine.'
-        },
-        {
-            german: 'acht',
-            translation: 'eight',
-            category: 'numbers',
-            hint: 'Magic __ ball.'
-        },
-        {
-            german: 'neun',
-            translation: 'nine',
-            category: 'numbers',
-            hint: 'Dial this number first, to call someone outside your office.'
-        },
-        {
-            german: 'zehn',
-            translation: 'ten',
-            category: 'numbers',
-            hint: 'The first two-digit number.'
-        },
+        
         {
             german: 'der Honig',
             plural: 'die Honige',
