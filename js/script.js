@@ -490,7 +490,6 @@ gameArray = [
             category: 'food',
             hint: 'H₂0—you should probably drink more of this!'
         }
-        
     ],
     
     round3 = [
@@ -768,20 +767,6 @@ gameArray = [
 
         },
         {
-            german: 'der Baum',
-            plural: 'die Bäume',
-            translation: 'tree',
-            category: 'nature',
-            hint: 'What has a trunk and leaves?'
-        },
-        {
-            german: 'die Blume',
-            plural: 'die Blumen',
-            translation: 'flower',
-            category: 'nature',
-            hint: 'Something that blooms.'
-        },
-        {
             german: 'der Himmel',
             plural: 'die Himmel',
             translation: 'sky',
@@ -802,39 +787,89 @@ gameArray = [
             category: 'nature',
             hint: 'The largest star in our solar system.'
         },
+        {
+            german: 'der Stern',
+            plural: 'die Sterne',
+            translation: 'star',
+            category: 'nature',
+            hint: 'Twinkle, twinkle.'
+        },
+        {
+            german: 'die Wolke',
+            plural: 'die Wolken',
+            translation: 'cloud',
+            category: 'nature',
+            hint: 'Every one of these has a silver lining.'
+        }
+    ],
 
-        round5 = [
-            {
-                german: 'Auf Wiedersehen!',
-                translation: 'goodbye',
-                category: 'phrases',
-                hint: 'A parting phrase.'
-            },
-            {
-                german: 'Bis bald!',
-                translation: 'see you soon',
-                category: 'phrases',
-                hint: 'If "bis später" means "see you later," and "bald" means "soon" . . . you got this!'
-            },
-            {
-                german: 'Bis später!',
-                translation: 'see you later',
-                category: 'phrases',
-                hint: 'Said while leaving: "____, alligator!"'
-            },
-            {
-                german: 'Tschüss!',
-                translation: 'bye',
-                category: 'phrases',
-                hint: 'An informal parting phrase.'
-            },
-            {
-                german: 'Viel Glück!',
-                translation: 'good luck',
-                category: 'phrases',
-                hint: 'What does the idiom "break a leg" mean?'
-            },
-        ]
+    round5 = [
+        {
+            german: 'Auf Wiedersehen!',
+            translation: 'goodbye',
+            category: 'phrases',
+            hint: 'A parting phrase.'
+        },
+        {
+            german: 'Bis bald!',
+            translation: 'see you soon',
+            category: 'phrases',
+            hint: 'If "bis später" means "see you later," and "bald" means "soon" . . . you got this!'
+        },
+        {
+            german: 'Bis später!',
+            translation: 'see you later',
+            category: 'phrases',
+            hint: 'Said while leaving: "____, alligator!"'
+        },
+        {
+            german: 'Tschüss!',
+            translation: 'bye',
+            category: 'phrases',
+            hint: 'An informal parting phrase.'
+        },
+        {
+            german: 'Viel Glück!',
+            translation: 'good luck',
+            category: 'phrases',
+            hint: 'What does the idiom "break a leg" mean?'
+        },
+        {
+            german: 'der Baum',
+            plural: 'die Bäume',
+            translation: 'tree',
+            category: 'nature',
+            hint: 'What has a trunk and leaves?'
+        },
+        {
+            german: 'die Blume',
+            plural: 'die Blumen',
+            translation: 'flower',
+            category: 'nature',
+            hint: 'Something that blooms.'
+        },
+        {
+            german: 'der Berg',
+            plural: 'die Berge',
+            translation: 'mountain',
+            category: 'nature',
+            hint: 'Everest is the tallest one.'
+        },
+        {
+            german: 'der Hügel',
+            plural: 'die Hügel',
+            translation: 'hill',
+            category: 'nature',
+            hint: 'These can be rolling without ever moving.'
+        },
+        {
+            german: 'das Tal',
+            plural: 'die Täler',
+            translation: 'valley',
+            category: 'nature',
+            hint: 'A low area between mountains or hills.'
+        },
+        
     ]
 ];
 
