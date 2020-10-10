@@ -826,13 +826,43 @@ gameArray = [
             german: 'Tschüss!',
             translation: 'bye',
             category: 'phrases',
-            hint: 'An informal parting phrase.'
+            hint: 'An informal, three-letter parting phrase.'
         },
         {
             german: 'Viel Glück!',
             translation: 'good luck',
             category: 'phrases',
             hint: 'What does the idiom "break a leg" mean?'
+        },
+        {
+            german: 'sechzehn',
+            translation: 'sixteen',
+            category: 'numbers',
+            hint: 'This age is said to be sweet.'
+        },
+        {
+            german: 'siebzehn',
+            translation: 'seventeen',
+            category: 'numbers',
+            hint: 'Stevie Nicks, "Edge of ___."'
+        },
+        {
+            german: 'achtzehn',
+            translation: 'eighteen',
+            category: 'numbers',
+            hint: 'Voting age, in America.'
+        },
+        {
+            german: 'neunzehn',
+            translation: 'nineteen',
+            category: 'numbers',
+            hint: 'XIX, as a Roman numeral.'
+        },
+        {
+            german: 'zwanzig',
+            translation: 'twenty',
+            category: 'numbers',
+            hint: 'This number sort of looks like a westward-facing swan.'
         },
         {
             german: 'der Baum',
