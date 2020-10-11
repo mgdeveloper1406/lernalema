@@ -558,7 +558,66 @@ gameArray = [
     ],
     
     round3 = [
-        
+        {
+            german: 'Guten Abend!',
+            translation: 'good evening',
+            category: 'phrases',
+            hint: 'A late afternoon greeting.'
+        },
+        {
+            german: 'Guten Morgen!',
+            translation: 'good morning',
+            category: 'phrases',
+            hint: 'A way to greet someone before noon.'
+        },
+        {
+            german: 'Gute Nacht!',
+            translation: 'good night',
+            category: 'phrases',
+            hint: 'A nighttime greeting.'
+        },
+        {
+            german: 'Guten Tag!',
+            translation: 'good day',
+            category: 'phrases',
+            hint: 'A general greeting.'
+        },
+        {
+            german: 'Willkommen',
+            translation: 'welcome',
+            category: 'phrases',
+            hint: 'An invitation.'
+        },
+        {
+            german: 'elf',
+            translation: 'eleven',
+            category: 'numbers',
+            hint: 'This number sounds like "elven."'
+        },
+        {
+            german: 'zwölf',
+            translation: 'twelve',
+            category: 'numbers',
+            hint: 'The top number on a clock face.'
+        },
+        {
+            german: 'dreizehn',
+            translation: 'thirteen',
+            category: 'numbers',
+            hint: `A baker's dozen.`
+        },
+        {
+            german: 'vierzehn',
+            translation: 'fourteen',
+            category: 'numbers',
+            hint: 'The number of days in a fortnight.'
+        },
+        {
+            german: 'fünfzehn',
+            translation: 'fifteen',
+            category: 'numbers',
+            hint: 'Everyone will have this many minutes of fame.'
+        },
         {
             german: 'der Honig',
             plural: 'die Honige',
@@ -630,18 +689,18 @@ gameArray = [
             hint: 'These feathered animals fly and sing.'
         },
         {
-            german: 'der Löffel',
-            plural: 'die Löffel',
-            translation: 'spoon',
-            category: 'home',
-            hint: 'You use this utensil to eat ice cream.'
-        },
-        {
             german: 'die Schüssel',
             plural: 'die Schüsseln',
             translation: 'bowl',
             category: 'home',
             hint: 'A concave dish used for soup.'
+        },
+        {
+            german: 'der Stuhl',
+            plural: 'die Stühle',
+            translation: 'chair',
+            category: 'home',
+            hint: 'A seat.'
         },
         {
             german: 'die Tasse',
@@ -703,64 +762,11 @@ gameArray = [
             hint: 'A sibling that identifies as a girl.'
         },
         {
-            german: 'Guten Abend!',
-            translation: 'good evening',
-            category: 'phrases',
-            hint: 'A late afternoon greeting.'
-        },
-        {
-            german: 'Guten Morgen!',
-            translation: 'good morning',
-            category: 'phrases',
-            hint: 'A way to greet someone before noon.'
-        },
-        {
-            german: 'Gute Nacht!',
-            translation: 'good night',
-            category: 'phrases',
-            hint: 'A nighttime greeting.'
-        },
-        {
-            german: 'Guten Tag!',
-            translation: 'good day',
-            category: 'phrases',
-            hint: 'A general greeting.'
-        },
-        {
-            german: 'Willkommen',
-            translation: 'welcome',
-            category: 'phrases',
-            hint: 'An invitation.'
-        },
-        {
-            german: 'elf',
-            translation: 'eleven',
-            category: 'numbers',
-            hint: 'This number sounds like "elven."'
-        },
-        {
-            german: 'zwölf',
-            translation: 'twelve',
-            category: 'numbers',
-            hint: 'The top number on a clock face.'
-        },
-        {
-            german: 'dreizehn',
-            translation: 'thirteen',
-            category: 'numbers',
-            hint: `A baker's dozen.`
-        },
-        {
-            german: 'vierzehn',
-            translation: 'fourteen',
-            category: 'numbers',
-            hint: 'The number of days in a fortnight.'
-        },
-        {
-            german: 'fünfzehn',
-            translation: 'fifteen',
-            category: 'numbers',
-            hint: 'Everyone will have this many minutes of fame.'
+            german: 'der Löffel',
+            plural: 'die Löffel',
+            translation: 'spoon',
+            category: 'home',
+            hint: 'You use this utensil to eat ice cream.'
         },
         {
             german: 'die Ente',
