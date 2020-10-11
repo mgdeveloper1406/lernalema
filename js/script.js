@@ -762,6 +762,57 @@ gameArray = [
             hint: 'A sibling that identifies as a girl.'
         },
         {
+            german: 'sechzehn',
+            translation: 'sixteen',
+            category: 'numbers',
+            hint: 'This age is said to be sweet.'
+        },
+        {
+            german: 'siebzehn',
+            translation: 'seventeen',
+            category: 'numbers',
+            hint: 'Stevie Nicks, "Edge of ___."'
+        },
+        {
+            german: 'achtzehn',
+            translation: 'eighteen',
+            category: 'numbers',
+            hint: 'Voting age, in America.'
+        },
+        {
+            german: 'neunzehn',
+            translation: 'nineteen',
+            category: 'numbers',
+            hint: 'XIX, as a Roman numeral.'
+        },
+        {
+            german: 'zwanzig',
+            translation: 'twenty',
+            category: 'numbers',
+            hint: 'This number sort of looks like a westward-facing swan.'
+        },
+        {
+            german: 'der Becher',
+            plural: 'die Bechers',
+            translation: 'mug',
+            category: 'home',
+            hint: 'A cup with a handle, generally associated with coffee.'
+        },
+        {
+            german: 'die Gabel',
+            plural: 'die Gabeln',
+            translation: 'fork',
+            category: 'home',
+            hint: 'An eating utensil with tines.'
+        },
+        {
+            german: 'das Glas',
+            plural: 'die Gläser',
+            translation: 'glass',
+            category: 'home',
+            hint: 'A vessel used while drinking.'
+        },
+        {
             german: 'der Löffel',
             plural: 'die Löffel',
             translation: 'spoon',
@@ -769,44 +820,11 @@ gameArray = [
             hint: 'You use this utensil to eat ice cream.'
         },
         {
-            german: 'die Ente',
-            plural: 'die Enten',
-            translation: 'duck',
-            category: 'animals',
-            hint: 'Quack, quack.'
-
-        },
-        {
-            german: 'das Huhn',
-            plural: 'die Hühner',
-            translation: ['hen', 'chicken'],
-            category: 'animals',
-            hint: 'Cluck, cluck.'
-
-        },
-        {
-            german: 'die Kuh',
-            plural: 'die Kühe',
-            translation: 'cow',
-            category: 'animals',
-            hint: 'Moo.'
-
-        },
-        {
-            german: 'das Pferd',
-            plural: 'die Pferde',
-            translation: 'horse',
-            category: 'animals',
-            hint: 'Neigh.'
-
-        },
-        {
-            german: 'das Schwein',
-            plural: 'die Schweine',
-            translation: 'pig',
-            category: 'animals',
-            hint: 'Oink, oink.'
-
+            german: 'das Messer',
+            plural: 'die Messer',
+            translation: 'knife',
+            category: 'home',
+            hint: `Don't "messer" around with this sharp eating utensil.`
         },
         {
             german: 'der Himmel',
@@ -877,34 +895,44 @@ gameArray = [
             hint: 'What does the idiom "break a leg" mean?'
         },
         {
-            german: 'sechzehn',
-            translation: 'sixteen',
-            category: 'numbers',
-            hint: 'This age is said to be sweet.'
+            german: 'die Ente',
+            plural: 'die Enten',
+            translation: 'duck',
+            category: 'animals',
+            hint: 'Quack, quack.'
+
         },
         {
-            german: 'siebzehn',
-            translation: 'seventeen',
-            category: 'numbers',
-            hint: 'Stevie Nicks, "Edge of ___."'
+            german: 'das Huhn',
+            plural: 'die Hühner',
+            translation: ['hen', 'chicken'],
+            category: 'animals',
+            hint: 'Cluck, cluck.'
+
         },
         {
-            german: 'achtzehn',
-            translation: 'eighteen',
-            category: 'numbers',
-            hint: 'Voting age, in America.'
+            german: 'die Kuh',
+            plural: 'die Kühe',
+            translation: 'cow',
+            category: 'animals',
+            hint: 'Moo.'
+
         },
         {
-            german: 'neunzehn',
-            translation: 'nineteen',
-            category: 'numbers',
-            hint: 'XIX, as a Roman numeral.'
+            german: 'das Pferd',
+            plural: 'die Pferde',
+            translation: 'horse',
+            category: 'animals',
+            hint: 'Neigh.'
+
         },
         {
-            german: 'zwanzig',
-            translation: 'twenty',
-            category: 'numbers',
-            hint: 'This number sort of looks like a westward-facing swan.'
+            german: 'das Schwein',
+            plural: 'die Schweine',
+            translation: 'pig',
+            category: 'animals',
+            hint: 'Oink, oink.'
+
         },
         {
             german: 'der Baum',
@@ -940,7 +968,7 @@ gameArray = [
             translation: 'valley',
             category: 'nature',
             hint: 'A low area between mountains or hills.'
-        },
+        }
         
     ]
 ];
