@@ -179,26 +179,36 @@ button#lightning-round:hover {
     display: none;
     position: absolute;
 }
+#select-adjectives,
 #select-animals,
+#select-apparel,
+#select-calendar,
+#select-devices,
 #select-food,
 #select-home,
+#select-infinitives,
 #select-nature,
 #select-numbers,
 #select-people,
 #select-phrases,
-#select-wardrobe {
+#select-travel {
     clip-path: inset(100% 100% 100% 100%);
     position: absolute;
     visibility: hidden;
 }
+#adjectives-color,
 #animals-color,
+#apparel-color,
+#calendar-color,
+#devices-color,
 #food-color,
 #home-color,
+#infinitives-color,
 #nature-color,
 #numbers-color,
 #people-color,
 #phrases-color,
-#wardrobe-color {
+#travel-color {
     border-radius: 100%;
     width: 45px;
     height: 45px;
@@ -208,14 +218,29 @@ button#lightning-round:hover {
     justify-content: center;
     margin: 0 auto;
 }
+#adjectives-color {
+    background-color: rgb(156, 83, 141);
+}
 #animals-color {
+    background-color: rgb(160, 129, 129);
+}
+#apparel-color {
     background-color: rgb(9, 148, 189);
+}
+#calendar-color {
+    background-color: rgb(205, 92, 92);
+}
+#devices-color {
+    background-color: rgb(96, 125, 139);
 }
 #food-color {
     background-color: rgb(244, 67, 54);
 }
 #home-color {
-    background-color: rgb(205, 92, 92);
+    background-color: rgb(119, 46, 83);
+}
+#infinitives-color {
+    background-color: rgb(245, 106, 55);
 }
 #nature-color {
     background-color: rgb(46, 139, 87);
@@ -229,8 +254,8 @@ button#lightning-round:hover {
 #phrases-color {
     background-color: rgb(206, 60, 94);
 }
-#wardrobe-color {
-    background-color: rgb(94, 147, 243);
+#travel-color {
+    background-color: rgb(94, 147, 243)
 }
 .category-icons {
     width: 20px;
