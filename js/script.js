@@ -524,35 +524,35 @@ gameArray = [
             german: 'das Hemd',
             plural: 'die Hemden',
             translation: 'shirt',
-            category: 'wardrobe',
+            category: 'apparel',
             hint: 'A garment to clothe the upper body.'
         },
         {
             german: 'die Hose',
             plural: 'die Hosen',
             translation: 'pants',
-            category: 'wardrobe',
+            category: 'apparel',
             hint: `If you're a liar, these are on fire.`
         },
         {
             german: 'das Kleid',
             plural: 'die Kleider',
             translation: 'dress',
-            category: 'wardrobe',
+            category: 'apparel',
             hint: 'Brides traditionally wear a white one.'
         },
         {
             german: 'der Rock',
             plural: 'die Röcke',
             translation: 'skirt',
-            category: 'wardrobe',
+            category: 'apparel',
             hint: 'A lower-body garment that can be mini, midi, or maxi.'
         },
         {
             german: 'die Unterwäsche',
             plural: 'die Unterwäschen',
             translation: 'underwear',
-            category: 'wardrobe',
+            category: 'apparel',
             hint: `Generally worn under your clothes, unless you're a superhero.` 
         }
     ],
@@ -860,6 +860,71 @@ gameArray = [
             translation: 'cloud',
             category: 'nature',
             hint: 'Every one of these has a silver lining.'
+        },
+        {
+            german: 'der Hut',
+            plural: 'die Hüte',
+            translation: 'hat',
+            category: 'apparel',
+            hint: 'Worn on the head.'
+        },
+        {
+            german: 'die Jacke',
+            plural: 'die Jacken',
+            translation: 'jacket',
+            category: 'apparel',
+            hint: 'Outerwear that tends to be lightweight.'
+        },
+        {
+            german: 'der Mantel',
+            plural: 'die Mäntel',
+            translation: 'coat',
+            category: 'apparel',
+            hint: 'Outerwear that tends to be heavyweight or long.'
+        },
+        {
+            german: 'der Schuh',
+            plural: 'die Schuhe',
+            translation: 'shoe',
+            category: 'apparel',
+            hint: 'Protection for your feet.'
+        },
+        {
+            german: 'die Socke',
+            plural: 'die Socken',
+            translation: 'socks',
+            category: 'apparel',
+            hint: 'Worn to keep your toesies cozy.'
+        },
+        {
+            german: 'gut',
+            translation: 'good',
+            category: 'adjectives',
+            hint: `__ riddance; __ grief; __ day, sir!`
+        },
+        {
+            german: 'heiß',
+            translation: 'hot',
+            category: 'adjectives',
+            hint: 'The sun is this, but space is not.'
+        },
+        {
+            german: 'kalt',
+            translation: 'cold',
+            category: 'adjectives',
+            hint: 'The way revenge is best served.'
+        },
+        {
+            german: 'perfekt',
+            translation: 'perfect',
+            category: 'adjectives',
+            hint: 'Flawless.'
+        },
+        {
+            german: 'schlecht',
+            translation: 'bad',
+            category: 'adjectives',
+            hint: 'If one apple is this, it spoils the whole bunch.'
         }
     ],
 
