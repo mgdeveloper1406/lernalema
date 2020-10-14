@@ -1063,8 +1063,42 @@ gameArray = [
             translation: 'valley',
             category: 'nature',
             hint: 'A low area between mountains or hills.'
+        },
+        {
+            german: 'der Gürtel',
+            plural: 'die Gürtel',
+            translation: 'belt',
+            category: 'apparel',
+            hint: 'It keeps your pants from falling down.'
+        },
+        {
+            german: 'die Krawatte',
+            plural: 'die Krawatten',
+            translation: 'tie',
+            category: 'apparel',
+            hint: 'Knot styles include the half Windsor, the Atlantic, and the Pratt.'
+        },
+        {
+            german: 'der Schal',
+            plural: 'die Schals',
+            translation: 'scarf',
+            category: 'apparel',
+            hint: 'Worn for style or to keep the neck warm.'
+        },
+        {
+            german: 'die Tasche',
+            plural: 'die Taschen',
+            translation: 'bag',
+            category: 'apparel',
+            hint: 'Something you would use to carry things around.'
+        },
+        {
+            german: 'das Zubehör',
+            plural: 'die Zubehöre',
+            translation: 'accessory',
+            category: 'apparel',
+            hint: 'Something that completes an outfit.'
         }
-        
     ]
 ];
 
