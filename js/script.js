@@ -93,12 +93,6 @@ const chameleonColors = () => {
 //         category: 'animals'
 //     },
 //     {
-//         german: 'die Ente',
-//         plural: 'die Enten',
-//         translation: 'duck',
-//         category: 'animals'
-//     },
-//     {
 //         german: 'die Fledermaus',
 //         plural: 'die Fledermäuse',
 //         translation: 'bat',
@@ -129,27 +123,9 @@ const chameleonColors = () => {
 //         category: 'animals'
 //     },
 //     {
-//         german: 'die Kuh',
-//         plural: 'due Kühe',
-//         translation: 'cow',
-//         category: 'animals'
-//     },
-//     {
-//         german: 'das Pferd',
-//         plural: 'die Pferde',
-//         translation: 'horse',
-//         category: 'animals'
-//     },
-//     {
 //         german: 'die Schildkröte',
 //         plural: 'die Schildkröten',
 //         translation: 'turtle',
-//         category: 'animals'
-//     },
-//     {
-//         german: 'das Schwein',
-//         plural: 'die Schweine',
-//         translation: 'pig',
 //         category: 'animals'
 //     },
 //     {
@@ -165,27 +141,9 @@ const chameleonColors = () => {
 //         category: 'animals'
 //     },
 //     {
-//         german: 'der Baum',
-//         plural: 'die Bäume',
-//         translation: 'tree',
-//         category: 'nature'
-//     },
-//     {
-//         german: 'der Berg',
-//         plural: 'die Berge',
-//         translation: 'mountain',
-//         category: 'nature'
-//     },
-//     {
 //         german: 'das Blatt',
 //         plural: 'die Blätter',
 //         translation: 'leaf',
-//         category: 'nature'
-//     },
-//     {
-//         german: 'die Blume',
-//         plural: 'die Blumen',
-//         translation: 'flower',
 //         category: 'nature'
 //     },
 //     {
@@ -201,18 +159,6 @@ const chameleonColors = () => {
 //         category: 'nature'
 //     },
 //     {
-//         german: 'der Himmel',
-//         plural: 'die Himmel',
-//         translation: 'sky',
-//         category: 'nature'
-//     },
-//     {
-//         german: 'der Hügel',
-//         plural: 'die Hügel',
-//         translation: 'hill',
-//         category: 'nature'
-//     },
-//     {
 //         german: 'die Luft',
 //         plural: 'n/a',
 //         translation: 'air',
@@ -222,12 +168,6 @@ const chameleonColors = () => {
 //         german: 'das Meer',
 //         plural: 'die Meere',
 //         translation: 'sea',
-//         category: 'nature'
-//     },
-//     {
-//         german: 'der Mond',
-//         plural: 'die Monde',
-//         translation: 'moon',
 //         category: 'nature'
 //     },
 //     {
@@ -243,21 +183,9 @@ const chameleonColors = () => {
 //         category: 'nature'
 //     },
 //     {
-//         german: 'die Sonne',
-//         plural: 'die Sonnen',
-//         translation: 'sun',
-//         category: 'nature'
-//     },
-//     {
 //         german: 'der Stein',
 //         plural: 'die Steine',
 //         translation: 'rock',
-//         category: 'nature'
-//     },
-//     {
-//         german: 'der Stern',
-//         plural: 'die Sterne',
-//         translation: 'star',
 //         category: 'nature'
 //     },
 //     {
@@ -271,52 +199,6 @@ const chameleonColors = () => {
 //         plural: 'die Winde',
 //         translation: 'wind',
 //         category: 'nature'
-//     },
-//     {
-//         german: 'die Wolke',
-//         plural: 'die Wolken',
-//         translation: 'cloud',
-//         category: 'nature'
-//     },
-//     {
-//         german: 'Auf Wiedersehen!',
-//         translation: 'goodbye',
-//         category: 'phrases'
-//     },
-//     {
-//         german: 'Bis bald!',
-//         translation: 'see you soon',
-//         category: 'phrases'
-//     },
-//     {
-//         german: 'Bis später!',
-//         translation: 'see you later',
-//         category: 'phrases'
-//     },
-//     {
-//         german: 'Entschuldigung!',
-//         translation: ['sorry', 'pardon'],
-//         category: 'phrases'
-//     },
-//     {
-//         german: 'Guten Abend!',
-//         translation: 'good evening',
-//         category: 'phrases'
-//     },
-//     {
-//         german: 'Guten Morgen!',
-//         translation: 'good morning',
-//         category: 'phrases'
-//     },
-//     {
-//         german: 'Gute Nacht!',
-//         translation: 'good night',
-//         category: 'phrases'
-//     },
-//     {
-//         german: 'Guten Tag!',
-//         translation: ['good day', 'good afternoon'],
-//         category: 'phrases'
 //     },
 // ];
 
@@ -578,7 +460,7 @@ gameArray = [
         },
         {
             german: 'Guten Tag!',
-            translation: 'good day',
+            translation: ['good day', 'good afternoon'],
             category: 'phrases',
             hint: 'A general greeting.'
         },
@@ -1149,6 +1031,10 @@ const categoryColors = () => {
         $('#german-box').css('backgroundColor', '#cd5c5c');
         $('#german-word, #german-plural').css('color', '#ffffff');
         $('#plural-zone').css('display', 'block');
+    } else if (randomWord.category === 'devices') {
+        $('#german-box').css('backgroundColor', '#607d8b');
+        $('#german-word, #german-plural').css('color', '#ffffff');
+        $('#plural-zone').css('display', 'block');
     } else if (randomWord.category === 'food') {
         $('#german-box').css('backgroundColor', '#f44336');
         $('#german-word, #german-plural').css('color', '#f0f8ff');
@@ -1157,6 +1043,10 @@ const categoryColors = () => {
         $('#german-box').css('backgroundColor', '#772e53');
         $('#german-word, #german-plural').css('color', '#ffffff');
         $('#plural-zone').css('display', 'block');
+    } else if (randomWord.category === 'infinitives') {
+        $('#german-box').css('backgroundColor', '#f56a37');
+        $('#german-word').css('color', '#ffffff');
+        $('#plural-zone').css('display', 'none');
     } else if (randomWord.category === 'nature') {
         $('#german-box').css('backgroundColor', '#2e8b57');
         $('#german-word, #german-plural').css('color', '#ffffff');
@@ -1354,12 +1244,22 @@ $('#mini-review').on('click', function() {
         }
         $('#review-box').append(reviewWords, downArrows, reviewAnswers);
 
-        if (element.category === 'animals') {
+        if (element.category === 'adjectives') {
+            $(reviewWords).css('color', '#9c538d');
+        } else if (element.category === 'animals') {
+            $(reviewWords).css('color', '#a08181');
+        } else if (element.category === 'apparel') {
             $(reviewWords).css('color', '#0994bd');
+        } else if (element.category === 'calendar') {
+            $(reviewWords).css('color', '#cd5c5c');
+        } else if (element.category === 'devices') {
+            $(reviewWords).css('color', '#607d8b');
         } else if (element.category === 'food') {
             $(reviewWords).css('color', '#f44336');
         } else if (element.category === 'home') {
-            $(reviewWords).css('color', '#cd5c5c');
+            $(reviewWords).css('color', '#772e53');
+        } else if (element.category === 'infinitives') {
+            $(reviewWords).css('color', '#f56a37');
         } else if (element.category === 'nature') {
             $(reviewWords).css('color', '#2e8b57');
         } else if (element.category === 'numbers') {
@@ -1368,7 +1268,7 @@ $('#mini-review').on('click', function() {
             $(reviewWords).css('color', '#008b8b');
         } else if (element.category === 'phrases') {
             $(reviewWords).css('color', '#ce3c5e');
-        } else if (element.category === 'wardrobe') {
+        } else if (element.category === 'travel') {
             $(reviewWords).css('color', '#5e93f3');
         }
 
