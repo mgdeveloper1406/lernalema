@@ -960,6 +960,36 @@ gameArray = [
             hint: 'What does the idiom "break a leg" mean?'
         },
         {
+            german: 'einundzwanzig',
+            translation: ['twenty-one', 'twenty one'],
+            category: 'numbers',
+            hint: 'The legal drinking age, in America.'
+        },
+        {
+            german: 'zweiundzwanzig',
+            translation: ['twenty-two', 'twenty two'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'dreiundzwanzig',
+            translation: ['twenty-three', 'twenty three'],
+            category: 'numbers',
+            hint: 'This is the number of pairs of chromosomes most humans have.'
+        },
+        {
+            german: 'vierundzwanzig',
+            translation: ['twenty-four', 'twenty four'],
+            category: 'numbers',
+            hint: 'The number of hours in a day.'
+        },
+        {
+            german: 'fünfundzwanzig',
+            translation: ['twenty-five', 'twenty five'],
+            category: 'numbers',
+            hint: 'A quarter of one hundred.'
+        },
+        {
             german: 'die Ente',
             plural: 'die Enten',
             translation: 'duck',
@@ -1179,7 +1209,7 @@ function checkAnswer() {
     });
 
     let answer = $('#your-translation').val();
-    if ((answer === randomWord.translation) || (answer === `the ${randomWord.translation}`) || (answer === `${randomWord.translation}!`) || (answer === randomWord.translation[0]) || (answer === randomWord.translation[1]) || (answer === `${randomWord.translation[0]}!`) || (answer === `${randomWord.translation[1]}!`) || (answer === `${randomWord.translation} `)) { 
+    if ((answer === randomWord.translation) || (answer === `the ${randomWord.translation}`) || (answer === `${randomWord.translation}!`) || (answer === randomWord.translation[0]) || (answer === randomWord.translation[1]) || (answer === `${randomWord.translation[0]}!`) || (answer === `${randomWord.translation[1]}!`) || (answer === `${randomWord.translation} `) || (answer === `${randomWord.translation[0]} `) || (answer === `${randomWord.translation[1]} `)) { 
         // reset the input field
         $('#your-translation').val('');
         
