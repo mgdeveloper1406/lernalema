@@ -1015,6 +1015,36 @@ gameArray = [
             translation: 'Monday',
             category: 'calendar',
             hint: 'Garfield hates this day.'
+        },
+        {
+            german: 'hässlich',
+            translation: 'ugly',
+            category: 'adjectives',
+            hint: `The word used to describe the titular "duckling" in a Hans Christian Andersen fairy tale.`
+        },
+        {
+            german: 'klar',
+            translation: ['clear', 'understood'],
+            category: 'adjectives',
+            hint: 'Not opaque.'
+        },
+        {
+            german: 'sauber',
+            translation: 'clean',
+            category: 'adjectives',
+            hint: 'You hope this word describes any public bathroom you have to use.'
+        },
+        {
+            german: 'schmutzig',
+            translation: 'dirty',
+            category: 'adjectives',
+            hint: 'The general state of most public bathrooms.'
+        },
+        {
+            german: 'schön',
+            translation: ['beautiful', 'pretty'],
+            category: 'adjectives',
+            hint: 'This word describes people or things that are aesthetically pleasing.'
         }
     ]
 ];
