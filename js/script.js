@@ -1136,66 +1136,47 @@ const categoryColors = () => {
     if (randomWord.category === 'adjectives') {
         $('#german-box').css('backgroundColor', '#9c538d');
         $('#german-word').css('color', '#f0f8ff');
-        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'none');
     } else if (randomWord.category === 'animals') {
         $('#german-box').css('backgroundColor', '#a08181');
         $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'block');
-        $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'apparel') {
         $('#german-box').css('backgroundColor', '#0994bd');
         $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'block');
-        $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'calendar') {
         $('#german-box').css('backgroundColor', '#cd5c5c');
         $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'block');
-        $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'food') {
         $('#german-box').css('backgroundColor', '#f44336');
         $('#german-word, #german-plural').css('color', '#f0f8ff');
-        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'block');
-        $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'home') {
         $('#german-box').css('backgroundColor', '#772e53');
         $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'block');
-        $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'nature') {
         $('#german-box').css('backgroundColor', '#2e8b57');
         $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'block');
-        $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'numbers') {
         $('#german-box').css('backgroundColor', '#6b6a9e');
         $('#german-word').css('color', '#ffffff');
-        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'none');
     } else if (randomWord.category === 'people') {
         $('#german-box').css('backgroundColor', '#008b8b');
         $('#german-word, #german-plural').css('color', '#f0f8ff');
-        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'block');
-        $('.curly-braces').css('color', '#ffd700');
     } else if (randomWord.category === 'phrases') {
         $('#german-box').css('backgroundColor', '#ce3c5e');
         $('#german-word').css('color', '#ffffff');
-        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'none');
     } else if (randomWord.category === 'travel') {
         $('#german-box').css('backgroundColor', '#5e93f3');
         $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#line').css('backgroundColor', '#ffd700');
         $('#plural-zone').css('display', 'block');
-        $('.curly-braces').css('color', '#ffd700');
     }
 };
 
