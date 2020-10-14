@@ -659,7 +659,7 @@ gameArray = [
             german: 'achtzehn',
             translation: 'eighteen',
             category: 'numbers',
-            hint: 'Voting age, in America.'
+            hint: 'Voting age, in the United States.'
         },
         {
             german: 'neunzehn',
@@ -845,7 +845,7 @@ gameArray = [
             german: 'einundzwanzig',
             translation: ['twenty-one', 'twenty one'],
             category: 'numbers',
-            hint: 'The legal drinking age, in America.'
+            hint: 'The legal drinking age, in the United States.'
         },
         {
             german: 'zweiundzwanzig',
@@ -980,6 +980,41 @@ gameArray = [
             translation: 'accessory',
             category: 'apparel',
             hint: 'Something that completes an outfit.'
+        },
+        {
+            german: 'Dienstag',
+            plural: 'dienstags',
+            translation: 'Tuesday',
+            category: 'calendar',
+            hint: 'Elections fall on this day, in the United States.'
+        },
+        {
+            german: 'Donnerstag',
+            plural: 'donnerstags',
+            translation: 'Thursday',
+            category: 'calendar',
+            hint: `Thor's day.`
+        },
+        {
+            german: 'Freitag',
+            plural: 'freitags',
+            translation: 'Friday',
+            category: 'calendar',
+            hint: 'This weekday is said to be especially inauspicious when it falls on the thirteenth day of a month.'
+        },
+        {
+            german: 'Mittwoch',
+            plural: 'mittwochs',
+            translation: 'Wednesday',
+            category: 'calendar',
+            hint: 'Falls in the middle of the week.'
+        },
+        {
+            german: 'Montag',
+            plural: 'montages',
+            translation: 'Monday',
+            category: 'calendar',
+            hint: 'Garfield hates this day.'
         }
     ]
 ];
@@ -1073,17 +1108,6 @@ const categoryColors = () => {
 categoryColors();
 
 // a countdown that lets users know how many words are in the round
-// function updateCountdown() {
-//     if (wordArray.length == 1) {
-//         $('#countdown-text').html('This round has <span id="countdown"></span> word remaining');
-//         // $('#countdown').html(`${wordArray.length} word`);
-//     } else if (wordArray.length >= 2 || wordArray.length == 0) {
-//         $('#countdown-text').html('This round has <span id="countdown"></span> words remaining');
-//         // $('#countdown').html(`${wordArray.length} words`);
-//     }
-//     $('#countdown').html(wordArray.length);
-// };
-
 function updateCountdown() {
     if (wordArray.length == 1) {
         $('#countdown-container').html('<span class="countdown-text">This round has</span> <span id="countdown"></span> <span class="countdown-text">word remaining</span>');
