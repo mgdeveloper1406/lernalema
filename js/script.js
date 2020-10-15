@@ -465,7 +465,7 @@ gameArray = [
             hint: 'A general greeting.'
         },
         {
-            german: 'Willkommen',
+            german: 'Willkommen!',
             translation: 'welcome',
             category: 'phrases',
             hint: 'An invitation.'
@@ -480,7 +480,7 @@ gameArray = [
             german: 'zwölf',
             translation: 'twelve',
             category: 'numbers',
-            hint: 'The top number on a clock face.'
+            hint: 'The top number on a clockface.'
         },
         {
             german: 'dreizehn',
@@ -561,7 +561,7 @@ gameArray = [
             plural: 'die Mäuse',
             translation: 'mouse',
             category: 'animals',
-            hint: 'An animal or a computer device.'
+            hint: 'An animal, or a computer device.'
         },
         {
             german: 'der Vogel',
@@ -620,7 +620,7 @@ gameArray = [
             plural: 'die Geschwister',
             translation: 'sibling',
             category: 'people',
-            hint: 'A brother or a sister.'
+            hint: 'A brother, or a sister.'
         },
         {
             german: 'die Oma',
@@ -678,7 +678,7 @@ gameArray = [
             plural: 'die Bechers',
             translation: 'mug',
             category: 'home',
-            hint: 'A cup with a handle, generally associated with coffee.'
+            hint: 'A cup, with a handle, that is generally associated with coffee.'
         },
         {
             german: 'die Gabel',
@@ -774,7 +774,7 @@ gameArray = [
         {
             german: 'die Socke',
             plural: 'die Socken',
-            translation: 'socks',
+            translation: 'sock',
             category: 'apparel',
             hint: 'Worn to keep your toesies cozy.'
         },
@@ -851,7 +851,7 @@ gameArray = [
             german: 'zweiundzwanzig',
             translation: ['twenty-two', 'twenty two'],
             category: 'numbers',
-            hint: ''
+            hint: `You're damned if you don't, and also damned if you do, when you find yourself in a catch-__.`
         },
         {
             german: 'dreiundzwanzig',
@@ -984,35 +984,35 @@ gameArray = [
         {
             german: 'Dienstag',
             plural: 'dienstags',
-            translation: 'Tuesday',
+            translation: ['Tuesday', 'tuesday'],
             category: 'calendar',
             hint: 'Elections fall on this day, in the United States.'
         },
         {
             german: 'Donnerstag',
             plural: 'donnerstags',
-            translation: 'Thursday',
+            translation: ['Thursday', 'thursday'],
             category: 'calendar',
             hint: `Thor's day.`
         },
         {
             german: 'Freitag',
             plural: 'freitags',
-            translation: 'Friday',
+            translation: ['Friday', 'friday'],
             category: 'calendar',
-            hint: 'This weekday is said to be especially inauspicious when it falls on the thirteenth day of a month.'
+            hint: 'It is especially inauspicious when this falls on the thirteenth day of a month.'
         },
         {
             german: 'Mittwoch',
             plural: 'mittwochs',
-            translation: 'Wednesday',
+            translation: ['Wednesday', 'wednesday'],
             category: 'calendar',
             hint: 'Falls in the middle of the week.'
         },
         {
             german: 'Montag',
             plural: 'montages',
-            translation: 'Monday',
+            translation: ['Monday', 'monday'],
             category: 'calendar',
             hint: 'Garfield hates this day.'
         },
