@@ -165,7 +165,8 @@ button#lightning-round:hover {
     padding: 20px;
 }
 .category-buttons {
-    margin: 5px;
+    width: 90px;
+    margin: 10px;
     padding: 15px;
     position: relative;
 }
@@ -183,7 +184,8 @@ button#lightning-round:hover {
 #select-animals,
 #select-apparel,
 #select-calendar,
-#select-devices,
+#select-catastrophe,
+#select-equipment,
 #select-food,
 #select-home,
 #select-infinitives,
@@ -200,7 +202,8 @@ button#lightning-round:hover {
 #animals-color,
 #apparel-color,
 #calendar-color,
-#devices-color,
+#catastrophe-color,
+#equipment-color,
 #food-color,
 #home-color,
 #infinitives-color,
@@ -230,7 +233,10 @@ button#lightning-round:hover {
 #calendar-color {
     background-color: rgb(205, 92, 92);
 }
-#devices-color {
+#catastrophe-color {
+    background-color: rgb(117, 148, 117);
+}
+#equipment-color {
     background-color: rgb(96, 125, 139);
 }
 #food-color {
