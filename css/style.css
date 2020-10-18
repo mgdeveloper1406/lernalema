@@ -270,6 +270,9 @@ button#lightning-round:hover {
 .squished {
     width: 20px;
 }
+.expanded {
+    width: 30px;
+}
 .label-text {
     font-family: 'dinosaur', sans-serif;
     font-weight: 300;
