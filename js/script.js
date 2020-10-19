@@ -9,6 +9,7 @@ let round2;
 let round3;
 let round4;
 let round5;
+let round6;
 
 // change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
@@ -1048,6 +1049,39 @@ gameArray = [
             category: 'adjectives',
             hint: 'This word describes people or things that are aesthetically pleasing.'
         }
+    ],
+
+    round6 = [
+        {
+            german: 'sechsundzwanzig',
+            translation: ['twenty-six', 'twenty six'],
+            category: 'numbers',
+            hint: 'XXVI, as a Roman numeral.'
+        },
+        {
+            german: 'siebenundzwanzig',
+            translation: ['twenty-seven', 'twenty seven'],
+            category: 'numbers',
+            hint: 'Janis Joplin, Kurt Cobain, and Amy Winehouse all died at this age.'
+        },
+        {
+            german: 'achtundzwanzig',
+            translation: ['twenty-eight', 'twenty eight'],
+            category: 'numbers',
+            hint: 'Cillian Murphy wakes up this many "days later" after a viral outbreak, in a Danny Boyle movie.'
+        },
+        {
+            german: 'neunundzwanzig',
+            translation: ['twenty-nine', 'twenty nine'],
+            category: 'numbers',
+            hint: 'The last year of being a twentysomething.'
+        },
+        {
+            german: 'dreißig',
+            translation: 'thirty',
+            category: 'numbers',
+            hint: 'Jenna Rink wants to be "___, flirty, and thriving."'
+        },
     ]
 ];
 
