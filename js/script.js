@@ -922,6 +922,13 @@ gameArray = [
             hint: 'What has a trunk and leaves?'
         },
         {
+            german: 'das Blatt',
+            plural: 'die Blätter',
+            translation: 'leaf',
+            category: 'nature',
+            hint: 'These fall from trees, in Autumn.'
+        },
+        {
             german: 'die Blume',
             plural: 'die Blumen',
             translation: 'flower',
@@ -929,25 +936,18 @@ gameArray = [
             hint: 'Something that blooms.'
         },
         {
-            german: 'der Berg',
-            plural: 'die Berge',
-            translation: 'mountain',
+            german: 'die Frucht',
+            plural: 'die Früchte',
+            translation: 'fruit',
             category: 'nature',
-            hint: 'Everest is the tallest one.'
+            hint: 'Sometimes edible, sometimes poisonous, and they usually contain seeds.'
         },
         {
-            german: 'der Hügel',
-            plural: 'die Hügel',
-            translation: 'hill',
+            german: 'der Zweig',
+            plural: 'die Zweige',
+            translation: 'branch',
             category: 'nature',
-            hint: 'These can be rolling without ever moving.'
-        },
-        {
-            german: 'das Tal',
-            plural: 'die Täler',
-            translation: 'valley',
-            category: 'nature',
-            hint: 'A low area between mountains or hills.'
+            hint: 'These grow out of tree trunks, and leaves sprout from them.'
         },
         {
             german: 'der Gürtel',
@@ -1081,6 +1081,75 @@ gameArray = [
             translation: 'thirty',
             category: 'numbers',
             hint: 'Jenna Rink wants to be "___, flirty, and thriving."'
+        },
+        {
+            german: 'die Banane',
+            plural: 'die Bananen',
+            translation: 'banana',
+            category: 'food',
+            hint: 'Try not to slip on its peel.'
+        },
+        {
+            german: 'das Ei',
+            plural: 'die Eier',
+            translation: 'egg',
+            category: 'food',
+            hint: 'Did this come before the chicken?'
+        },
+        {
+            german: 'das Frühstück',
+            plural: 'die Frühstücke',
+            translation: 'breakfast',
+            category: 'food',
+            hint: 'The most important meal of the day!'
+        },
+        {
+            german: 'das Obst',
+            translation: 'fruit',
+            category: 'food',
+            hint: 'A collective noun for "Frucht" that is considered edible.'
+        },
+        {
+            german: 'der Saft',
+            plural: 'die Säfte',
+            translation: 'juice',
+            category: 'food',
+            hint: 'A drink made from fruits.'
+        },
+        {
+            german: 'der Berg',
+            plural: 'die Berge',
+            translation: 'mountain',
+            category: 'nature',
+            hint: 'Everest is the tallest one.'
+        },
+        {
+            german: 'der Fels',
+            plural: 'die Felsen',
+            translation: 'rock',
+            category: 'nature',
+            hint: 'Solid as a ___.'
+        },
+        {
+            german: 'der Fluss',
+            plural: 'die Flüsse',
+            translation: 'river',
+            category: 'nature',
+            hint: 'The Nile is one, the Amazon is another.'
+        },
+        {
+            german: 'der Hügel',
+            plural: 'die Hügel',
+            translation: 'hill',
+            category: 'nature',
+            hint: 'These can be rolling without ever moving.'
+        },
+        {
+            german: 'das Tal',
+            plural: 'die Täler',
+            translation: 'valley',
+            category: 'nature',
+            hint: 'A low area between mountains or hills.'
         },
     ]
 ];
