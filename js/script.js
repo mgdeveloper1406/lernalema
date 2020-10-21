@@ -1201,6 +1201,10 @@ const categoryColors = () => {
         $('#german-box').css('backgroundColor', '#cd5c5c');
         $('#german-word, #german-plural').css('color', '#ffffff');
         $('#plural-zone').css('display', 'block');
+    } else if (randomWord.category === 'catastrophe') {
+        $('#german-box').css('backgroundColor', '#759475');
+        $('#german-word, #german-plural').css('color', '#ffffff');
+        $('#plural-zone').css('display', 'block');
     } else if (randomWord.category === 'devices') {
         $('#german-box').css('backgroundColor', '#607d8b');
         $('#german-word, #german-plural').css('color', '#ffffff');
@@ -1411,6 +1415,8 @@ $('#mini-review').on('click', function() {
             $(reviewWords).css('color', '#0994bd');
         } else if (element.category === 'calendar') {
             $(reviewWords).css('color', '#cd5c5c');
+        } else if (element.category === 'catastrophe') {
+            $(reviewWords).css('color', '#759475');
         } else if (element.category === 'devices') {
             $(reviewWords).css('color', '#607d8b');
         } else if (element.category === 'food') {
