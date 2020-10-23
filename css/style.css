@@ -165,7 +165,7 @@ button#lightning-round:hover {
     padding: 20px;
 }
 .category-buttons {
-    width: 90px;
+    width: 110px;
     margin: 10px;
     padding: 15px;
     position: relative;
@@ -181,7 +181,7 @@ button#lightning-round:hover {
     position: absolute;
 }
 .bolded {
-    font-weight: bold;
+    font-weight: 700 !important;
 }
 #select-adjectives,
 #select-animals,
@@ -286,7 +286,7 @@ button#lightning-round:hover {
     font-size: .8rem;
     color: rgb(41, 35, 70);
     text-align: center;
-    margin: .6rem 0 0 0;
+    margin: .6rem auto 0;
 }
 #select-categories {
     margin: 1rem auto;
