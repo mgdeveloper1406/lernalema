@@ -180,6 +180,9 @@ button#lightning-round:hover {
     display: none;
     position: absolute;
 }
+.bolded {
+    font-weight: bold;
+}
 #select-adjectives,
 #select-animals,
 #select-apparel,
@@ -272,6 +275,9 @@ button#lightning-round:hover {
 }
 .expanded {
     width: 30px;
+}
+.plane {
+    max-height: 24px;
 }
 .label-text {
     font-family: 'dinosaur', sans-serif;
