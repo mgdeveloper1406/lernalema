@@ -1516,9 +1516,15 @@ $('#lightning-round').on('click', function() {
     $('#categories-wrapper').slideUp(800);
 });
 
-// toggle the visibility of the purple .selection-circle around the category-color label divs, when the corresponding input is checked (i.e., clicked)
+// toggle the visibility of the purple .selection-circle around the category-color label divs, when the corresponding input is clicked
 $('input[type=checkbox]').on('click', function() {
     $(this).next('label').children('div').children('div').toggle();
+
+    if ($(this).next('label').children('div').children('div').css('display') == ('block')) {
+        $(this).next('label').children('p').addClass('bolded');
+    } else {
+        $(this).next('label').children('p').removeClass('bolded');
+    }
 });
 
 // select categories and close the selection panel
