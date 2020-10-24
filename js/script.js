@@ -3,6 +3,7 @@ let wordArray;
 let solvedArray = [];
 let miniReviewArray = [];
 let endReviewArray = [];
+let consolidatedArray = [];
 let i;
 let level = 1;
 let round2;
@@ -1480,6 +1481,10 @@ $('#open-categories').on('click', function() {
     const wordTotal = arrLengths.reduce(reducer, solvedArray.length);
     $('#total-words').html(wordTotal);
 
+    // merge all the rounds in gameArray
+    consolidatedArray = [].concat.apply([], gameArray);
+    console.log(consolidatedArray);
+
     // close the category selection, if the link is clicked again
     if ($('#categories-wrapper').css('display') == ('none')) {
         $('header').addClass('header-shadow');
@@ -1525,25 +1530,45 @@ $('input[type=checkbox]').on('click', function() {
     } else {
         $(this).next('label').children('p').removeClass('bolded');
     }
-});
 
-// select categories and close the selection panel
-$('#select-categories').on('click', function() {
-    let holderArray = [];
-    holderArray = wordArray.concat(round2);
-    wordArray.length = 0;
-    
-    if (($('#select-people').is(':checked') === true)) {
-        holderArray.forEach(randomWord => {
+    // conditional, to prevent the game from ending if a person clicks a category before deciding not to use category selection. removes the unselected words from wordArray and prevents the round 2 modal box from appearing.
+    if ($('input[type=checkbox]').is(':checked') === true) {
+        wordArray.length = 0;
+        gameArray.splice(1);
+    }
+
+    if ($('#select-adjectives').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'adjectives') {
+                wordArray.push(randomWord);
+            }
+        });
+    } 
+    if ($('#select-animals').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'animals') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#select-apparel').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'apparel') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#select-people').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'people') {
                 wordArray.push(randomWord);
             } 
         });
     }
+});
 
-    console.log(holderArray);
-    console.log(wordArray);
-
+// select categories and close the selection panel
+$('#select-categories').on('click', function() {
     gimmeWords();
     categoryColors();
     updateCountdown();
