@@ -183,20 +183,20 @@ button#lightning-round:hover {
 .bolded {
     font-weight: 700 !important;
 }
-#select-adjectives,
-#select-animals,
-#select-apparel,
-#select-calendar,
-#select-catastrophe,
-#select-equipment,
-#select-food,
-#select-home,
-#select-infinitives,
-#select-nature,
-#select-numbers,
-#select-people,
-#select-phrases,
-#select-travel {
+#adjectives,
+#animals,
+#apparel,
+#calendar,
+#catastrophe,
+#equipment,
+#food,
+#home,
+#infinitives,
+#nature,
+#numbers,
+#people,
+#phrases,
+#travel {
     clip-path: inset(100% 100% 100% 100%);
     position: absolute;
     visibility: hidden;
