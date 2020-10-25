@@ -1521,50 +1521,75 @@ $('#lightning-round').on('click', function() {
     $('#categories-wrapper').slideUp(800);
 });
 
-// toggle the visibility of the purple .selection-circle around the category-color label divs, when the corresponding input is clicked
 $('input[type=checkbox]').on('click', function() {
+    // toggle the visibility of the purple .selection-circle around the category icons, when the corresponding input is clicked
     $(this).next('label').children('div').children('div').toggle();
-
+    // if the circle is visible, make label text bold
     if ($(this).next('label').children('div').children('div').css('display') == ('block')) {
         $(this).next('label').children('p').addClass('bolded');
     } else {
         $(this).next('label').children('p').removeClass('bolded');
     }
 
-    // conditional, to prevent the game from ending if a person clicks a category before deciding not to use category selection. removes the unselected words from wordArray and prevents the round 2 modal box from appearing.
+    // prevents the game from ending if a person clicks a category before deciding not to use category selection. removes the unselected words from wordArray and prevents the round 2 modal box from appearing.
     if ($('input[type=checkbox]').is(':checked') === true) {
         wordArray.length = 0;
         gameArray.splice(1);
     }
 
-    if ($('#select-adjectives').is(':checked') === true) {
+    if ($('#adjectives').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'adjectives') {
                 wordArray.push(randomWord);
             }
         });
     } 
-    if ($('#select-animals').is(':checked') === true) {
+    if ($('#animals').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'animals') {
                 wordArray.push(randomWord);
             }
         });
     }
-    if ($('#select-apparel').is(':checked') === true) {
+    if ($('#apparel').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'apparel') {
                 wordArray.push(randomWord);
             }
         });
     }
-    if ($('#select-people').is(':checked') === true) {
+    if ($('#calendar').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'calendar') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#catastrophe').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'catastrophe') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+
+    if ($('#people').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'people') {
                 wordArray.push(randomWord);
             } 
         });
     }
+
+    // if ($(this).is(':checked') === true) {
+    //     consolidatedArray.forEach(randomWord => {
+    //         if (randomWord.category === $(this).attr('name')) {
+    //             wordArray.push(randomWord);
+    //         }
+    //     });
+    // }
+    // console.log($(this).attr('name'));
+    // console.log(wordArray);
 });
 
 // select categories and close the selection panel
