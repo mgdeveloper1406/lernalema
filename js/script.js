@@ -1572,7 +1572,48 @@ $('input[type=checkbox]').on('click', function() {
             }
         });
     }
-
+    if ($('#equipment').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'equipment') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#food').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'food') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#home').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'home') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#ifinitives').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'ifinitives') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#nature').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'nature') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#numbers').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'numbers') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
     if ($('#people').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'people') {
@@ -1580,11 +1621,31 @@ $('input[type=checkbox]').on('click', function() {
             } 
         });
     }
+    if ($('#phrases').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'phrases') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#travel').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'travel') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
 
     // if ($(this).is(':checked') === true) {
     //     consolidatedArray.forEach(randomWord => {
     //         if (randomWord.category === $(this).attr('name')) {
     //             wordArray.push(randomWord);
+    //         }
+    //     });
+    // } else if ($('input[type=checkbox]').is(':checked') === false) {
+    //     wordArray.forEach(randomWord => {
+    //         if (randomWord.category === $(this).attr('name')) {
+    //             wordArray.splice(randomWord);
     //         }
     //     });
     // }
