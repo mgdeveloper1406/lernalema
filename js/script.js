@@ -1152,6 +1152,41 @@ gameArray = [
             category: 'nature',
             hint: 'A low area between mountains or hills.'
         },
+        {
+            german: 'Samstag',
+            plural: 'samstags',
+            translation: ['Saturday', 'saturday'],
+            category: 'calendar',
+            hint: `This night's alright for fighting, according to Elton John.`
+        },
+        {
+            german: 'Sonntag',
+            plural: 'sonntags',
+            translation: ['Sunday', 'sunday'],
+            category: 'calendar',
+            hint: 'The day of the Sun.'
+        },
+        {
+            german: 'die Woche',
+            plural: 'die Wochen',
+            translation: 'week',
+            category: 'calendar',
+            hint: 'Seven days in a row.'
+        },
+        {
+            german: 'das Wochenende',
+            plural: 'die Wochenenden',
+            translation: 'weekend',
+            category: 'calendar',
+            hint: 'Saturday and Sunday.'
+        },
+        {
+            german: 'der Wochentag',
+            plural: 'die Wochentage',
+            translation: 'weekday',
+            category: 'calendar',
+            hint: `Any day that isn't Saturday or Sunday.`
+        }
     ]
 ];
 
