@@ -1186,6 +1186,41 @@ gameArray = [
             translation: 'weekday',
             category: 'calendar',
             hint: `Any day that isn't Saturday or Sunday.`
+        },
+        {
+            german: 'das Auto',
+            plural: 'die Autos',
+            translation: 'car',
+            category: 'travel',
+            hint: 'Vroom, vroom.'
+        },
+        {
+            german: 'die Brücke',
+            plural: 'die Brücken',
+            translation: 'bridge',
+            category: 'travel',
+            hint: 'A structure that spans a body of water.'
+        },
+        {
+            german: 'die Karte',
+            plural: 'die Karten',
+            translation: 'map',
+            category: 'travel',
+            hint: `If there's a place you gotta go, I'm the one you need to know.`
+        },
+        {
+            german: 'die Reise',
+            plural: 'die Reisen',
+            translation: ['trip', 'journey'],
+            category: 'travel',
+            hint: 'Traveling from one place to another.'
+        },
+        {
+            german: 'die Straße',
+            plural: 'die Straßen',
+            translation: ['road', 'street'],
+            category: 'travel',
+            hint: 'Look both ways before crossing this.'
         }
     ]
 ];
@@ -1670,6 +1705,9 @@ $('input[type=checkbox]').on('click', function() {
             }
         });
     }
+
+
+    
 
     // if ($(this).is(':checked') === true) {
     //     consolidatedArray.forEach(randomWord => {
