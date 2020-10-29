@@ -1221,6 +1221,41 @@ gameArray = [
             translation: ['road', 'street'],
             category: 'travel',
             hint: 'Look both ways before crossing this.'
+        },
+        {
+            german: 'die Biene',
+            plural: 'die Bienen',
+            translation: 'bee',
+            category: 'animals',
+            hint: 'Stripy pollinators—save them!'
+        },
+        {
+            german: 'die Fliege',
+            plural: 'die Fliegen',
+            translation: 'fly',
+            category: 'animals',
+            hint: 'Jeff Goldblum let one into his teleportation device.'
+        },
+        {
+            german: 'das Insekt',
+            plural: 'die Insekten',
+            translation: 'insect',
+            category: 'animals',
+            hint: 'A creepy-crawly.'
+        },
+        {
+            german: 'der Käfer',
+            plural: 'die Käfer',
+            translation: 'beetle',
+            category: 'animals',
+            hint: 'A type of insect that has a car named after it.'
+        },
+        {
+            german: 'die Spinne',
+            plural: 'die Spinnen',
+            translation: 'spider',
+            category: 'animals',
+            hint: `It's itsy, bitsy and has eight legs.`
         }
     ]
 ];
