@@ -183,6 +183,7 @@ button#lightning-round:hover {
 .bolded {
     font-weight: 700 !important;
 }
+#arts,
 #adjectives,
 #animals,
 #apparel,
@@ -201,6 +202,7 @@ button#lightning-round:hover {
     position: absolute;
     visibility: hidden;
 }
+#arts-color,
 #adjectives-color,
 #animals-color,
 #apparel-color,
@@ -223,6 +225,9 @@ button#lightning-round:hover {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+}
+#arts-color {
+    background-color: rgb(70, 130, 180);
 }
 #adjectives-color {
     background-color: rgb(156, 83, 141);
