@@ -281,7 +281,7 @@ button#lightning-round:hover {
 .expanded {
     width: 30px;
 }
-.plane {
+.taller {
     max-height: 24px;
 }
 .label-text {
