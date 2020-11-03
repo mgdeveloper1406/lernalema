@@ -133,6 +133,11 @@ li:hover {
     position: absolute;
     z-index: 3;
 }
+#lightning-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 #lightning-container {
     margin: 1rem 2rem;
     text-align: center;
@@ -149,13 +154,16 @@ h2#lightning-text {
     text-transform: unset;
     padding: 1rem;
 }
-button#lightning-round {
+button.lightning-round {
     background-color: rgb(255, 72, 0);
     color: rgb(255, 255, 255);
     margin: 1rem auto;
 }
-button#lightning-round:hover {
+button.lightning-round:hover {
     background-color: rgb(0, 197, 255);
+}
+.mobile {
+    display: none;
 }
 #categories-box {
     display: flex;
@@ -293,16 +301,18 @@ button#lightning-round:hover {
     text-align: center;
     margin: .6rem auto 0;
 }
-#select-categories {
+.select-categories {
     margin: 1rem auto;
     color: rgb(240, 248, 255);
     background-color: rgb(128, 84, 181);
 }
-#select-categories:hover,
+.select-categories:hover,
 #continue:hover {
     background-color: rgb(201, 124, 194);
 }
-
+#lightning-button-row {
+    display: flex;
+}
 /* MAIN */
 
 #help-row {
