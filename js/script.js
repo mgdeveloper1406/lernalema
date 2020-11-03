@@ -1291,7 +1291,11 @@ gimmeWords();
 
 // this changes the flashcards' colors, based on the given word's category
 const categoryColors = () => {
-    if (randomWord.category === 'adjectives') {
+    if (randomWord.category === 'arts') {
+        $('#german-box').css('backgroundColor', '#4682b4');
+        $('#german-word, #german-plural').css('color', '#f0f8ff');
+        $('#plural-zone').css('display', 'block');
+    } else if (randomWord.category === 'adjectives') {
         $('#german-box').css('backgroundColor', '#9c538d');
         $('#german-word').css('color', '#f0f8ff');
         $('#plural-zone').css('display', 'none');
@@ -1513,7 +1517,9 @@ $('#mini-review').on('click', function() {
         }
         $('#review-box').append(reviewWords, downArrows, reviewAnswers);
 
-        if (element.category === 'adjectives') {
+        if (element.category === 'arts') {
+            $(reviewWords).css('color', '#4682b4');
+        } else if (element.category === 'adjectives') {
             $(reviewWords).css('color', '#9c538d');
         } else if (element.category === 'animals') {
             $(reviewWords).css('color', '#a08181');
