@@ -1506,7 +1506,7 @@ $('#mini-review').on('click', function() {
     }
 
     miniReviewArray.forEach(element => {
-        let reviewWords = $('<p class="review-words"></p>');
+        let reviewWords = $('<p class="review-words" lang="de"></p>');
         let downArrows = $('<img class="down-arrows" src="images/review-arrows.svg" />');
         let reviewAnswers = $('<p class="review-answers"></p>');
         $(reviewWords).text(element.german);
