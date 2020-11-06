@@ -661,6 +661,21 @@ footer {
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 1044px) {
+
+    /* CATEGORIES */
+
+    #lightning-flex {
+        flex-direction: column;
+    }
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
         
     /* MODAL BOX */
