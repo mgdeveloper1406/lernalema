@@ -1118,6 +1118,41 @@ gameArray = [
             hint: 'A drink made from fruits.'
         },
         {
+            german: 'die Biene',
+            plural: 'die Bienen',
+            translation: 'bee',
+            category: 'animals',
+            hint: 'Stripy pollinators—save them!'
+        },
+        {
+            german: 'die Fliege',
+            plural: 'die Fliegen',
+            translation: 'fly',
+            category: 'animals',
+            hint: 'Jeff Goldblum let one into his teleportation device.'
+        },
+        {
+            german: 'das Insekt',
+            plural: 'die Insekten',
+            translation: 'insect',
+            category: 'animals',
+            hint: 'A creepy-crawly.'
+        },
+        {
+            german: 'der Käfer',
+            plural: 'die Käfer',
+            translation: 'beetle',
+            category: 'animals',
+            hint: 'A type of insect that has a car named after it.'
+        },
+        {
+            german: 'die Spinne',
+            plural: 'die Spinnen',
+            translation: 'spider',
+            category: 'animals',
+            hint: `It's itsy, bitsy and has eight legs.`
+        },
+        {
             german: 'der Berg',
             plural: 'die Berge',
             translation: 'mountain',
@@ -1223,39 +1258,39 @@ gameArray = [
             hint: 'Look both ways before crossing this.'
         },
         {
-            german: 'die Biene',
-            plural: 'die Bienen',
-            translation: 'bee',
-            category: 'animals',
-            hint: 'Stripy pollinators—save them!'
+            german: 'der Absturz',
+            plural: 'die Abstürze',
+            translation: 'crash',
+            category: 'catastrophe',
+            hint: 'When things collide.'
         },
         {
-            german: 'die Fliege',
-            plural: 'die Fliegen',
-            translation: 'fly',
-            category: 'animals',
-            hint: 'Jeff Goldblum let one into his teleportation device.'
+            german: 'die Schnittwunde',
+            plural: 'die Schnittwunden',
+            translation: ['cut', 'laceration'],
+            category: 'catastrophe',
+            hint: 'The result of being sliced by something sharp.'
         },
         {
-            german: 'das Insekt',
-            plural: 'die Insekten',
-            translation: 'insect',
-            category: 'animals',
-            hint: 'A creepy-crawly.'
+            german: 'der Unfall',
+            plural: 'die Unfälle',
+            translation: 'accident',
+            category: 'catastrophe',
+            hint: 'A mistake; something not done on purpose.'
         },
         {
-            german: 'der Käfer',
-            plural: 'die Käfer',
-            translation: 'beetle',
-            category: 'animals',
-            hint: 'A type of insect that has a car named after it.'
+            german: 'die Verletzung',
+            plural: 'die Verletzungen',
+            translation: 'injury',
+            category: 'catastrophe',
+            hint: `You shouldn't add insult to this.`
         },
         {
-            german: 'die Spinne',
-            plural: 'die Spinnen',
-            translation: 'spider',
-            category: 'animals',
-            hint: `It's itsy, bitsy and has eight legs.`
+            german: 'die Wunde',
+            plural: 'die Wunden',
+            translation: 'wound',
+            category: 'catastrophe',
+            hint: 'Something that is healed by time.'
         }
     ]
 ];
