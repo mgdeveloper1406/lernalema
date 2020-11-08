@@ -1683,6 +1683,13 @@ $('input[type=checkbox]').on('click', function() {
         gameArray.splice(1);
     }
 
+    if ($('#arts').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'arts') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
     if ($('#adjectives').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'adjectives') {
