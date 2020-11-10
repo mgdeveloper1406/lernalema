@@ -1350,10 +1350,6 @@ const categoryColors = () => {
         $('#german-box').css('backgroundColor', '#759475');
         $('#german-word, #german-plural').css('color', '#ffffff');
         $('#plural-zone').css('display', 'block');
-    } else if (randomWord.category === 'devices') {
-        $('#german-box').css('backgroundColor', '#607d8b');
-        $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'block');
     } else if (randomWord.category === 'food') {
         $('#german-box').css('backgroundColor', '#f44336');
         $('#german-word, #german-plural').css('color', '#f0f8ff');
@@ -1382,6 +1378,10 @@ const categoryColors = () => {
         $('#german-box').css('backgroundColor', '#ce3c5e');
         $('#german-word').css('color', '#ffffff');
         $('#plural-zone').css('display', 'none');
+    } else if (randomWord.category === 'tech') {
+        $('#german-box').css('backgroundColor', '#607d8b');
+        $('#german-word, #german-plural').css('color', '#ffffff');
+        $('#plural-zone').css('display', 'block');
     } else if (randomWord.category === 'travel') {
         $('#german-box').css('backgroundColor', '#5e93f3');
         $('#german-word, #german-plural').css('color', '#ffffff');
@@ -1564,8 +1564,6 @@ $('#mini-review').on('click', function() {
             $(reviewWords).css('color', '#cd5c5c');
         } else if (element.category === 'catastrophe') {
             $(reviewWords).css('color', '#759475');
-        } else if (element.category === 'devices') {
-            $(reviewWords).css('color', '#607d8b');
         } else if (element.category === 'food') {
             $(reviewWords).css('color', '#f44336');
         } else if (element.category === 'home') {
@@ -1580,6 +1578,8 @@ $('#mini-review').on('click', function() {
             $(reviewWords).css('color', '#008b8b');
         } else if (element.category === 'phrases') {
             $(reviewWords).css('color', '#ce3c5e');
+        } else if (element.category === 'tech') {
+            $(reviewWords).css('color', '#607d8b');
         } else if (element.category === 'travel') {
             $(reviewWords).css('color', '#5e93f3');
         }
@@ -1725,13 +1725,6 @@ $('input[type=checkbox]').on('click', function() {
             }
         });
     }
-    if ($('#equipment').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'equipment') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
     if ($('#food').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'food') {
@@ -1777,6 +1770,13 @@ $('input[type=checkbox]').on('click', function() {
     if ($('#phrases').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'phrases') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#tech').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'tech') {
                 wordArray.push(randomWord);
             }
         });
