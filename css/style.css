@@ -197,7 +197,6 @@ button.lightning-round:hover {
 #apparel,
 #calendar,
 #catastrophe,
-#equipment,
 #food,
 #home,
 #infinitives,
@@ -205,6 +204,7 @@ button.lightning-round:hover {
 #numbers,
 #people,
 #phrases,
+#tech,
 #travel {
     clip-path: inset(100% 100% 100% 100%);
     position: absolute;
@@ -216,7 +216,6 @@ button.lightning-round:hover {
 #apparel-color,
 #calendar-color,
 #catastrophe-color,
-#equipment-color,
 #food-color,
 #home-color,
 #infinitives-color,
@@ -224,6 +223,7 @@ button.lightning-round:hover {
 #numbers-color,
 #people-color,
 #phrases-color,
+#tech-color,
 #travel-color {
     border-radius: 100%;
     width: 45px;
@@ -252,9 +252,6 @@ button.lightning-round:hover {
 #catastrophe-color {
     background-color: rgb(117, 148, 117);
 }
-#equipment-color {
-    background-color: rgb(96, 125, 139);
-}
 #food-color {
     background-color: rgb(244, 67, 54);
 }
@@ -275,6 +272,9 @@ button.lightning-round:hover {
 }
 #phrases-color {
     background-color: rgb(206, 60, 94);
+}
+#tech-color {
+    background-color: rgb(96, 125, 139);
 }
 #travel-color {
     background-color: rgb(94, 147, 243)
