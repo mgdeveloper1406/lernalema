@@ -1153,6 +1153,20 @@ gameArray = [
             hint: `It's itsy, bitsy and has eight legs.`
         },
         {
+            german: 'der Boden',
+            plural: 'die Böden',
+            translation: 'floor',
+            category: 'home',
+            hint: 'A surface for walking.'
+        },
+        {
+            german: 'das Fenster',
+            plural: 'die Fenster',
+            translation: 'window',
+            category: 'home',
+            hint: 'A portal to the outside world.'
+        },
+        {
             german: 'der Berg',
             plural: 'die Berge',
             translation: 'mountain',
