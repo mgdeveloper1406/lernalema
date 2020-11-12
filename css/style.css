@@ -411,7 +411,7 @@ h3#german-word {
     font-style: normal;
     font-size: 3.8rem;
     letter-spacing: .1rem;
-    color: rgb(255, 215, 0);
+    color: rgb(255, 255, 255);
     margin: 0 0 .1rem 0;
 }
 #line {
@@ -432,9 +432,12 @@ span.curly-braces {
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
-    color: rgb(255, 215, 0);
+    color: rgb(255, 255, 255);
     display: inline;
     margin: 0;
+}
+span.curly-braces {
+    color: rgb(255, 215, 0);
 }
 input#your-translation {
     font-family: 'Nunito', sans-serif;
