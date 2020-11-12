@@ -1340,66 +1340,67 @@ gimmeWords();
 
 // this changes the flashcards' colors, based on the given word's category
 const categoryColors = () => {
-    if (randomWord.category === 'arts') {
-        $('#german-box').css('backgroundColor', '#4682b4');
-        $('#german-word, #german-plural').css('color', '#f0f8ff');
-        $('#plural-zone').css('display', 'block');
-    } else if (randomWord.category === 'adjectives') {
-        $('#german-box').css('backgroundColor', '#9c538d');
-        $('#german-word').css('color', '#f0f8ff');
-        $('#plural-zone').css('display', 'none');
-    } else if (randomWord.category === 'animals') {
-        $('#german-box').css('backgroundColor', '#a08181');
-        $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'block');
-    } else if (randomWord.category === 'apparel') {
-        $('#german-box').css('backgroundColor', '#0994bd');
-        $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'block');
-    } else if (randomWord.category === 'calendar') {
-        $('#german-box').css('backgroundColor', '#cd5c5c');
-        $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'block');
-    } else if (randomWord.category === 'catastrophe') {
-        $('#german-box').css('backgroundColor', '#759475');
-        $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'block');
-    } else if (randomWord.category === 'food') {
-        $('#german-box').css('backgroundColor', '#f44336');
-        $('#german-word, #german-plural').css('color', '#f0f8ff');
-        $('#plural-zone').css('display', 'block');
-    } else if (randomWord.category === 'home') {
-        $('#german-box').css('backgroundColor', '#772e53');
-        $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'block');
-    } else if (randomWord.category === 'infinitives') {
-        $('#german-box').css('backgroundColor', '#f56a37');
-        $('#german-word').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'none');
-    } else if (randomWord.category === 'nature') {
-        $('#german-box').css('backgroundColor', '#2e8b57');
-        $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'block');
-    } else if (randomWord.category === 'numbers') {
-        $('#german-box').css('backgroundColor', '#6b6a9e');
-        $('#german-word').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'none');
-    } else if (randomWord.category === 'people') {
-        $('#german-box').css('backgroundColor', '#008b8b');
-        $('#german-word, #german-plural').css('color', '#f0f8ff');
-        $('#plural-zone').css('display', 'block');
-    } else if (randomWord.category === 'phrases') {
-        $('#german-box').css('backgroundColor', '#ce3c5e');
-        $('#german-word').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'none');
-    } else if (randomWord.category === 'tech') {
-        $('#german-box').css('backgroundColor', '#607d8b');
-        $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'block');
-    } else if (randomWord.category === 'travel') {
-        $('#german-box').css('backgroundColor', '#5e93f3');
-        $('#german-word, #german-plural').css('color', '#ffffff');
-        $('#plural-zone').css('display', 'block');
+    switch (randomWord.category) {
+        case 'arts':
+            $('#german-box').css('backgroundColor', '#4682b4');
+            $('#plural-zone').css('display', 'block');
+            break;
+        case 'adjectives':
+            $('#german-box').css('backgroundColor', '#9c538d');
+            $('#plural-zone').css('display', 'none');
+            break;
+        case 'animals':
+            $('#german-box').css('backgroundColor', '#a08181');
+            $('#plural-zone').css('display', 'block');
+            break;
+        case 'apparel':
+            $('#german-box').css('backgroundColor', '#0994bd');
+            $('#plural-zone').css('display', 'block');
+            break;
+        case 'calendar':
+            $('#german-box').css('backgroundColor', '#cd5c5c');
+            $('#plural-zone').css('display', 'block');
+            break;
+        case 'catastrophe':
+            $('#german-box').css('backgroundColor', '#759475');
+            $('#plural-zone').css('display', 'block');
+            break;
+        case 'food':
+            $('#german-box').css('backgroundColor', '#f44336');
+            $('#plural-zone').css('display', 'block');
+            break;
+        case 'home':
+            $('#german-box').css('backgroundColor', '#772e53');
+            $('#plural-zone').css('display', 'block');
+            break;
+        case 'infinitives':
+            $('#german-box').css('backgroundColor', '#f56a37');
+            $('#plural-zone').css('display', 'none');
+            break;
+        case 'nature':
+            $('#german-box').css('backgroundColor', '#2e8b57');
+            $('#plural-zone').css('display', 'block');
+            break;
+        case 'numbers':
+            $('#german-box').css('backgroundColor', '#6b6a9e');
+            $('#plural-zone').css('display', 'none');
+            break;
+        case 'people':
+            $('#german-box').css('backgroundColor', '#008b8b');
+            $('#plural-zone').css('display', 'block');
+            break;
+        case 'phrases':
+            $('#german-box').css('backgroundColor', '#ce3c5e');
+            $('#plural-zone').css('display', 'none');
+            break;
+        case 'tech':
+            $('#german-box').css('backgroundColor', '#607d8b');
+            $('#plural-zone').css('display', 'block');
+            break;
+        case 'travel':
+            $('#german-box').css('backgroundColor', '#5e93f3');
+            $('#plural-zone').css('display', 'block');
+            break;
     }
 };
 
