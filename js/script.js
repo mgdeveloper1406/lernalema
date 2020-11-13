@@ -1446,6 +1446,22 @@ function updateLevel() {
     }
 };
 
+// add (hint bulb and answer key) words to a mini review and remove duplicates 
+function buildMiniReview() {
+    miniReviewArray.push(randomWord);
+    $.uniqueSort(miniReviewArray);
+};
+
+function displayMiniReview() {
+    if ($('#modal-body').css('display') === 'block' && miniReviewArray.length == 0) {
+        $('.review-arrows').css('display', 'none');
+        $('#mini-review').css('display', 'none');
+    } else if ($('#modal-body').css('display') === 'block' && miniReviewArray.length >= 1) {
+        $('.review-arrows').css('display', 'inline');
+        $('#mini-review').css('display', 'inline');
+    }
+};
+
 // check that the user's input matches the translation given in the word array. if so, clear the input field and display the next flashcard. else, the console logs the input and the answer, and the input field flashes red while the input value fades. 
 function checkAnswer() {
     // convert the user's input to lowercase, to match the answer in the array
@@ -1489,6 +1505,7 @@ function checkAnswer() {
         updateLevel();
         $('.modal').css('display', 'block');
         $('#modal-body').css('display', 'block');
+        displayMiniReview();
     } else if (wordArray.length == 0 && gameArray.length == 1) {
         setTimeout(function waitForZero() {
             alert(`Du sprichst Deutsch! Sort of!`);
@@ -1512,24 +1529,6 @@ $(document).keypress(function(event) {
         event.preventDefault();
     } 
 });
-
-// add (hint bulb and answer key) words to a mini review and remove duplicates 
-function buildMiniReview() {
-    miniReviewArray.push(randomWord);
-    $.uniqueSort(miniReviewArray);
-};
-
-function displayMiniReview() {
-    if ($('#modal-body').css('display') === 'block' && miniReviewArray.length == 0) {
-        $('.review-arrows').css('display', 'none');
-        $('#mini-review').css('display', 'none');
-    } else if ($('#modal-body').css('display') === 'block' && miniReviewArray.length >= 1) {
-        $('.review-arrows').css('display', 'block');
-        $('#mini-review').css('display', 'block');
-    }
-};
-
-displayMiniReview();
 
 // the hint will slide out sideways and bounce back a bit
 $('#hint-bulb').on('click', function() {
