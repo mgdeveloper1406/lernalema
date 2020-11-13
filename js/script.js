@@ -1519,6 +1519,18 @@ function buildMiniReview() {
     $.uniqueSort(miniReviewArray);
 };
 
+function displayMiniReview() {
+    if ($('#modal-body').css('display') === 'block' && miniReviewArray.length == 0) {
+        $('.review-arrows').css('display', 'none');
+        $('#mini-review').css('display', 'none');
+    } else if ($('#modal-body').css('display') === 'block' && miniReviewArray.length >= 1) {
+        $('.review-arrows').css('display', 'block');
+        $('#mini-review').css('display', 'block');
+    }
+};
+
+displayMiniReview();
+
 // the hint will slide out sideways and bounce back a bit
 $('#hint-bulb').on('click', function() {
     $('#hint-message').animate({'right': '145px'}, 600, function() {
