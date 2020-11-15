@@ -662,6 +662,29 @@ footer {
     margin: 0;
 }
 
+/* DER DIE DAS QUIZ */
+
+#quiz-button-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 550px;
+    margin: 0 auto;
+}
+.quiz-buttons {
+    font-size: 1.5rem;
+    text-transform: none;
+    color: rgb(255, 215, 0);
+    background-color: rgb(26, 18, 47);
+    border: 1.5px solid rgb(255, 215, 0);
+    padding: .8rem 2rem;
+}
+.quiz-buttons:hover {
+    background-color: rgb(255, 215, 0);
+    /* color: rgb(70, 130, 180); */
+    color: rgb(26, 18, 47);
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1044px) {
