@@ -1849,3 +1849,13 @@ $('.select-categories').on('click', function() {
     }
     $('#categories-wrapper').slideUp(800);
 });
+
+//---------------------------------------------------------------
+
+$('.quiz-buttons').on('click', function() {
+    if ($(this).html() === randomWord.german.split(' ')[0]) {
+        moveWord();
+        gimmeWords();
+        categoryColors();
+    }
+});
