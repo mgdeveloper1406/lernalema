@@ -1342,6 +1342,11 @@ function gimmeWords() {
         // this populates the hint message
         $('#hint-message').html(randomWord.hint);
     }
+
+    // split randomWord, to hide the article and show only the noun
+    if ($('body').hasClass('quiz-page')) {
+        $('#german-word').html(randomWord.german.split(' ')[0]).css('display', 'none').html(randomWord.german.split(' ')[1]).css('display', 'block');
+    }
 };
 
 gimmeWords();
