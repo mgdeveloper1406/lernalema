@@ -1316,7 +1316,15 @@ function getRandom(object) {
 }
 
 function gimmeWords() {
-    wordArray;
+    // on the quiz page, filter wordArray to remove all words without definite articles (i.e., without der, die, or das)
+    if ($('body').hasClass('quiz-page')) {
+        wordArray = wordArray.filter(item => 
+            (item.category !== 'numbers') && 
+            (item.category !== 'phrases') &&
+            (item.category !== 'adjectives') &&
+            (item.category !== 'calendar')
+        );
+    }
     
     if (wordArray.length > 0) {
         // using the getRandom function, this assigns the value of the random word
@@ -1462,6 +1470,20 @@ function displayMiniReview() {
     }
 };
 
+// when the wordArray is empty, display the next-level modal box and update the level that the user has reached
+function modalDisplay() {
+    if (wordArray.length <= 0 && gameArray.length > 1) {
+        updateLevel();
+        $('.modal').css('display', 'block');
+        $('#modal-body').css('display', 'block');
+        displayMiniReview();
+    } else if (wordArray.length == 0 && gameArray.length == 1) {
+        setTimeout(function waitForZero() {
+            alert(`Du sprichst Deutsch! Sort of!`);
+        }, 200);
+    }
+};
+
 // check that the user's input matches the translation given in the word array. if so, clear the input field and display the next flashcard. else, the console logs the input and the answer, and the input field flashes red while the input value fades. 
 function checkAnswer() {
     // convert the user's input to lowercase, to match the answer in the array
@@ -1500,18 +1522,7 @@ function checkAnswer() {
         });
     }
     
-    // when the wordArray is empty, display the next-level modal box and update the level that the user has reached
-    if (wordArray.length <= 0 && gameArray.length > 1) {
-        updateLevel();
-        $('.modal').css('display', 'block');
-        $('#modal-body').css('display', 'block');
-        displayMiniReview();
-    } else if (wordArray.length == 0 && gameArray.length == 1) {
-        setTimeout(function waitForZero() {
-            alert(`Du sprichst Deutsch! Sort of!`);
-        }, 200);
-    }
-
+    modalDisplay();
     chameleonColors();
     updateCountdown();
     revealCountdownText();
@@ -1858,4 +1869,9 @@ $('.quiz-buttons').on('click', function() {
         gimmeWords();
         categoryColors();
     }
+
+    modalDisplay();
+    chameleonColors();
+    updateCountdown();
+    revealCountdownText();
 });
