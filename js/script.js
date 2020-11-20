@@ -1475,6 +1475,11 @@ function displayMiniReview() {
     }
 };
 
+// reset the hint message's original position
+function resetHint() {
+    $('#hint-message').css('right', '-100%');
+};
+
 // when the wordArray is empty, display the next-level modal box and update the level that the user has reached
 function modalDisplay() {
     if (wordArray.length <= 0 && gameArray.length > 1) {
@@ -1531,9 +1536,7 @@ function checkAnswer() {
     chameleonColors();
     updateCountdown();
     revealCountdownText();
-
-    // reset the hint message's original position
-    $('#hint-message').css('right', '-100%');
+    resetHint();
 };
 
 $('#submit').on('click', checkAnswer);
@@ -1879,4 +1882,5 @@ $('.quiz-buttons').on('click', function() {
     chameleonColors();
     updateCountdown();
     revealCountdownText();
+    resetHint();
 });
