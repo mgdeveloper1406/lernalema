@@ -681,8 +681,33 @@ footer {
 }
 .quiz-buttons:hover {
     background-color: rgb(255, 215, 0);
-    /* color: rgb(70, 130, 180); */
     color: rgb(26, 18, 47);
+}
+.add-quiz-bzzt {
+    -webkit-animation-name: quiz-bzzt;
+    -webkit-animation-duration: 2s;
+    animation-name: quiz-bzzt;
+    animation-duration: 2s;
+    color: rgb(240, 248, 255);
+    cursor: not-allowed;
+}
+@-webkit-keyframes quiz-bzzt {
+    0%   {background-color: rgb(41, 35, 70);}
+    25%  {background-color: rgb(169, 0, 0);}
+    50%  {background-color: rgb(169, 0, 0);}
+    100% {background-color: rgb(255, 26, 26);}
+}
+@keyframes quiz-bzzt {
+    0%   {background-color: rgb(41, 35, 70);}
+    25%  {background-color: rgb(169, 0, 0);}
+    50%  {background-color: rgb(169, 0, 0);}
+    100% {background-color: rgb(255, 26, 26);}
+}
+.red-button {
+    background-color: rgb(255, 26, 26)!important;
+    border: 1px solid rgb(255, 26, 26)!important;
+    cursor: not-allowed;
+    color: rgb(240, 248, 255)!important;
 }
 
 /* MEDIA QUERIES */
