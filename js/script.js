@@ -1876,6 +1876,12 @@ $('.quiz-buttons').on('click', function() {
         moveWord();
         gimmeWords();
         categoryColors();
+        $('.quiz-buttons').removeClass('add-quiz-bzzt').removeClass('red-button');
+    } else {
+        $(this).addClass('add-quiz-bzzt').delay(500).queue(function(next) {
+            $(this).addClass('red-button');
+            next();
+        });    
     }
 
     modalDisplay();
