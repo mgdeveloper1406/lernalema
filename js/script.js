@@ -1178,7 +1178,7 @@ gameArray = [
             plural: 'die Wände',
             translation: 'wall',
             category: 'home',
-            hint: 'A solid barrier between rooms.'
+            hint: 'A solid, immovable barrier between rooms.'
         },
         {
             german: 'das Zimmer',
