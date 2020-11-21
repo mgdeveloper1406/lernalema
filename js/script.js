@@ -1167,6 +1167,27 @@ gameArray = [
             hint: 'A portal to the outside world.'
         },
         {
+            german: 'die Tür',
+            plural: 'die Türen',
+            translation: 'door',
+            category: 'home',
+            hint: `Don't let it hit you on your way out!`
+        },
+        {
+            german: 'die Wand',
+            plural: 'die Wände',
+            translation: 'wall',
+            category: 'home',
+            hint: 'A solid barrier between rooms.'
+        },
+        {
+            german: 'das Zimmer',
+            plural: 'die Zimmer',
+            translation: 'room',
+            category: 'home',
+            hint: 'A space in your home (e.g., the kitchen).'
+        },
+        {
             german: 'der Berg',
             plural: 'die Berge',
             translation: 'mountain',
