@@ -1925,7 +1925,7 @@ $('.quiz-buttons').on('click', function() {
         $(this).addClass('add-quiz-bzzt').delay(500).queue(function(next) {
             $(this).addClass('red-button');
             next();
-            miniReviewArray.push(randomWord);
+            buildMiniReview();
         });    
     }
 
