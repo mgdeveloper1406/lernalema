@@ -1579,6 +1579,25 @@ $('#hint-bulb').on('click', function() {
     buildMiniReview();
 });
 
+function quizAnswer() {
+    if ($('#der-button').html() === randomWord.german.split(' ')[0]) {
+        $('#der-button').addClass('add-sparkle').addClass('sparkle-text');
+        setTimeout(function endSparkle() {
+            $('.quiz-buttons').removeClass('add-sparkle').removeClass('sparkle-text');
+        }, 2000);
+    } else if ($('#die-button').html() === randomWord.german.split(' ')[0]) {
+        $('#die-button').addClass('add-sparkle').addClass('sparkle-text');
+        setTimeout(function endSparkle() {
+            $('.quiz-buttons').removeClass('add-sparkle').removeClass('sparkle-text');
+        }, 2000);
+    } else if ($('#das-button').html() === randomWord.german.split(' ')[0]) {
+        $('#das-button').addClass('add-sparkle').addClass('sparkle-text');
+        setTimeout(function endSparkle() {
+            $('.quiz-buttons').removeClass('add-sparkle').removeClass('sparkle-text');
+        }, 2000);
+    }
+};
+
 // set the correct translation in the input field, when the answer key is clicked
 $('#answer-key').on('click', function() { 
     if (typeof randomWord.translation === 'string') {
@@ -1589,6 +1608,10 @@ $('#answer-key').on('click', function() {
     setTimeout(function endSparkle() {
         $('input').removeClass('add-sparkle');
     }, 2000);
+
+    if ($('body').hasClass('quiz-page')) {
+        quizAnswer();
+    }
 
     buildMiniReview();
 });
