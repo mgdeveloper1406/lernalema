@@ -400,12 +400,12 @@ button.lightning-round:hover {
     justify-content: center;
     width: 555px;
     height: 250px;
-    /* margin: 3rem auto 2.1rem; */
     margin: 0 auto 2.1rem;
     background-color: rgb(92, 40, 66);
     border-radius: 5px;
 }
 h3#german-word {
+    display: inline;
     font-family: 'dinosaur', sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -420,7 +420,7 @@ h3#german-word {
     width: 100%;
     background-color: rgb(255, 215, 0);
     border-radius: 5px;
-    margin-bottom: .4rem;
+    margin: .13rem 0 .4rem 0;
 }
 #plural-zone {
     display: block;
@@ -669,6 +669,17 @@ footer {
 
 /* DER DIE DAS QUIZ */
 
+#blank-word-flex {
+    display: flex;
+    align-items: baseline;
+}
+#blank-line {
+    height: .2rem;
+    width: 5rem;
+    background-color: rgb(255 255 255);
+    border-radius: 5px;
+    margin: 0 1.3rem 0 .31rem;
+}
 #quiz-button-row {
     display: flex;
     align-items: center;
