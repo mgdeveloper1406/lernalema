@@ -714,6 +714,9 @@ footer {
     cursor: not-allowed;
     color: rgb(240, 248, 255)!important;
 }
+.sparkle-text {
+    color: rgb(26, 18, 47);
+}
 
 /* MEDIA QUERIES */
 
