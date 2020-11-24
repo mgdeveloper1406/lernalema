@@ -1535,6 +1535,8 @@ function checkAnswer() {
         
         // assign the flashcards' colors
         categoryColors();
+
+        chameleonColors();
     } else {
         console.log(`Your answer was "${answer}"`);
         console.log(`The correct translation is "${randomWord.translation}"`);
@@ -1554,7 +1556,6 @@ function checkAnswer() {
     }
     
     modalDisplay();
-    chameleonColors();
     updateCountdown();
     revealCountdownText();
     resetHint();
@@ -1920,6 +1921,7 @@ $('.quiz-buttons').on('click', function() {
         moveWord();
         gimmeWords();
         categoryColors();
+        chameleonColors();
         $('.quiz-buttons').removeClass('add-quiz-bzzt').removeClass('red-button');
     } else {
         $(this).addClass('add-quiz-bzzt').delay(500).queue(function(next) {
@@ -1930,7 +1932,6 @@ $('.quiz-buttons').on('click', function() {
     }
 
     modalDisplay();
-    chameleonColors();
     updateCountdown();
     revealCountdownText();
     resetHint();
