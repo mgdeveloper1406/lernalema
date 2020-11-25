@@ -673,12 +673,16 @@ footer {
     display: flex;
     align-items: baseline;
 }
-#blank-line {
+#blank-line-wrapper {
+    display: flex;
+    margin: 0 1.3rem 0 .31rem;
+}
+.blank-line {
     height: .2rem;
-    width: 5rem;
+    width: 1.5rem;
     background-color: rgb(255 255 255);
     border-radius: 5px;
-    margin: 0 1.3rem 0 .31rem;
+    margin: 0 .2rem;
 }
 #quiz-button-row {
     display: flex;
