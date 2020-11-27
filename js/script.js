@@ -1327,6 +1327,39 @@ gameArray = [
             category: 'catastrophe',
             hint: 'Something that is healed by time.'
         }
+    ],
+
+    round7 = [
+        {
+            german: 'einunddreißig',
+            translation: ['thirty-one', 'thirty one'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'zweiunddreißig',
+            translation: ['thirty-two', 'thirty two'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'dreiunddreißig',
+            translation: ['thirty-three', 'thirty three'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'vierunddreißig',
+            translation: ['thirty-four', 'thirty four'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'fünfunddreißig',
+            translation: ['thirty-five', 'thirty five'],
+            category: 'numbers',
+            hint: ''
+        }
     ]
 ];
 
