@@ -1947,6 +1947,12 @@ $('.select-categories').on('click', function() {
     $('#categories-wrapper').slideUp(800);
 });
 
+function categoriesWrapperMargin() {
+    let headerHeight = $('header').outerHeight(true);
+    $('#categories-wrapper').css('margin-top', headerHeight);
+}
+categoriesWrapperMargin();
+
 //---------------------------------------------------------------
 
 $('.quiz-buttons').on('click', function() {
@@ -1974,12 +1980,12 @@ $('.quiz-buttons').on('click', function() {
 // open and close the highlighter hamburger menu
 $('#hamburger').on('click', function(){
     $('nav').animate({left: 0});
-  });
+});
   
 $('.close-nav').on('click', function(){
     $('nav').animate({left: '100%'});
-  });
+});
   
 $(window).on('resize', function(){
     $('nav').removeAttr('style');
-  });
+});
