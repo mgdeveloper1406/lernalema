@@ -696,6 +696,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
+    background-color: inherit;
 }
 #copyright {
     font-family: 'Nunito', sans-serif;
@@ -729,7 +730,7 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     max-width: 550px;
-    margin: 0 auto;
+    margin: 0 auto 6rem;
 }
 .quiz-buttons {
     font-size: 1.5rem;
