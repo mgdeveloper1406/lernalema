@@ -34,6 +34,10 @@ header {
     justify-content: space-between;
     padding: .7rem 1.5rem;
     background-color: rgb(62, 47, 79);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
 }
 #logo {
     display: flex;
@@ -156,8 +160,6 @@ li:hover {
 .header-shadow {
     border-bottom: 1px solid #3F51B5;
     box-shadow: 1px 3px 5px 1px #9E9E9E;
-    position: relative;
-    z-index: 4;
 }
 
 /* CATEGORIES  */
@@ -831,7 +833,7 @@ footer {
     }
     #highlighter-menu {
         display: block;
-        height: 1.5rem;
+        height: 1.3rem;
         cursor: pointer;
     }
     #german-box {
