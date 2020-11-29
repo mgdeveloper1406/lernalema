@@ -1969,3 +1969,17 @@ $('.quiz-buttons').on('click', function() {
     revealCountdownText();
     resetHint();
 });
+
+
+// open and close the highlighter hamburger menu
+$('#hamburger').on('click', function(){
+    $('nav').animate({left: 0});
+  });
+  
+$('.close-nav').on('click', function(){
+    $('nav').animate({left: '100%'});
+  });
+  
+$(window).on('resize', function(){
+    $('nav').removeAttr('style');
+  });
