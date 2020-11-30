@@ -1754,6 +1754,11 @@ $('#open-categories').on('click', function() {
     consolidatedArray = [].concat.apply([], gameArray);
     console.log(consolidatedArray);
 
+    // close the mobile nav to reveal the categories
+    if ($('nav').css('left') == '0px' && $(window).width() < 616) {
+        $('nav').animate({left: '100%'});
+    }
+
     // close the category selection, if the link is clicked again
     if ($('#categories-wrapper').css('display') == ('none')) {
         $('header').addClass('header-shadow');
