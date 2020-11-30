@@ -1947,11 +1947,13 @@ $('.select-categories').on('click', function() {
     $('#categories-wrapper').slideUp(800);
 });
 
-function categoriesWrapperMargin() {
+// add extra padding to offset the fixed header
+function headerOffset() {
     let headerHeight = $('header').outerHeight(true);
-    $('#categories-wrapper').css('margin-top', headerHeight);
+    $('#categories-wrapper').css('padding-top', headerHeight);
+    $('main').css('padding-top', headerHeight);
 }
-categoriesWrapperMargin();
+headerOffset();
 
 //---------------------------------------------------------------
 
