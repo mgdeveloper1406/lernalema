@@ -1369,8 +1369,8 @@ function getRandom(object) {
     return theKeys[Math.floor(Math.random() * theKeys.length)];
 }
 
-function gimmeWords() {
-    // on the quiz page, filter wordArray to remove all words without definite articles (i.e., without der, die, or das)
+// on the quiz page, filter wordArray to remove all words without definite articles (i.e., without der, die, or das)
+function checkForArticles() {
     if ($('body').hasClass('quiz-page')) {
         wordArray = wordArray.filter(item => 
             (item.category !== 'numbers') && 
@@ -1379,6 +1379,10 @@ function gimmeWords() {
             (item.category !== 'calendar')
         );
     }
+}
+
+function gimmeWords() {
+    checkForArticles();
     
     if (wordArray.length > 0) {
         // using the getRandom function, this assigns the value of the random word
@@ -1743,6 +1747,14 @@ $('#open-categories').on('click', function() {
     // push the lengths of each round into arrLengths, then use the reduce() method to add the lengths and find the total number of game words
     let arrLengths = [];
     gameArray.forEach(arr => {
+        if ($('body').hasClass('quiz-page')) {
+            arr = arr.filter(item => 
+                (item.category !== 'numbers') && 
+                (item.category !== 'phrases') &&
+                (item.category !== 'adjectives') &&
+                (item.category !== 'calendar')
+            );
+        }
         arrLengths.push(arr.length);
     });
     const reducer = (accumulator, currentValue) => accumulator + currentValue;
@@ -1771,6 +1783,8 @@ $('#open-categories').on('click', function() {
 });
 
 $('.lightning-round').on('click', function() {
+    checkForArticles();
+
     let lightningRound = [];
     // needed to first splice words in wordArray and set them aside in solvedArray, to avoid duplicates. then the remaining rounds can be pushed into the lightningRound. finally, wordArray concatenates lightningRound and solvedArray.
     gameArray.forEach(round => {
