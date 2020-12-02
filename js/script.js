@@ -1331,6 +1331,41 @@ gameArray = [
 
     round7 = [
         {
+            german: 'der Bäcker',
+            plural: 'die Bäcker',
+            translation: 'baker',
+            category: 'people',
+            hint: 'This person makes the best breads, cakes, and pies.'
+        },
+        {
+            german: 'der Barista',
+            plural: 'die Baristas',
+            translation: 'barista',
+            category: 'people',
+            hint: `This person can explain the difference between a cappuccino and a latte.`
+        },
+        {
+            german: 'der Barkeeper',
+            plural: 'die Barkeeper',
+            translation: ['bartender', 'barkeeper'],
+            category: 'people',
+            hint: 'A shaker, a stirrer, a listener.'
+        },
+        {
+            german: 'der Kellner',
+            plural: 'die Kellner',
+            translation: ['waiter', 'server'],
+            category: 'people',
+            hint: 'If you eat at a restaurant in the US, you should tip this person.'
+        },
+        {
+            german: 'der Koch',
+            plural: 'die Köche',
+            translation: ['cook', 'chef'],
+            category: 'people',
+            hint: `Their uniforms usually include a toque blanche.`
+        },
+        {
             german: 'einunddreißig',
             translation: ['thirty-one', 'thirty one'],
             category: 'numbers',
