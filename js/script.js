@@ -1057,7 +1057,7 @@ gameArray = [
             german: 'sechsundzwanzig',
             translation: ['twenty-six', 'twenty six'],
             category: 'numbers',
-            hint: 'XXVI, as a Roman numeral.'
+            hint: 'The number of letters in the modern English alphabet.'
         },
         {
             german: 'siebenundzwanzig',
@@ -1369,31 +1369,31 @@ gameArray = [
             german: 'einunddreißig',
             translation: ['thirty-one', 'thirty one'],
             category: 'numbers',
-            hint: ''
+            hint: 'The number of days in December.'
         },
         {
             german: 'zweiunddreißig',
             translation: ['thirty-two', 'thirty two'],
             category: 'numbers',
-            hint: ''
+            hint: 'Water freezes at __°F.'
         },
         {
             german: 'dreiunddreißig',
             translation: ['thirty-three', 'thirty three'],
             category: 'numbers',
-            hint: ''
+            hint: 'Another name for an LP record.'
         },
         {
             german: 'vierunddreißig',
             translation: ['thirty-four', 'thirty four'],
             category: 'numbers',
-            hint: ''
+            hint: 'Miracle on __th Street.'
         },
         {
             german: 'fünfunddreißig',
             translation: ['thirty-five', 'thirty five'],
             category: 'numbers',
-            hint: ''
+            hint: 'Presidential candidates must be at least this old, in the United States.'
         }
     ]
 ];
