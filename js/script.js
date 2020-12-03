@@ -1643,20 +1643,26 @@ $(document).keypress(function(event) {
     } 
 });
 
-// the hint will slide out sideways and bounce back a bit
-$('#hint-bulb').on('click', function() {
-    $('#hint-message').animate({'right': '145px'}, 600, function() {
-        $('#hint-message').animate({'right': '130px'}, 300);
-    });
-
-    buildMiniReview();
-});
-
-// if the hint is clicked, it will close
-$('#hint-message').on('click', function() {
+function closeHintMessage() {
     $('#hint-message').animate({'right': '115px'}, 300, function() {
         $('#hint-message').animate({'right': '-100%'}, 600);
     });
+}
+
+// if the hint is clicked, it will close
+$('#hint-message').on('click', closeHintMessage);
+
+// the hint bulb opens and closes the hint, and it sends words to the mini review
+$('#hint-bulb').on('click', function() {
+    if ($('#hint-message').css('right') == '130px') {
+        closeHintMessage();
+    } else {
+        $('#hint-message').animate({'right': '145px'}, 600, function() {
+            $('#hint-message').animate({'right': '130px'}, 300);
+        });
+    }
+
+    buildMiniReview();
 });
 
 function quizAnswer() {
