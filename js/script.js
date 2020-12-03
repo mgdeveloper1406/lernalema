@@ -1652,6 +1652,13 @@ $('#hint-bulb').on('click', function() {
     buildMiniReview();
 });
 
+// if the hint is clicked, it will close
+$('#hint-message').on('click', function() {
+    $('#hint-message').animate({'right': '115px'}, 300, function() {
+        $('#hint-message').animate({'right': '-100%'}, 600);
+    });
+});
+
 function quizAnswer() {
     if ($('#der-button').html() === randomWord.german.split(' ')[0]) {
         $('#der-button').addClass('add-sparkle').addClass('sparkle-text');
