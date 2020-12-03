@@ -990,6 +990,7 @@ gameArray = [
             plural: 'dienstags',
             translation: ['Tuesday', 'tuesday'],
             category: 'calendar',
+            subcategory: 'quiz exempt',
             hint: 'Elections fall on this day, in the United States.'
         },
         {
@@ -997,6 +998,7 @@ gameArray = [
             plural: 'donnerstags',
             translation: ['Thursday', 'thursday'],
             category: 'calendar',
+            subcategory: 'quiz exempt',
             hint: `Thor's day.`
         },
         {
@@ -1004,6 +1006,7 @@ gameArray = [
             plural: 'freitags',
             translation: ['Friday', 'friday'],
             category: 'calendar',
+            subcategory: 'quiz exempt',
             hint: 'It is especially inauspicious when this falls on the thirteenth day of a month.'
         },
         {
@@ -1011,6 +1014,7 @@ gameArray = [
             plural: 'mittwochs',
             translation: ['Wednesday', 'wednesday'],
             category: 'calendar',
+            subcategory: 'quiz exempt',
             hint: 'Falls in the middle of the week.'
         },
         {
@@ -1018,6 +1022,7 @@ gameArray = [
             plural: 'montages',
             translation: ['Monday', 'monday'],
             category: 'calendar',
+            subcategory: 'quiz exempt',
             hint: 'Garfield hates this day.'
         },
         {
@@ -1227,6 +1232,7 @@ gameArray = [
             plural: 'samstags',
             translation: ['Saturday', 'saturday'],
             category: 'calendar',
+            subcategory: 'quiz exempt',
             hint: `This night's alright for fighting, according to Elton John.`
         },
         {
@@ -1234,6 +1240,7 @@ gameArray = [
             plural: 'sonntags',
             translation: ['Sunday', 'sunday'],
             category: 'calendar',
+            subcategory: 'quiz exempt',
             hint: 'The day of the Sun.'
         },
         {
@@ -1411,7 +1418,7 @@ function checkForArticles() {
             (item.category !== 'numbers') && 
             (item.category !== 'phrases') &&
             (item.category !== 'adjectives') &&
-            (item.category !== 'calendar')
+            (item.subcategory !== 'quiz exempt')
         );
     }
 }
@@ -1806,7 +1813,7 @@ $('#open-categories').on('click', function() {
                 (item.category !== 'numbers') && 
                 (item.category !== 'phrases') &&
                 (item.category !== 'adjectives') &&
-                (item.category !== 'calendar')
+                (item.subcategory !== 'quiz exempt')
             );
         }
         arrLengths.push(arr.length);
