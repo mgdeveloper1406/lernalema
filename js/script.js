@@ -1760,8 +1760,14 @@ $('#mini-review').on('click', function() {
         }
 
         $(reviewWords).on('click', function() {
-            $(downArrows).css('display', 'block');
-            $(reviewAnswers).hide().fadeIn(2000);
+            if ($(reviewAnswers).css('display') == 'block') {
+                $(downArrows).addClass('up-arrows');
+                $(reviewAnswers).fadeOut(2000);
+                $(downArrows).fadeOut(2000);
+            } else {
+                $(downArrows).removeClass('up-arrows').css('display', 'block');
+                $(reviewAnswers).hide().fadeIn(2000);
+            }
         });
     });
 });
