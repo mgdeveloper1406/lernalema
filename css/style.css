@@ -670,6 +670,12 @@ figure {
     display: none;
     height: 15px;
     margin: 0 auto;
+    padding: 0 10px;
+}
+.up-arrows {
+    transform: rotate(180deg);
+    transition-duration: 2s;
+    backface-visibility: hidden;
 }
 .review-answers {
     display: none;
