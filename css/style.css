@@ -371,12 +371,13 @@ button.lightning-round:hover {
 #hint-message {
     background-color: rgb(191, 255, 223);
     padding: 1rem 1.3rem;
-    border-radius: 10px;
+    border-radius: 100px;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 1rem;
     color: rgb(16, 115, 106);
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
