@@ -50,7 +50,11 @@ img.chameleon.active {
     display: block;
 }
 .chameleon {
+    height: 50px;
+}
+#logo-text {
     height: 53px;
+    padding-left: .4rem;
 }
 section#header-title {
     padding-left: .8rem;
@@ -76,6 +80,17 @@ h1 a:visited {
     margin: 0;
     padding: 0 .2rem 0 0;
 }
+/* #subtitle {
+    font-family: 'verveine', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    text-transform: lowercase;
+    letter-spacing: .03rem;
+    color: rgb(196, 255, 236);
+    margin: 0;
+    
+} */
 h2 {
     font-family: 'dinosaur', sans-serif;
     font-weight: 300;
@@ -85,25 +100,6 @@ h2 {
     letter-spacing: .03rem;
     color: rgb(97, 183, 223);
     margin: 0;
-}
-#black {
-    color: rgb(0, 0, 0);
-}
-#red {
-    color: rgb(255, 0, 0);
-}
-#yellow {
-    color: rgb(255, 215, 0);
-}
-.chevron {
-    font-family: 'dinosaur', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 3.3rem;
-    line-height: 1px;
-    letter-spacing: -8px;
-    padding-bottom: .8rem;
-    display: none;
 }
 #hamburger {
     position: fixed;
@@ -148,8 +144,9 @@ li {
     font-weight: 600;
     font-style: normal;
     font-size: .9rem;
-    color: rgb(176, 196, 222);
-    text-transform: uppercase;
+    /* color: rgb(176, 196, 222); */
+    color: rgb(196, 255, 236);
+    text-transform: lowercase;
     text-decoration: none;
     list-style: none;
     cursor: pointer;
