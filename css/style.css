@@ -115,19 +115,24 @@ nav {
     -webkit-transform: rotate(-42deg) translate(4px);
     -moz-transform: rotate(-42deg) translate(4px);
 }
-li {
-    font-family: 'Nunito', sans-serif;
+li,
+li a {
+    display: inline;
+    font-family: 'verveine', sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: .9rem;
-    /* color: rgb(176, 196, 222); */
-    color: rgb(196, 255, 236);
+    font-size: 1rem;
+    /* color: rgb(196, 255, 236); */
+    color: rgb(240, 248, 255);
+    letter-spacing: .06rem;
     text-transform: lowercase;
     text-decoration: none;
     list-style: none;
     cursor: pointer;
+    padding-left: .8rem;
 }
-li:hover {
+li:hover,
+li a:hover {
     color: rgb(253, 253, 253);
 }
 .header-shadow {
