@@ -729,6 +729,10 @@ footer {
     background-color: rgb(255, 215, 0);
     color: rgb(26, 18, 47);
 }
+.quiz-buttons:active {
+    background-color: rgb(255, 215, 0);
+    color: rgb(26, 18, 47);
+}
 .add-quiz-bzzt {
     -webkit-animation-name: quiz-bzzt;
     -webkit-animation-duration: 2s;
