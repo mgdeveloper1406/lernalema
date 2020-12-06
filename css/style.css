@@ -831,12 +831,22 @@ footer {
         height: 170px;
         margin: 1rem auto 1.5rem;
     }
+    #blank-line-wrapper {
+        margin: 0 1rem 0 .1rem;
+    }
+    .blank-line {
+        width: 1rem;
+        margin: 0 .15rem;
+    } 
     h3#german-word {
-        font-size: 2.8rem;
+        font-size: 2.25rem;
+    }
+    #line {
+        height: 6px;
     }
     h4#german-plural,
     span.curly-braces {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     input#your-translation {
         width: 300px;
