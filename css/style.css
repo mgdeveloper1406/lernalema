@@ -39,7 +39,7 @@ header {
     width: 100%;
     z-index: 4;
 }
-#logo {
+#logo-container {
     display: flex;
     align-items: center;
 }
@@ -52,45 +52,21 @@ img.chameleon.active {
 .chameleon {
     height: 50px;
 }
-#logo-text {
+img#logo {
     height: 53px;
     padding-left: .4rem;
-}
-section#header-title {
-    padding-left: .8rem;
-}
-#h1-chevron-wrapper {
-    display: flex;
-    align-items: center;
 }
 a {
     text-decoration: none;
 }
-h1,
-h1 a,
-h1 a:visited {
+h1 {
     font-family: 'dinosaur', sans-serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 1.7rem;
     line-height: 1.6rem;
     letter-spacing: .08rem;
     text-transform: uppercase;
-    color: rgb(240, 248, 255);
-    margin: 0;
-    padding: 0 .2rem 0 0;
 }
-/* #subtitle {
-    font-family: 'verveine', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
-    text-transform: lowercase;
-    letter-spacing: .03rem;
-    color: rgb(196, 255, 236);
-    margin: 0;
-    
-} */
 h2 {
     font-family: 'dinosaur', sans-serif;
     font-weight: 300;
