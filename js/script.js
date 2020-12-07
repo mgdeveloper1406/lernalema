@@ -2058,6 +2058,12 @@ $('.quiz-buttons').on('click', function() {
     resetHint();
 });
 
+$('.quiz-buttons').on('touchstart', function() {
+    $(this).css({'backgroundColor': 'rgb(255, 215, 0)', 'color': 'rgb(26, 18, 47)'});
+});
+$('.quiz-buttons').on('touchend', function() {
+    $(this).css({'backgroundColor': 'rgb(62, 47, 79)', 'color': 'rgb(255, 215, 0)'});
+});
 
 // open and close the highlighter hamburger menu
 $('#hamburger').on('click', function(){
