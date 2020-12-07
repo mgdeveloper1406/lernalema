@@ -839,14 +839,11 @@ footer {
         margin: 0 .15rem;
     } 
     h3#german-word {
-        font-size: 2.25rem;
-    }
-    #line {
-        height: 6px;
+        font-size: 2.8rem;
     }
     h4#german-plural,
     span.curly-braces {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     input#your-translation {
         width: 300px;
