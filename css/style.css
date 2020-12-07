@@ -725,10 +725,6 @@ footer {
     border: 1.5px solid rgb(255, 215, 0);
     padding: .8rem 2rem;
 }
-.quiz-buttons:hover {
-    background-color: rgb(255, 215, 0);
-    color: rgb(26, 18, 47);
-}
 .quiz-buttons:active {
     background-color: rgb(255, 215, 0);
     color: rgb(26, 18, 47);
@@ -862,6 +858,13 @@ footer {
     .quiz-buttons {
         font-size: 1rem;
         padding: .4rem 1rem;
+    }
+}
+
+@media (hover: hover) {
+    .quiz-buttons:hover {
+        background-color: rgb(255, 215, 0);
+        color: rgb(26, 18, 47);
     }
 }
 
