@@ -2069,11 +2069,17 @@ $('.quiz-buttons').on('touchend', function() {
 $('#hamburger').on('click', function(){
     $('nav').animate({left: 0});
 });
-  
 $('.close-nav').on('click', function(){
     $('nav').animate({left: '100%'});
 });
-  
 $(window).on('resize', function(){
     $('nav').removeAttr('style');
+});
+
+// slide the highlighters, to make them appear to draw
+$('#highlighter-menu').on('mouseenter', function() {
+    $('#highlighter-menu').animate({left: '5px'}, {queue: false, duration: 300});
+});
+$('#highlighter-menu').on('mouseleave', function() {
+    $('#highlighter-menu').animate({left: 0}, {queue: false, duration: 500});
 });
