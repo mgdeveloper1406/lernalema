@@ -82,10 +82,12 @@ h2 {
     top: 25px;
     right: 25px;
     z-index: 5;
+    width: 2.6rem;
     cursor: pointer;
     display: none;
 }
-#highlighter-menu {
+#highlighter-menu,
+#highlighter-lines {
     display: none;
 }
 nav {
@@ -821,6 +823,11 @@ footer {
         display: block;
         height: 1.3rem;
         cursor: pointer;
+        position: absolute;
+    }
+    #highlighter-lines {
+        display: block;
+        height: 1.3rem;
     }
     #german-box {
         width: 350px;
