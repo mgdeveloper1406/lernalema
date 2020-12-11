@@ -1856,11 +1856,13 @@ $('.lightning-round').on('click', function() {
         }
     });
     wordArray = lightningRound.concat(solvedArray);
+    gameArray.splice(1);
 
     gimmeWords();
     categoryColors();
     updateCountdown();
     revealCountdownText();
+    modalDisplay();
 
     if ($('#categories-wrapper').css('display') == ('block')) {
         setTimeout(function removeHeaderShadow() {
