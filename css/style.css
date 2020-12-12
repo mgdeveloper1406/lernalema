@@ -58,6 +58,7 @@ img#logo {
 }
 a {
     text-decoration: none;
+    padding: 0;
 }
 h1 {
     font-family: 'dinosaur', sans-serif;
@@ -117,6 +118,9 @@ nav {
     -webkit-transform: rotate(-42deg) translate(4px);
     -moz-transform: rotate(-42deg) translate(4px);
 }
+li {
+    margin-left: .8rem;
+}
 li,
 li a {
     display: inline;
@@ -131,12 +135,25 @@ li a {
     text-decoration: none;
     list-style: none;
     cursor: pointer;
-    padding-left: .8rem;
+    /* padding: 2px 10px; */
 }
-li:hover,
+/* li:hover,
 li a:hover {
-    color: rgb(253, 253, 253);
-}
+    color: rgb(26, 18, 47);
+    background-color: rgb(127, 206, 182);
+} */
+/* li.hover::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(196, 255, 236);
+    width: 5px;
+    height: 4px;
+    bottom: 10px;
+    display: none;
+    border-bottom-right-radius: 45px;
+    border-top-left-radius: 45px;
+    transform: skew(-25deg);
+} */
 .header-shadow {
     border-bottom: 1px solid #3F51B5;
     box-shadow: 1px 3px 5px 1px #9E9E9E;
@@ -600,6 +617,7 @@ figure {
     font-style: normal;
     font-size: 7.8rem;
     color: rgb(248, 248, 255);
+    cursor: default;
 }
 .review-arrows {
     font-family: 'dinosaur', sans-serif;
