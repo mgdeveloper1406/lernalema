@@ -1801,7 +1801,7 @@ $('#continue').on('click', function() {
 });
 
 // make the category selection area appear under the header, when the categories link is clicked
-$('#open-categories').on('click', function() {
+$('#open-categories').on('click keydown', function() {
     // update the number of levels remaining
     $('#total-levels').html(gameArray.length);
 
@@ -1872,7 +1872,7 @@ $('.lightning-round').on('click', function() {
     $('#categories-wrapper').slideUp(800);
 });
 
-$('input[type=checkbox]').on('click', function() {
+$('input[type=checkbox]').on('click keydown', function() {
     // toggle the visibility of the purple .selection-circle around the category icons, when the corresponding input is clicked
     $(this).next('label').children('div').children('div').toggle();
     // if the circle is visible, make label text bold
