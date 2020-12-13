@@ -245,7 +245,6 @@ button.lightning-round:hover {
 #travel {
     clip-path: inset(100% 100% 100% 100%);
     position: absolute;
-    visibility: hidden;
 }
 #arts-color,
 #adjectives-color,
@@ -748,6 +747,11 @@ footer {
 .quiz-buttons:active {
     background-color: rgb(255, 215, 0);
     color: rgb(26, 18, 47);
+}
+.quiz-buttons:focus {
+    border: 1.5px solid rgb(66, 165, 245);
+    box-shadow: 0px 0px 0px 1px rgb(177, 251, 227);
+    outline: none;
 }
 .add-quiz-bzzt {
     -webkit-animation-name: quiz-bzzt;
