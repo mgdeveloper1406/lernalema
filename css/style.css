@@ -109,6 +109,7 @@ nav {
     height: 6px;
     border-radius: 100px;
     background-color: rgb(255, 255, 255);
+    background-color: rgb(119, 136, 153);
     transform: rotate(42deg) translate(5px);
     -webkit-transform: rotate(42deg) translate(5px);
     -moz-transform: rotate(42deg) translate(5px);
@@ -129,7 +130,8 @@ li a {
     font-weight: 600;
     font-style: normal;
     font-size: 1rem;
-    color: rgb(240, 248, 255);
+    /* color: rgb(240, 248, 255); */
+    color: rgb(42, 95, 134);
     letter-spacing: .06rem;
     text-transform: lowercase;
     text-decoration: none;
