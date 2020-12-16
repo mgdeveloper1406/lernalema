@@ -1672,22 +1672,23 @@ $('#hint-bulb').on('click', function() {
     buildMiniReview();
 });
 
+// remove sparkle styles from the quiz buttons, after answer key is clicked
+function removeSparkle() {
+    setTimeout(function() {
+        $('.quiz-buttons').removeClass('add-sparkle').removeClass('sparkle-text');
+    }, 1500);
+}
+
 function quizAnswer() {
     if ($('#der-button').html() === randomWord.german.split(' ')[0]) {
         $('#der-button').addClass('add-sparkle').addClass('sparkle-text');
-        setTimeout(function endSparkle() {
-            $('.quiz-buttons').removeClass('add-sparkle').removeClass('sparkle-text');
-        }, 2000);
+        removeSparkle();
     } else if ($('#die-button').html() === randomWord.german.split(' ')[0]) {
         $('#die-button').addClass('add-sparkle').addClass('sparkle-text');
-        setTimeout(function endSparkle() {
-            $('.quiz-buttons').removeClass('add-sparkle').removeClass('sparkle-text');
-        }, 2000);
+        removeSparkle();
     } else if ($('#das-button').html() === randomWord.german.split(' ')[0]) {
         $('#das-button').addClass('add-sparkle').addClass('sparkle-text');
-        setTimeout(function endSparkle() {
-            $('.quiz-buttons').removeClass('add-sparkle').removeClass('sparkle-text');
-        }, 2000);
+        removeSparkle();
     }
 };
 
