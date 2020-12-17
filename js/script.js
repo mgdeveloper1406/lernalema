@@ -1401,7 +1401,42 @@ gameArray = [
             translation: ['thirty-five', 'thirty five'],
             category: 'numbers',
             hint: 'Presidential candidates must be at least this old, in the United States.'
-        }
+        },
+        {
+            german: 'der Bär',
+            plural: 'die Bären',
+            translation: 'bear',
+            category: 'animals',
+            hint: 'A grizzly one could create a grisly scene.'
+        },
+        {
+            german: 'die Eule',
+            plural: 'die Eulen',
+            translation: 'owl',
+            category: 'animals',
+            hint: 'Who? Who?'
+        },
+        {
+            german: 'der Fuchs',
+            plural: 'die Füchse',
+            translation: 'fox',
+            category: 'animals',
+            hint: 'Known for being cunning and clever.'
+        },
+        {
+            german: 'der Hirsch',
+            plural: 'die Hirsche',
+            translation: 'deer',
+            category: 'animals',
+            hint: 'They freeze when they see headlights.'
+        },
+        {
+            german: 'der Waschbär',
+            plural: 'die Waschbären',
+            translation: 'raccoon',
+            category: 'animals',
+            hint: 'A little bandit with a ringed tail.'
+        },
     ]
 ];
 
