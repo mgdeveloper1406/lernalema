@@ -1437,6 +1437,41 @@ gameArray = [
             category: 'animals',
             hint: 'A little bandit with a ringed tail.'
         },
+        {
+            german: 'das Element',
+            plural: 'die Elemente',
+            translation: 'element',
+            category: 'nature',
+            hint: 'Each square on the periodic table contains one.'
+        },
+        {
+            german: 'die Erde',
+            plural: 'die Erden',
+            translation: 'earth',
+            category: 'nature',
+            hint: 'Our planet, and another word for soil.'
+        },
+        {
+            german: 'das Feuer',
+            plural: 'die Feuer',
+            translation: 'fire',
+            category: 'nature',
+            hint: 'What Prometheus gave mankind, in Greek mythology.'
+        },
+        {
+            german: 'das Gewässer',
+            plural: 'die Gewässer',
+            translation: ['water', 'body of water'],
+            category: 'nature',
+            hint: 'A large reservoir, like lakes, oceans, or rivers.'
+        },
+        {
+            german: 'die Luft',
+            plural: 'die Lüfte',
+            translation: 'air',
+            category: 'nature',
+            hint: `That mixture of mainly oxygen and nitrogen you're currently breathing.`
+        },
     ]
 ];
 
