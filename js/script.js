@@ -1658,9 +1658,17 @@ function modalDisplay() {
         $('#modal-body').css('display', 'block');
         displayMiniReview();
     } else if (wordArray.length == 0 && gameArray.length == 1) {
-        setTimeout(function waitForZero() {
-            alert(`Du sprichst Deutsch! Sort of!`);
-        }, 200);
+        // setTimeout(function waitForZero() {
+        //     alert(`Du sprichst Deutsch! Sort of!`);
+        // }, 200);
+        $('.modal').css('display', 'block');
+        $('#modal-body').css('display', 'block');
+        displayMiniReview();
+        $('#congrats-sub').html('You Did It!');
+        $('#continue').html('Start Over');
+        $(document).on('click', '#continue', function() {
+            location.reload(true);
+        });
     }
 };
 
