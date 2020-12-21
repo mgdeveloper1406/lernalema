@@ -1438,6 +1438,41 @@ gameArray = [
             hint: 'A little bandit with a ringed tail.'
         },
         {
+            german: 'das Badezimmer',
+            plural: 'die Badezimmer',
+            translation: 'bathroom',
+            category: 'home',
+            hint: 'Where the tub lives.'
+        },
+        {
+            german: 'das Haus',
+            plural: 'die Häuser',
+            translation: 'house',
+            category: 'home',
+            hint: 'A residence.'
+        },
+        {
+            german: 'die Küche',
+            plural: 'die Küchen',
+            translation: 'kitchen',
+            category: 'home',
+            hint: 'The room where you might cook (or microwave) food.'
+        },
+        {
+            german: 'das Schlafzimmer',
+            plural: 'die Schlafzimmer',
+            translation: 'bedroom',
+            category: 'home',
+            hint: 'Where you might sleep.'
+        },
+        {
+            german: 'das Wohnzimmer',
+            plural: 'die Wohnzimmer',
+            translation: 'living room',
+            category: 'home',
+            hint: 'Sometimes called the front room.'
+        },
+        {
             german: 'das Element',
             plural: 'die Elemente',
             translation: 'element',
