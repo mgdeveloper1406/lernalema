@@ -631,6 +631,9 @@ figure {
     color: rgb(217, 159, 247);
     transition-duration: 2s;
 }
+#end-review-container {
+    display: none;
+}
 #modal-review {
     display: none;
     padding: 2px 35px;
