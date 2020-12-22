@@ -614,7 +614,8 @@ figure {
     font-size: 1.3rem;
     color: rgb(109, 103, 93);
 }
-#mini-review {
+#mini-review,
+#final-review {
     font-family: 'dinosaur', sans-serif;
     font-weight: bold;
     font-style: normal;
@@ -626,7 +627,8 @@ figure {
     display: inline;
     cursor: pointer;
 }
-#mini-review:hover {
+#mini-review:hover,
+#final-review:hover {
     padding: 0;
     color: rgb(217, 159, 247);
     transition-duration: 2s;
