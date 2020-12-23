@@ -1879,12 +1879,13 @@ $('#final-review').on('click', function() {
     $('#modal-body').css('display', 'none');
     $('#modal-review').css('display', 'block');
     $('#review-title').html('Final Review');
+    $('#remove-round').css('display', 'none');
 
     if (endReviewArray.length == 1) {
-        $('#review-count').html(`this ${endReviewArray.length} word`);
+        $('#review-count').html(`this ${endReviewArray.length} word.`);
         $('#each-it').html('it');
     } else if (endReviewArray.length >= 2) {
-        $('#review-count').html(`these ${endReviewArray.length} words`);
+        $('#review-count').html(`these ${endReviewArray.length} words.`);
         $('#each-it').html('each word');
     }
 
