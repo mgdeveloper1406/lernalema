@@ -528,903 +528,903 @@ gameArray = [
         }
     ],
 
-    // round4 = [
-    //     {
-    //         german: 'der Bruder',
-    //         plural: 'die Brüder',
-    //         translation: 'brother',
-    //         category: 'people',
-    //         hint: 'A sibling that identifies as a boy.'
-    //     },
-    //     {
-    //         german: 'das Geshwister',
-    //         plural: 'die Geschwister',
-    //         translation: 'sibling',
-    //         category: 'people',
-    //         hint: 'A brother, or a sister.'
-    //     },
-    //     {
-    //         german: 'die Oma',
-    //         plural: 'die Omas',
-    //         translation: 'grandma',
-    //         category: 'people',
-    //         hint: `Your parent's mother.`
-    //     },
-    //     {
-    //         german: 'der Opa',
-    //         plural: 'die Opas',
-    //         translation: 'grandpa',
-    //         category: 'people',
-    //         hint: `Your parent's father.`
-    //     },
-    //     {
-    //         german: 'die Schwester',
-    //         plural: 'die Schwestern',
-    //         translation: 'sister',
-    //         category: 'people',
-    //         hint: 'A sibling that identifies as a girl.'
-    //     },
-    //     {
-    //         german: 'sechzehn',
-    //         translation: 'sixteen',
-    //         category: 'numbers',
-    //         hint: 'This age is said to be sweet.'
-    //     },
-    //     {
-    //         german: 'siebzehn',
-    //         translation: 'seventeen',
-    //         category: 'numbers',
-    //         hint: 'Stevie Nicks, "Edge of ___."'
-    //     },
-    //     {
-    //         german: 'achtzehn',
-    //         translation: 'eighteen',
-    //         category: 'numbers',
-    //         hint: 'Voting age, in the United States.'
-    //     },
-    //     {
-    //         german: 'neunzehn',
-    //         translation: 'nineteen',
-    //         category: 'numbers',
-    //         hint: 'XIX, as a Roman numeral.'
-    //     },
-    //     {
-    //         german: 'zwanzig',
-    //         translation: 'twenty',
-    //         category: 'numbers',
-    //         hint: 'This number sort of looks like a westward-facing swan.'
-    //     },
-    //     {
-    //         german: 'der Becher',
-    //         plural: 'die Bechers',
-    //         translation: 'mug',
-    //         category: 'home',
-    //         hint: 'A cup, with a handle, that is generally associated with coffee.'
-    //     },
-    //     {
-    //         german: 'die Gabel',
-    //         plural: 'die Gabeln',
-    //         translation: 'fork',
-    //         category: 'home',
-    //         hint: 'An eating utensil with tines.'
-    //     },
-    //     {
-    //         german: 'das Glas',
-    //         plural: 'die Gläser',
-    //         translation: 'glass',
-    //         category: 'home',
-    //         hint: 'A vessel used while drinking.'
-    //     },
-    //     {
-    //         german: 'der Löffel',
-    //         plural: 'die Löffel',
-    //         translation: 'spoon',
-    //         category: 'home',
-    //         hint: 'You use this utensil to eat ice cream.'
-    //     },
-    //     {
-    //         german: 'das Messer',
-    //         plural: 'die Messer',
-    //         translation: 'knife',
-    //         category: 'home',
-    //         hint: `Don't "messer" around with this sharp eating utensil.`
-    //     },
-    //     {
-    //         german: 'der Himmel',
-    //         plural: 'die Himmel',
-    //         translation: 'sky',
-    //         category: 'nature',
-    //         hint: 'The blue expanse above us.'
-    //     },
-    //     {
-    //         german: 'der Mond',
-    //         plural: 'die Monde',
-    //         translation: 'moon',
-    //         category: 'nature',
-    //         hint: 'This heavenly body orbits Earth.'
-    //     },
-    //     {
-    //         german: 'die Sonne',
-    //         plural: 'die Sonnen',
-    //         translation: 'sun',
-    //         category: 'nature',
-    //         hint: 'The largest star in our solar system.'
-    //     },
-    //     {
-    //         german: 'der Stern',
-    //         plural: 'die Sterne',
-    //         translation: 'star',
-    //         category: 'nature',
-    //         hint: 'Twinkle, twinkle.'
-    //     },
-    //     {
-    //         german: 'die Wolke',
-    //         plural: 'die Wolken',
-    //         translation: 'cloud',
-    //         category: 'nature',
-    //         hint: 'Every one of these has a silver lining.'
-    //     },
-    //     {
-    //         german: 'der Hut',
-    //         plural: 'die Hüte',
-    //         translation: 'hat',
-    //         category: 'apparel',
-    //         hint: 'Worn on the head.'
-    //     },
-    //     {
-    //         german: 'die Jacke',
-    //         plural: 'die Jacken',
-    //         translation: 'jacket',
-    //         category: 'apparel',
-    //         hint: 'Outerwear that tends to be lightweight.'
-    //     },
-    //     {
-    //         german: 'der Mantel',
-    //         plural: 'die Mäntel',
-    //         translation: 'coat',
-    //         category: 'apparel',
-    //         hint: 'Outerwear that tends to be heavyweight or long.'
-    //     },
-    //     {
-    //         german: 'der Schuh',
-    //         plural: 'die Schuhe',
-    //         translation: 'shoe',
-    //         category: 'apparel',
-    //         hint: 'Protection for your feet.'
-    //     },
-    //     {
-    //         german: 'die Socke',
-    //         plural: 'die Socken',
-    //         translation: 'sock',
-    //         category: 'apparel',
-    //         hint: 'Worn to keep your toesies cozy.'
-    //     },
-    //     {
-    //         german: 'gut',
-    //         translation: 'good',
-    //         category: 'adjectives',
-    //         hint: `__ riddance; __ grief; __ day, sir!`
-    //     },
-    //     {
-    //         german: 'heiß',
-    //         translation: 'hot',
-    //         category: 'adjectives',
-    //         hint: 'The sun is this, but space is not.'
-    //     },
-    //     {
-    //         german: 'kalt',
-    //         translation: 'cold',
-    //         category: 'adjectives',
-    //         hint: 'The way revenge is best served.'
-    //     },
-    //     {
-    //         german: 'perfekt',
-    //         translation: 'perfect',
-    //         category: 'adjectives',
-    //         hint: 'Flawless.'
-    //     },
-    //     {
-    //         german: 'schlecht',
-    //         translation: 'bad',
-    //         category: 'adjectives',
-    //         hint: 'If one apple is this, it spoils the whole bunch.'
-    //     }
-    // ],
+    round4 = [
+        {
+            german: 'der Bruder',
+            plural: 'die Brüder',
+            translation: 'brother',
+            category: 'people',
+            hint: 'A sibling that identifies as a boy.'
+        },
+        {
+            german: 'das Geshwister',
+            plural: 'die Geschwister',
+            translation: 'sibling',
+            category: 'people',
+            hint: 'A brother, or a sister.'
+        },
+        {
+            german: 'die Oma',
+            plural: 'die Omas',
+            translation: 'grandma',
+            category: 'people',
+            hint: `Your parent's mother.`
+        },
+        {
+            german: 'der Opa',
+            plural: 'die Opas',
+            translation: 'grandpa',
+            category: 'people',
+            hint: `Your parent's father.`
+        },
+        {
+            german: 'die Schwester',
+            plural: 'die Schwestern',
+            translation: 'sister',
+            category: 'people',
+            hint: 'A sibling that identifies as a girl.'
+        },
+        {
+            german: 'sechzehn',
+            translation: 'sixteen',
+            category: 'numbers',
+            hint: 'This age is said to be sweet.'
+        },
+        {
+            german: 'siebzehn',
+            translation: 'seventeen',
+            category: 'numbers',
+            hint: 'Stevie Nicks, "Edge of ___."'
+        },
+        {
+            german: 'achtzehn',
+            translation: 'eighteen',
+            category: 'numbers',
+            hint: 'Voting age, in the United States.'
+        },
+        {
+            german: 'neunzehn',
+            translation: 'nineteen',
+            category: 'numbers',
+            hint: 'XIX, as a Roman numeral.'
+        },
+        {
+            german: 'zwanzig',
+            translation: 'twenty',
+            category: 'numbers',
+            hint: 'This number sort of looks like a westward-facing swan.'
+        },
+        {
+            german: 'der Becher',
+            plural: 'die Bechers',
+            translation: 'mug',
+            category: 'home',
+            hint: 'A cup, with a handle, that is generally associated with coffee.'
+        },
+        {
+            german: 'die Gabel',
+            plural: 'die Gabeln',
+            translation: 'fork',
+            category: 'home',
+            hint: 'An eating utensil with tines.'
+        },
+        {
+            german: 'das Glas',
+            plural: 'die Gläser',
+            translation: 'glass',
+            category: 'home',
+            hint: 'A vessel used while drinking.'
+        },
+        {
+            german: 'der Löffel',
+            plural: 'die Löffel',
+            translation: 'spoon',
+            category: 'home',
+            hint: 'You use this utensil to eat ice cream.'
+        },
+        {
+            german: 'das Messer',
+            plural: 'die Messer',
+            translation: 'knife',
+            category: 'home',
+            hint: `Don't "messer" around with this sharp eating utensil.`
+        },
+        {
+            german: 'der Himmel',
+            plural: 'die Himmel',
+            translation: 'sky',
+            category: 'nature',
+            hint: 'The blue expanse above us.'
+        },
+        {
+            german: 'der Mond',
+            plural: 'die Monde',
+            translation: 'moon',
+            category: 'nature',
+            hint: 'This heavenly body orbits Earth.'
+        },
+        {
+            german: 'die Sonne',
+            plural: 'die Sonnen',
+            translation: 'sun',
+            category: 'nature',
+            hint: 'The largest star in our solar system.'
+        },
+        {
+            german: 'der Stern',
+            plural: 'die Sterne',
+            translation: 'star',
+            category: 'nature',
+            hint: 'Twinkle, twinkle.'
+        },
+        {
+            german: 'die Wolke',
+            plural: 'die Wolken',
+            translation: 'cloud',
+            category: 'nature',
+            hint: 'Every one of these has a silver lining.'
+        },
+        {
+            german: 'der Hut',
+            plural: 'die Hüte',
+            translation: 'hat',
+            category: 'apparel',
+            hint: 'Worn on the head.'
+        },
+        {
+            german: 'die Jacke',
+            plural: 'die Jacken',
+            translation: 'jacket',
+            category: 'apparel',
+            hint: 'Outerwear that tends to be lightweight.'
+        },
+        {
+            german: 'der Mantel',
+            plural: 'die Mäntel',
+            translation: 'coat',
+            category: 'apparel',
+            hint: 'Outerwear that tends to be heavyweight or long.'
+        },
+        {
+            german: 'der Schuh',
+            plural: 'die Schuhe',
+            translation: 'shoe',
+            category: 'apparel',
+            hint: 'Protection for your feet.'
+        },
+        {
+            german: 'die Socke',
+            plural: 'die Socken',
+            translation: 'sock',
+            category: 'apparel',
+            hint: 'Worn to keep your toesies cozy.'
+        },
+        {
+            german: 'gut',
+            translation: 'good',
+            category: 'adjectives',
+            hint: `__ riddance; __ grief; __ day, sir!`
+        },
+        {
+            german: 'heiß',
+            translation: 'hot',
+            category: 'adjectives',
+            hint: 'The sun is this, but space is not.'
+        },
+        {
+            german: 'kalt',
+            translation: 'cold',
+            category: 'adjectives',
+            hint: 'The way revenge is best served.'
+        },
+        {
+            german: 'perfekt',
+            translation: 'perfect',
+            category: 'adjectives',
+            hint: 'Flawless.'
+        },
+        {
+            german: 'schlecht',
+            translation: 'bad',
+            category: 'adjectives',
+            hint: 'If one apple is this, it spoils the whole bunch.'
+        }
+    ],
 
-    // round5 = [
-    //     {
-    //         german: 'Auf Wiedersehen!',
-    //         translation: 'goodbye',
-    //         category: 'phrases',
-    //         hint: 'A parting phrase.'
-    //     },
-    //     {
-    //         german: 'Bis bald!',
-    //         translation: 'see you soon',
-    //         category: 'phrases',
-    //         hint: 'If "bis später" means "see you later," and "bald" means "soon" . . . you got this!'
-    //     },
-    //     {
-    //         german: 'Bis später!',
-    //         translation: 'see you later',
-    //         category: 'phrases',
-    //         hint: 'Said while leaving: "____, alligator!"'
-    //     },
-    //     {
-    //         german: 'Tschüss!',
-    //         translation: 'bye',
-    //         category: 'phrases',
-    //         hint: 'An informal, three-letter parting phrase.'
-    //     },
-    //     {
-    //         german: 'Viel Glück!',
-    //         translation: 'good luck',
-    //         category: 'phrases',
-    //         hint: 'What does the idiom "break a leg" mean?'
-    //     },
-    //     {
-    //         german: 'einundzwanzig',
-    //         translation: ['twenty-one', 'twenty one'],
-    //         category: 'numbers',
-    //         hint: 'The legal drinking age, in the United States.'
-    //     },
-    //     {
-    //         german: 'zweiundzwanzig',
-    //         translation: ['twenty-two', 'twenty two'],
-    //         category: 'numbers',
-    //         hint: `You're damned if you don't, and also damned if you do, when you find yourself in a catch-__.`
-    //     },
-    //     {
-    //         german: 'dreiundzwanzig',
-    //         translation: ['twenty-three', 'twenty three'],
-    //         category: 'numbers',
-    //         hint: 'This is the number of pairs of chromosomes most humans have.'
-    //     },
-    //     {
-    //         german: 'vierundzwanzig',
-    //         translation: ['twenty-four', 'twenty four'],
-    //         category: 'numbers',
-    //         hint: 'The number of hours in a day.'
-    //     },
-    //     {
-    //         german: 'fünfundzwanzig',
-    //         translation: ['twenty-five', 'twenty five'],
-    //         category: 'numbers',
-    //         hint: 'A quarter of one hundred.'
-    //     },
-    //     {
-    //         german: 'die Ente',
-    //         plural: 'die Enten',
-    //         translation: 'duck',
-    //         category: 'animals',
-    //         hint: 'Quack, quack.'
+    round5 = [
+        {
+            german: 'Auf Wiedersehen!',
+            translation: 'goodbye',
+            category: 'phrases',
+            hint: 'A parting phrase.'
+        },
+        {
+            german: 'Bis bald!',
+            translation: 'see you soon',
+            category: 'phrases',
+            hint: 'If "bis später" means "see you later," and "bald" means "soon" . . . you got this!'
+        },
+        {
+            german: 'Bis später!',
+            translation: 'see you later',
+            category: 'phrases',
+            hint: 'Said while leaving: "____, alligator!"'
+        },
+        {
+            german: 'Tschüss!',
+            translation: 'bye',
+            category: 'phrases',
+            hint: 'An informal, three-letter parting phrase.'
+        },
+        {
+            german: 'Viel Glück!',
+            translation: 'good luck',
+            category: 'phrases',
+            hint: 'What does the idiom "break a leg" mean?'
+        },
+        {
+            german: 'einundzwanzig',
+            translation: ['twenty-one', 'twenty one'],
+            category: 'numbers',
+            hint: 'The legal drinking age, in the United States.'
+        },
+        {
+            german: 'zweiundzwanzig',
+            translation: ['twenty-two', 'twenty two'],
+            category: 'numbers',
+            hint: `You're damned if you don't, and also damned if you do, when you find yourself in a catch-__.`
+        },
+        {
+            german: 'dreiundzwanzig',
+            translation: ['twenty-three', 'twenty three'],
+            category: 'numbers',
+            hint: 'This is the number of pairs of chromosomes most humans have.'
+        },
+        {
+            german: 'vierundzwanzig',
+            translation: ['twenty-four', 'twenty four'],
+            category: 'numbers',
+            hint: 'The number of hours in a day.'
+        },
+        {
+            german: 'fünfundzwanzig',
+            translation: ['twenty-five', 'twenty five'],
+            category: 'numbers',
+            hint: 'A quarter of one hundred.'
+        },
+        {
+            german: 'die Ente',
+            plural: 'die Enten',
+            translation: 'duck',
+            category: 'animals',
+            hint: 'Quack, quack.'
 
-    //     },
-    //     {
-    //         german: 'das Huhn',
-    //         plural: 'die Hühner',
-    //         translation: ['hen', 'chicken'],
-    //         category: 'animals',
-    //         hint: 'Cluck, cluck.'
+        },
+        {
+            german: 'das Huhn',
+            plural: 'die Hühner',
+            translation: ['hen', 'chicken'],
+            category: 'animals',
+            hint: 'Cluck, cluck.'
 
-    //     },
-    //     {
-    //         german: 'die Kuh',
-    //         plural: 'die Kühe',
-    //         translation: 'cow',
-    //         category: 'animals',
-    //         hint: 'Moo.'
+        },
+        {
+            german: 'die Kuh',
+            plural: 'die Kühe',
+            translation: 'cow',
+            category: 'animals',
+            hint: 'Moo.'
 
-    //     },
-    //     {
-    //         german: 'das Pferd',
-    //         plural: 'die Pferde',
-    //         translation: 'horse',
-    //         category: 'animals',
-    //         hint: 'Neigh.'
+        },
+        {
+            german: 'das Pferd',
+            plural: 'die Pferde',
+            translation: 'horse',
+            category: 'animals',
+            hint: 'Neigh.'
 
-    //     },
-    //     {
-    //         german: 'das Schwein',
-    //         plural: 'die Schweine',
-    //         translation: 'pig',
-    //         category: 'animals',
-    //         hint: 'Oink, oink.'
+        },
+        {
+            german: 'das Schwein',
+            plural: 'die Schweine',
+            translation: 'pig',
+            category: 'animals',
+            hint: 'Oink, oink.'
 
-    //     },
-    //     {
-    //         german: 'der Baum',
-    //         plural: 'die Bäume',
-    //         translation: 'tree',
-    //         category: 'nature',
-    //         hint: 'What has a trunk and leaves?'
-    //     },
-    //     {
-    //         german: 'das Blatt',
-    //         plural: 'die Blätter',
-    //         translation: 'leaf',
-    //         category: 'nature',
-    //         hint: 'These fall from trees, in Autumn.'
-    //     },
-    //     {
-    //         german: 'die Blume',
-    //         plural: 'die Blumen',
-    //         translation: 'flower',
-    //         category: 'nature',
-    //         hint: 'Something that blooms.'
-    //     },
-    //     {
-    //         german: 'die Frucht',
-    //         plural: 'die Früchte',
-    //         translation: 'fruit',
-    //         category: 'nature',
-    //         hint: 'Sometimes edible, sometimes poisonous, and they usually contain seeds.'
-    //     },
-    //     {
-    //         german: 'der Zweig',
-    //         plural: 'die Zweige',
-    //         translation: 'branch',
-    //         category: 'nature',
-    //         hint: 'These grow out of tree trunks, and leaves sprout from them.'
-    //     },
-    //     {
-    //         german: 'der Gürtel',
-    //         plural: 'die Gürtel',
-    //         translation: 'belt',
-    //         category: 'apparel',
-    //         hint: 'It keeps your pants from falling down.'
-    //     },
-    //     {
-    //         german: 'die Krawatte',
-    //         plural: 'die Krawatten',
-    //         translation: 'tie',
-    //         category: 'apparel',
-    //         hint: 'Knot styles include the half Windsor, the Atlantic, and the Pratt.'
-    //     },
-    //     {
-    //         german: 'der Schal',
-    //         plural: 'die Schals',
-    //         translation: 'scarf',
-    //         category: 'apparel',
-    //         hint: 'Worn for style or to keep the neck warm.'
-    //     },
-    //     {
-    //         german: 'die Tasche',
-    //         plural: 'die Taschen',
-    //         translation: 'bag',
-    //         category: 'apparel',
-    //         hint: 'Something you would use to carry things around.'
-    //     },
-    //     {
-    //         german: 'das Zubehör',
-    //         plural: 'die Zubehöre',
-    //         translation: 'accessory',
-    //         category: 'apparel',
-    //         hint: 'Something that completes an outfit.'
-    //     },
-    //     {
-    //         german: 'Dienstag',
-    //         plural: 'dienstags',
-    //         translation: ['Tuesday', 'tuesday'],
-    //         category: 'calendar',
-    //         subcategory: 'quiz exempt',
-    //         hint: 'Elections fall on this day, in the United States.'
-    //     },
-    //     {
-    //         german: 'Donnerstag',
-    //         plural: 'donnerstags',
-    //         translation: ['Thursday', 'thursday'],
-    //         category: 'calendar',
-    //         subcategory: 'quiz exempt',
-    //         hint: `Thor's day.`
-    //     },
-    //     {
-    //         german: 'Freitag',
-    //         plural: 'freitags',
-    //         translation: ['Friday', 'friday'],
-    //         category: 'calendar',
-    //         subcategory: 'quiz exempt',
-    //         hint: 'It is especially inauspicious when this falls on the thirteenth day of a month.'
-    //     },
-    //     {
-    //         german: 'Mittwoch',
-    //         plural: 'mittwochs',
-    //         translation: ['Wednesday', 'wednesday'],
-    //         category: 'calendar',
-    //         subcategory: 'quiz exempt',
-    //         hint: 'Falls in the middle of the week.'
-    //     },
-    //     {
-    //         german: 'Montag',
-    //         plural: 'montages',
-    //         translation: ['Monday', 'monday'],
-    //         category: 'calendar',
-    //         subcategory: 'quiz exempt',
-    //         hint: 'Garfield hates this day.'
-    //     },
-    //     {
-    //         german: 'hässlich',
-    //         translation: 'ugly',
-    //         category: 'adjectives',
-    //         hint: `The word used to describe the titular "duckling" in a Hans Christian Andersen fairy tale.`
-    //     },
-    //     {
-    //         german: 'klar',
-    //         translation: ['clear', 'understood'],
-    //         category: 'adjectives',
-    //         hint: 'Not opaque.'
-    //     },
-    //     {
-    //         german: 'sauber',
-    //         translation: 'clean',
-    //         category: 'adjectives',
-    //         hint: 'You hope this word describes any public bathroom you have to use.'
-    //     },
-    //     {
-    //         german: 'schmutzig',
-    //         translation: 'dirty',
-    //         category: 'adjectives',
-    //         hint: 'The general state of most public bathrooms.'
-    //     },
-    //     {
-    //         german: 'schön',
-    //         translation: ['beautiful', 'pretty'],
-    //         category: 'adjectives',
-    //         hint: 'This word describes people or things that are aesthetically pleasing.'
-    //     }
-    // ],
+        },
+        {
+            german: 'der Baum',
+            plural: 'die Bäume',
+            translation: 'tree',
+            category: 'nature',
+            hint: 'What has a trunk and leaves?'
+        },
+        {
+            german: 'das Blatt',
+            plural: 'die Blätter',
+            translation: 'leaf',
+            category: 'nature',
+            hint: 'These fall from trees, in Autumn.'
+        },
+        {
+            german: 'die Blume',
+            plural: 'die Blumen',
+            translation: 'flower',
+            category: 'nature',
+            hint: 'Something that blooms.'
+        },
+        {
+            german: 'die Frucht',
+            plural: 'die Früchte',
+            translation: 'fruit',
+            category: 'nature',
+            hint: 'Sometimes edible, sometimes poisonous, and they usually contain seeds.'
+        },
+        {
+            german: 'der Zweig',
+            plural: 'die Zweige',
+            translation: 'branch',
+            category: 'nature',
+            hint: 'These grow out of tree trunks, and leaves sprout from them.'
+        },
+        {
+            german: 'der Gürtel',
+            plural: 'die Gürtel',
+            translation: 'belt',
+            category: 'apparel',
+            hint: 'It keeps your pants from falling down.'
+        },
+        {
+            german: 'die Krawatte',
+            plural: 'die Krawatten',
+            translation: 'tie',
+            category: 'apparel',
+            hint: 'Knot styles include the half Windsor, the Atlantic, and the Pratt.'
+        },
+        {
+            german: 'der Schal',
+            plural: 'die Schals',
+            translation: 'scarf',
+            category: 'apparel',
+            hint: 'Worn for style or to keep the neck warm.'
+        },
+        {
+            german: 'die Tasche',
+            plural: 'die Taschen',
+            translation: 'bag',
+            category: 'apparel',
+            hint: 'Something you would use to carry things around.'
+        },
+        {
+            german: 'das Zubehör',
+            plural: 'die Zubehöre',
+            translation: 'accessory',
+            category: 'apparel',
+            hint: 'Something that completes an outfit.'
+        },
+        {
+            german: 'Dienstag',
+            plural: 'dienstags',
+            translation: ['Tuesday', 'tuesday'],
+            category: 'calendar',
+            subcategory: 'quiz exempt',
+            hint: 'Elections fall on this day, in the United States.'
+        },
+        {
+            german: 'Donnerstag',
+            plural: 'donnerstags',
+            translation: ['Thursday', 'thursday'],
+            category: 'calendar',
+            subcategory: 'quiz exempt',
+            hint: `Thor's day.`
+        },
+        {
+            german: 'Freitag',
+            plural: 'freitags',
+            translation: ['Friday', 'friday'],
+            category: 'calendar',
+            subcategory: 'quiz exempt',
+            hint: 'It is especially inauspicious when this falls on the thirteenth day of a month.'
+        },
+        {
+            german: 'Mittwoch',
+            plural: 'mittwochs',
+            translation: ['Wednesday', 'wednesday'],
+            category: 'calendar',
+            subcategory: 'quiz exempt',
+            hint: 'Falls in the middle of the week.'
+        },
+        {
+            german: 'Montag',
+            plural: 'montages',
+            translation: ['Monday', 'monday'],
+            category: 'calendar',
+            subcategory: 'quiz exempt',
+            hint: 'Garfield hates this day.'
+        },
+        {
+            german: 'hässlich',
+            translation: 'ugly',
+            category: 'adjectives',
+            hint: `The word used to describe the titular "duckling" in a Hans Christian Andersen fairy tale.`
+        },
+        {
+            german: 'klar',
+            translation: ['clear', 'understood'],
+            category: 'adjectives',
+            hint: 'Not opaque.'
+        },
+        {
+            german: 'sauber',
+            translation: 'clean',
+            category: 'adjectives',
+            hint: 'You hope this word describes any public bathroom you have to use.'
+        },
+        {
+            german: 'schmutzig',
+            translation: 'dirty',
+            category: 'adjectives',
+            hint: 'The general state of most public bathrooms.'
+        },
+        {
+            german: 'schön',
+            translation: ['beautiful', 'pretty'],
+            category: 'adjectives',
+            hint: 'This word describes people or things that are aesthetically pleasing.'
+        }
+    ],
 
-    // round6 = [
-    //     {
-    //         german: 'sechsundzwanzig',
-    //         translation: ['twenty-six', 'twenty six'],
-    //         category: 'numbers',
-    //         hint: 'The number of letters in the modern English alphabet.'
-    //     },
-    //     {
-    //         german: 'siebenundzwanzig',
-    //         translation: ['twenty-seven', 'twenty seven'],
-    //         category: 'numbers',
-    //         hint: 'Janis Joplin, Kurt Cobain, and Amy Winehouse all died at this age.'
-    //     },
-    //     {
-    //         german: 'achtundzwanzig',
-    //         translation: ['twenty-eight', 'twenty eight'],
-    //         category: 'numbers',
-    //         hint: 'Cillian Murphy wakes up this many "days later" after a viral outbreak, in a Danny Boyle movie.'
-    //     },
-    //     {
-    //         german: 'neunundzwanzig',
-    //         translation: ['twenty-nine', 'twenty nine'],
-    //         category: 'numbers',
-    //         hint: 'The last year of being a twentysomething.'
-    //     },
-    //     {
-    //         german: 'dreißig',
-    //         translation: 'thirty',
-    //         category: 'numbers',
-    //         hint: 'Jenna Rink wants to be "___, flirty, and thriving."'
-    //     },
-    //     {
-    //         german: 'die Banane',
-    //         plural: 'die Bananen',
-    //         translation: 'banana',
-    //         category: 'food',
-    //         hint: 'Try not to slip on its peel.'
-    //     },
-    //     {
-    //         german: 'das Ei',
-    //         plural: 'die Eier',
-    //         translation: 'egg',
-    //         category: 'food',
-    //         hint: 'Did this come before the chicken?'
-    //     },
-    //     {
-    //         german: 'das Frühstück',
-    //         plural: 'die Frühstücke',
-    //         translation: 'breakfast',
-    //         category: 'food',
-    //         hint: 'The most important meal of the day!'
-    //     },
-    //     {
-    //         german: 'das Obst',
-    //         translation: 'fruit',
-    //         category: 'food',
-    //         hint: 'A collective noun for "Frucht" that is considered edible.'
-    //     },
-    //     {
-    //         german: 'der Saft',
-    //         plural: 'die Säfte',
-    //         translation: 'juice',
-    //         category: 'food',
-    //         hint: 'A drink made from fruits.'
-    //     },
-    //     {
-    //         german: 'die Biene',
-    //         plural: 'die Bienen',
-    //         translation: 'bee',
-    //         category: 'animals',
-    //         hint: 'Stripy pollinators—save them!'
-    //     },
-    //     {
-    //         german: 'die Fliege',
-    //         plural: 'die Fliegen',
-    //         translation: 'fly',
-    //         category: 'animals',
-    //         hint: 'Jeff Goldblum let one into his teleportation device.'
-    //     },
-    //     {
-    //         german: 'das Insekt',
-    //         plural: 'die Insekten',
-    //         translation: 'insect',
-    //         category: 'animals',
-    //         hint: 'A creepy-crawly.'
-    //     },
-    //     {
-    //         german: 'der Käfer',
-    //         plural: 'die Käfer',
-    //         translation: 'beetle',
-    //         category: 'animals',
-    //         hint: 'A type of insect that has a car named after it.'
-    //     },
-    //     {
-    //         german: 'die Spinne',
-    //         plural: 'die Spinnen',
-    //         translation: 'spider',
-    //         category: 'animals',
-    //         hint: `It's itsy, bitsy and has eight legs.`
-    //     },
-    //     {
-    //         german: 'der Boden',
-    //         plural: 'die Böden',
-    //         translation: 'floor',
-    //         category: 'home',
-    //         hint: 'A surface for walking.'
-    //     },
-    //     {
-    //         german: 'das Fenster',
-    //         plural: 'die Fenster',
-    //         translation: 'window',
-    //         category: 'home',
-    //         hint: 'A portal to the outside world.'
-    //     },
-    //     {
-    //         german: 'die Tür',
-    //         plural: 'die Türen',
-    //         translation: 'door',
-    //         category: 'home',
-    //         hint: `Don't let it hit you on your way out!`
-    //     },
-    //     {
-    //         german: 'die Wand',
-    //         plural: 'die Wände',
-    //         translation: 'wall',
-    //         category: 'home',
-    //         hint: 'A solid, immovable barrier between rooms.'
-    //     },
-    //     {
-    //         german: 'das Zimmer',
-    //         plural: 'die Zimmer',
-    //         translation: 'room',
-    //         category: 'home',
-    //         hint: 'A space in your home (e.g., the kitchen).'
-    //     },
-    //     {
-    //         german: 'der Berg',
-    //         plural: 'die Berge',
-    //         translation: 'mountain',
-    //         category: 'nature',
-    //         hint: 'Everest is the tallest one.'
-    //     },
-    //     {
-    //         german: 'der Fels',
-    //         plural: 'die Felsen',
-    //         translation: 'rock',
-    //         category: 'nature',
-    //         hint: 'Solid as a ___.'
-    //     },
-    //     {
-    //         german: 'der Fluss',
-    //         plural: 'die Flüsse',
-    //         translation: 'river',
-    //         category: 'nature',
-    //         hint: 'The Nile is one, the Amazon is another.'
-    //     },
-    //     {
-    //         german: 'der Hügel',
-    //         plural: 'die Hügel',
-    //         translation: 'hill',
-    //         category: 'nature',
-    //         hint: 'These can be rolling without ever moving.'
-    //     },
-    //     {
-    //         german: 'das Tal',
-    //         plural: 'die Täler',
-    //         translation: 'valley',
-    //         category: 'nature',
-    //         hint: 'A low area between mountains or hills.'
-    //     },
-    //     {
-    //         german: 'Samstag',
-    //         plural: 'samstags',
-    //         translation: ['Saturday', 'saturday'],
-    //         category: 'calendar',
-    //         subcategory: 'quiz exempt',
-    //         hint: `This night's alright for fighting, according to Elton John.`
-    //     },
-    //     {
-    //         german: 'Sonntag',
-    //         plural: 'sonntags',
-    //         translation: ['Sunday', 'sunday'],
-    //         category: 'calendar',
-    //         subcategory: 'quiz exempt',
-    //         hint: 'The day of the Sun.'
-    //     },
-    //     {
-    //         german: 'die Woche',
-    //         plural: 'die Wochen',
-    //         translation: 'week',
-    //         category: 'calendar',
-    //         hint: 'Seven days in a row.'
-    //     },
-    //     {
-    //         german: 'das Wochenende',
-    //         plural: 'die Wochenenden',
-    //         translation: 'weekend',
-    //         category: 'calendar',
-    //         hint: 'Saturday and Sunday.'
-    //     },
-    //     {
-    //         german: 'der Wochentag',
-    //         plural: 'die Wochentage',
-    //         translation: 'weekday',
-    //         category: 'calendar',
-    //         hint: `Any day that isn't Saturday or Sunday.`
-    //     },
-    //     {
-    //         german: 'das Auto',
-    //         plural: 'die Autos',
-    //         translation: 'car',
-    //         category: 'travel',
-    //         hint: 'Vroom, vroom.'
-    //     },
-    //     {
-    //         german: 'die Brücke',
-    //         plural: 'die Brücken',
-    //         translation: 'bridge',
-    //         category: 'travel',
-    //         hint: 'A structure that spans a body of water.'
-    //     },
-    //     {
-    //         german: 'die Karte',
-    //         plural: 'die Karten',
-    //         translation: 'map',
-    //         category: 'travel',
-    //         hint: `If there's a place you gotta go, I'm the one you need to know.`
-    //     },
-    //     {
-    //         german: 'die Reise',
-    //         plural: 'die Reisen',
-    //         translation: ['trip', 'journey'],
-    //         category: 'travel',
-    //         hint: 'Traveling from one place to another.'
-    //     },
-    //     {
-    //         german: 'die Straße',
-    //         plural: 'die Straßen',
-    //         translation: ['road', 'street'],
-    //         category: 'travel',
-    //         hint: 'Look both ways before crossing this.'
-    //     },
-    //     {
-    //         german: 'der Absturz',
-    //         plural: 'die Abstürze',
-    //         translation: 'crash',
-    //         category: 'catastrophe',
-    //         hint: 'When things collide.'
-    //     },
-    //     {
-    //         german: 'die Schnittwunde',
-    //         plural: 'die Schnittwunden',
-    //         translation: ['cut', 'laceration'],
-    //         category: 'catastrophe',
-    //         hint: 'The result of being sliced by something sharp.'
-    //     },
-    //     {
-    //         german: 'der Unfall',
-    //         plural: 'die Unfälle',
-    //         translation: 'accident',
-    //         category: 'catastrophe',
-    //         hint: 'A mistake; something not done on purpose.'
-    //     },
-    //     {
-    //         german: 'die Verletzung',
-    //         plural: 'die Verletzungen',
-    //         translation: 'injury',
-    //         category: 'catastrophe',
-    //         hint: `You shouldn't add insult to this.`
-    //     },
-    //     {
-    //         german: 'die Wunde',
-    //         plural: 'die Wunden',
-    //         translation: 'wound',
-    //         category: 'catastrophe',
-    //         hint: 'Something that is healed by time.'
-    //     }
-    // ],
+    round6 = [
+        {
+            german: 'sechsundzwanzig',
+            translation: ['twenty-six', 'twenty six'],
+            category: 'numbers',
+            hint: 'The number of letters in the modern English alphabet.'
+        },
+        {
+            german: 'siebenundzwanzig',
+            translation: ['twenty-seven', 'twenty seven'],
+            category: 'numbers',
+            hint: 'Janis Joplin, Kurt Cobain, and Amy Winehouse all died at this age.'
+        },
+        {
+            german: 'achtundzwanzig',
+            translation: ['twenty-eight', 'twenty eight'],
+            category: 'numbers',
+            hint: 'Cillian Murphy wakes up this many "days later" after a viral outbreak, in a Danny Boyle movie.'
+        },
+        {
+            german: 'neunundzwanzig',
+            translation: ['twenty-nine', 'twenty nine'],
+            category: 'numbers',
+            hint: 'The last year of being a twentysomething.'
+        },
+        {
+            german: 'dreißig',
+            translation: 'thirty',
+            category: 'numbers',
+            hint: 'Jenna Rink wants to be "___, flirty, and thriving."'
+        },
+        {
+            german: 'die Banane',
+            plural: 'die Bananen',
+            translation: 'banana',
+            category: 'food',
+            hint: 'Try not to slip on its peel.'
+        },
+        {
+            german: 'das Ei',
+            plural: 'die Eier',
+            translation: 'egg',
+            category: 'food',
+            hint: 'Did this come before the chicken?'
+        },
+        {
+            german: 'das Frühstück',
+            plural: 'die Frühstücke',
+            translation: 'breakfast',
+            category: 'food',
+            hint: 'The most important meal of the day!'
+        },
+        {
+            german: 'das Obst',
+            translation: 'fruit',
+            category: 'food',
+            hint: 'A collective noun for "Frucht" that is considered edible.'
+        },
+        {
+            german: 'der Saft',
+            plural: 'die Säfte',
+            translation: 'juice',
+            category: 'food',
+            hint: 'A drink made from fruits.'
+        },
+        {
+            german: 'die Biene',
+            plural: 'die Bienen',
+            translation: 'bee',
+            category: 'animals',
+            hint: 'Stripy pollinators—save them!'
+        },
+        {
+            german: 'die Fliege',
+            plural: 'die Fliegen',
+            translation: 'fly',
+            category: 'animals',
+            hint: 'Jeff Goldblum let one into his teleportation device.'
+        },
+        {
+            german: 'das Insekt',
+            plural: 'die Insekten',
+            translation: 'insect',
+            category: 'animals',
+            hint: 'A creepy-crawly.'
+        },
+        {
+            german: 'der Käfer',
+            plural: 'die Käfer',
+            translation: 'beetle',
+            category: 'animals',
+            hint: 'A type of insect that has a car named after it.'
+        },
+        {
+            german: 'die Spinne',
+            plural: 'die Spinnen',
+            translation: 'spider',
+            category: 'animals',
+            hint: `It's itsy, bitsy and has eight legs.`
+        },
+        {
+            german: 'der Boden',
+            plural: 'die Böden',
+            translation: 'floor',
+            category: 'home',
+            hint: 'A surface for walking.'
+        },
+        {
+            german: 'das Fenster',
+            plural: 'die Fenster',
+            translation: 'window',
+            category: 'home',
+            hint: 'A portal to the outside world.'
+        },
+        {
+            german: 'die Tür',
+            plural: 'die Türen',
+            translation: 'door',
+            category: 'home',
+            hint: `Don't let it hit you on your way out!`
+        },
+        {
+            german: 'die Wand',
+            plural: 'die Wände',
+            translation: 'wall',
+            category: 'home',
+            hint: 'A solid, immovable barrier between rooms.'
+        },
+        {
+            german: 'das Zimmer',
+            plural: 'die Zimmer',
+            translation: 'room',
+            category: 'home',
+            hint: 'A space in your home (e.g., the kitchen).'
+        },
+        {
+            german: 'der Berg',
+            plural: 'die Berge',
+            translation: 'mountain',
+            category: 'nature',
+            hint: 'Everest is the tallest one.'
+        },
+        {
+            german: 'der Fels',
+            plural: 'die Felsen',
+            translation: 'rock',
+            category: 'nature',
+            hint: 'Solid as a ___.'
+        },
+        {
+            german: 'der Fluss',
+            plural: 'die Flüsse',
+            translation: 'river',
+            category: 'nature',
+            hint: 'The Nile is one, the Amazon is another.'
+        },
+        {
+            german: 'der Hügel',
+            plural: 'die Hügel',
+            translation: 'hill',
+            category: 'nature',
+            hint: 'These can be rolling without ever moving.'
+        },
+        {
+            german: 'das Tal',
+            plural: 'die Täler',
+            translation: 'valley',
+            category: 'nature',
+            hint: 'A low area between mountains or hills.'
+        },
+        {
+            german: 'Samstag',
+            plural: 'samstags',
+            translation: ['Saturday', 'saturday'],
+            category: 'calendar',
+            subcategory: 'quiz exempt',
+            hint: `This night's alright for fighting, according to Elton John.`
+        },
+        {
+            german: 'Sonntag',
+            plural: 'sonntags',
+            translation: ['Sunday', 'sunday'],
+            category: 'calendar',
+            subcategory: 'quiz exempt',
+            hint: 'The day of the Sun.'
+        },
+        {
+            german: 'die Woche',
+            plural: 'die Wochen',
+            translation: 'week',
+            category: 'calendar',
+            hint: 'Seven days in a row.'
+        },
+        {
+            german: 'das Wochenende',
+            plural: 'die Wochenenden',
+            translation: 'weekend',
+            category: 'calendar',
+            hint: 'Saturday and Sunday.'
+        },
+        {
+            german: 'der Wochentag',
+            plural: 'die Wochentage',
+            translation: 'weekday',
+            category: 'calendar',
+            hint: `Any day that isn't Saturday or Sunday.`
+        },
+        {
+            german: 'das Auto',
+            plural: 'die Autos',
+            translation: 'car',
+            category: 'travel',
+            hint: 'Vroom, vroom.'
+        },
+        {
+            german: 'die Brücke',
+            plural: 'die Brücken',
+            translation: 'bridge',
+            category: 'travel',
+            hint: 'A structure that spans a body of water.'
+        },
+        {
+            german: 'die Karte',
+            plural: 'die Karten',
+            translation: 'map',
+            category: 'travel',
+            hint: `If there's a place you gotta go, I'm the one you need to know.`
+        },
+        {
+            german: 'die Reise',
+            plural: 'die Reisen',
+            translation: ['trip', 'journey'],
+            category: 'travel',
+            hint: 'Traveling from one place to another.'
+        },
+        {
+            german: 'die Straße',
+            plural: 'die Straßen',
+            translation: ['road', 'street'],
+            category: 'travel',
+            hint: 'Look both ways before crossing this.'
+        },
+        {
+            german: 'der Absturz',
+            plural: 'die Abstürze',
+            translation: 'crash',
+            category: 'catastrophe',
+            hint: 'When things collide.'
+        },
+        {
+            german: 'die Schnittwunde',
+            plural: 'die Schnittwunden',
+            translation: ['cut', 'laceration'],
+            category: 'catastrophe',
+            hint: 'The result of being sliced by something sharp.'
+        },
+        {
+            german: 'der Unfall',
+            plural: 'die Unfälle',
+            translation: 'accident',
+            category: 'catastrophe',
+            hint: 'A mistake; something not done on purpose.'
+        },
+        {
+            german: 'die Verletzung',
+            plural: 'die Verletzungen',
+            translation: 'injury',
+            category: 'catastrophe',
+            hint: `You shouldn't add insult to this.`
+        },
+        {
+            german: 'die Wunde',
+            plural: 'die Wunden',
+            translation: 'wound',
+            category: 'catastrophe',
+            hint: 'Something that is healed by time.'
+        }
+    ],
 
-    // round7 = [
-    //     {
-    //         german: 'der Bäcker',
-    //         plural: 'die Bäcker',
-    //         translation: 'baker',
-    //         category: 'people',
-    //         hint: 'This person makes the best breads, cakes, and pies.'
-    //     },
-    //     {
-    //         german: 'der Barista',
-    //         plural: 'die Baristas',
-    //         translation: 'barista',
-    //         category: 'people',
-    //         hint: `This person can explain the difference between a cappuccino and a latte.`
-    //     },
-    //     {
-    //         german: 'der Barkeeper',
-    //         plural: 'die Barkeeper',
-    //         translation: ['bartender', 'barkeeper'],
-    //         category: 'people',
-    //         hint: 'A shaker, a stirrer, a listener.'
-    //     },
-    //     {
-    //         german: 'der Kellner',
-    //         plural: 'die Kellner',
-    //         translation: ['waiter', 'server'],
-    //         category: 'people',
-    //         hint: 'If you eat at a restaurant in the US, you should tip this person.'
-    //     },
-    //     {
-    //         german: 'der Koch',
-    //         plural: 'die Köche',
-    //         translation: ['cook', 'chef'],
-    //         category: 'people',
-    //         hint: `Their uniforms usually include a toque blanche.`
-    //     },
-    //     {
-    //         german: 'einunddreißig',
-    //         translation: ['thirty-one', 'thirty one'],
-    //         category: 'numbers',
-    //         hint: 'The number of days in December.'
-    //     },
-    //     {
-    //         german: 'zweiunddreißig',
-    //         translation: ['thirty-two', 'thirty two'],
-    //         category: 'numbers',
-    //         hint: 'Water freezes at __°F.'
-    //     },
-    //     {
-    //         german: 'dreiunddreißig',
-    //         translation: ['thirty-three', 'thirty three'],
-    //         category: 'numbers',
-    //         hint: 'Another name for an LP record.'
-    //     },
-    //     {
-    //         german: 'vierunddreißig',
-    //         translation: ['thirty-four', 'thirty four'],
-    //         category: 'numbers',
-    //         hint: 'Miracle on __th Street.'
-    //     },
-    //     {
-    //         german: 'fünfunddreißig',
-    //         translation: ['thirty-five', 'thirty five'],
-    //         category: 'numbers',
-    //         hint: 'Presidential candidates must be at least this old, in the United States.'
-    //     },
-    //     {
-    //         german: 'der Bär',
-    //         plural: 'die Bären',
-    //         translation: 'bear',
-    //         category: 'animals',
-    //         hint: 'A grizzly one could create a grisly scene.'
-    //     },
-    //     {
-    //         german: 'die Eule',
-    //         plural: 'die Eulen',
-    //         translation: 'owl',
-    //         category: 'animals',
-    //         hint: 'Who? Who?'
-    //     },
-    //     {
-    //         german: 'der Fuchs',
-    //         plural: 'die Füchse',
-    //         translation: 'fox',
-    //         category: 'animals',
-    //         hint: 'Known for being cunning and clever.'
-    //     },
-    //     {
-    //         german: 'der Hirsch',
-    //         plural: 'die Hirsche',
-    //         translation: 'deer',
-    //         category: 'animals',
-    //         hint: 'They freeze when they see headlights.'
-    //     },
-    //     {
-    //         german: 'der Waschbär',
-    //         plural: 'die Waschbären',
-    //         translation: 'raccoon',
-    //         category: 'animals',
-    //         hint: 'A little bandit with a ringed tail.'
-    //     },
-    //     {
-    //         german: 'das Badezimmer',
-    //         plural: 'die Badezimmer',
-    //         translation: 'bathroom',
-    //         category: 'home',
-    //         hint: 'Where the tub lives.'
-    //     },
-    //     {
-    //         german: 'das Haus',
-    //         plural: 'die Häuser',
-    //         translation: 'house',
-    //         category: 'home',
-    //         hint: 'A residence.'
-    //     },
-    //     {
-    //         german: 'die Küche',
-    //         plural: 'die Küchen',
-    //         translation: 'kitchen',
-    //         category: 'home',
-    //         hint: 'The room where you might cook (or microwave) food.'
-    //     },
-    //     {
-    //         german: 'das Schlafzimmer',
-    //         plural: 'die Schlafzimmer',
-    //         translation: 'bedroom',
-    //         category: 'home',
-    //         hint: 'Where you might sleep.'
-    //     },
-    //     {
-    //         german: 'das Wohnzimmer',
-    //         plural: 'die Wohnzimmer',
-    //         translation: 'living room',
-    //         category: 'home',
-    //         hint: 'Sometimes called the front room.'
-    //     },
-    //     {
-    //         german: 'das Element',
-    //         plural: 'die Elemente',
-    //         translation: 'element',
-    //         category: 'nature',
-    //         hint: 'Each square on the periodic table contains one.'
-    //     },
-    //     {
-    //         german: 'die Erde',
-    //         plural: 'die Erden',
-    //         translation: 'earth',
-    //         category: 'nature',
-    //         hint: 'Our planet, and another word for soil.'
-    //     },
-    //     {
-    //         german: 'das Feuer',
-    //         plural: 'die Feuer',
-    //         translation: 'fire',
-    //         category: 'nature',
-    //         hint: 'What Prometheus gave mankind, in Greek mythology.'
-    //     },
-    //     {
-    //         german: 'das Gewässer',
-    //         plural: 'die Gewässer',
-    //         translation: ['water', 'body of water'],
-    //         category: 'nature',
-    //         hint: 'A large reservoir, like lakes, oceans, or rivers.'
-    //     },
-    //     {
-    //         german: 'die Luft',
-    //         plural: 'die Lüfte',
-    //         translation: 'air',
-    //         category: 'nature',
-    //         hint: `That mixture of mainly oxygen and nitrogen you're currently breathing.`
-    //     },
-    // ]
+    round7 = [
+        {
+            german: 'der Bäcker',
+            plural: 'die Bäcker',
+            translation: 'baker',
+            category: 'people',
+            hint: 'This person makes the best breads, cakes, and pies.'
+        },
+        {
+            german: 'der Barista',
+            plural: 'die Baristas',
+            translation: 'barista',
+            category: 'people',
+            hint: `This person can explain the difference between a cappuccino and a latte.`
+        },
+        {
+            german: 'der Barkeeper',
+            plural: 'die Barkeeper',
+            translation: ['bartender', 'barkeeper'],
+            category: 'people',
+            hint: 'A shaker, a stirrer, a listener.'
+        },
+        {
+            german: 'der Kellner',
+            plural: 'die Kellner',
+            translation: ['waiter', 'server'],
+            category: 'people',
+            hint: 'If you eat at a restaurant in the US, you should tip this person.'
+        },
+        {
+            german: 'der Koch',
+            plural: 'die Köche',
+            translation: ['cook', 'chef'],
+            category: 'people',
+            hint: `Their uniforms usually include a toque blanche.`
+        },
+        {
+            german: 'einunddreißig',
+            translation: ['thirty-one', 'thirty one'],
+            category: 'numbers',
+            hint: 'The number of days in December.'
+        },
+        {
+            german: 'zweiunddreißig',
+            translation: ['thirty-two', 'thirty two'],
+            category: 'numbers',
+            hint: 'Water freezes at __°F.'
+        },
+        {
+            german: 'dreiunddreißig',
+            translation: ['thirty-three', 'thirty three'],
+            category: 'numbers',
+            hint: 'Another name for an LP record.'
+        },
+        {
+            german: 'vierunddreißig',
+            translation: ['thirty-four', 'thirty four'],
+            category: 'numbers',
+            hint: 'Miracle on __th Street.'
+        },
+        {
+            german: 'fünfunddreißig',
+            translation: ['thirty-five', 'thirty five'],
+            category: 'numbers',
+            hint: 'Presidential candidates must be at least this old, in the United States.'
+        },
+        {
+            german: 'der Bär',
+            plural: 'die Bären',
+            translation: 'bear',
+            category: 'animals',
+            hint: 'A grizzly one could create a grisly scene.'
+        },
+        {
+            german: 'die Eule',
+            plural: 'die Eulen',
+            translation: 'owl',
+            category: 'animals',
+            hint: 'Who? Who?'
+        },
+        {
+            german: 'der Fuchs',
+            plural: 'die Füchse',
+            translation: 'fox',
+            category: 'animals',
+            hint: 'Known for being cunning and clever.'
+        },
+        {
+            german: 'der Hirsch',
+            plural: 'die Hirsche',
+            translation: 'deer',
+            category: 'animals',
+            hint: 'They freeze when they see headlights.'
+        },
+        {
+            german: 'der Waschbär',
+            plural: 'die Waschbären',
+            translation: 'raccoon',
+            category: 'animals',
+            hint: 'A little bandit with a ringed tail.'
+        },
+        {
+            german: 'das Badezimmer',
+            plural: 'die Badezimmer',
+            translation: 'bathroom',
+            category: 'home',
+            hint: 'Where the tub lives.'
+        },
+        {
+            german: 'das Haus',
+            plural: 'die Häuser',
+            translation: 'house',
+            category: 'home',
+            hint: 'A residence.'
+        },
+        {
+            german: 'die Küche',
+            plural: 'die Küchen',
+            translation: 'kitchen',
+            category: 'home',
+            hint: 'The room where you might cook (or microwave) food.'
+        },
+        {
+            german: 'das Schlafzimmer',
+            plural: 'die Schlafzimmer',
+            translation: 'bedroom',
+            category: 'home',
+            hint: 'Where you might sleep.'
+        },
+        {
+            german: 'das Wohnzimmer',
+            plural: 'die Wohnzimmer',
+            translation: 'living room',
+            category: 'home',
+            hint: 'Sometimes called the front room.'
+        },
+        {
+            german: 'das Element',
+            plural: 'die Elemente',
+            translation: 'element',
+            category: 'nature',
+            hint: 'Each square on the periodic table contains one.'
+        },
+        {
+            german: 'die Erde',
+            plural: 'die Erden',
+            translation: 'earth',
+            category: 'nature',
+            hint: 'Our planet, and another word for soil.'
+        },
+        {
+            german: 'das Feuer',
+            plural: 'die Feuer',
+            translation: 'fire',
+            category: 'nature',
+            hint: 'What Prometheus gave mankind, in Greek mythology.'
+        },
+        {
+            german: 'das Gewässer',
+            plural: 'die Gewässer',
+            translation: ['water', 'body of water'],
+            category: 'nature',
+            hint: 'A large reservoir, like lakes, oceans, or rivers.'
+        },
+        {
+            german: 'die Luft',
+            plural: 'die Lüfte',
+            translation: 'air',
+            category: 'nature',
+            hint: `That mixture of mainly oxygen and nitrogen you're currently breathing.`
+        },
+    ]
 ];
 
 // getRandom and gimmeWords work in conjunction to pick a random word from wordArray
