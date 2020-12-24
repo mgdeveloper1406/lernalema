@@ -1424,6 +1424,41 @@ gameArray = [
             category: 'nature',
             hint: `That mixture of mainly oxygen and nitrogen you're currently breathing.`
         },
+        {
+            german: 'der Brand',
+            plural: 'die Brände',
+            translation: 'fire',
+            category: 'catastrophe',
+            hint: ''
+        },
+        {
+            german: 'die Brandwunde',
+            plural: 'die Brandwunden',
+            translation: 'burn',
+            category: 'catastrophe',
+            hint: ''
+        },
+        {
+            german: 'die Krankheit',
+            plural: 'die Krankheiten',
+            translation: ['illness', 'disease'],
+            category: 'catastrophe',
+            hint: ''
+        },
+        {
+            german: 'der Notfall',
+            plural: 'die Notfälle',
+            translation: 'emergency',
+            category: 'catastrophe',
+            hint: ''
+        },
+        {
+            german: 'der Schneesturm',
+            plural: 'die Schneestürme',
+            translation: ['snowstorm', 'blizzard'],
+            category: 'catastrophe',
+            hint: ''
+        },
     ]
 ];
 
