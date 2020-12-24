@@ -589,13 +589,14 @@ h2#review-sub {
 h2#review-sub {
     text-transform: unset;
 }
-figure {
+#modal-image {
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url('../images/flash-level-bubble.svg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     height: 300px;
     margin-bottom: 1.5rem;
 }
@@ -918,7 +919,7 @@ footer {
     h2#congrats-sub {
         font-size: 1.1rem;
     }
-    figure {
+    #modal-image {
         height: 235px;
         margin: 5px;
     }
