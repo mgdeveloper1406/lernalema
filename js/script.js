@@ -1429,35 +1429,35 @@ gameArray = [
             plural: 'die Brände',
             translation: 'fire',
             category: 'catastrophe',
-            hint: ''
+            hint: 'A conflagration.'
         },
         {
             german: 'die Brandwunde',
             plural: 'die Brandwunden',
             translation: 'burn',
             category: 'catastrophe',
-            hint: ''
+            hint: 'The result of an interation with fire.'
         },
         {
             german: 'die Krankheit',
             plural: 'die Krankheiten',
             translation: ['illness', 'disease'],
             category: 'catastrophe',
-            hint: ''
+            hint: 'A period, or permanent state, of being unwell.'
         },
         {
             german: 'der Notfall',
             plural: 'die Notfälle',
             translation: 'emergency',
             category: 'catastrophe',
-            hint: ''
+            hint: `Call 911, it's an ___.`
         },
         {
             german: 'der Schneesturm',
             plural: 'die Schneestürme',
             translation: ['snowstorm', 'blizzard'],
             category: 'catastrophe',
-            hint: ''
+            hint: 'A heavy snowfall.'
         },
     ]
 ];
