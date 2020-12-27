@@ -1659,9 +1659,8 @@ function modalDisplay() {
         $('#modal-body').css('display', 'block');
         displayMiniReview();
     } else if (wordArray.length == 0 && gameArray.length == 1) {
-        // setTimeout(function waitForZero() {
-        //     alert(`Du sprichst Deutsch! Sort of!`);
-        // }, 200);
+        // the lightning round removes all "continue" buttons (which push the mini reviews into the end review), so the end review must be "built" here to be displayed after a lightning round
+        endReviewArray.push.apply(endReviewArray, miniReviewArray.splice(0));
         $('.modal').css('display', 'block');
         $('#modal-body').css('display', 'block');
         displayEndReview();
