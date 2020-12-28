@@ -6,8 +6,8 @@ let endReviewArray = [];
 let consolidatedArray = [];
 let i;
 let level = 1;
-let headerHeight = $('header').outerHeight(true);
-let helpRowHeight = $('#help-row').outerHeight(true);
+// let headerHeight = $('header').outerHeight(true);
+// let helpRowHeight = $('#help-row').outerHeight(true);
 
 // change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
@@ -2239,15 +2239,15 @@ $('.select-categories').on('click', function() {
 
 // add extra padding to offset the fixed header
 function headerOffset() {
-    // let headerHeight = $('header').outerHeight(true);
+    let headerHeight = $('header').outerHeight(true);
     $('#categories-wrapper').css('padding-top', headerHeight);
     $('main').css('padding-top', headerHeight);
 }
 headerOffset();
 
 $('#your-translation').onfocus = function() {
-    let inputFocusTop = headerHeight + helpRowHeight;
-    $('#countdown-container').scrollTop = inputFocusTop;
+    // let inputFocusTop = headerHeight + helpRowHeight;
+    $('#countdown-container').scrollTop = 0;
 };
 
 //---------------------------------------------------------------
