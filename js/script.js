@@ -2245,11 +2245,16 @@ function headerOffset() {
 }
 headerOffset();
 
-$('#your-translation').onfocus = function() {
-    // let inputFocusTop = headerHeight + helpRowHeight;
-    $('#countdown-container').scrollTop = 0;
-};
+// $('#your-translation').onfocus = function() {
+//     // let inputFocusTop = headerHeight + helpRowHeight;
+//     $('#countdown-container').scrollTop = 0;
+// };
 
+$('#your-translation').on('focus', function() {
+    if ($(window).width() < 415) {
+        $('#submit').css({'position': 'fixed', 'bottom': '0'});
+    }
+});
 //---------------------------------------------------------------
 
 $('.quiz-buttons').on('click', function() {
