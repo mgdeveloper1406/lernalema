@@ -393,7 +393,7 @@ button.lightning-round:hover {
 }
 #countdown-container {
     text-align: center;
-    margin: 0 0 10px 20px;
+    margin: 5px 0 10px 20px;
 }
 .countdown-text {
     font-family: 'dinosaur', sans-serif;
