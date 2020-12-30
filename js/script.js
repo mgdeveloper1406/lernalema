@@ -2080,7 +2080,7 @@ $('.lightning-round').on('click', function() {
     $('#categories-wrapper').slideUp(800);
 });
 
-$('input[type=checkbox]').on('click keydown', function() {
+$('input.category[type=checkbox]').on('click keydown', function() {
     // toggle the visibility of the purple .selection-circle around the category icons, when the corresponding input is clicked
     $(this).next('label').children('div').children('div').toggle();
     // if the circle is visible, make label text bold
@@ -2091,7 +2091,7 @@ $('input[type=checkbox]').on('click keydown', function() {
     }
 
     // prevents the game from ending if a person clicks a category before deciding not to use category selection. removes the unselected words from wordArray and prevents the round 2 modal box from appearing.
-    if ($('input[type=checkbox]').is(':checked') === true) {
+    if ($('input.category[type=checkbox]').is(':checked') === true) {
         wordArray.length = 0;
         gameArray.splice(1);
     }
