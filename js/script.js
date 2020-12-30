@@ -2252,7 +2252,9 @@ headerOffset();
 
 $('#your-translation').on('focus', function() {
     if ($(window).width() < 415) {
-        $('#submit').css({'position': 'fixed', 'bottom': '0'});
+        $('html, body').animate({
+            scrollTop: $('#mobile-focus').offset().top
+        }, 2000);
     }
 });
 //---------------------------------------------------------------
