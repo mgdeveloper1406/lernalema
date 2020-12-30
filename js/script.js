@@ -2245,18 +2245,15 @@ function headerOffset() {
 }
 headerOffset();
 
-// $('#your-translation').onfocus = function() {
-//     // let inputFocusTop = headerHeight + helpRowHeight;
-//     $('#countdown-container').scrollTop = 0;
-// };
-
+// since mobile keyboards slide content up, this animation ensures the entire flashcard is visible when the #your-translation input is in focus 
 $('#your-translation').on('focus', function() {
     if ($(window).width() < 415) {
         $('html, body').animate({
             scrollTop: $('#mobile-focus').offset().top
-        }, 2000);
+        }, 500);
     }
 });
+
 //---------------------------------------------------------------
 
 $('.quiz-buttons').on('click', function() {
