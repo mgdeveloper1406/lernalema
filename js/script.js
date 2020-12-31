@@ -1714,6 +1714,8 @@ function checkAnswer() {
         }, 2000, function(){
             $('#your-translation').val('').css('opacity', '1');
         });
+
+        buildMiniReview();
     }
     
     modalDisplay();
