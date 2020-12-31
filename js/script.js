@@ -1612,7 +1612,7 @@ function moveWord() {
 
 // update the modal-box level by one 
 function updateLevel() {
-    if ($('.modal').css('display') === 'none') {
+    if ($('#level-box').css('display') === 'none') {
         level += 1;
         $('#level').html(level);
     }
@@ -1657,13 +1657,13 @@ function resetHint() {
 function modalDisplay() {
     if (wordArray.length <= 0 && gameArray.length > 1) {
         updateLevel();
-        $('.modal').css('display', 'block');
+        $('#level-box').css('display', 'block');
         $('#modal-body').css('display', 'block');
         displayMiniReview();
     } else if (wordArray.length == 0 && gameArray.length == 1) {
         // the lightning round removes all "continue" buttons (which push the mini reviews into the end review), so the end review must be "built" here to be displayed after a lightning round
         endReviewArray.push.apply(endReviewArray, miniReviewArray.splice(0));
-        $('.modal').css('display', 'block');
+        $('#level-box').css('display', 'block');
         $('#modal-body').css('display', 'block');
         displayEndReview();
         $('#congrats-sub').html('You Did It!');
@@ -1993,7 +1993,7 @@ $('#continue').on('click', function() {
     $('#review-box').text('');
 
     $('#modal-review').css('display', 'none');
-    $('.modal').css('display', 'none');
+    $('#level-box').css('display', 'none');
 
     for (let nextArr = 1; nextArr < 2; nextArr++) {
         if (gameArray.length > 1) {
