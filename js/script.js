@@ -2286,6 +2286,8 @@ $('.quiz-buttons').on('touchend', function() {
     $(this).css({'backgroundColor': 'rgb(62, 47, 79)', 'color': 'rgb(255, 215, 0)'});
 });
 
+//------------------------------------------------------------------
+
 // open and close the highlighter hamburger menu
 $('#hamburger').on('click', function(){
     $('nav').animate({left: 0});
@@ -2303,4 +2305,13 @@ $('#highlighter-menu').on('mouseenter', function() {
 });
 $('#highlighter-menu').on('mouseleave', function() {
     $('#highlighter-menu').animate({left: 0}, {queue: false, duration: 500});
+});
+
+// use #info-switch to reveal the info overlay
+$('#info-switch').on('click', function() {
+    if ($(this).is(':checked') === true) {
+        $('#onion-skin').css('display', 'block');
+    } else if ($(this).is(':checked') === false) {
+        $('#onion-skin').css('display', 'none');
+    }
 });
