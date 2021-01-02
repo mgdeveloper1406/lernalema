@@ -493,9 +493,9 @@ span.curly-braces {
 }
 #your-translation:active,
 #your-translation:focus {
-  border: 1px solid rgb(66, 165, 245);
   outline: none;
 }
+
 /* activated with js, bzzt turns the input red */
 .add-bzzt {
     -webkit-animation-name: bzzt;
@@ -546,6 +546,12 @@ span.curly-braces {
     height: 20px;
     margin: 0 auto;
     display: block;
+}
+#submit:active,
+#submit:focus {
+    border: 1px solid rgb(97, 183, 223);
+    outline: none;
+    box-shadow: 0 0 3px 1px rgb(97, 183, 223);
 }
 
 /* NEXT-LEVEL MODAL BOX */
