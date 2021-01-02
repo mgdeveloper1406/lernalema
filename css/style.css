@@ -391,9 +391,12 @@ button.lightning-round:hover {
 .help-icons:hover {
     filter: opacity(1);
 }
+#mobile-focus {
+    padding-top: 1.5rem;
+}
 #countdown-container {
     text-align: center;
-    margin: 5px 0 10px 20px;
+    margin: 0 0 10px 20px;
 }
 .countdown-text {
     font-family: 'dinosaur', sans-serif;
