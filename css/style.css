@@ -540,13 +540,13 @@ span.curly-braces {
     display: inline-block;
     background-color: rgb(196, 255, 236);
     border-radius: 100px;
-    height: 40px;
-    width: 50px;
+    height: 2.5rem;
+    width: 3.125rem;
     margin: 0;
     padding: 0;
 }
 #submit-arrow {
-    height: 20px;
+    height: 50%;
     margin: 0 auto;
     display: block;
 }
@@ -1022,7 +1022,8 @@ footer {
         padding: .2rem 0;
     }
     #submit {
-        padding: .5rem auto;
+        height: 1.5rem;
+        width: 2.125rem;
     }
 
     /* DER DIE DAS QUIZ */
