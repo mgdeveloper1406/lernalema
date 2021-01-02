@@ -1703,9 +1703,9 @@ function checkAnswer() {
         console.log(`The correct translation is "${randomWord.translation}"`);
         
         // attach the 2s "bzzt" css animation to the input. this makes the input area flash red and fade back to plum. the timeout function then removes bzzt, so it can be readded if the user's next attempt on the same flashcard is also wrong.
-        $('#your-translation').addClass('add-bzzt');
+        $('#your-translation, #translation-container').addClass('add-bzzt');
         setTimeout(function() {
-            $('#your-translation').removeClass('add-bzzt');
+            $('#your-translation, #translation-container').removeClass('add-bzzt');
         }, 2000);
 
         // the animation fades the input text, and then the callback function clears the text value and restores the opacity for the user's next translation attempt
@@ -1763,6 +1763,7 @@ function removeSparkle() {
     }, 1500);
 }
 
+// add the sparkle animation to the correct quiz button
 function quizAnswer() {
     if ($('#der-button').html() === randomWord.german.split(' ')[0]) {
         $('#der-button').addClass('add-sparkle').addClass('sparkle-text');
@@ -1776,15 +1777,17 @@ function quizAnswer() {
     }
 };
 
-// set the correct translation in the input field, when the answer key is clicked
+// set the correct translation in the input field, or apply quizAnswer(), when the answer key is clicked
 $('#answer-key').on('click', function() { 
     if (typeof randomWord.translation === 'string') {
-        $('input').val(randomWord.translation).addClass('add-sparkle');
+        $('#your-translation').val(randomWord.translation).addClass('add-sparkle');
+        $('#translation-container').addClass('add-sparkle');
     } else {
-        $('input').val(randomWord.translation[0]).addClass('add-sparkle');
+        $('#your-translation').val(randomWord.translation[0]).addClass('add-sparkle');
+        $('#translation-container').addClass('add-sparkle');
     }
     setTimeout(function endSparkle() {
-        $('input').removeClass('add-sparkle');
+        $('#your-translation, #translation-container').removeClass('add-sparkle');
     }, 2000);
 
     if ($('body').hasClass('quiz-page')) {
