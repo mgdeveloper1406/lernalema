@@ -2247,13 +2247,29 @@ function headerOffset() {
 }
 headerOffset();
 
-// since mobile keyboards slide content up, this animation ensures the entire flashcard is visible when the #your-translation input is in focus 
+// add "focus styles" to the container around the input and the button, when the input is clicked
 $('#your-translation').on('focus', function() {
+    $('#translation-container').css({
+        'border': '1px solid rgb(97 183 223)',
+        'boxShadow': '0 0 3px 1px rgb(97 183 223)',
+        'outline': 'none'
+    });
+
+    // since mobile keyboards slide content up, this animation ensures the entire flashcard is visible when the #your-translation input is in focus
     if ($(window).width() < 415) {
         $('html, body').animate({
             scrollTop: $('#mobile-focus').offset().top
         }, 500);
     }
+});
+
+// remove the container's focus styles
+$('#your-translation').on('focusout', function() {
+    $('#translation-container').css({
+        'border': 'none',
+        'boxShadow': 'none',
+        'outline': 'none'
+    });
 });
 
 //---------------------------------------------------------------
