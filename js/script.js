@@ -6,8 +6,6 @@ let endReviewArray = [];
 let consolidatedArray = [];
 let i;
 let level = 1;
-// let headerHeight = $('header').outerHeight(true);
-// let helpRowHeight = $('#help-row').outerHeight(true);
 
 // change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
@@ -1683,8 +1681,17 @@ function checkAnswer() {
         return this.value.toLowerCase();
     });
 
-    let answer = $('#your-translation').val();
-    if ((answer === randomWord.translation) || (answer === `the ${randomWord.translation}`) || (answer === `${randomWord.translation}!`) || (answer === randomWord.translation[0]) || (answer === randomWord.translation[1]) || (answer === `${randomWord.translation[0]}!`) || (answer === `${randomWord.translation[1]}!`) || (answer === `${randomWord.translation} `) || (answer === `${randomWord.translation[0]} `) || (answer === `${randomWord.translation[1]} `)) { 
+    let answer = $('#your-translation').val().trim();
+    
+    if ((answer === randomWord.translation) || 
+        (answer === randomWord.translation[0]) || 
+        (answer === randomWord.translation[1]) || 
+        (answer === `the ${randomWord.translation}`) || 
+        (answer === `the ${randomWord.translation[0]}`) ||
+        (answer === `the ${randomWord.translation[1]}`) ||
+        (answer === `${randomWord.translation}!`) || 
+        (answer === `${randomWord.translation[0]}!`) || 
+        (answer === `${randomWord.translation[1]}!`)) { 
         // reset the input field
         $('#your-translation').val('');
         
