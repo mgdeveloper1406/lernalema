@@ -10,7 +10,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-    /* background-color: rgb(27, 23, 48); */
     background-color: rgb(26, 18, 47);
 }
 .page-wrapper {
@@ -717,11 +716,74 @@ h2#review-sub {
     color: rgb(240, 248, 255);
     background-color: rgb(128, 84, 181);
 }
+
+
+/* ONION SKIN */
+
+#info-container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    -webkit-animation-name: reveal-info;
+    -webkit-animation-duration: 0.4s;
+    animation-name: reveal-info;
+    animation-duration: 0.4s;
+}
+@-webkit-keyframes reveal-info {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1;}
+}
+@keyframes reveal-info {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1;}
+}
+#about-counter {
+    margin: 2.5rem 2rem;
+}
+.info-blurbs {
+    width: 18rem;
+}
+.info-item {
+    font-family: 'verveine', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: rgb(255, 215, 0);
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+.info-text {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: .9rem;
+    color: rgb(240, 248, 255);
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+    background-color: inherit;
+    padding: 1.5rem 2rem;
+}
+#copyright {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    color: rgb(81, 68, 97);
+    margin: 0;
+}
 #info-switch-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin: 2.7rem 2rem 0;
     z-index: 5;
 }
 #info {
@@ -786,70 +848,6 @@ h2#review-sub {
 }
 .slider.round:before {
     border-radius: 50%;
-}
-
-/* ONION SKIN */
-
-#info-container {
-    position: relative;
-    /* background-color: rgb(253, 253, 253); */
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    -webkit-animation-name: reveal-info;
-    -webkit-animation-duration: 0.4s;
-    animation-name: reveal-info;
-    animation-duration: 0.4s;
-}
-@-webkit-keyframes reveal-info {
-    from {top: -300px; opacity: 0}
-    to {top: 0; opacity: 1;}
-}
-@keyframes reveal-info {
-    from {top: -300px; opacity: 0}
-    to {top: 0; opacity: 1;}
-}
-#about-counter {
-    margin: 2.5rem 2rem;
-}
-.info-blurbs {
-    width: 18rem;
-}
-.info-item {
-    font-family: 'verveine', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.1rem;
-    color: rgb(255, 215, 0);
-    letter-spacing: .1rem;
-    text-transform: uppercase;
-}
-.info-text {
-    font-family: 'dinosaur', sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: .9rem;
-    color: rgb(240, 248, 255);
-}
-
-/* FOOTER */
-
-footer {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
-    width: 100%;
-    margin-top: auto;
-    background-color: inherit;
-}
-#copyright {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 14px;
-    color: rgb(81, 68, 97);
-    padding: 20px 30px;
-    margin: 0;
 }
 
 /* DER DIE DAS QUIZ */
