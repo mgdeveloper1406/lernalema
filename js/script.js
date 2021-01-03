@@ -2309,13 +2309,18 @@ $('.quiz-buttons').on('touchend', function() {
 
 // open and close the highlighter hamburger menu
 $('#hamburger').on('click', function(){
+    $('#info-switch-container').css('display', 'none');
     $('nav').animate({left: 0});
 });
 $('.close-nav').on('click', function(){
+    setTimeout(function() {
+        $('#info-switch-container').css('display', 'flex');
+    }, 300);
     $('nav').animate({left: '100%'});
 });
 $(window).on('resize', function(){
     $('nav').removeAttr('style');
+    $('#info-switch-container').css('display', 'flex');
 });
 
 // slide the highlighters, to make them appear to draw
