@@ -2344,8 +2344,10 @@ $('#highlighter-menu').on('mouseleave', function() {
 // use #info-switch to reveal the info overlay
 $('#info-switch').on('click', function() {
     if ($(this).is(':checked') === true) {
+        $('header').css('z-index', '4');
         $('#onion-skin').css('display', 'block');
     } else if ($(this).is(':checked') === false) {
         $('#onion-skin').css('display', 'none');
+        $('header').css('z-index', '7');
     }
 });
