@@ -581,6 +581,9 @@ span.curly-braces {
     height: 100%;
     background-color: rgba(41,35,70,0.5);
 }
+#level-box {
+    z-index: 8;
+}
 .modal-content {
     position: relative;
     background-color: rgb(253, 253, 253);
