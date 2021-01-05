@@ -748,11 +748,9 @@ h2#review-sub {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1;}
 }
-#about-counter {
-    margin: 2.5rem 2rem;
-}
 .info-blurbs {
     width: 18rem;
+    margin: 2.5rem 2rem;
 }
 .info-item {
     font-family: 'verveine', sans-serif;
@@ -769,6 +767,10 @@ h2#review-sub {
     font-style: normal;
     font-size: .9rem;
     color: rgb(240, 248, 255);
+}
+#about-help {
+    float: right;
+    text-align: right;
 }
 
 /* FOOTER */
