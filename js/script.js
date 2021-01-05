@@ -2061,6 +2061,9 @@ $('#open-categories').on('click keydown', function() {
         }, 800);
     }
     $('#categories-wrapper').slideToggle(800);
+
+    // bring back the info switch, since it's hidden when the hamburger menu is clicked
+    $('#info-switch-container').css('display', 'flex');
 });
 
 $('.lightning-round').on('click', function() {
