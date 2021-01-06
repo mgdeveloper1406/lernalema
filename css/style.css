@@ -731,6 +731,8 @@ h2#review-sub {
 /* ONION SKIN */
 
 #info-container {
+    display: flex;
+    flex-direction: column;
     position: relative;
     margin: 0 auto;
     padding: 0;
@@ -749,8 +751,8 @@ h2#review-sub {
     to {top: 0; opacity: 1;}
 }
 .info-blurbs {
-    width: 18rem;
-    margin: 2.5rem 2rem;
+    width: 19rem;
+    margin: 1rem 2rem 0 2rem;
 }
 .info-item {
     font-family: 'verveine', sans-serif;
@@ -765,11 +767,14 @@ h2#review-sub {
     font-family: 'dinosaur', sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: .9rem;
+    font-size: 1rem;
     color: rgb(240, 248, 255);
+    letter-spacing: .03rem;
+    line-height: 1.4rem;
+    margin: 1rem 0 1.5rem 0;
 }
 #about-help {
-    float: right;
+    align-self: flex-end;
     text-align: right;
 }
 
