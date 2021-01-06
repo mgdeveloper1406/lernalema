@@ -765,7 +765,7 @@ h2#review-sub {
 }
 .info-text {
     font-family: 'dinosaur', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     font-size: 1rem;
     color: rgb(240, 248, 255);
@@ -776,6 +776,13 @@ h2#review-sub {
 #about-help {
     align-self: flex-end;
     text-align: right;
+}
+.yellow-dash {
+    background-image: url('../images/yellow-dash.svg');
+    background-position: bottom;
+    background-size: 63%;
+    background-repeat: repeat-x;
+    padding-bottom: .1rem;
 }
 
 /* FOOTER */
