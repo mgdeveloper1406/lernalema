@@ -13,249 +13,249 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="page-wrapper">
-        <header>
-            <section id="logo-container">
-                <div>
-                    <img id="one" class="chameleon active" src="images/flash-chameleon.svg" alt="Flash, the Flashcard Chameleon" />
-                    <img id="two" class="chameleon" src="images/flash-german-03.png" alt="German Flash" />
-                    <img id="three" class="chameleon" src="images/flash-american.png" alt="American Flash" />
-                    <img id="four" class="chameleon" src="" alt="" />
-                </div>
-                <a href="index.html"><img id="logo" src="images/karteikarten-logo-text.svg" alt="Karteikarten logo" /></a>
-            </section>
-            <section id="hamburger">
-                <img id="highlighter-menu" src="images/menu-highlighters.svg" />
-                <img id="highlighter-lines" src="images/highlighter-lines.svg" alt="" />
-            </section>
-            <nav>
-                <ul>
-                    <li id="open-categories" class="nav-links">Categories</li>
-                    <li class="nav-links"><a href="./der-die-das.html">“The” Quiz</a></li>
-                </ul>
-                <div class="close-nav">
-                    <span class="left"></span><span class="right"></span>
-                </div>
-            </nav>
-        </header>
-        <section id="categories-wrapper">
-            <div id="lightning-flex">
-                <div id="lightning-container">
-                    <img id="tricolor-lightning" src="images/tricolor-lightning.svg" alt="Blue, orange, and gold lightning bolts" />
-                    <h2 id="lightning-text">Up for a challenge? Click the Lightning Round button to skip <span id="total-levels"></span> levels and enter the <span id="total-words"></span>-word lightning round, or select categories and click Customized Round.</h2>
-                    <button class="lightning-round mobile">Lightning Round</button>
-                </div>
-                <form id="categories-box">
-                    <input type="checkbox" name="arts" id="arts" class="category" />
-                    <label class="category-buttons" for="arts">
-                        <div id="arts-color">
-                            <img class="category-icons expanded taller" src="images/category-icons-arts.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Arts</p>
-                    </label>
-                    <input type="checkbox" name="adjectives" id="adjectives" class="category" />
-                    <label class="category-buttons" for="adjectives">
-                        <div id="adjectives-color">
-                            <img class="category-icons" src="images/category-icons-adjectives.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Adjectives</p>
-                    </label>
-                    <input type="checkbox" name="animals" id="animals" class="category" />
-                    <label class="category-buttons" for="animals">
-                        <div id="animals-color">
-                            <img class="category-icons" src="images/category-icons-animals.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Animals</p>
-                    </label>
-                    <input type="checkbox" name="apparel" id="apparel" class="category" />
-                    <label class="category-buttons" for="apparel">
-                        <div id="apparel-color">
-                            <img class="category-icons" src="images/category-icon-apparel.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Apparel</p>
-                    </label>
-                    <input type="checkbox" name="calendar" id="calendar" class="category" />
-                    <label class="category-buttons" for="calendar">
-                        <div id="calendar-color">
-                            <img class="category-icons" src="images/category-icons-calendar.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Calendar</p>
-                    </label>
-                    <input type="checkbox" name="catastrophe" id="catastrophe" class="category" />
-                    <label class="category-buttons" for="catastrophe">
-                        <div id="catastrophe-color">
-                            <img class="category-icons expanded" src="images/category-icons-catastrophe.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Catastrophe</p>
-                    </label>
-                    <input type="checkbox" name="food" id="food" class="category" />
-                    <label class="category-buttons" for="food">
-                        <div id="food-color">
-                            <img class="category-icons" src="images/category-icon-food.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Food</p>
-                    </label>
-                    <input type="checkbox" name="home" id="home" class="category" />
-                    <label class="category-buttons" for="home">
-                        <div id="home-color">
-                            <img class="category-icons" src="images/category-icons-home.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Home</p>
-                    </label>
-                    <input type="checkbox" name="infinitives" id="infinitives" class="category" />
-                    <label class="category-buttons" for="infinitives">
-                        <div id="infinitives-color">
-                            <img class="category-icons" src="images/category-icons-infinitives.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Infinitives</p>
-                    </label>
-                    <input type="checkbox" name="nature" id="nature" class="category" />
-                    <label class="category-buttons" for="nature">
-                        <div id="nature-color">
-                            <img class="category-icons" src="images/category-icons-nature.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Nature</p>
-                    </label>
-                    <input type="checkbox" name="numbers" id="numbers" class="category" />
-                    <label class="category-buttons" for="numbers">
-                        <div id="numbers-color">
-                            <img class="category-icons" src="images/category-icons-numbers.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Numbers</p>
-                    </label>
-                    <input type="checkbox" name="people" id="people" class="category" />
-                    <label class="category-buttons" for="people">
-                        <div id="people-color">
-                            <img class="category-icons squished" src="images/category-icons-people.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">People</p>
-                    </label>
-                    <input type="checkbox" name="phrases" id="phrases" class="category" />
-                    <label class="category-buttons" for="phrases">
-                        <div id="phrases-color">
-                            <img class="category-icons" src="images/category-icons-phrases.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Phrases</p>
-                    </label>
-                    <input type="checkbox" name="tech" id="tech" class="category" />
-                    <label class="category-buttons" for="tech">
-                        <div id="tech-color">
-                            <img class="category-icons" src="images/category-icons-technology.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Tech</p>
-                    </label>
-                    <input type="checkbox" name="travel" id="travel" class="category" />
-                    <label class="category-buttons" for="travel">
-                        <div id="travel-color">
-                            <img class="category-icons taller" src="images/category-icons-travel.svg" />
-                            <div class="selection-circle"></div>
-                        </div>
-                        <p class="label-text">Travel</p>
-                    </label>
-                </form>
+    <header>
+        <section id="logo-container">
+            <div>
+                <img id="one" class="chameleon active" src="images/flash-chameleon.svg" alt="Flash, the Flashcard Chameleon" />
+                <img id="two" class="chameleon" src="images/flash-german-03.png" alt="German Flash" />
+                <img id="three" class="chameleon" src="images/flash-american.png" alt="American Flash" />
+                <img id="four" class="chameleon" src="" alt="" />
             </div>
-            <button class="select-categories mobile" type="button">Customized Round</button>
-            <section id="lightning-button-row">
-                <button class="lightning-round desktop">Lightning Round</button>
-                <button class="select-categories desktop" type="button">Customized Round</button>
-            </section>
+            <a href="index.html"><img id="logo" src="images/karteikarten-logo-text.svg" alt="Karteikarten logo" /></a>
         </section>
-        <main>
-            <section id="help-row">
-                <div id="icon-container">
-                    <img id="hint-bulb" class="help-icons" src="images/karteikarten-hint-bulb.svg" alt="Hint lightbulb" />
-                    <img id="answer-key" class="help-icons" src="images/karteikarten-answer-key.svg" alt="Answer key" />
-                </div>
-                <div id="hint-message"></div>
-            </section>
-            <div id="mobile-focus">
-                <section>
-                    <p id="countdown-container"><span class="countdown-text">This round has</span> <span id="countdown"></span> <span class="countdown-text">remaining</span></p>
-                </section>
-                <section id="german-box">
-                    <div>
-                        <h3 id="german-word" lang="de">die Kartoffel</h3>
-                        <span id="line"></span>
-                    </div>
-                    <div id="plural-zone">
-                        <span class="curly-braces">{ pl. </span><h4 id="german-plural" lang="de">die Kartoffeln</h4><span class="curly-braces"> }</span>
-                    </div>
-                </section>
-                <form id="translation-container">
-                    <input id="your-translation" type="text" placeholder="" required />
-                    <button id="submit" type="button">
-                        <img id="submit-arrow" src="images/submit-arrow.svg" alt="Arrow" />
-                    </button>
-                </form>
-            </div>
-        </main>
-        <section>
-            <div id="level-box" class="modal">
-                <div class="modal-content">
-                    <div id="modal-body">
-                        <h1 id="congrats" lang="de">Fantastisch!</h1>
-                        <h2 id="congrats-sub">You've reached</h2>
-                        <figure id="modal-image">
-                            <figcaption id="level"></figcaption>
-                        </figure>
-                        <div id="mini-review-container">
-                            <span class="review-arrows">» </span><p id="mini-review">Mini Review</p><span class="review-arrows"> «</span>
-                        </div>
-                        <div id="end-review-container">
-                            <span class="review-arrows">» </span><p id="final-review">Final Review</p><span class="review-arrows"> «</span>
-                        </div>
-                    </div>
-                    <div id="modal-review">
-                        <h1 id="review-title">Mini Review</h1>
-                        <h2 id="review-sub">Practice makes perfect, so have another look at <span id="review-count">these words</span><span id="remove-round"> from the last round.</span> Click <span id="each-it">each word</span> to see the correct translation.</h2>
-                        <div id="review-box"></div>
-                    </div>
-                    <div id="modal-footer">
-                        <button id="continue" type="button">Continue</button>
-                    </div>
-                </div>
-            </div>
+        <section id="hamburger">
+            <img id="highlighter-menu" src="images/menu-highlighters.svg" />
+            <img id="highlighter-lines" src="images/highlighter-lines.svg" alt="" />
         </section>
-        <section id="onion-skin" class="modal">
-            <div id="info-container">
-                <div id="about-counter" class="info-blurbs">
-                    <p class="info-text">The <span class="info-item">counter</span> indicates the number of words that remain in the current round.</p>
-                </div>
-                <div id="about-help" class="info-blurbs">
-                    <p class="info-text">Click the <span class="info-item">hint bulb</span> for help, or click the <span class="info-item">answer key</span> for the solution.</p>
-                    <p class="info-text"><span class="bolded">Note:</span> The help buttons build an end-of-round <span class="yellow-dash">Mini Review</span>, so you'll have a second chance to translate tricky words.</p>
-                </div>
-                <div id="about-flashcard" class="info-blurbs">
-                    <p class="info-text">Translate the <span class="info-item">German word</span> above the yellow line. The plural form, below, is only for reference.</p>
-                    <p class="info-text">Use the <span class="info-item">arrow button</span>, or your Enter key, to submit your translation. Correct answers will progress you to the next flashcard. Otherwise, the <span class="info-item">input field</span> will flash red, and the word will be added to your <span class="yellow-dash">Mini Review</span>.</p>
-                </div>
+        <nav>
+            <ul>
+                <li id="open-categories" class="nav-links">Categories</li>
+                <li class="nav-links"><a href="./der-die-das.html">“The” Quiz</a></li>
+            </ul>
+            <div class="close-nav">
+                <span class="left"></span><span class="right"></span>
             </div>
-        </section>
-        <footer>
-            <p id="copyright">&copy; 2020 Cassiopeia Neely. All Rights Reserved.</p>
-            <div id="info-switch-container">
-                <p id="info">Info</p>
-                <label class="switch">
-                    <input id="info-switch" type="checkbox">
-                    <span class="slider round"></span>
+        </nav>
+    </header>
+    <section id="categories-wrapper">
+        <div id="lightning-flex">
+            <div id="lightning-container">
+                <img id="tricolor-lightning" src="images/tricolor-lightning.svg" alt="Blue, orange, and gold lightning bolts" />
+                <h2 id="lightning-text">Up for a challenge? Click the Lightning Round button to skip <span id="total-levels"></span> levels and enter the <span id="total-words"></span>-word lightning round, or select categories and click Customized Round.</h2>
+                <button class="lightning-round mobile">Lightning Round</button>
+            </div>
+            <form id="categories-box">
+                <input type="checkbox" name="arts" id="arts" class="category" />
+                <label class="category-buttons" for="arts">
+                    <div id="arts-color">
+                        <img class="category-icons expanded taller" src="images/category-icons-arts.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Arts</p>
                 </label>
+                <input type="checkbox" name="adjectives" id="adjectives" class="category" />
+                <label class="category-buttons" for="adjectives">
+                    <div id="adjectives-color">
+                        <img class="category-icons" src="images/category-icons-adjectives.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Adjectives</p>
+                </label>
+                <input type="checkbox" name="animals" id="animals" class="category" />
+                <label class="category-buttons" for="animals">
+                    <div id="animals-color">
+                        <img class="category-icons" src="images/category-icons-animals.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Animals</p>
+                </label>
+                <input type="checkbox" name="apparel" id="apparel" class="category" />
+                <label class="category-buttons" for="apparel">
+                    <div id="apparel-color">
+                        <img class="category-icons" src="images/category-icon-apparel.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Apparel</p>
+                </label>
+                <input type="checkbox" name="calendar" id="calendar" class="category" />
+                <label class="category-buttons" for="calendar">
+                    <div id="calendar-color">
+                        <img class="category-icons" src="images/category-icons-calendar.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Calendar</p>
+                </label>
+                <input type="checkbox" name="catastrophe" id="catastrophe" class="category" />
+                <label class="category-buttons" for="catastrophe">
+                    <div id="catastrophe-color">
+                        <img class="category-icons expanded" src="images/category-icons-catastrophe.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Catastrophe</p>
+                </label>
+                <input type="checkbox" name="food" id="food" class="category" />
+                <label class="category-buttons" for="food">
+                    <div id="food-color">
+                        <img class="category-icons" src="images/category-icon-food.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Food</p>
+                </label>
+                <input type="checkbox" name="home" id="home" class="category" />
+                <label class="category-buttons" for="home">
+                    <div id="home-color">
+                        <img class="category-icons" src="images/category-icons-home.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Home</p>
+                </label>
+                <input type="checkbox" name="infinitives" id="infinitives" class="category" />
+                <label class="category-buttons" for="infinitives">
+                    <div id="infinitives-color">
+                        <img class="category-icons" src="images/category-icons-infinitives.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Infinitives</p>
+                </label>
+                <input type="checkbox" name="nature" id="nature" class="category" />
+                <label class="category-buttons" for="nature">
+                    <div id="nature-color">
+                        <img class="category-icons" src="images/category-icons-nature.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Nature</p>
+                </label>
+                <input type="checkbox" name="numbers" id="numbers" class="category" />
+                <label class="category-buttons" for="numbers">
+                    <div id="numbers-color">
+                        <img class="category-icons" src="images/category-icons-numbers.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Numbers</p>
+                </label>
+                <input type="checkbox" name="people" id="people" class="category" />
+                <label class="category-buttons" for="people">
+                    <div id="people-color">
+                        <img class="category-icons squished" src="images/category-icons-people.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">People</p>
+                </label>
+                <input type="checkbox" name="phrases" id="phrases" class="category" />
+                <label class="category-buttons" for="phrases">
+                    <div id="phrases-color">
+                        <img class="category-icons" src="images/category-icons-phrases.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Phrases</p>
+                </label>
+                <input type="checkbox" name="tech" id="tech" class="category" />
+                <label class="category-buttons" for="tech">
+                    <div id="tech-color">
+                        <img class="category-icons" src="images/category-icons-technology.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Tech</p>
+                </label>
+                <input type="checkbox" name="travel" id="travel" class="category" />
+                <label class="category-buttons" for="travel">
+                    <div id="travel-color">
+                        <img class="category-icons taller" src="images/category-icons-travel.svg" />
+                        <div class="selection-circle"></div>
+                    </div>
+                    <p class="label-text">Travel</p>
+                </label>
+            </form>
+        </div>
+        <button class="select-categories mobile" type="button">Customized Round</button>
+        <section id="lightning-button-row">
+            <button class="lightning-round desktop">Lightning Round</button>
+            <button class="select-categories desktop" type="button">Customized Round</button>
+        </section>
+    </section>
+    <main>
+        <section id="help-row">
+            <div id="icon-container">
+                <img id="hint-bulb" class="help-icons" src="images/karteikarten-hint-bulb.svg" alt="Hint lightbulb" />
+                <img id="answer-key" class="help-icons" src="images/karteikarten-answer-key.svg" alt="Answer key" />
             </div>
-        </footer>
-    </div>
+            <div id="hint-message"></div>
+        </section>
+        <div id="mobile-focus">
+            <section>
+                <p id="countdown-container"><span class="countdown-text">This round has</span> <span id="countdown"></span> <span class="countdown-text">remaining</span></p>
+            </section>
+            <section id="german-box">
+                <div>
+                    <h3 id="german-word" lang="de">die Kartoffel</h3>
+                    <span id="line"></span>
+                </div>
+                <div id="plural-zone">
+                    <span class="curly-braces">{ pl. </span><h4 id="german-plural" lang="de">die Kartoffeln</h4><span class="curly-braces"> }</span>
+                </div>
+            </section>
+            <form id="translation-container">
+                <input id="your-translation" type="text" placeholder="" required />
+                <button id="submit" type="button">
+                    <img id="submit-arrow" src="images/submit-arrow.svg" alt="Arrow" />
+                </button>
+            </form>
+        </div>
+    </main>
+    <section>
+        <div id="level-box" class="modal">
+            <div class="modal-content">
+                <div id="modal-body">
+                    <h1 id="congrats" lang="de">Fantastisch!</h1>
+                    <h2 id="congrats-sub">You've reached</h2>
+                    <figure id="modal-image">
+                        <figcaption id="level"></figcaption>
+                    </figure>
+                    <div id="mini-review-container">
+                        <span class="review-arrows">» </span><p id="mini-review">Mini Review</p><span class="review-arrows"> «</span>
+                    </div>
+                    <div id="end-review-container">
+                        <span class="review-arrows">» </span><p id="final-review">Final Review</p><span class="review-arrows"> «</span>
+                    </div>
+                </div>
+                <div id="modal-review">
+                    <h1 id="review-title">Mini Review</h1>
+                    <h2 id="review-sub">Practice makes perfect, so have another look at <span id="review-count">these words</span><span id="remove-round"> from the last round.</span> Click <span id="each-it">each word</span> to see the correct translation.</h2>
+                    <div id="review-box"></div>
+                </div>
+                <div id="modal-footer">
+                    <button id="continue" type="button">Continue</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="onion-skin" class="modal">
+        <div id="info-container">
+            <div id="about-counter" class="info-blurbs">
+                <p class="info-text">The <span class="info-item">counter</span> indicates the number of words that remain in the current round.</p>
+            </div>
+            <div id="about-help" class="info-blurbs">
+                <p class="info-text">Click the <span class="info-item">hint bulb</span> for help, or click the <span class="info-item">answer key</span> for the solution.</p>
+                <p class="info-text"><span class="bolded">Note:</span> The help buttons build an end-of-round <span class="yellow-dash">Mini Review</span>, so you'll have a second chance to translate tricky words.</p>
+            </div>
+            <div id="about-flashcard" class="info-blurbs">
+                <p class="info-text">Translate the <span class="info-item">German word</span> above the yellow line. The plural form, below, is only for reference.</p>
+                <p class="info-text">Use the <span class="info-item">arrow button</span>, or your Enter key, to submit your translation. Correct answers will progress you to the next flashcard. Otherwise, the <span class="info-item">input field</span> will flash red, and the word will be added to your <span class="yellow-dash">Mini Review</span>.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p id="copyright">&copy; 2020 Cassiopeia Neely. All Rights Reserved.</p>
+        <div id="info-switch-container">
+            <p id="info">Info</p>
+            <label class="switch">
+                <input id="info-switch" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </footer>
+    <!-- <div class="page-wrapper">
+    </div> -->
     <script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
