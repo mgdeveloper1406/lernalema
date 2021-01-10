@@ -784,12 +784,38 @@ h2#review-sub {
     align-self: flex-end;
     text-align: right;
 }
+.review-preview-container {
+    display: inline;
+    position: relative;
+}
 .yellow-dash {
+    position: relative;
     background-image: url('../images/yellow-dash.svg');
     background-position: bottom;
     background-size: 63%;
     background-repeat: repeat-x;
     padding-bottom: .1rem;
+    cursor: pointer;
+}
+.preview-box {
+    display: none;
+    position: absolute;
+    right: 0px;
+    border-radius: 2%;
+    background-color: rgb(253, 253, 253);
+    padding: 1rem;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 8;
+}
+video {
+    display: block;
+    outline: none;
+    border-radius: 4px;
+}
+.review-preview-container:hover .preview-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* FOOTER */
