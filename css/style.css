@@ -801,16 +801,16 @@ h2#review-sub {
     display: none;
     position: absolute;
     right: 0px;
+    height: 304px;
     border-radius: 2%;
-    background-color: rgb(253, 253, 253);
-    padding: 1rem;
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
-    z-index: 8;
+    background-color: rgb(255, 215, 0);
+    box-shadow: -3px -1px 7px 6px rgba(41,35,70,0.5);
 }
 video {
     display: block;
     outline: none;
     border-radius: 4px;
+    padding: 10px 10px;
 }
 .review-preview-container:hover .preview-box {
     display: flex;
