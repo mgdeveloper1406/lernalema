@@ -2066,6 +2066,21 @@ $('#open-categories').on('click keydown', function() {
     $('#info-switch-container').css('display', 'flex');
 });
 
+function closeCategories() {
+    if ($('#categories-wrapper').css('display') == ('block')) {
+        setTimeout(function removeHeaderShadow() {
+            $('header').removeClass('header-shadow');
+        }, 800);
+    }
+    $('#categories-wrapper').slideUp(800);
+};
+
+// easily close the Categories panel, on mobile devices
+$('#close-x-bg').on('click', function() {
+    closeCategories();
+    $('#info-switch-container').css('display', 'flex');
+});
+
 $('.lightning-round').on('click', function() {
     checkForArticles();
 
@@ -2086,13 +2101,7 @@ $('.lightning-round').on('click', function() {
     updateCountdown();
     revealCountdownText();
     modalDisplay();
-
-    if ($('#categories-wrapper').css('display') == ('block')) {
-        setTimeout(function removeHeaderShadow() {
-            $('header').removeClass('header-shadow');
-        }, 800);
-    }
-    $('#categories-wrapper').slideUp(800);
+    closeCategories();    
 });
 
 $('input.category[type=checkbox]').on('click keydown', function() {
