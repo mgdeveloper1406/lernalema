@@ -2353,6 +2353,7 @@ $('#highlighter-menu').on('mouseleave', function() {
 // use #info-switch to reveal the info overlay
 $('#info-switch').on('click', function() {
     if ($(this).is(':checked') === true) {
+        closeCategories();
         $('header').css('z-index', '4');
         $('#onion-skin').css('display', 'block');
     } else if ($(this).is(':checked') === false) {
