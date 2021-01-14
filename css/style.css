@@ -784,9 +784,19 @@ h2#review-sub {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1;}
 }
+#info-arrow-help {
+    width: 3rem;
+    display: block;
+    margin: 0 auto;
+}
+#info-arrow-flashcard {
+    width: 6rem;
+    display: block;
+    align-self: flex-end;
+}
 .info-blurbs {
     width: 19rem;
-    margin: 1rem 2rem 0 2rem;
+    margin: 0 2rem;
 }
 .info-item {
     font-family: 'verveine', sans-serif;
@@ -810,6 +820,10 @@ h2#review-sub {
 #about-help {
     align-self: flex-end;
     text-align: right;
+}
+#about-flashcard {
+    display: flex;
+    flex-direction: column;
 }
 .review-preview-container {
     display: inline;
