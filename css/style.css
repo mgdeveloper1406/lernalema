@@ -784,6 +784,22 @@ h2#review-sub {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1;}
 }
+.info-graphics {
+    display: none;
+}
+.help-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background-color: rgb(26, 18, 47);
+    margin: 0 2rem;
+}
+.info-help-icons {
+    height: 40px;
+}
 .info-arrows {
     display: block;
 }
@@ -818,6 +834,7 @@ h2#review-sub {
     letter-spacing: .03rem;
     line-height: 1.4rem;
     margin: .5rem 0 1rem 0;
+    display: block; 
 }
 #about-counter {
     margin: 3rem 2rem 0 2rem;
@@ -1054,12 +1071,21 @@ footer {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
         width: 70%;
     }
+    .info-graphics {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+    }
     .info-blurbs {
         width: 100%;
         margin: 0 auto;
     }
     .info-text {
         color: rgb(109, 103, 93);
+    }
+    .info-item {
+        color: rgb(47, 172, 155);
     }
     #about-counter {
         margin: 0 auto;
@@ -1186,6 +1212,14 @@ footer {
 
     #info-container {
         width: 80%;
+    }
+    .preview-box {
+        right: unset;
+        height: unset;
+    }
+    video {
+        width: 252.9px !important;
+        height: 230.15px !important;
     }
 
     /* MODAL BOX */
