@@ -784,19 +784,21 @@ h2#review-sub {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1;}
 }
+.info-arrows {
+    display: block;
+}
 #info-arrow-help {
     width: 3rem;
-    display: block;
     margin: 0 auto;
 }
 #info-arrow-flashcard {
     width: 6rem;
-    display: block;
     align-self: flex-end;
 }
 .info-blurbs {
     width: 19rem;
-    margin: 0 2rem;
+    /* margin: 0 2rem; */
+    margin: -3rem 2rem 0 2rem;
 }
 .info-item {
     font-family: 'verveine', sans-serif;
@@ -816,6 +818,9 @@ h2#review-sub {
     letter-spacing: .03rem;
     line-height: 1.4rem;
     margin: .5rem 0 1rem 0;
+}
+#about-counter {
+    margin: 3rem 2rem 0 2rem;
 }
 #about-help {
     align-self: flex-end;
@@ -1038,7 +1043,34 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-        
+    
+    /* ONION SKIN */
+
+    #info-container {
+        background-color: rgb(253, 253, 253);
+        margin: 0 auto;
+        padding: 1rem;
+        border: 1px solid rgb(136, 136, 136);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 70%;
+    }
+    .info-blurbs {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .info-text {
+        color: rgb(109, 103, 93);
+    }
+    #about-counter {
+        margin: 0 auto;
+    }
+    #about-help {
+        text-align: left;
+    }
+    .info-arrows {
+        display: none;
+    }
+
     /* MODAL BOX */
 
     .modal-content {
@@ -1149,6 +1181,12 @@ footer {
 }
 
 @media only screen and (max-width: 415px) {
+
+    /* ONION SKIN */
+
+    #info-container {
+        width: 80%;
+    }
 
     /* MODAL BOX */
 
