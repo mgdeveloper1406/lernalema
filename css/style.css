@@ -1212,6 +1212,8 @@ footer {
 
     #info-container {
         width: 80%;
+        overflow-y: scroll;
+        max-height: 31.25rem;
     }
     .preview-box {
         right: unset;
