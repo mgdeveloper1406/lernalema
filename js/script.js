@@ -2321,7 +2321,7 @@ $('.quiz-buttons').on('touchstart', function() {
     $(this).css({'backgroundColor': 'rgb(255, 215, 0)', 'color': 'rgb(26, 18, 47)'});
 });
 $('.quiz-buttons').on('touchend', function() {
-    $(this).css({'backgroundColor': 'rgb(62, 47, 79)', 'color': 'rgb(255, 215, 0)'});
+    $(this).css({'backgroundColor': 'rgb(41, 35, 70)', 'color': 'rgb(255, 215, 0)'});
 });
 
 //------------------------------------------------------------------
