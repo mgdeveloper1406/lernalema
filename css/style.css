@@ -803,13 +803,14 @@ h2#review-sub {
 .info-arrows {
     display: block;
 }
-#info-arrow-help {
-    width: 3rem;
-    margin: 0 auto;
-}
+#info-arrow-counter,
 #info-arrow-flashcard {
     width: 6rem;
     align-self: flex-end;
+}
+#info-arrow-help {
+    width: 3rem;
+    margin: 0 auto;
 }
 .info-blurbs {
     width: 19rem;
@@ -843,7 +844,8 @@ h2#review-sub {
     align-self: flex-end;
     text-align: right;
 }
-#about-flashcard {
+#about-flashcard,
+#about-counter {
     display: flex;
     flex-direction: column;
 }
