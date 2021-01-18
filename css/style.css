@@ -870,17 +870,13 @@ h2#review-sub {
     border-radius: 2%;
     background-color: rgb(255, 215, 0);
     box-shadow: -3px -1px 7px 6px rgba(41,35,70,0.5);
+    cursor: pointer;
 }
 video {
     display: block;
     outline: none;
     border-radius: 4px;
     padding: 10px 10px;
-}
-.review-preview-container:hover .preview-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* FOOTER */
