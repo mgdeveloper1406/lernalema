@@ -2361,3 +2361,8 @@ $('#info-switch').on('click', function() {
         $('header').css('z-index', '7');
     }
 });
+
+// toggle display of Mini Review info video
+$('.review-preview-container').on('click', function() {
+    $('.preview-box').toggle();
+});
