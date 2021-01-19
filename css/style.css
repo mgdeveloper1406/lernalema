@@ -787,6 +787,22 @@ h2#review-sub {
 .info-graphics {
     display: none;
 }
+#looping-counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.3125rem;
+    height: 2rem;
+    background-color: rgb(204, 50, 93);
+    border-radius: 2px;
+}
+#looping-counter {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+}
 .help-circle {
     display: flex;
     align-items: center;
