@@ -1107,6 +1107,9 @@ footer {
     #about-help {
         text-align: left;
     }
+    .yellow-dash {
+        background-image: url('../images/green-dash.svg');
+    }
     .info-arrows {
         display: none;
     }
