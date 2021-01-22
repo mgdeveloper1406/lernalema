@@ -1321,6 +1321,41 @@ gameArray = [
             hint: 'Presidential candidates must be at least this old, in the United States.'
         },
         {
+            german: 'die Karotte',
+            plural: 'die Karotten',
+            translation: 'carrot',
+            category: 'food',
+            hint: `A rabbit's favorite snack.`
+        },
+        {
+            german: 'die Kartoffel',
+            plural: 'die Kartoffeln',
+            translation: 'potato',
+            category: 'food',
+            hint: 'Mr. Kartoffel Head.'
+        },
+        {
+            german: 'der Knoblauch',
+            plural: 'n/a',
+            translation: 'garlic',
+            category: 'food',
+            hint: 'These bulbous food items split into segments called cloves.'
+        },
+        {
+            german: 'das Salz',
+            plural: 'die Salze',
+            translation: 'salt',
+            category: 'food',
+            hint: 'Often paired with pepper.'
+        },
+        {
+            german: 'die Zwiebel',
+            plural: 'die Zwiebeln',
+            translation: 'onion',
+            category: 'food',
+            hint: 'Like Shrek, they have layers.'
+        },
+        {
             german: 'der Bär',
             plural: 'die Bären',
             translation: 'bear',
