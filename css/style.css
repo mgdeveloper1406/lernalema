@@ -819,6 +819,9 @@ h2#review-sub {
 #flashcard-example {
     width: 75%;
 }
+#input-example {
+    width: 70%;
+}
 .info-arrows {
     display: block;
 }
