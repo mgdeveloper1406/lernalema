@@ -817,7 +817,7 @@ h2#review-sub {
     height: 40px;
 }
 #flashcard-example {
-    width: 60%;
+    width: 75%;
 }
 .info-arrows {
     display: block;
@@ -1081,9 +1081,11 @@ footer {
     /* ONION SKIN */
 
     #info-container {
+        overflow-y: scroll;
+        max-height: 38rem;
         background-color: rgb(253, 253, 253);
         margin: 0 auto;
-        padding: 1rem;
+        padding: 1.3rem;
         border: 1px solid rgb(136, 136, 136);
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
         width: 70%;
@@ -1232,7 +1234,6 @@ footer {
 
     #info-container {
         width: 80%;
-        overflow-y: scroll;
         max-height: 31.25rem;
     }
     .preview-box {
