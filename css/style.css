@@ -816,6 +816,9 @@ h2#review-sub {
 .info-help-icons {
     height: 40px;
 }
+#flashcard-example {
+    width: 60%;
+}
 .info-arrows {
     display: block;
 }
