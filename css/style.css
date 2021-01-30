@@ -787,7 +787,7 @@ h2#review-sub {
 .info-graphics {
     display: none;
 }
-#looping-counter-container {
+#info-countdown-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -796,7 +796,7 @@ h2#review-sub {
     background-color: rgb(204, 50, 93);
     border-radius: 2px;
 }
-#looping-counter {
+#info-countdown {
     font-family: 'dinosaur', sans-serif;
     font-weight: 700;
     font-style: normal;
