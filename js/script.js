@@ -6,7 +6,6 @@ let endReviewArray = [];
 let consolidatedArray = [];
 let i;
 let level = 1;
-let counterIndex = 0;
 
 // change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
@@ -2392,6 +2391,13 @@ $('#info-switch').on('click', function() {
         closeCategories();
         $('header').css('z-index', '4');
         $('#onion-skin').css('display', 'block');
+        let ci = 20;
+        let infoCountdown = setInterval(function() {
+            $('#info-countdown').html(--ci);
+            if (ci == 0) {
+                clearInterval(infoCountdown);
+            }
+        }, 2000);
     } else if ($(this).is(':checked') === false) {
         $('#onion-skin').css('display', 'none');
         $('header').css('z-index', '7');
@@ -2402,21 +2408,3 @@ $('#info-switch').on('click', function() {
 $('.review-preview-container').on('click', function() {
     $('.preview-box').toggle();
 });
-
-// a looping counter for the info graphics
-function loopCounter() {
-    let ci;
-    let counterArray = [5, 4, 3, 2, 1, 0];
-
-    for (ci = 0; ci < counterArray.length; ci++) {
-        counterArray[ci];
-    }
-    counterIndex++;
-    if (counterIndex > counterArray.length) {
-        counterIndex = 1;
-    }
-    $('#looping-counter').html(counterArray[counterIndex-1]);
-    setTimeout(loopCounter, 3000);
-};
-
-loopCounter();
