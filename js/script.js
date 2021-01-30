@@ -6,6 +6,7 @@ let endReviewArray = [];
 let consolidatedArray = [];
 let i;
 let level = 1;
+let infoCountdown;
 
 // change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
@@ -2391,8 +2392,9 @@ $('#info-switch').on('click', function() {
         closeCategories();
         $('header').css('z-index', '4');
         $('#onion-skin').css('display', 'block');
+        // start the countdown in the mobile info modal
         let ci = 20;
-        let infoCountdown = setInterval(function() {
+        infoCountdown = setInterval(function() {
             $('#info-countdown').html(--ci);
             if (ci == 0) {
                 clearInterval(infoCountdown);
@@ -2401,6 +2403,9 @@ $('#info-switch').on('click', function() {
     } else if ($(this).is(':checked') === false) {
         $('#onion-skin').css('display', 'none');
         $('header').css('z-index', '7');
+        // stop the countdown and reset starting position, if the user closes the info modal
+        clearInterval(infoCountdown);
+        $('#info-countdown').html('20');
     }
 });
 
