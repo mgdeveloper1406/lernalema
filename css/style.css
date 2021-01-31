@@ -816,10 +816,12 @@ h2#review-sub {
 .info-help-icons {
     height: 40px;
 }
-#flashcard-example {
+#flashcard-example,
+#quiz-flashcard-example {
     width: 75%;
 }
-#input-example {
+#input-example,
+#quiz-buttons-example {
     width: 70%;
 }
 .info-arrows {
