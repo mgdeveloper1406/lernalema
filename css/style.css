@@ -478,6 +478,15 @@ button.lightning-round:hover {
     background-color: rgb(92, 40, 66);
     border-radius: 5px;
 }
+#flashcard-category {
+    align-self: flex-end;
+    flex-grow: .5;
+    margin: 1rem 1rem 0 0;
+}
+#card-text-wrapper {
+    flex-grow: 1.3;
+    text-align: center;
+}
 h3#german-word {
     display: inline;
     font-family: 'dinosaur', sans-serif;
