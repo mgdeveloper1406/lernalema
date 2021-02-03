@@ -256,28 +256,14 @@ button.lightning-round:hover {
 .bolded {
     font-weight: 700 !important;
 }
-#arts,
-#adjectives,
-#animals,
-#apparel,
-#calendar,
-#catastrophe,
-#food,
-#home,
-#infinitives,
-#nature,
-#numbers,
-#people,
-#phrases,
-#tech,
-#travel {
+.category {
     clip-path: inset(100% 100% 100% 100%);
     position: absolute;
 }
-#arts-color,
 #adjectives-color,
 #animals-color,
 #apparel-color,
+#arts-color,
 #calendar-color,
 #catastrophe-color,
 #food-color,
@@ -298,9 +284,6 @@ button.lightning-round:hover {
     justify-content: center;
     margin: 0 auto;
 }
-#arts-color {
-    background-color: rgb(70, 130, 180);
-}
 #adjectives-color {
     background-color: rgb(156, 83, 141);
 }
@@ -309,6 +292,9 @@ button.lightning-round:hover {
 }
 #apparel-color {
     background-color: rgb(9, 148, 189);
+}
+#arts-color {
+    background-color: rgb(70, 130, 180);
 }
 #calendar-color {
     background-color: rgb(205, 92, 92);
