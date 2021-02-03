@@ -262,10 +262,10 @@ button.lightning-round:hover {
 }
 #adjectives-color,
 #animals-color,
-#apparel-color,
 #arts-color,
 #calendar-color,
 #catastrophe-color,
+#clothes-color,
 #food-color,
 #home-color,
 #infinitives-color,
@@ -290,9 +290,6 @@ button.lightning-round:hover {
 #animals-color {
     background-color: rgb(160, 129, 129);
 }
-#apparel-color {
-    background-color: rgb(9, 148, 189);
-}
 #arts-color {
     background-color: rgb(70, 130, 180);
 }
@@ -301,6 +298,9 @@ button.lightning-round:hover {
 }
 #catastrophe-color {
     background-color: rgb(117, 148, 117);
+}
+#clothes-color {
+    background-color: rgb(9, 148, 189);
 }
 #food-color {
     background-color: rgb(244, 67, 54);
