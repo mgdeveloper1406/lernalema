@@ -43,18 +43,6 @@ const chameleonColors = () => {
 //         category: 'food',
 //     },
 //     {
-//         german: 'die Karotte',
-//         plural: 'die Karotten',
-//         translation: 'carrot',
-//         category: 'food',
-//     },
-//     {
-//         german: 'die Kartoffel',
-//         plural: 'die Kartoffeln',
-//         translation: 'potato',
-//         category: 'food'
-//     },
-//     {
 //         german: 'das Eichhörnchen',
 //         plural: 'die Eichhörnchen',
 //         translation: 'squirrel',
@@ -328,35 +316,35 @@ gameArray = [
             german: 'das Hemd',
             plural: 'die Hemden',
             translation: 'shirt',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'A garment to clothe the upper body.'
         },
         {
             german: 'die Hose',
             plural: 'die Hosen',
             translation: 'pants',
-            category: 'apparel',
+            category: 'clothes',
             hint: `If you're a liar, these are on fire.`
         },
         {
             german: 'das Kleid',
             plural: 'die Kleider',
             translation: 'dress',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'Brides traditionally wear a white one.'
         },
         {
             german: 'der Rock',
             plural: 'die Röcke',
             translation: 'skirt',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'A lower-body garment that can be mini, midi, or maxi.'
         },
         {
             german: 'die Unterwäsche',
             plural: 'die Unterwäschen',
             translation: 'underwear',
-            category: 'apparel',
+            category: 'clothes',
             hint: `Generally worn under your clothes, unless you're a superhero.` 
         }
     ],
@@ -669,35 +657,35 @@ gameArray = [
             german: 'der Hut',
             plural: 'die Hüte',
             translation: 'hat',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'Worn on the head.'
         },
         {
             german: 'die Jacke',
             plural: 'die Jacken',
             translation: 'jacket',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'Outerwear that tends to be lightweight.'
         },
         {
             german: 'der Mantel',
             plural: 'die Mäntel',
             translation: 'coat',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'Outerwear that tends to be heavyweight or long.'
         },
         {
             german: 'der Schuh',
             plural: 'die Schuhe',
             translation: 'shoe',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'Protection for your feet.'
         },
         {
             german: 'die Socke',
             plural: 'die Socken',
             translation: 'sock',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'Worn to keep your toesies cozy.'
         },
         {
@@ -872,35 +860,35 @@ gameArray = [
             german: 'der Gürtel',
             plural: 'die Gürtel',
             translation: 'belt',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'It keeps your pants from falling down.'
         },
         {
             german: 'die Krawatte',
             plural: 'die Krawatten',
             translation: 'tie',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'Knot styles include the half Windsor, the Atlantic, and the Pratt.'
         },
         {
             german: 'der Schal',
             plural: 'die Schals',
             translation: 'scarf',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'Worn for style or to keep the neck warm.'
         },
         {
             german: 'die Tasche',
             plural: 'die Taschen',
             translation: 'bag',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'Something you would use to carry things around.'
         },
         {
             german: 'das Zubehör',
             plural: 'die Zubehöre',
             translation: 'accessory',
-            category: 'apparel',
+            category: 'clothes',
             hint: 'Something that completes an outfit.'
         },
         {
@@ -1557,11 +1545,6 @@ const categoryColors = () => {
             $('#plural-zone').css('display', 'block');
             $('#card-icon').attr('src', 'images/category-icons-animals.svg');
             break;
-        case 'apparel':
-            $('#german-box').css('backgroundColor', '#0994bd');
-            $('#plural-zone').css('display', 'block');
-            $('#card-icon').attr('src', 'images/category-icon-apparel.svg');
-            break;
         case 'arts':
             $('#german-box').css('backgroundColor', '#4682b4');
             $('#plural-zone').css('display', 'block');
@@ -1576,6 +1559,11 @@ const categoryColors = () => {
             $('#german-box').css('backgroundColor', '#759475');
             $('#plural-zone').css('display', 'block');
             $('#card-icon').attr('src', 'images/category-icons-catastrophe.svg');
+            break;
+        case 'clothes':
+            $('#german-box').css('backgroundColor', '#0994bd');
+            $('#plural-zone').css('display', 'block');
+            $('#card-icon').attr('src', 'images/category-icons-clothes.svg');
             break;
         case 'food':
             $('#german-box').css('backgroundColor', '#f44336');
@@ -1862,7 +1850,7 @@ $('#answer-key').on('click', function() {
 //         $(reviewWords).css('color', '#9c538d');
 //     } else if (element.category === 'animals') {
 //         $(reviewWords).css('color', '#a08181');
-//     } else if (element.category === 'apparel') {
+//     } else if (element.category === 'clothes') {
 //         $(reviewWords).css('color', '#0994bd');
 //     } else if (element.category === 'calendar') {
 //         $(reviewWords).css('color', '#cd5c5c');
@@ -1931,14 +1919,14 @@ $('#mini-review').on('click', function() {
             $(reviewWords).css('color', '#9c538d');
         } else if (element.category === 'animals') {
             $(reviewWords).css('color', '#a08181');
-        } else if (element.category === 'apparel') {
-            $(reviewWords).css('color', '#0994bd');
         } else if (element.category === 'arts') {
             $(reviewWords).css('color', '#4682b4');
         } else if (element.category === 'calendar') {
             $(reviewWords).css('color', '#cd5c5c');
         } else if (element.category === 'catastrophe') {
             $(reviewWords).css('color', '#759475');
+        } else if (element.category === 'clothes') {
+            $(reviewWords).css('color', '#0994bd');
         } else if (element.category === 'food') {
             $(reviewWords).css('color', '#f44336');
         } else if (element.category === 'home') {
@@ -2007,14 +1995,14 @@ $('#final-review').on('click', function() {
             $(finalReviewWords).css('color', '#9c538d');
         } else if (thing.category === 'animals') {
             $(finalReviewWords).css('color', '#a08181');
-        } else if (thing.category === 'apparel') {
-            $(finalReviewWords).css('color', '#0994bd');
         } else if (thing.category === 'arts') {
             $(finalReviewWords).css('color', '#4682b4');
         } else if (thing.category === 'calendar') {
             $(finalReviewWords).css('color', '#cd5c5c');
         } else if (thing.category === 'catastrophe') {
             $(finalReviewWords).css('color', '#759475');
+        } else if (thing.category === 'clothes') {
+            $(finalReviewWords).css('color', '#0994bd');
         } else if (thing.category === 'food') {
             $(finalReviewWords).css('color', '#f44336');
         } else if (thing.category === 'home') {
@@ -2185,13 +2173,6 @@ $('input.category[type=checkbox]').on('click keydown', function() {
             }
         });
     }
-    if ($('#apparel').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'apparel') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
     if ($('#arts').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'arts') {
@@ -2209,6 +2190,13 @@ $('input.category[type=checkbox]').on('click keydown', function() {
     if ($('#catastrophe').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'catastrophe') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#clothes').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'clothes') {
                 wordArray.push(randomWord);
             }
         });
