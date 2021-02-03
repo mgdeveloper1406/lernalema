@@ -1547,11 +1547,6 @@ gimmeWords();
 // this changes the flashcards' colors, based on the given word's category
 const categoryColors = () => {
     switch (randomWord.category) {
-        case 'arts':
-            $('#german-box').css('backgroundColor', '#4682b4');
-            $('#plural-zone').css('display', 'block');
-            $('#card-icon').attr('src', 'images/category-icons-arts.svg');
-            break;
         case 'adjectives':
             $('#german-box').css('backgroundColor', '#9c538d');
             $('#plural-zone').css('display', 'none');
@@ -1566,6 +1561,11 @@ const categoryColors = () => {
             $('#german-box').css('backgroundColor', '#0994bd');
             $('#plural-zone').css('display', 'block');
             $('#card-icon').attr('src', 'images/category-icon-apparel.svg');
+            break;
+        case 'arts':
+            $('#german-box').css('backgroundColor', '#4682b4');
+            $('#plural-zone').css('display', 'block');
+            $('#card-icon').attr('src', 'images/category-icons-arts.svg');
             break;
         case 'calendar':
             $('#german-box').css('backgroundColor', '#cd5c5c');
@@ -1927,14 +1927,14 @@ $('#mini-review').on('click', function() {
 
         $('#review-box').append(reviewWords, downArrows, reviewAnswers);
 
-        if (element.category === 'arts') {
-            $(reviewWords).css('color', '#4682b4');
-        } else if (element.category === 'adjectives') {
+        if (element.category === 'adjectives') {
             $(reviewWords).css('color', '#9c538d');
         } else if (element.category === 'animals') {
             $(reviewWords).css('color', '#a08181');
         } else if (element.category === 'apparel') {
             $(reviewWords).css('color', '#0994bd');
+        } else if (element.category === 'arts') {
+            $(reviewWords).css('color', '#4682b4');
         } else if (element.category === 'calendar') {
             $(reviewWords).css('color', '#cd5c5c');
         } else if (element.category === 'catastrophe') {
@@ -2003,14 +2003,14 @@ $('#final-review').on('click', function() {
 
         $('#review-box').append(finalReviewWords, finalDownArrows, finalReviewAnswers);
 
-        if (thing.category === 'arts') {
-            $(finalReviewWords).css('color', '#4682b4');
-        } else if (thing.category === 'adjectives') {
+        if (thing.category === 'adjectives') {
             $(finalReviewWords).css('color', '#9c538d');
         } else if (thing.category === 'animals') {
             $(finalReviewWords).css('color', '#a08181');
         } else if (thing.category === 'apparel') {
             $(finalReviewWords).css('color', '#0994bd');
+        } else if (thing.category === 'arts') {
+            $(finalReviewWords).css('color', '#4682b4');
         } else if (thing.category === 'calendar') {
             $(finalReviewWords).css('color', '#cd5c5c');
         } else if (thing.category === 'catastrophe') {
@@ -2171,13 +2171,6 @@ $('input.category[type=checkbox]').on('click keydown', function() {
         gameArray.splice(1);
     }
 
-    if ($('#arts').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'arts') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
     if ($('#adjectives').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'adjectives') {
@@ -2195,6 +2188,13 @@ $('input.category[type=checkbox]').on('click keydown', function() {
     if ($('#apparel').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'apparel') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
+    if ($('#arts').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'arts') {
                 wordArray.push(randomWord);
             }
         });
