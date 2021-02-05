@@ -458,8 +458,24 @@ button.lightning-round:hover {
 #flashcard-category {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    margin-right: 1rem;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+#card-category {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .5);
+    margin: 0;
+}
+#insert-category {
+    font-weight: 400;
+}
+#card-icon {
+    opacity: .5;
 }
 #card-text-wrapper {
     width: fit-content;
