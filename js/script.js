@@ -1483,6 +1483,41 @@ gameArray = [
             category: 'catastrophe',
             hint: 'A heavy snowfall.'
         },
+        {
+            german: 'der Computer',
+            plural: 'die Computer',
+            translation: 'computer',
+            category: 'tech',
+            hint: ''
+        },
+        {
+            german: 'der Fernseher',
+            plural: 'die Fernseher',
+            translation: ['television', 'tv'],
+            category: 'tech',
+            hint: ''
+        },
+        {
+            german: 'die Kamera',
+            plural: 'die Kameras',
+            translation: 'camera',
+            category: 'tech',
+            hint: ''
+        },
+        {
+            german: 'das Radio',
+            plural: 'die Radios',
+            translation: 'radio',
+            category: 'tech',
+            hint: ''
+        },
+        {
+            german: 'das Telefon',
+            plural: 'die Telefone',
+            translation: ['telephone', 'phone'],
+            category: 'tech',
+            hint: ''
+        },
     ]
 ];
 
