@@ -1449,6 +1449,41 @@ gameArray = [
             hint: `That mixture of mainly oxygen and nitrogen you're currently breathing.`
         },
         {
+            german: 'der Flughafen',
+            plural: 'die Flughäfen',
+            translation: 'airport',
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'das Flugzeug',
+            plural: 'die Flugzeuge',
+            translation: ['airplane', 'plane'],
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'der Koffer',
+            plural: 'die Koffer',
+            translation: 'suitcase',
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'der Pass',
+            plural: 'die Pässe',
+            translation: 'passport',
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'der Urlaub',
+            plural: 'die Urlaube',
+            translation: ['vacation', 'holiday'],
+            category: 'travel',
+            hint: ''
+        },
+        {
             german: 'der Brand',
             plural: 'die Brände',
             translation: 'fire',
