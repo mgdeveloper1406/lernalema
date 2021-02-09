@@ -1453,35 +1453,35 @@ gameArray = [
             plural: 'die Flughäfen',
             translation: 'airport',
             category: 'travel',
-            hint: ''
+            hint: 'A place full of gates, arrivals, and destinations.'
         },
         {
             german: 'das Flugzeug',
             plural: 'die Flugzeuge',
             translation: ['airplane', 'plane'],
             category: 'travel',
-            hint: ''
+            hint: 'It can fly without flapping its wings.'
         },
         {
             german: 'der Koffer',
             plural: 'die Koffer',
             translation: 'suitcase',
             category: 'travel',
-            hint: ''
+            hint: `People in the last boarding group might have to check this.`
         },
         {
             german: 'der Pass',
             plural: 'die Pässe',
             translation: 'passport',
             category: 'travel',
-            hint: ''
+            hint: `Don't lose this while you're abroad. Seriously.`
         },
         {
             german: 'der Urlaub',
             plural: 'die Urlaube',
             translation: ['vacation', 'holiday'],
             category: 'travel',
-            hint: ''
+            hint: 'A getaway, a time to relax.'
         },
         {
             german: 'der Brand',
