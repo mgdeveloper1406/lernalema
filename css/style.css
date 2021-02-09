@@ -455,7 +455,7 @@ button.lightning-round:hover {
     margin: 0 auto 2.1rem;
     border-radius: 5px;
 }
-#flashcard-category {
+#flashcard-category-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1197,8 +1197,11 @@ footer {
         height: 170px;
         margin: 1rem auto 1.5rem;
     }
-    #flashcard-category {
-        margin-right: .5rem;
+    #flashcard-category-wrapper {
+        margin: 0 .75rem;
+    }
+    #card-category {
+        font-size: .75rem;
     }
     #card-icon {
         width: 20px;
