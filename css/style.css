@@ -371,7 +371,12 @@ button.lightning-round:hover {
     justify-content: flex-end;
     padding-top: .5rem;
 }
-#icon-container {
+#label-icon-container {
+    display: flex;
+    align-items: center;
+    height: 84px;
+}
+#help-icons-container {
     display: flex;
     align-items: center;
     background-color: rgb(26, 18, 47);
