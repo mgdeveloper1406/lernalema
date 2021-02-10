@@ -1865,6 +1865,12 @@ $(document).keypress(function(event) {
     } 
 });
 
+// turn the flashcard category labels off and on
+$('#label-switch').on('click', function() {
+    $('#card-category').toggle();
+    $('#card-icon').toggle();
+});
+
 function closeHintMessage() {
     $('#hint-message').animate({'right': '115px'}, 300, function() {
         $('#hint-message').animate({'right': '-100%'}, 600);
