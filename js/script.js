@@ -1523,35 +1523,35 @@ gameArray = [
             plural: 'die Computer',
             translation: 'computer',
             category: 'tech',
-            hint: ''
+            hint: `You're using one right now.`
         },
         {
             german: 'der Fernseher',
             plural: 'die Fernseher',
             translation: ['television', 'tv'],
             category: 'tech',
-            hint: ''
+            hint: 'Sometimes called the "small screen" or "idiot box."'
         },
         {
             german: 'die Kamera',
             plural: 'die Kameras',
             translation: 'camera',
             category: 'tech',
-            hint: ''
+            hint: 'Use this to capture a moment.'
         },
         {
             german: 'das Radio',
             plural: 'die Radios',
             translation: 'radio',
             category: 'tech',
-            hint: ''
+            hint: 'AM/FM.'
         },
         {
             german: 'das Telefon',
             plural: 'die Telefone',
             translation: ['telephone', 'phone'],
             category: 'tech',
-            hint: ''
+            hint: 'Ring, ring!'
         },
     ]
 ];
