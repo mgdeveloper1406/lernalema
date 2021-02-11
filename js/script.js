@@ -1867,6 +1867,11 @@ $(document).keypress(function(event) {
 
 // turn the flashcard category labels off and on
 $('#label-switch').on('click', function() {
+    if ($('#label-switch').attr('src') == 'images/three-bent-labels-outline.svg') {
+        $('#label-switch').attr('src', 'images/three-bent-labels.svg')
+    } else {
+        $('#label-switch').attr('src', 'images/three-bent-labels-outline.svg');
+    }
     $('#card-category').toggle();
     $('#card-icon').toggle();
 });
