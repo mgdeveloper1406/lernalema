@@ -1553,6 +1553,44 @@ gameArray = [
             category: 'tech',
             hint: 'Ring, ring!'
         },
+    ],
+
+    round8 = [
+        {
+            german: 'das Bild',
+            plural: 'die Bilder',
+            translation: 'painting',
+            category: 'arts',
+            hint: ''
+        },
+        {
+            german: 'das Foto',
+            plural: 'die Fotos',
+            translation: ['photograph', 'photo'],
+            category: 'arts',
+            hint: ''
+        },
+        {
+            german: 'das Lied',
+            plural: 'die Lieder',
+            translation: 'song',
+            category: 'arts',
+            hint: ''
+        },
+        {
+            german: 'die Skulptur',
+            plural: 'die Skulpturen',
+            translation: 'sculpture',
+            category: 'arts',
+            hint: ''
+        },
+        {
+            german: 'die Stickerei',
+            plural: 'die Stickereien',
+            translation: 'embroidery',
+            category: 'arts',
+            hint: ''
+        },
     ]
 ];
 
