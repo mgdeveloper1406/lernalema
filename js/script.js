@@ -2249,7 +2249,7 @@ function closeCategories() {
 };
 
 // easily close the Categories panel, on mobile devices
-$('#close-x-bg').on('click', function() {
+$('#categories-x-bg').on('click', function() {
     closeCategories();
     $('#info-switch-container').css('display', 'flex');
 });
@@ -2504,7 +2504,7 @@ $('#hamburger').on('click', function(){
     $('#info-switch-container').css('display', 'none');
     $('nav').animate({left: 0});
 });
-$('.close-nav').on('click', function(){
+$('#nav-x-bg').on('click', function(){
     setTimeout(function() {
         $('#info-switch-container').css('display', 'flex');
     }, 300);
