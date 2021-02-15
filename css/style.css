@@ -507,6 +507,11 @@ span.curly-braces {
 span.curly-braces {
     color: rgb(255, 215, 0);
 }
+#category-pattern {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
 #translation-container {
     display: flex;
     align-items: center;
