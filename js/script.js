@@ -1561,35 +1561,35 @@ gameArray = [
             plural: 'die Daten',
             translation: 'date',
             category: 'calendar',
-            hint: ''
+            hint: 'A specific day.'
         },
         {
             german: 'der Feiertag',
             plural: 'die Feiertage',
             translation: 'holiday',
             category: 'calendar',
-            hint: ''
+            hint: 'An annual day of festivities or remembrance.'
         },
         {
             german: 'das Jahr',
             plural: 'die Jahre',
             translation: 'year',
             category: 'calendar',
-            hint: ''
+            hint: 'A period of twelve months.'
         },
         {
             german: 'der Kalender',
             plural: 'die Kalender',
             translation: 'calendar',
             category: 'calendar',
-            hint: ''
+            hint: 'Something used to chart or schedule days.'
         },
         {
             german: 'der Monat',
             plural: 'die Monate',
             translation: 'month',
             category: 'calendar',
-            hint: ''
+            hint: 'The length of one lunar cycle, roughly.'
         },
         {
             german: 'das Bild',
