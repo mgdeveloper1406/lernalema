@@ -1557,6 +1557,41 @@ gameArray = [
 
     round8 = [
         {
+            german: 'das Datum',
+            plural: 'die Daten',
+            translation: 'date',
+            category: 'calendar',
+            hint: ''
+        },
+        {
+            german: 'der Feiertag',
+            plural: 'die Feiertage',
+            translation: 'holiday',
+            category: 'calendar',
+            hint: ''
+        },
+        {
+            german: 'das Jahr',
+            plural: 'die Jahre',
+            translation: 'year',
+            category: 'calendar',
+            hint: ''
+        },
+        {
+            german: 'der Kalender',
+            plural: 'die Kalender',
+            translation: 'calendar',
+            category: 'calendar',
+            hint: ''
+        },
+        {
+            german: 'der Monat',
+            plural: 'die Monate',
+            translation: 'month',
+            category: 'calendar',
+            hint: ''
+        },
+        {
             german: 'das Bild',
             plural: 'die Bilder',
             translation: 'painting',
