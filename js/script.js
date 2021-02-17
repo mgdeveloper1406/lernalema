@@ -1596,35 +1596,35 @@ gameArray = [
             plural: 'die Bilder',
             translation: 'painting',
             category: 'arts',
-            hint: ''
+            hint: 'Artwork created with perhaps acrylics or oil.'
         },
         {
             german: 'das Foto',
             plural: 'die Fotos',
             translation: ['photograph', 'photo'],
             category: 'arts',
-            hint: ''
+            hint: 'A captured moment.'
         },
         {
             german: 'das Lied',
             plural: 'die Lieder',
             translation: 'song',
             category: 'arts',
-            hint: ''
+            hint: 'A melody, with or without lyrics.'
         },
         {
             german: 'die Skulptur',
             plural: 'die Skulpturen',
             translation: 'sculpture',
             category: 'arts',
-            hint: ''
+            hint: 'Artwork, often made of marble or bronze.'
         },
         {
             german: 'die Stickerei',
             plural: 'die Stickereien',
             translation: 'embroidery',
             category: 'arts',
-            hint: ''
+            hint: 'The art of stitches.'
         },
     ]
 ];
