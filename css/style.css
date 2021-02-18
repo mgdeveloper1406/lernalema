@@ -449,7 +449,7 @@ button.lightning-round:hover {
     margin: 0 1rem;
 }
 #card-category {
-    font-family: 'dinosaur', sans-serif;
+    font-family: 'verveine', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 1rem;
@@ -457,9 +457,6 @@ button.lightning-round:hover {
     text-transform: uppercase;
     color: rgba(255, 255, 255, .5);
     margin: 0;
-}
-#insert-category {
-    font-weight: 400;
 }
 #card-icon {
     opacity: .5;
@@ -507,11 +504,11 @@ span.curly-braces {
 span.curly-braces {
     color: rgb(255, 215, 0);
 }
-#category-pattern {
+/* #category-pattern {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
-}
+} */
 #translation-container {
     display: flex;
     align-items: center;
