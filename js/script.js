@@ -127,25 +127,25 @@ gameArray = [
             plural: 'die Jungen',
             translation: 'boy',
             category: 'people',
-            hint: 'If not "girl," then ___.'
+            hint: (`If not <span class="ital">girl</span>, then ${underline}.`)
         },
         {
             german: 'das Mädchen',
             plural: 'die Mädchen',
             translation: 'girl',
             category: 'people',
-            hint: 'If not "boy," then ___.'
+            hint: (`If not <span class="ital">boy</span>, then ${underline}.`)
         },
         {
             german: 'der Mann',
             plural: 'die Männer',
             translation: 'man',
             category: 'people',
-            hint: 'If not "woman," then ___.'
+            hint: (`If not <span class="ital">woman</span>, then ${underline}.`)
         },
         {
             german: 'die Person',
-            plural: 'die Menschen',
+            plural: 'die Personen',
             translation: 'person',
             category: 'people',
             hint: 'A human, an individual.'
