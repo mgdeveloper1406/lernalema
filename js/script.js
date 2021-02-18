@@ -1743,7 +1743,6 @@ const categoryColors = () => {
             $('#plural-zone').css('display', 'none');
             $('#insert-category').html('Numbers');
             $('#card-icon').attr('src', 'images/category-icons-numbers.svg');
-            $('#category-pattern').css('backgroundImage', 'url("images/pattern-numbers.svg")');
             break;
         case 'people':
             $('#german-box').css('backgroundColor', '#008b8b');
