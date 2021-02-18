@@ -365,15 +365,9 @@ button.lightning-round:hover {
     height: 84px;
     z-index: 2;
 }
-#hint-message {
+#hint-message-container {
     background-color: rgb(191, 255, 223);
-    padding: 1rem 1.3rem;
     border-radius: 100px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1rem;
-    color: rgb(16, 115, 106);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -384,7 +378,7 @@ button.lightning-round:hover {
     height: 80px;
     z-index: 1;
 }
-#hint-message::after {
+#hint-message-container::after {
     content: '';
     position: absolute;
     width: 15px;
@@ -393,6 +387,21 @@ button.lightning-round:hover {
     background-color: rgb(191, 255, 223);
     border-radius: 2px;
     transform: rotate(45deg);
+}
+#hint-message {
+    display: inline-block;
+    padding: 1rem 1.3rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    color: rgb(16, 115, 106);
+}
+.ital {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
 }
 .help-icons {
     height: 40px;
