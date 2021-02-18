@@ -1,5 +1,6 @@
 let randomWord;
 let wordArray;
+let underline = `<span class="underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>`;
 let solvedArray = [];
 let miniReviewArray = [];
 let endReviewArray = [];
@@ -119,7 +120,7 @@ gameArray = [
             plural: 'die Frauen',
             translation: 'woman',
             category: 'people',
-            hint: 'If not "man," then ___.'
+            hint: (`If not <span class="ital">man</span>, then ${underline}.`)
         },
         {
             german: 'der Junge',
@@ -1845,7 +1846,7 @@ function displayEndReview() {
 
 // reset the hint message's original position
 function resetHint() {
-    $('#hint-message').css('right', '-100%');
+    $('#hint-message-container').css('right', '-100%');
 };
 
 // when the wordArray is empty, display the next-level modal box and update the level that the user has reached
@@ -1950,21 +1951,21 @@ $('#label-switch').on('click', function() {
 });
 
 function closeHintMessage() {
-    $('#hint-message').animate({'right': '115px'}, 300, function() {
-        $('#hint-message').animate({'right': '-100%'}, 600);
+    $('#hint-message-container').animate({'right': '115px'}, 300, function() {
+        $('#hint-message-container').animate({'right': '-100%'}, 600);
     });
 }
 
 // if the hint is clicked, it will close
-$('#hint-message').on('click', closeHintMessage);
+$('#hint-message-container').on('click', closeHintMessage);
 
 // the hint bulb opens and closes the hint, and it sends words to the mini review
 $('#hint-bulb').on('click', function() {
-    if ($('#hint-message').css('right') == '130px') {
+    if ($('#hint-message-container').css('right') == '130px') {
         closeHintMessage();
     } else {
-        $('#hint-message').animate({'right': '145px'}, 600, function() {
-            $('#hint-message').animate({'right': '130px'}, 300);
+        $('#hint-message-container').animate({'right': '145px'}, 600, function() {
+            $('#hint-message-container').animate({'right': '130px'}, 300);
         });
     }
 
