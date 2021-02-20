@@ -385,7 +385,7 @@ gameArray = [
             german: 'elf',
             translation: 'eleven',
             category: 'numbers',
-            hint: 'This number sounds like "elven."'
+            hint: (`This number sounds like <span class="ital">elven</span>.`)
         },
         {
             german: 'zwölf',
@@ -465,7 +465,7 @@ gameArray = [
             plural: 'die Katzen',
             translation: 'cat',
             category: 'animals',
-            hint: 'They always land on their feet.'
+            hint: 'This animal always lands on its feet.'
         },
         {
             german: 'die Maus',
@@ -479,7 +479,7 @@ gameArray = [
             plural: 'die Vögel',
             translation: 'bird',
             category: 'animals',
-            hint: 'These feathered animals fly and sing.'
+            hint: 'A feathered animal that flies and sings.'
         },
         {
             german: 'die Schüssel',
