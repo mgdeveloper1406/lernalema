@@ -190,7 +190,7 @@ gameArray = [
             german: 'zwei',
             translation: 'two',
             category: 'numbers',
-            hint: (`It takes ${underline} to tango.`)
+            hint: `It takes ${underline} to tango.`
         },
         {
             german: 'drei',
@@ -264,7 +264,7 @@ gameArray = [
             german: 'acht',
             translation: 'eight',
             category: 'numbers',
-            hint: 'Magic __ ball.'
+            hint: `Magic ${underline} ball.`
         },
         {
             german: 'neun',
