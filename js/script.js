@@ -178,7 +178,7 @@ gameArray = [
             german: 'Nein!',
             translation: 'no',
             category: 'phrases',
-            hint: 'Nein means nein!'
+            hint: (`A refusal. <span class="ital">Nein</span> means <span class="ital">nein</span>!`)
         },
         {
             german: 'eins',
@@ -190,7 +190,7 @@ gameArray = [
             german: 'zwei',
             translation: 'two',
             category: 'numbers',
-            hint: 'It takes __ to tango.'
+            hint: (`It takes ${underline} to tango.`)
         },
         {
             german: 'drei',
@@ -208,7 +208,7 @@ gameArray = [
             german: 'fünf',
             translation: 'five',
             category: 'numbers',
-            hint: 'V, as a Roman numeral.'
+            hint: 'How many sides does a pentagon have?'
         },
     ],
     
