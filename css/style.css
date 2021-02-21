@@ -1019,7 +1019,7 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     max-width: 550px;
-    margin: 0 auto 6rem;
+    margin: 0 auto;
 }
 .quiz-buttons {
     font-size: 1.5rem;
