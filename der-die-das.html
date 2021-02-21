@@ -189,40 +189,42 @@
                 <p id="hint-message"></p>
             </div>
         </section>
-        <section>
-            <p id="countdown-container"><span class="countdown-text">This round has</span> <span id="countdown"></span> <span class="countdown-text">remaining</span></p>
-        </section>
-        <section id="german-box">
-            <div id="flashcard-category-wrapper">
-                <p id="card-category">Category: <span id="insert-category"></span></p>
-                <img class="category-icons" id="card-icon" src="" />
-            </div>
-            <div id="card-text-wrapper">
-                <div>
-                    <div id="blank-word-flex">
-                        <div id="blank-line-wrapper">
-                            <span class="blank-line"></span>
-                            <span class="blank-line"></span>
-                            <span class="blank-line"></span>
+        <div id="mobile-focus">
+            <section>
+                <p id="countdown-container"><span class="countdown-text">This round has</span> <span id="countdown"></span> <span class="countdown-text">remaining</span></p>
+            </section>
+            <section id="german-box">
+                <div id="flashcard-category-wrapper">
+                    <p id="card-category">Category: <span id="insert-category"></span></p>
+                    <img class="category-icons" id="card-icon" src="" />
+                </div>
+                <div id="card-text-wrapper">
+                    <div>
+                        <div id="blank-word-flex">
+                            <div id="blank-line-wrapper">
+                                <span class="blank-line"></span>
+                                <span class="blank-line"></span>
+                                <span class="blank-line"></span>
+                            </div>
+                            <h3 id="german-word">die Kartoffel</h3>
                         </div>
-                        <h3 id="german-word">die Kartoffel</h3>
+                        <span id="line"></span>
                     </div>
-                    <span id="line"></span>
+                    <div id="plural-zone">
+                        <span class="curly-braces">{ pl. </span><h4 id="german-plural">die Kartoffeln</h4><span class="curly-braces"> }</span>
+                    </div>
                 </div>
-                <div id="plural-zone">
-                    <span class="curly-braces">{ pl. </span><h4 id="german-plural">die Kartoffeln</h4><span class="curly-braces"> }</span>
+                <!-- EMPTY GRID ROW, BELOW -->
+                <div></div> 
+            </section>
+            <section id="quiz-button-container">
+                <div id="quiz-button-row">
+                    <button id="der-button" class="quiz-buttons" type="button" tabindex="1">der</button>
+                    <button id="die-button" class="quiz-buttons" type="button" tabindex="1">die</button>
+                    <button id="das-button" class="quiz-buttons" type="button" tabindex="1">das</button>
                 </div>
-            </div>
-            <!-- EMPTY GRID ROW, BELOW -->
-            <div></div> 
-        </section>
-        <section id="quiz-button-container">
-            <div id="quiz-button-row">
-                <button id="der-button" class="quiz-buttons" type="button" tabindex="1">der</button>
-                <button id="die-button" class="quiz-buttons" type="button" tabindex="1">die</button>
-                <button id="das-button" class="quiz-buttons" type="button" tabindex="1">das</button>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
     <section>
         <div id="level-box" class="modal">
