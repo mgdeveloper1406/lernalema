@@ -617,7 +617,7 @@ gameArray = [
             plural: 'die Messer',
             translation: 'knife',
             category: 'home',
-            hint: `Don't "messer" around with this sharp eating utensil.`
+            hint: (`Don't <span class="ital">messer</span> around with this sharp eating utensil.`)
         },
         {
             german: 'der Himmel',
@@ -699,7 +699,7 @@ gameArray = [
             german: 'heiß',
             translation: 'hot',
             category: 'adjectives',
-            hint: `The sun is ${underline}, but space is <span class="ital">not</span>.`
+            hint: (`The sun is ${underline}, but space is <span class="ital">not</span>.`)
         },
         {
             german: 'kalt',
@@ -732,25 +732,25 @@ gameArray = [
             german: 'Bis bald!',
             translation: 'see you soon',
             category: 'phrases',
-            hint: 'If "bis später" means "see you later," and "bald" means "soon" . . . you got this!'
+            hint: 'Said when one expects to see someone again.'
         },
         {
             german: 'Bis später!',
             translation: 'see you later',
             category: 'phrases',
-            hint: 'Said while leaving: "____, alligator!"'
+            hint: `Said while leaving: "${underline}, alligator!"`
         },
         {
             german: 'Tschüss!',
             translation: 'bye',
             category: 'phrases',
-            hint: 'An informal, three-letter parting phrase.'
+            hint: 'An informal, three-letter parting word.'
         },
         {
             german: 'Viel Glück!',
             translation: 'good luck',
             category: 'phrases',
-            hint: 'What does the idiom "break a leg" mean?'
+            hint: (`What does the idiom <span class="ital">break a leg</span> mean?`)
         },
         {
             german: 'einundzwanzig',
