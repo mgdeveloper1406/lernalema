@@ -1561,31 +1561,31 @@ gameArray = [
             german: 'Das stimmt!',
             translation: [`that's true`, `that's right`],
             category: 'phrases',
-            hint: ''
+            hint: 'A way to agree with someone.'
         },
         {
             german: 'Genau!',
             translation: 'exactly',
             category: 'phrases',
-            hint: ''
+            hint: (`Another word for <span class="ital">precisely</span>.`)
         },
         {
             german: 'Keine Ahnung!',
             translation: 'no idea',
             category: 'phrases',
-            hint: ''
+            hint: `A way to express that you don't know something.`
         },
         {
             german: 'Leider!',
             translation: 'unfortunately',
             category: 'phrases',
-            hint: ''
+            hint: 'A way to soften the blow, when you have bad news.'
         },
         {
             german: 'Übrigens . . .',
             translation: 'by the way',
             category: 'phrases',
-            hint: ''
+            hint: 'A way to change the subject.'
         },
         {
             german: 'das Datum',
