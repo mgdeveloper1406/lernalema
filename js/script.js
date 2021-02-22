@@ -1558,6 +1558,36 @@ gameArray = [
 
     round8 = [
         {
+            german: 'Das stimmt!',
+            translation: [`that's true`, `that's right`],
+            category: 'phrases',
+            hint: ''
+        },
+        {
+            german: 'Genau!',
+            translation: 'exactly',
+            category: 'phrases',
+            hint: ''
+        },
+        {
+            german: 'Keine Ahnung!',
+            translation: 'no idea',
+            category: 'phrases',
+            hint: ''
+        },
+        {
+            german: 'Leider!',
+            translation: 'unfortunately',
+            category: 'phrases',
+            hint: ''
+        },
+        {
+            german: 'Übrigens . . .',
+            translation: 'by the way',
+            category: 'phrases',
+            hint: ''
+        },
+        {
             german: 'das Datum',
             plural: 'die Daten',
             translation: 'date',
