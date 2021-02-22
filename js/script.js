@@ -564,7 +564,7 @@ gameArray = [
             german: 'siebzehn',
             translation: 'seventeen',
             category: 'numbers',
-            hint: 'Stevie Nicks, "Edge of ___."'
+            hint: `Stevie Nicks, "Edge of ${underline}."`
         },
         {
             german: 'achtzehn',
@@ -576,7 +576,7 @@ gameArray = [
             german: 'neunzehn',
             translation: 'nineteen',
             category: 'numbers',
-            hint: 'XIX, as a Roman numeral.'
+            hint: 'The last year of your teens.'
         },
         {
             german: 'zwanzig',
@@ -693,13 +693,13 @@ gameArray = [
             german: 'gut',
             translation: 'good',
             category: 'adjectives',
-            hint: `__ riddance; __ grief; __ day, sir!`
+            hint: `${underline} riddance; ${underline} grief; ${underline} day, sir!`
         },
         {
             german: 'heiß',
             translation: 'hot',
             category: 'adjectives',
-            hint: 'The sun is this, but space is not.'
+            hint: `The sun is ${underline}, but space is <span class="ital">not</span>.`
         },
         {
             german: 'kalt',
