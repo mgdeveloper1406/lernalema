@@ -993,7 +993,7 @@ gameArray = [
             german: 'dreißig',
             translation: 'thirty',
             category: 'numbers',
-            hint: 'Jenna Rink wants to be "___, flirty, and thriving."'
+            hint: `Jenna Rink wants to be "${underline}, flirty, and thriving."`
         },
         {
             german: 'die Banane',
@@ -1020,7 +1020,7 @@ gameArray = [
             german: 'das Obst',
             translation: 'fruit',
             category: 'food',
-            hint: 'A collective noun for "Frucht" that is considered edible.'
+            hint: (`A collective noun for <span class="ital">Frucht</span> that is considered edible.`)
         },
         {
             german: 'der Saft',
@@ -1034,7 +1034,7 @@ gameArray = [
             plural: 'die Bienen',
             translation: 'bee',
             category: 'animals',
-            hint: 'Stripy pollinators—save them!'
+            hint: 'Stripy pollinators. Save them!'
         },
         {
             german: 'die Fliege',
@@ -1111,7 +1111,7 @@ gameArray = [
             plural: 'die Felsen',
             translation: 'rock',
             category: 'nature',
-            hint: 'Solid as a ___.'
+            hint: `Solid as a ${underline}.`
         },
         {
             german: 'der Fluss',
@@ -1176,7 +1176,7 @@ gameArray = [
             plural: 'die Autos',
             translation: 'car',
             category: 'travel',
-            hint: 'Vroom, vroom.'
+            hint: (`<span class="ital">Vroom, vroom.</span>`)
         },
         {
             german: 'die Brücke',
@@ -1190,7 +1190,7 @@ gameArray = [
             plural: 'die Karten',
             translation: 'map',
             category: 'travel',
-            hint: `If there's a place you gotta go, I'm the one you need to know.`
+            hint: (`<span class="ital">&sung; If there's a place you gotta go, I'm the one you need to know &mldr; &sung;</span>`)
         },
         {
             german: 'die Reise',
