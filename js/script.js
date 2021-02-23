@@ -1256,7 +1256,7 @@ gameArray = [
             plural: 'die Baristas',
             translation: 'barista',
             category: 'people',
-            hint: `This person can explain the difference between a cappuccino and a latte.`
+            hint: 'This person can explain the difference between a cappuccino and a latte.'
         },
         {
             german: 'der Barkeeper',
@@ -1277,7 +1277,7 @@ gameArray = [
             plural: 'die Köche',
             translation: ['cook', 'chef'],
             category: 'people',
-            hint: `Their uniforms usually include a toque blanche.`
+            hint: `This person's uniform usually includes a toque blanche.`
         },
         {
             german: 'einunddreißig',
@@ -1289,7 +1289,7 @@ gameArray = [
             german: 'zweiunddreißig',
             translation: ['thirty-two', 'thirty two'],
             category: 'numbers',
-            hint: 'Water freezes at __°F.'
+            hint: `Water freezes at ${underline}°F.`
         },
         {
             german: 'dreiunddreißig',
@@ -1301,7 +1301,7 @@ gameArray = [
             german: 'vierunddreißig',
             translation: ['thirty-four', 'thirty four'],
             category: 'numbers',
-            hint: 'Miracle on __th Street.'
+            hint: (`<span class="ital">Miracle on ${underline}th Street.</span>`)
         },
         {
             german: 'fünfunddreißig',
@@ -1321,7 +1321,7 @@ gameArray = [
             plural: 'die Kartoffeln',
             translation: 'potato',
             category: 'food',
-            hint: 'Mr. Kartoffel Head.'
+            hint: (`Mr. <span class="ital">Kartoffel</span> Head.`)
         },
         {
             german: 'der Knoblauch',
@@ -1342,7 +1342,7 @@ gameArray = [
             plural: 'die Zwiebeln',
             translation: 'onion',
             category: 'food',
-            hint: 'Like Shrek, they have layers.'
+            hint: 'Like Shrek, this food has layers.'
         },
         {
             german: 'der Bär',
@@ -1356,7 +1356,7 @@ gameArray = [
             plural: 'die Eulen',
             translation: 'owl',
             category: 'animals',
-            hint: 'Who? Who?'
+            hint: (`<span class="ital">Who? Who?</span>`)
         },
         {
             german: 'der Fuchs',
@@ -1510,7 +1510,7 @@ gameArray = [
             plural: 'die Notfälle',
             translation: 'emergency',
             category: 'catastrophe',
-            hint: `Call 911, it's an ___.`
+            hint: `Call 911, it's an ${underline}.`
         },
         {
             german: 'der Schneesturm',
@@ -1552,7 +1552,7 @@ gameArray = [
             plural: 'die Telefone',
             translation: ['telephone', 'phone'],
             category: 'tech',
-            hint: 'Ring, ring!'
+            hint: (`<span class="ital">Ring, ring!</span>`)
         },
     ],
 
