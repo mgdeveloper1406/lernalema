@@ -762,7 +762,7 @@ gameArray = [
             german: 'zweiundzwanzig',
             translation: ['twenty-two', 'twenty two'],
             category: 'numbers',
-            hint: `You're damned if you don't, and also damned if you do, when you find yourself in a catch-__.`
+            hint: `You're damned if you don't, and also damned if you do, when you find yourself in a catch-${underline}.`
         },
         {
             german: 'dreiundzwanzig',
@@ -787,7 +787,7 @@ gameArray = [
             plural: 'die Enten',
             translation: 'duck',
             category: 'animals',
-            hint: 'Quack, quack.'
+            hint: (`<span class="ital">Quack, quack.</span>`)
 
         },
         {
@@ -795,7 +795,7 @@ gameArray = [
             plural: 'die Hühner',
             translation: ['hen', 'chicken'],
             category: 'animals',
-            hint: 'Cluck, cluck.'
+            hint: (`<span class="ital">Cluck, cluck.</span>`)
 
         },
         {
@@ -803,7 +803,7 @@ gameArray = [
             plural: 'die Kühe',
             translation: 'cow',
             category: 'animals',
-            hint: 'Moo.'
+            hint: (`<span class="ital">Moo.</span>`)
 
         },
         {
@@ -811,7 +811,7 @@ gameArray = [
             plural: 'die Pferde',
             translation: 'horse',
             category: 'animals',
-            hint: 'Neigh.'
+            hint: (`<span class="ital">Neigh.</span>`)
 
         },
         {
@@ -819,7 +819,7 @@ gameArray = [
             plural: 'die Schweine',
             translation: 'pig',
             category: 'animals',
-            hint: 'Oink, oink.'
+            hint: (`<span class="ital">Oink, oink.</span>`)
 
         },
         {
