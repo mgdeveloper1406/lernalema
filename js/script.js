@@ -834,7 +834,7 @@ gameArray = [
             plural: 'die Blätter',
             translation: 'leaf',
             category: 'nature',
-            hint: 'These fall from trees, in Autumn.'
+            hint: 'When your houseplant drops one, you know true despair.'
         },
         {
             german: 'die Blume',
@@ -855,7 +855,7 @@ gameArray = [
             plural: 'die Zweige',
             translation: 'branch',
             category: 'nature',
-            hint: 'These grow out of tree trunks, and leaves sprout from them.'
+            hint: `An olive ${underline} is a symbol of peace.`
         },
         {
             german: 'der Gürtel',
