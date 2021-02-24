@@ -1588,6 +1588,36 @@ gameArray = [
             hint: 'A way to change the subject.'
         },
         {
+            german: 'glücklich',
+            translation: 'happy',
+            category: 'adjectives',
+            hint: ''
+        },
+        {
+            german: 'müde',
+            translation: 'tired',
+            category: 'adjectives',
+            hint: ''
+        },
+        {
+            german: 'schwach',
+            translation: 'weak',
+            category: 'adjectives',
+            hint: ''
+        },
+        {
+            german: 'stark',
+            translation: 'strong',
+            category: 'adjectives',
+            hint: ''
+        },
+        {
+            german: 'traurig',
+            translation: 'sad',
+            category: 'adjectives',
+            hint: ''
+        },
+        {
             german: 'das Datum',
             plural: 'die Daten',
             translation: 'date',
