@@ -1656,31 +1656,31 @@ gameArray = [
             german: 'glücklich',
             translation: 'happy',
             category: 'adjectives',
-            hint: ''
+            hint: `If you're ${underline} and you know it &mldr;`
         },
         {
             german: 'müde',
             translation: 'tired',
             category: 'adjectives',
-            hint: ''
+            hint: 'How you feel when you want to sleep.'
         },
         {
             german: 'schwach',
             translation: 'weak',
             category: 'adjectives',
-            hint: ''
+            hint: 'The opposite of strong.'
         },
         {
             german: 'stark',
             translation: 'strong',
             category: 'adjectives',
-            hint: ''
+            hint: 'Having great physical power.'
         },
         {
             german: 'traurig',
             translation: 'sad',
             category: 'adjectives',
-            hint: ''
+            hint: `You cry when you're ${underline}.`
         },
         {
             german: 'das Datum',
