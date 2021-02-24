@@ -1622,35 +1622,35 @@ gameArray = [
             plural: 'die Bahnhöfe',
             translation: 'train station',
             category: 'travel',
-            hint: ''
+            hint: 'You might wait at the platform here.'
         },
         {
             german: 'der Geldautomat',
             plural: 'die Geldautomaten',
             translation: ['ATM', 'atm'],
             category: 'travel',
-            hint: ''
+            hint: 'A cash machine.'
         },
         {
             german: 'das Hotel',
             plural: 'die Hotels',
             translation: 'hotel',
             category: 'travel',
-            hint: ''
+            hint: 'Home away from home.'
         },
         {
             german: 'das Ladegerät',
             plural: 'die Ladegeräte',
             translation: 'charger',
             category: 'travel',
-            hint: ''
+            hint: 'This powers up your phone.'
         },
         {
             german: 'der Zug',
             plural: 'die Züge',
             translation: 'train',
             category: 'travel',
-            hint: ''
+            hint: 'The Hogwarts Express is one.'
         },
         {
             german: 'glücklich',
