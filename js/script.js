@@ -1591,31 +1591,31 @@ gameArray = [
             german: 'sechsunddreißig',
             translation: ['thirty-six', 'thirty six'],
             category: 'numbers',
-            hint: ''
+            hint: `Krypton's atomic number.`
         },
         {
             german: 'siebenunddreißig',
             translation: ['thirty-seven', 'thirty seven'],
             category: 'numbers',
-            hint: ''
+            hint: 'Comes after thirty-six.'
         },
         {
             german: 'achtunddreißig',
             translation: ['thirty-eight', 'thirty eight'],
             category: 'numbers',
-            hint: ''
+            hint: `19 ✕ 2 = ${underline}`
         },
         {
             german: 'neununddreißig',
             translation: ['thirty-nine', 'thirty nine'],
             category: 'numbers',
-            hint: ''
+            hint: 'Almost forty.'
         },
         {
             german: 'vierzig',
             translation: 'forty',
             category: 'numbers',
-            hint: ''
+            hint: `A nap is sometimes called ${underline} <span class="ital">winks</span>.` 
         },
         {
             german: 'der Bahnhof',
