@@ -1588,6 +1588,36 @@ gameArray = [
             hint: 'A way to change the subject.'
         },
         {
+            german: 'sechsunddreißig',
+            translation: ['thirty-six', 'thirty six'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'siebenunddreißig',
+            translation: ['thirty-seven', 'thirty seven'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'achtunddreißig',
+            translation: ['thirty-eight', 'thirty eight'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'neununddreißig',
+            translation: ['thirty-nine', 'thirty nine'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'vierzig',
+            translation: 'forty',
+            category: 'numbers',
+            hint: ''
+        },
+        {
             german: 'der Bahnhof',
             plural: 'die Bahnhöfe',
             translation: 'train station',
