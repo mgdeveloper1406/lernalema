@@ -1588,6 +1588,41 @@ gameArray = [
             hint: 'A way to change the subject.'
         },
         {
+            german: 'der Bahnhof',
+            plural: 'die Bahnhöfe',
+            translation: 'train station',
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'der Geldautomat',
+            plural: 'die Geldautomaten',
+            translation: ['ATM', 'atm'],
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'das Hotel',
+            plural: 'die Hotels',
+            translation: 'hotel',
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'das Ladegerät',
+            plural: 'die Ladegeräte',
+            translation: 'charger',
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'der Zug',
+            plural: 'die Züge',
+            translation: 'train',
+            category: 'travel',
+            hint: ''
+        },
+        {
             german: 'glücklich',
             translation: 'happy',
             category: 'adjectives',
