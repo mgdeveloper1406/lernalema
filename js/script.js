@@ -1750,7 +1750,7 @@ gameArray = [
             plural: 'die Stickereien',
             translation: 'embroidery',
             category: 'arts',
-            hint: 'The art of stitches.'
+            hint: 'The art of stitchwork.'
         },
     ]
 ];
