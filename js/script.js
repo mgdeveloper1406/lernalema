@@ -1653,6 +1653,41 @@ gameArray = [
             hint: 'The Hogwarts Express is one.'
         },
         {
+            german: 'die Armbanduhr',
+            plural: 'die Armbanduhren',
+            translation: ['wristwatch', 'watch'],
+            category: 'clothes',
+            hint: ''
+        },
+        {
+            german: 'die Brille',
+            plural: 'die Brillen',
+            translation: ['eyeglasses', 'glasses'],
+            category: 'clothes',
+            hint: ''
+        },
+        {
+            german: 'die Halskette',
+            plural: 'die Halsketten',
+            translation: 'necklace',
+            category: 'clothes',
+            hint: ''
+        },
+        {
+            german: 'der Ohrring',
+            plural: 'die Ohrringe',
+            translation: 'earring',
+            category: 'clothes',
+            hint: ''
+        },
+        {
+            german: 'der Ring',
+            plural: 'die Ringe',
+            translation: 'ring',
+            category: 'clothes',
+            hint: ''
+        },
+        {
             german: 'glücklich',
             translation: 'happy',
             category: 'adjectives',
