@@ -1691,7 +1691,7 @@ gameArray = [
             german: 'glücklich',
             translation: 'happy',
             category: 'adjectives',
-            hint: `If you're ${underline} and you know it &mldr;`
+            hint: (`<span class="ital">&sung; If you're ${underline} and you know it &mldr; &sung;</span>`)
         },
         {
             german: 'müde',
