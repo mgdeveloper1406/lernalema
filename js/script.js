@@ -1615,7 +1615,7 @@ gameArray = [
             german: 'vierzig',
             translation: 'forty',
             category: 'numbers',
-            hint: `A nap is sometimes called ${underline} <span class="ital">winks</span>.` 
+            hint: (`A nap is sometimes called ${underline} <span class="ital">winks</span>.`) 
         },
         {
             german: 'der Bahnhof',
@@ -1657,35 +1657,35 @@ gameArray = [
             plural: 'die Armbanduhren',
             translation: ['wristwatch', 'watch'],
             category: 'clothes',
-            hint: ''
+            hint: 'A wearable timekeeper.'
         },
         {
             german: 'die Brille',
             plural: 'die Brillen',
             translation: ['eyeglasses', 'glasses'],
             category: 'clothes',
-            hint: ''
+            hint: 'These keep you from squinting.'
         },
         {
             german: 'die Halskette',
             plural: 'die Halsketten',
             translation: 'necklace',
             category: 'clothes',
-            hint: ''
+            hint: 'Moana keeps the Heart of Te Fiti in one.'
         },
         {
             german: 'der Ohrring',
             plural: 'die Ohrringe',
             translation: 'earring',
             category: 'clothes',
-            hint: ''
+            hint: (`<span class="ital">Girl with a Pearl ${underline}.</span>`)
         },
         {
             german: 'der Ring',
             plural: 'die Ringe',
             translation: 'ring',
             category: 'clothes',
-            hint: ''
+            hint: (`<span class="ital">&sung; If you liked it then you shoulda put a ${underline} on it &mldr; &sung;</span>`)
         },
         {
             german: 'glücklich',
