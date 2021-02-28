@@ -1753,6 +1753,41 @@ gameArray = [
             hint: 'The length of one lunar cycle, roughly.'
         },
         {
+            german: 'der Drucker',
+            plural: 'die Drucker',
+            translation: 'printer',
+            category: 'tech',
+            hint: ''
+        },
+        {
+            german: 'das Gerät',
+            plural: 'die Geräte',
+            translation: 'device',
+            category: 'tech',
+            hint: ''
+        },
+        {
+            german: 'der Kopfhörer',
+            plural: 'die Kopfhörer',
+            translation: ['headphone', 'headphones'],
+            category: 'tech',
+            hint: ''
+        },
+        {
+            german: 'das Mikrofon',
+            plural: 'die Mikrofon',
+            translation: 'microphone',
+            category: 'tech',
+            hint: ''
+        },
+        {
+            german: 'die Tastatur',
+            plural: 'die Tastaturen',
+            translation: 'keyboard',
+            category: 'tech',
+            hint: ''
+        },
+        {
             german: 'das Bild',
             plural: 'die Bilder',
             translation: 'painting',
