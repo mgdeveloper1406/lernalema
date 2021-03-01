@@ -1757,35 +1757,35 @@ gameArray = [
             plural: 'die Drucker',
             translation: 'printer',
             category: 'tech',
-            hint: ''
+            hint: 'Always seems to run out of ink at the most inconvenient time.'
         },
         {
             german: 'das Gerät',
             plural: 'die Geräte',
             translation: 'device',
             category: 'tech',
-            hint: ''
+            hint: ('Another word for <span class="ital">gadget</span>; rhymes with <span class="ital">precise</span>.')
         },
         {
             german: 'der Kopfhörer',
             plural: 'die Kopfhörer',
             translation: ['headphone', 'headphones'],
             category: 'tech',
-            hint: ''
+            hint: 'Used to listen to things, without disturbing others.'
         },
         {
             german: 'das Mikrofon',
             plural: 'die Mikrofon',
             translation: 'microphone',
             category: 'tech',
-            hint: ''
+            hint: `Can't do karaoke without one.`
         },
         {
             german: 'die Tastatur',
             plural: 'die Tastaturen',
             translation: 'keyboard',
             category: 'tech',
-            hint: ''
+            hint: (`<span class="ital">Click clack</span>—you type with this.`)
         },
         {
             german: 'das Bild',
