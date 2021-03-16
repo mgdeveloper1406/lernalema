@@ -1618,41 +1618,6 @@ gameArray = [
             hint: (`A nap is sometimes called ${underline} <span class="ital">winks</span>.`) 
         },
         {
-            german: 'der Bahnhof',
-            plural: 'die Bahnhöfe',
-            translation: 'train station',
-            category: 'travel',
-            hint: 'You might wait at the platform here.'
-        },
-        {
-            german: 'der Geldautomat',
-            plural: 'die Geldautomaten',
-            translation: ['ATM', 'atm'],
-            category: 'travel',
-            hint: 'A cash machine.'
-        },
-        {
-            german: 'das Hotel',
-            plural: 'die Hotels',
-            translation: 'hotel',
-            category: 'travel',
-            hint: 'Home away from home.'
-        },
-        {
-            german: 'das Ladegerät',
-            plural: 'die Ladegeräte',
-            translation: 'charger',
-            category: 'travel',
-            hint: 'This powers up your phone.'
-        },
-        {
-            german: 'der Zug',
-            plural: 'die Züge',
-            translation: 'train',
-            category: 'travel',
-            hint: 'The Hogwarts Express is one.'
-        },
-        {
             german: 'die Armbanduhr',
             plural: 'die Armbanduhren',
             translation: ['wristwatch', 'watch'],
@@ -1751,6 +1716,41 @@ gameArray = [
             translation: 'month',
             category: 'calendar',
             hint: 'The length of one lunar cycle, roughly.'
+        },
+        {
+            german: 'der Bahnhof',
+            plural: 'die Bahnhöfe',
+            translation: 'train station',
+            category: 'travel',
+            hint: 'You might wait at the platform here.'
+        },
+        {
+            german: 'der Geldautomat',
+            plural: 'die Geldautomaten',
+            translation: ['ATM', 'atm'],
+            category: 'travel',
+            hint: 'A cash machine.'
+        },
+        {
+            german: 'das Hotel',
+            plural: 'die Hotels',
+            translation: 'hotel',
+            category: 'travel',
+            hint: 'Home away from home.'
+        },
+        {
+            german: 'das Ladegerät',
+            plural: 'die Ladegeräte',
+            translation: 'charger',
+            category: 'travel',
+            hint: 'This powers up your phone.'
+        },
+        {
+            german: 'der Zug',
+            plural: 'die Züge',
+            translation: 'train',
+            category: 'travel',
+            hint: 'The Hogwarts Express is one.'
         },
         {
             german: 'der Drucker',
