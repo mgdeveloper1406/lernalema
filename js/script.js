@@ -1753,6 +1753,41 @@ gameArray = [
             hint: 'The Hogwarts Express is one.'
         },
         {
+            german: 'der Angriff',
+            plural: 'die Angriffe',
+            translation: ['attack', 'assault'],
+            category: 'catastrophe',
+            hint: ''
+        },
+        {
+            german: 'die Bombe',
+            plural: 'die Bomben',
+            translation: 'bomb',
+            category: 'catastrophe',
+            hint: ''
+        },
+        {
+            german: 'der Kampf',
+            plural: 'die Kämpfe',
+            translation: 'fight',
+            category: 'catastrophe',
+            hint: ''
+        },
+        {
+            german: 'der Krieg',
+            plural: 'die Kriege',
+            translation: 'war',
+            category: 'catastrophe',
+            hint: ''
+        },
+        {
+            german: 'der Tod',
+            plural: 'die Todesfälle',
+            translation: 'death',
+            category: 'catastrophe',
+            hint: ''
+        },
+        {
             german: 'der Drucker',
             plural: 'die Drucker',
             translation: 'printer',
