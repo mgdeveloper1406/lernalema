@@ -1757,35 +1757,35 @@ gameArray = [
             plural: 'die Angriffe',
             translation: ['attack', 'assault'],
             category: 'catastrophe',
-            hint: ''
+            hint: (`<span class="ital">${underline} of the 50 Foot Woman.</span>`)
         },
         {
             german: 'die Bombe',
             plural: 'die Bomben',
             translation: 'bomb',
             category: 'catastrophe',
-            hint: ''
+            hint: 'MacGyver can defuse one of these with a paperclip.'
         },
         {
             german: 'der Kampf',
             plural: 'die Kämpfe',
             translation: 'fight',
             category: 'catastrophe',
-            hint: ''
+            hint: (`<span class="ital">&sung; You gotta ${underline} for your right to party &mldr; &sung;</span>`)
         },
         {
             german: 'der Krieg',
             plural: 'die Kriege',
             translation: 'war',
             category: 'catastrophe',
-            hint: ''
+            hint: (`"${underline} is hell." —<span class="ital">General Sherman</span>`)
         },
         {
             german: 'der Tod',
             plural: 'die Todesfälle',
             translation: 'death',
             category: 'catastrophe',
-            hint: ''
+            hint: (`"Because I Could Not Stop for ${underline}" is a poem by Emily Dickinson.`)
         },
         {
             german: 'der Drucker',
