@@ -1892,6 +1892,44 @@ gameArray = [
             category: 'body',
             hint: ''
         }
+    ],
+
+    round9 = [
+        {
+            german: 'die Brust',
+            plural: 'die Brüste',
+            translation: ['chest', 'breast'],
+            category: 'body',
+            hint: ''
+        },
+        {
+            german: 'der Fuß',
+            plural: 'die Füße',
+            translation: 'foot',
+            category: 'body',
+            hint: ''
+        },
+        {
+            german: 'die Hand',
+            plural: 'die Hände',
+            translation: 'hand',
+            category: 'body',
+            hint: ''
+        },
+        {
+            german: 'das Herz',
+            plural: 'die Herzen',
+            translation: 'heart',
+            category: 'body',
+            hint: ''
+        },
+        {
+            german: 'der Rücken',
+            plural: 'die Rücken',
+            translation: 'back',
+            category: 'body',
+            hint: ''
+        },
     ]
 ];
 
