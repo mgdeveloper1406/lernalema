@@ -1857,6 +1857,41 @@ gameArray = [
             category: 'arts',
             hint: 'The art of stitchwork.'
         },
+        {
+            german: 'der Arm',
+            plural: 'die Arme',
+            translation: 'arm',
+            category: 'body',
+            hint: ''
+        },
+        {
+            german: 'das Bein',
+            plural: 'die Beine',
+            translation: 'leg',
+            category: 'body',
+            hint: ''
+        },
+        {
+            german: 'das Gesicht',
+            plural: 'die Gesichter',
+            translation: 'face',
+            category: 'body',
+            hint: ''
+        },
+        {
+            german: 'der Kopf',
+            plural: 'die Köpfe',
+            translation: 'head',
+            category: 'body',
+            hint: ''
+        },
+        {
+            german: 'der Körper',
+            plural: 'die Körper',
+            translation: 'body',
+            category: 'body',
+            hint: ''
+        }
     ]
 ];
 
