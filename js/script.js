@@ -1927,6 +1927,12 @@ const categoryColors = () => {
             $('#insert-category').html('Arts');
             $('#card-icon').attr('src', 'images/category-icons-arts.svg');
             break;
+        case 'body':
+            $('#german-box').css('backgroundColor', '#f56a37');
+            $('#plural-zone').css('display', 'none');
+            $('#insert-category').html('Body');
+            $('#card-icon').attr('src', 'images/category-icons-body.svg');
+            break;
         case 'calendar':
             $('#german-box').css('backgroundColor', '#cd5c5c');
             $('#plural-zone').css('display', 'block');
@@ -1956,12 +1962,6 @@ const categoryColors = () => {
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Home');
             $('#card-icon').attr('src', 'images/category-icons-home.svg');
-            break;
-        case 'infinitives':
-            $('#german-box').css('backgroundColor', '#f56a37');
-            $('#plural-zone').css('display', 'none');
-            $('#insert-category').html('Infinitives');
-            $('#card-icon').attr('src', 'images/category-icons-infinitives.svg');
             break;
         case 'nature':
             $('#german-box').css('backgroundColor', '#2e8b57');
@@ -2327,6 +2327,8 @@ $('#mini-review').on('click', function() {
             $(reviewWords).css('color', '#a08181');
         } else if (element.category === 'arts') {
             $(reviewWords).css('color', '#4682b4');
+        } else if (element.category === 'body') {
+            $(reviewWords).css('color', '#f56a37');
         } else if (element.category === 'calendar') {
             $(reviewWords).css('color', '#cd5c5c');
         } else if (element.category === 'catastrophe') {
@@ -2337,8 +2339,6 @@ $('#mini-review').on('click', function() {
             $(reviewWords).css('color', '#f44336');
         } else if (element.category === 'home') {
             $(reviewWords).css('color', '#772e53');
-        } else if (element.category === 'infinitives') {
-            $(reviewWords).css('color', '#f56a37');
         } else if (element.category === 'nature') {
             $(reviewWords).css('color', '#2e8b57');
         } else if (element.category === 'numbers') {
@@ -2403,6 +2403,8 @@ $('#final-review').on('click', function() {
             $(finalReviewWords).css('color', '#a08181');
         } else if (thing.category === 'arts') {
             $(finalReviewWords).css('color', '#4682b4');
+        } else if (thing.category === 'body') {
+            $(finalReviewWords).css('color', '#f56a37');
         } else if (thing.category === 'calendar') {
             $(finalReviewWords).css('color', '#cd5c5c');
         } else if (thing.category === 'catastrophe') {
@@ -2413,8 +2415,6 @@ $('#final-review').on('click', function() {
             $(finalReviewWords).css('color', '#f44336');
         } else if (thing.category === 'home') {
             $(finalReviewWords).css('color', '#772e53');
-        } else if (thing.category === 'infinitives') {
-            $(finalReviewWords).css('color', '#f56a37');
         } else if (thing.category === 'nature') {
             $(finalReviewWords).css('color', '#2e8b57');
         } else if (thing.category === 'numbers') {
