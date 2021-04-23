@@ -2659,6 +2659,13 @@ $('input.category[type=checkbox]').on('click keydown', function() {
             }
         });
     }
+    if ($('#body').is(':checked') === true) {
+        consolidatedArray.forEach(randomWord => {
+            if (randomWord.category === 'body') {
+                wordArray.push(randomWord);
+            }
+        });
+    }
     if ($('#calendar').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'calendar') {
@@ -2690,13 +2697,6 @@ $('input.category[type=checkbox]').on('click keydown', function() {
     if ($('#home').is(':checked') === true) {
         consolidatedArray.forEach(randomWord => {
             if (randomWord.category === 'home') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#ifinitives').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'ifinitives') {
                 wordArray.push(randomWord);
             }
         });
