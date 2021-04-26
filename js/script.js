@@ -5,6 +5,7 @@ let solvedArray = [];
 let miniReviewArray = [];
 let endReviewArray = [];
 let consolidatedArray = [];
+let customRoundArray = [];
 let i;
 let level = 1;
 let infoCountdown;
@@ -2632,145 +2633,46 @@ $('input.category[type=checkbox]').on('click keydown', function() {
         $(this).next('label').children('p').removeClass('bolded');
     }
 
-    // prevents the game from ending if a person clicks a category before deciding not to use category selection. removes the unselected words from wordArray and prevents the round 2 modal box from appearing.
-    if ($('input.category[type=checkbox]').is(':checked') === true) {
-        wordArray.length = 0;
-        gameArray.splice(1);
-    }
-
-    if ($('#adjectives').is(':checked') === true) {
+    // if a category button is selected
+    if ($(this).is(':checked') === true) {
+        // loop through the words in consolidatedArray
         consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'adjectives') {
-                wordArray.push(randomWord);
+            // and if those words' categories match the button's ID
+            if (randomWord.category == $(this).attr('id')) {
+                // push the words into customRoundArray 
+                customRoundArray.push(randomWord);
             }
         });
     } 
-    if ($('#animals').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'animals') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#arts').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'arts') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#body').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'body') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#calendar').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'calendar') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#catastrophe').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'catastrophe') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#clothes').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'clothes') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#food').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'food') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#home').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'home') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#nature').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'nature') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#numbers').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'numbers') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#people').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'people') {
-                wordArray.push(randomWord);
-            } 
-        });
-    }
-    if ($('#phrases').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'phrases') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#tech').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'tech') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
-    if ($('#travel').is(':checked') === true) {
-        consolidatedArray.forEach(randomWord => {
-            if (randomWord.category === 'travel') {
-                wordArray.push(randomWord);
-            }
-        });
-    }
 
-
-    
-
-    // if ($(this).is(':checked') === true) {
-    //     consolidatedArray.forEach(randomWord => {
-    //         if (randomWord.category === $(this).attr('name')) {
-    //             wordArray.push(randomWord);
-    //         }
-    //     });
-    // } else if ($('input[type=checkbox]').is(':checked') === false) {
-    //     wordArray.forEach(randomWord => {
-    //         if (randomWord.category === $(this).attr('name')) {
-    //             wordArray.splice(randomWord);
-    //         }
-    //     });
-    // }
-    // console.log($(this).attr('name'));
-    // console.log(wordArray);
+    // if any category is selected
+    if ($('input.category[type=checkbox]').is(':checked') === true) {
+        // empty wordArray, so it can be filled with customRoundArray words when .select-categories is clicked
+        wordArray.length = 0;
+        
+        // remove all but the first round in gameArray
+        gameArray.splice(1);
+       
+        // call the following functions to remove the current flashcard, since it will still be visible on the screen
+        gimmeWords();
+        categoryColors();
+        updateCountdown();
+        revealCountdownText();
+    }
 });
 
-// select categories and close the selection panel
+// confirm category selection 
 $('.select-categories').on('click', function() {
+    // push the customRoundArray words into wordArray
+    wordArray.push.apply(wordArray, customRoundArray.splice(0));
+
+    // populate and style the selected flashcards
     gimmeWords();
     categoryColors();
     updateCountdown();
     revealCountdownText();
     
+    // and close the selection panel
     if ($('#categories-wrapper').css('display') == ('block')) {
         setTimeout(function removeHeaderShadow() {
             $('header').removeClass('header-shadow');
