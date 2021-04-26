@@ -2582,6 +2582,12 @@ $('#open-categories').on('click keydown', function() {
 
     // bring back the info switch, since it's hidden when the hamburger menu is clicked
     $('#info-switch-container').css('display', 'flex');
+
+    if (selectionConfirmed == true) {
+        $(document).on('click', '#open-categories', function() {
+            location.reload(true);
+        });
+    };
 });
 
 function closeCategories() {
