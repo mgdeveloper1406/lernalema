@@ -9,6 +9,7 @@ let customRoundArray = [];
 let i;
 let level = 1;
 let infoCountdown;
+let selectionConfirmed = false;
 
 // change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
@@ -2650,6 +2651,9 @@ $('input.category[type=checkbox]').on('click keydown', function() {
 $('.select-categories').on('click', function() {
     // if any category is selected
     if ($('input.category[type=checkbox]').is(':checked') === true) {
+        // update the selectionConfirmed boolean
+        selectionConfirmed = true;
+
         // empty wordArray, so it can be filled with customRoundArray words when .select-categories is clicked
         wordArray.length = 0;
         
