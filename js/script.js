@@ -2088,10 +2088,8 @@ categoryColors();
 function updateCountdown() {
     if (wordArray.length == 1) {
         $('#countdown-container').html('<span class="countdown-text">This round has</span> <span id="countdown"></span> <span class="countdown-text">word remaining</span>');
-        // $('#countdown').html(`${wordArray.length} word`);
     } else if (wordArray.length >= 2 || wordArray.length == 0) {
         $('#countdown-container').html('<span class="countdown-text">This round has</span> <span id="countdown"></span> <span class="countdown-text">words remaining</span>');
-        // $('#countdown').html(`${wordArray.length} words`);
     }
     $('#countdown').html(wordArray.length);
 };
