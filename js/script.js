@@ -2641,8 +2641,13 @@ $('input.category[type=checkbox]').on('click keydown', function() {
                 customRoundArray.push(randomWord);
             }
         });
+        console.log($(this).attr('id'));
+        console.log(customRoundArray);
     } 
+});
 
+// confirm category selection 
+$('.select-categories').on('click', function() {
     // if any category is selected
     if ($('input.category[type=checkbox]').is(':checked') === true) {
         // empty wordArray, so it can be filled with customRoundArray words when .select-categories is clicked
@@ -2657,10 +2662,7 @@ $('input.category[type=checkbox]').on('click keydown', function() {
         updateCountdown();
         revealCountdownText();
     }
-});
 
-// confirm category selection 
-$('.select-categories').on('click', function() {
     // push the customRoundArray words into wordArray
     wordArray.push.apply(wordArray, customRoundArray.splice(0));
 
