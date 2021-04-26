@@ -2003,7 +2003,7 @@ const categoryColors = () => {
             break;
         case 'body':
             $('#german-box').css('backgroundColor', '#f56a37');
-            $('#plural-zone').css('display', 'none');
+            $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Body');
             $('#card-icon').attr('src', 'images/category-icons-body.svg');
             break;
