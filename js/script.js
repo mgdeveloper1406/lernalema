@@ -45,36 +45,6 @@ const chameleonColors = () => {
 //         category: 'food',
 //     },
 //     {
-//         german: 'das Eichhörnchen',
-//         plural: 'die Eichhörnchen',
-//         translation: 'squirrel',
-//         category: 'animals'
-//     },
-//     {
-//         german: 'die Fledermaus',
-//         plural: 'die Fledermäuse',
-//         translation: 'bat',
-//         category: 'animals'
-//     },
-//     {
-//         german: 'der Frosch',
-//         plural: 'die Frösche',
-//         translation: 'frog',
-//         category: 'animals'
-//     },
-//     {
-//         german: 'der Hai',
-//         plural: 'die Haie',
-//         translation: 'shark',
-//         category: 'animals'
-//     },
-//     {
-//         german: 'die Schildkröte',
-//         plural: 'die Schildkröten',
-//         translation: 'turtle',
-//         category: 'animals'
-//     },
-//     {
 //         german: 'das Meer',
 //         plural: 'die Meere',
 //         translation: 'sea',
@@ -1896,6 +1866,41 @@ gameArray = [
     ],
 
     round9 = [
+        {
+            german: 'das Eichhörnchen',
+            plural: 'die Eichhörnchen',
+            translation: 'squirrel',
+            category: 'animals',
+            hint: ''
+        },
+        {
+            german: 'die Fledermaus',
+            plural: 'die Fledermäuse',
+            translation: 'bat',
+            category: 'animals',
+            hint: ''
+        },
+        {
+            german: 'der Frosch',
+            plural: 'die Frösche',
+            translation: 'frog',
+            category: 'animals',
+            hint: ''
+        },
+        {
+            german: 'die Schildkröte',
+            plural: 'die Schildkröten',
+            translation: 'turtle',
+            category: 'animals',
+            hint: ''
+        },
+        {
+            german: 'die Schlange',
+            plural: 'die Schlangen',
+            translation: 'snake',
+            category: 'animals',
+            hint: ''
+        },
         {
             german: 'die Brust',
             plural: 'die Brüste',
