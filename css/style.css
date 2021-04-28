@@ -218,6 +218,7 @@ button.lightning-round:hover {
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
+    max-width: 692px;
 }
 .category-buttons {
     width: 110px;
