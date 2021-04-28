@@ -1906,35 +1906,35 @@ gameArray = [
             plural: 'die Brüste',
             translation: ['chest', 'breast'],
             category: 'body',
-            hint: ''
+            hint: 'The upper torso.'
         },
         {
             german: 'der Fuß',
             plural: 'die Füße',
             translation: 'foot',
             category: 'body',
-            hint: ''
+            hint: 'Goes in a sock.'
         },
         {
             german: 'die Hand',
             plural: 'die Hände',
             translation: 'hand',
             category: 'body',
-            hint: ''
+            hint: 'Goes in a glove.'
         },
         {
             german: 'das Herz',
             plural: 'die Herzen',
             translation: 'heart',
             category: 'body',
-            hint: ''
+            hint: 'A major organ.'
         },
         {
             german: 'der Rücken',
             plural: 'die Rücken',
             translation: 'back',
             category: 'body',
-            hint: ''
+            hint: 'Where you might carry a rucksack.'
         },
     ]
 ];
