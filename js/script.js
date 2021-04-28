@@ -4,7 +4,6 @@ let underline = `<span class="underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</s
 let solvedArray = [];
 let miniReviewArray = [];
 let endReviewArray = [];
-let consolidatedArray = [];
 let customRoundArray = [];
 let i;
 let level = 1;
@@ -1935,6 +1934,9 @@ gameArray = [
     ]
 ];
 
+// merge all the rounds in gameArray
+let consolidatedArray = [].concat.apply([], gameArray);
+
 // getRandom and gimmeWords work in conjunction to pick a random word from wordArray
 function getRandom(object) {
     let theKeys = Object.keys(object);
@@ -2561,10 +2563,6 @@ $('#open-categories').on('click keydown', function() {
     const wordTotal = arrLengths.reduce(reducer, solvedArray.length);
     $('#total-words').html(wordTotal);
 
-    // merge all the rounds in gameArray
-    consolidatedArray = [].concat.apply([], gameArray);
-    console.log(consolidatedArray);
-
     // close the mobile nav to reveal the categories
     if ($('nav').css('left') == '0px' && $(window).width() < 616) {
         $('nav').animate({left: '100%'});
@@ -2582,12 +2580,6 @@ $('#open-categories').on('click keydown', function() {
 
     // bring back the info switch, since it's hidden when the hamburger menu is clicked
     $('#info-switch-container').css('display', 'flex');
-
-    if (selectionConfirmed == true) {
-        $(document).on('click', '#open-categories', function() {
-            location.reload(true);
-        });
-    };
 });
 
 function closeCategories() {
@@ -2648,15 +2640,13 @@ $('input.category[type=checkbox]').on('click keydown', function() {
                 customRoundArray.push(randomWord);
             }
         });
-        console.log($(this).attr('id'));
-        console.log(customRoundArray);
-    } 
+    }
 });
 
 // confirm category selection 
 $('.select-categories').on('click', function() {
     // if any category is selected
-    if ($('input.category[type=checkbox]').is(':checked') === true) {
+    if ($('input.category[type=checkbox]').is(':checked') === true && selectionConfirmed == false) {
         // update the selectionConfirmed boolean
         selectionConfirmed = true;
 
@@ -2667,6 +2657,13 @@ $('.select-categories').on('click', function() {
         gameArray.splice(1);
        
         // call the following functions to remove the current flashcard, since it will still be visible on the screen
+        gimmeWords();
+        categoryColors();
+        updateCountdown();
+        revealCountdownText();
+    } else if ($('input.category[type=checkbox]').is(':checked') === true && selectionConfirmed == true) {
+        // wordArray isn't zeroed out, so the confirmed selections aren't removed
+
         gimmeWords();
         categoryColors();
         updateCountdown();
