@@ -1871,35 +1871,35 @@ gameArray = [
             plural: 'die Eichhörnchen',
             translation: 'squirrel',
             category: 'animals',
-            hint: ''
+            hint: 'A twitchy rodent that loves acorns.'
         },
         {
             german: 'die Fledermaus',
             plural: 'die Fledermäuse',
             translation: 'bat',
             category: 'animals',
-            hint: ''
+            hint: 'This creature of the night is associated with vampires.'
         },
         {
             german: 'der Frosch',
             plural: 'die Frösche',
             translation: 'frog',
             category: 'animals',
-            hint: ''
+            hint: 'When brightly colored, this amphibian is likely poisonous.'
         },
         {
             german: 'die Schildkröte',
             plural: 'die Schildkröten',
             translation: 'turtle',
             category: 'animals',
-            hint: ''
+            hint: 'This reptile has a built-in shield.'
         },
         {
             german: 'die Schlange',
             plural: 'die Schlangen',
             translation: 'snake',
             category: 'animals',
-            hint: ''
+            hint: `This reptile doesn't need arms, to squeeze you.`
         },
         {
             german: 'die Brust',
