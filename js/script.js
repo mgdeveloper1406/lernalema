@@ -5,6 +5,7 @@ let solvedArray = [];
 let miniReviewArray = [];
 let endReviewArray = [];
 let customRoundArray = [];
+let deselectedArray = [];
 let i;
 let level = 1;
 let infoCountdown;
@@ -2645,6 +2646,18 @@ $('input.category[type=checkbox]').on('click keydown', function() {
                 customRoundArray.push(randomWord);
             }
         });
+    }
+
+    // if a category button is deselected
+    if ($(this).is(':checked') == false) {
+        // loop backward through customRoundArray
+        for (let x = customRoundArray.length - 1; x >= 0; --x) {
+            // and if a word's category matches the deselected button's ID  
+            if (customRoundArray[x].category == $(this).attr('id')) {
+                // splice it, and push it into deselectedArray
+                deselectedArray.push(customRoundArray.splice(x, 1));
+            }
+        }
     }
 });
 
