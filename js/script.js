@@ -1834,35 +1834,35 @@ gameArray = [
             plural: 'die Arme',
             translation: 'arm',
             category: 'body',
-            hint: ''
+            hint: 'A "humerus" limb.'
         },
         {
             german: 'das Bein',
             plural: 'die Beine',
             translation: 'leg',
             category: 'body',
-            hint: ''
+            hint: `Put on your pants one ${underline} at a time.` 
         },
         {
             german: 'das Gesicht',
             plural: 'die Gesichter',
             translation: 'face',
             category: 'body',
-            hint: ''
+            hint: 'Your nose is at the center of this.'
         },
         {
             german: 'der Kopf',
             plural: 'die Köpfe',
             translation: 'head',
             category: 'body',
-            hint: ''
+            hint: `In <span class="ital">Sleepy Hollow</span>, the legendary horseman lacks this.`
         },
         {
             german: 'der Körper',
             plural: 'die Körper',
             translation: 'body',
             category: 'body',
-            hint: ''
+            hint: 'Your corporeal form.'
         }
     ],
 
