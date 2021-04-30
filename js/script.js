@@ -1848,14 +1848,14 @@ gameArray = [
             plural: 'die Gesichter',
             translation: 'face',
             category: 'body',
-            hint: 'Your nose is at the center of this.'
+            hint: 'Your nose is at the center.'
         },
         {
             german: 'der Kopf',
             plural: 'die Köpfe',
             translation: 'head',
             category: 'body',
-            hint: `In <span class="ital">Sleepy Hollow</span>, the legendary horseman lacks this.`
+            hint: `What the <span class="ital">Sleepy Hollow</span> horseman lacks.`
         },
         {
             german: 'der Körper',
@@ -1935,7 +1935,7 @@ gameArray = [
             plural: 'die Rücken',
             translation: 'back',
             category: 'body',
-            hint: 'Where you might carry a rucksack.'
+            hint: 'Where you carry a rucksack.'
         },
     ]
 ];
