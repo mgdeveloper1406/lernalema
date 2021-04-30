@@ -839,7 +839,7 @@ gameArray = [
         {
             german: 'die Krawatte',
             plural: 'die Krawatten',
-            translation: 'tie',
+            translation: ['necktie', 'tie'],
             category: 'clothes',
             hint: 'Knot styles include the half Windsor, the Atlantic, and the Pratt.'
         },
