@@ -63,12 +63,7 @@ const chameleonColors = () => {
 //         translation: 'lake',
 //         category: 'nature'
 //     },
-//     {
-//         german: 'der Stein',
-//         plural: 'die Steine',
-//         translation: 'rock',
-//         category: 'nature'
-//     },
+//     
 //     {
 //         german: 'der Wald',
 //         plural: 'die Wälder',
@@ -1086,18 +1081,18 @@ gameArray = [
             hint: `Solid as a ${underline}.`
         },
         {
-            german: 'der Fluss',
-            plural: 'die Flüsse',
-            translation: 'river',
-            category: 'nature',
-            hint: 'The Nile is one, the Amazon is another.'
-        },
-        {
             german: 'der Hügel',
             plural: 'die Hügel',
             translation: 'hill',
             category: 'nature',
             hint: 'These can be rolling without ever moving.'
+        },
+        {
+            german: 'der Stein',
+            plural: 'die Steine',
+            translation: 'stone',
+            category: 'nature',
+            hint: ''
         },
         {
             german: 'das Tal',
