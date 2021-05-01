@@ -1092,7 +1092,7 @@ gameArray = [
             plural: 'die Steine',
             translation: 'stone',
             category: 'nature',
-            hint: ''
+            hint: 'Excalibur was pulled from one.'
         },
         {
             german: 'das Tal',
