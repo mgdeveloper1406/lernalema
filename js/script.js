@@ -44,26 +44,7 @@ const chameleonColors = () => {
 //         plural: 'die Gemüse',
 //         translation: 'vegetable',
 //         category: 'food',
-//     },
-//     {
-//         german: 'das Meer',
-//         plural: 'die Meere',
-//         translation: 'sea',
-//         category: 'nature'
-//     },
-//     {
-//         german: 'der Ozean',
-//         plural: 'die Ozeane',
-//         translation: 'ocean',
-//         category: 'nature'
-//     },
-//     {
-//         german: 'der See',
-//         plural: 'die Seen',
-//         translation: 'lake',
-//         category: 'nature'
-//     },
-//     
+//     },     
 //     {
 //         german: 'der Wald',
 //         plural: 'die Wälder',
@@ -1896,6 +1877,37 @@ gameArray = [
             translation: 'snake',
             category: 'animals',
             hint: `This reptile doesn't need arms, to squeeze you.`
+        },
+        {
+            german: 'der Fluss',
+            plural: 'die Flüsse',
+            translation: 'river',
+            category: 'nature',
+            hint: 'The Nile is one, the Amazon is another.'
+        },
+        {
+            german: 'das Meer',
+            plural: 'die Meere',
+            translation: 'sea',
+            category: 'nature'
+        },
+        {
+            german: 'der Ozean',
+            plural: 'die Ozeane',
+            translation: 'ocean',
+            category: 'nature'
+        },
+        {
+            german: 'der See',
+            plural: 'die Seen',
+            translation: 'lake',
+            category: 'nature'
+        },
+        {
+            german: 'der Teich',
+            plural: 'die Teiche',
+            translation: 'pond',
+            category: 'nature'
         },
         {
             german: 'die Brust',
