@@ -1889,25 +1889,29 @@ gameArray = [
             german: 'das Meer',
             plural: 'die Meere',
             translation: 'sea',
-            category: 'nature'
+            category: 'nature',
+            hint: `The Dead ${underline} Scrolls.`
         },
         {
             german: 'der Ozean',
             plural: 'die Ozeane',
             translation: 'ocean',
-            category: 'nature'
+            category: 'nature',
+            hint: `The Atlantic ${underline}.`
         },
         {
             german: 'der See',
             plural: 'die Seen',
             translation: 'lake',
-            category: 'nature'
+            category: 'nature',
+            hint: 'A deep, large inland body of water.'
         },
         {
             german: 'der Teich',
             plural: 'die Teiche',
             translation: 'pond',
-            category: 'nature'
+            category: 'nature',
+            hint: 'A somewhat shallow body of water.'
         },
         {
             german: 'die Brust',
