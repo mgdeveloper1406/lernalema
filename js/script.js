@@ -1944,6 +1944,36 @@ gameArray = [
             hint: 'A somewhat shallow body of water.'
         },
         {
+            german: 'groß',
+            translation: 'big',
+            category: 'adjectives',
+            hint: ''
+        },
+        {
+            german: 'klein',
+            translation: 'small',
+            category: 'adjectives',
+            hint: ''
+        },
+        {
+            german: 'laut',
+            translation: 'loud',
+            category: 'adjectives',
+            hint: ''
+        },
+        {
+            german: 'leise',
+            translation: 'quiet',
+            category: 'adjectives',
+            hint: ''
+        },
+        {
+            german: 'normal',
+            translation: 'normal',
+            category: 'adjectives',
+            hint: ''
+        },
+        {
             german: 'die Brust',
             plural: 'die Brüste',
             translation: ['chest', 'breast'],
