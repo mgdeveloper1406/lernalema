@@ -1844,6 +1844,36 @@ gameArray = [
 
     round9 = [
         {
+            german: 'einundvierzig',
+            translation: 'forty-one',
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'zweiundvierzig',
+            translation: 'forty-two',
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'dreiundvierzig',
+            translation: 'forty-three',
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'vierundvierzig',
+            translation: 'forty-four',
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'fünfundvierzig',
+            translation: 'forty-five',
+            category: 'numbers',
+            hint: ''
+        },
+        {
             german: 'das Eichhörnchen',
             plural: 'die Eichhörnchen',
             translation: 'squirrel',
