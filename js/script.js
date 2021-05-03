@@ -1847,31 +1847,31 @@ gameArray = [
             german: 'einundvierzig',
             translation: 'forty-one',
             category: 'numbers',
-            hint: ''
+            hint: `Sum ${underline} is a Canadian pop-punk band.`
         },
         {
             german: 'zweiundvierzig',
             translation: 'forty-two',
             category: 'numbers',
-            hint: ''
+            hint: `Jackie Robinson's jersey number.`
         },
         {
             german: 'dreiundvierzig',
             translation: 'forty-three',
             category: 'numbers',
-            hint: ''
+            hint: 'Roman numeral XLIII.'
         },
         {
             german: 'vierundvierzig',
             translation: 'forty-four',
             category: 'numbers',
-            hint: ''
+            hint: `President Barack Obama, aka Number ${underline}.`
         },
         {
             german: 'fünfundvierzig',
             translation: 'forty-five',
             category: 'numbers',
-            hint: ''
+            hint: 'The number of degrees in half of a right angle.'
         },
         {
             german: 'das Eichhörnchen',
