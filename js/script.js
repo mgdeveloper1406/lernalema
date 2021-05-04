@@ -1947,31 +1947,31 @@ gameArray = [
             german: 'groß',
             translation: 'big',
             category: 'adjectives',
-            hint: ''
+            hint: 'The opposite of small.'
         },
         {
             german: 'klein',
             translation: 'small',
             category: 'adjectives',
-            hint: ''
+            hint: 'The opposite of big.'
         },
         {
             german: 'laut',
             translation: 'loud',
             category: 'adjectives',
-            hint: ''
+            hint: 'The volume of a scream.'
         },
         {
             german: 'leise',
             translation: 'quiet',
             category: 'adjectives',
-            hint: ''
+            hint: 'The volume of a whisper.'
         },
         {
             german: 'normal',
             translation: 'normal',
             category: 'adjectives',
-            hint: ''
+            hint: 'When something is as expected.'
         },
         {
             german: 'die Brust',
