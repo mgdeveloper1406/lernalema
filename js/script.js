@@ -1974,6 +1974,41 @@ gameArray = [
             hint: 'When something is as expected.'
         },
         {
+            german: 'das Dorf',
+            plural: 'die Dörfer',
+            translation: 'village',
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'der Kontinent',
+            plural: 'die Kontinente',
+            translation: 'continent',
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'das Land',
+            plural: 'die Länder',
+            translation: 'country',
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'der Staat',
+            plural: 'die Staaten',
+            translation: 'state',
+            category: 'travel',
+            hint: ''
+        },
+        {
+            german: 'die Stadt',
+            plural: 'die Städte',
+            translation: 'city',
+            category: 'travel',
+            hint: ''
+        },
+        {
             german: 'die Brust',
             plural: 'die Brüste',
             translation: ['chest', 'breast'],
