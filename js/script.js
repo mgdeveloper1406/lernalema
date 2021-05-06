@@ -2009,6 +2009,41 @@ gameArray = [
             hint: ''
         },
         {
+            german: 'der Bleistift',
+            plural: 'die Bleistifte',
+            translation: 'pencil',
+            category: 'arts',
+            hint: ''
+        },
+        {
+            german: 'der Buntstift',
+            plural: 'die Buntstifte',
+            translation: 'crayon',
+            category: 'arts',
+            hint: ''
+        },
+        {
+            german: 'der Kugelschreiber',
+            plural: 'die Kugelschreiber',
+            translation: ['ballpoint', 'pen'],
+            category: 'arts',
+            hint: ''
+        },
+        {
+            german: 'der Radiergummi',
+            plural: 'die Radiergummis',
+            translation: 'eraser',
+            category: 'arts',
+            hint: ''
+        },
+        {
+            german: 'der Stift',
+            plural: 'die Stifte',
+            translation: ['pen', 'pencil'],
+            category: 'arts',
+            hint: ''
+        },
+        {
             german: 'die Brust',
             plural: 'die Brüste',
             translation: ['chest', 'breast'],
