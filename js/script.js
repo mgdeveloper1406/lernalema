@@ -2013,35 +2013,35 @@ gameArray = [
             plural: 'die Bleistifte',
             translation: 'pencil',
             category: 'arts',
-            hint: ''
+            hint: 'The yellow Dixon Ticonderoga #2 is a popular one.'
         },
         {
             german: 'der Buntstift',
             plural: 'die Buntstifte',
-            translation: 'crayon',
+            translation: ['colored pencil', 'coloring pencil'],
             category: 'arts',
-            hint: ''
+            hint: 'More sophisticated than a crayon.'
         },
         {
             german: 'der Kugelschreiber',
             plural: 'die Kugelschreiber',
             translation: ['ballpoint', 'pen'],
             category: 'arts',
-            hint: ''
+            hint: 'The Bic Cristal is a popular one.'
         },
         {
             german: 'der Radiergummi',
             plural: 'die Radiergummis',
             translation: 'eraser',
             category: 'arts',
-            hint: ''
+            hint: 'Use this to fix mistakes, when writing.'
         },
         {
             german: 'der Stift',
             plural: 'die Stifte',
             translation: ['pen', 'pencil'],
             category: 'arts',
-            hint: ''
+            hint: 'A writing tool.'
         },
         {
             german: 'die Brust',
