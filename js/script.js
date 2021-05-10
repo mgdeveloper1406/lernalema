@@ -1978,35 +1978,35 @@ gameArray = [
             plural: 'die Minuten',
             translation: 'minute',
             category: 'calendar',
-            hint: ''
+            hint: 'This unit is a sixtieth of an hour.'
         },
         {
             german: 'der Sekunde',
             plural: 'die Sekunden',
             translation: 'second',
             category: 'calendar',
-            hint: ''
+            hint: 'This unit is a sixtieth of a minute.'
         },
         {
             german: 'die Stunde',
             plural: 'die Stunden',
             translation: 'hour',
             category: 'calendar',
-            hint: ''
+            hint: 'A period of time that passes every sixty minutes.'
         },
         {
             german: 'der Tag',
             plural: 'die Tage',
             translation: 'day',
             category: 'calendar',
-            hint: ''
+            hint: 'A twenty-four-hour period of time.'
         },
         {
             german: 'die Zeit',
             plural: 'die Zeiten',
             translation: 'time',
             category: 'calendar',
-            hint: ''
+            hint: 'This progesses in an endless, linear procession.'
         },
         {
             german: 'das Dorf',
