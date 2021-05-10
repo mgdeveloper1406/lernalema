@@ -2013,35 +2013,35 @@ gameArray = [
             plural: 'die Dörfer',
             translation: 'village',
             category: 'travel',
-            hint: ''
+            hint: 'Every one of these has its own idiot.'
         },
         {
             german: 'der Kontinent',
             plural: 'die Kontinente',
             translation: 'continent',
             category: 'travel',
-            hint: ''
+            hint: `Australia is a country and a ${underline}.`
         },
         {
             german: 'das Land',
             plural: 'die Länder',
             translation: 'country',
             category: 'travel',
-            hint: ''
+            hint: 'A nation.'
         },
         {
             german: 'der Staat',
             plural: 'die Staaten',
             translation: 'state',
             category: 'travel',
-            hint: ''
+            hint: 'New York is one of fifty.'
         },
         {
             german: 'die Stadt',
             plural: 'die Städte',
             translation: 'city',
             category: 'travel',
-            hint: ''
+            hint: 'A metropolis.'
         },
         {
             german: 'der Bleistift',
