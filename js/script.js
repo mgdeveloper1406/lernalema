@@ -1992,7 +1992,7 @@ gameArray = [
             plural: 'die Stunden',
             translation: 'hour',
             category: 'calendar',
-            hint: 'A period of time that passes every sixty minutes.'
+            hint: 'A period of sixty minutes.'
         },
         {
             german: 'der Tag',
