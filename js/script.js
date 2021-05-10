@@ -1974,6 +1974,41 @@ gameArray = [
             hint: 'When something is as expected.'
         },
         {
+            german: 'die Minute',
+            plural: 'die Minuten',
+            translation: 'minute',
+            category: 'calendar',
+            hint: ''
+        },
+        {
+            german: 'der Sekunde',
+            plural: 'die Sekunden',
+            translation: 'second',
+            category: 'calendar',
+            hint: ''
+        },
+        {
+            german: 'die Stunde',
+            plural: 'die Stunden',
+            translation: 'hour',
+            category: 'calendar',
+            hint: ''
+        },
+        {
+            german: 'der Tag',
+            plural: 'die Tage',
+            translation: 'day',
+            category: 'calendar',
+            hint: ''
+        },
+        {
+            german: 'die Zeit',
+            plural: 'die Zeiten',
+            translation: 'time',
+            category: 'calendar',
+            hint: ''
+        },
+        {
             german: 'das Dorf',
             plural: 'die Dörfer',
             translation: 'village',
