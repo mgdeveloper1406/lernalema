@@ -1944,6 +1944,41 @@ gameArray = [
             hint: 'A somewhat shallow body of water.'
         },
         {
+            german: 'der Fäustling',
+            plural: 'die Fäustlinge',
+            translation: 'mitten',
+            category: 'clothes',
+            hint: ''
+        },
+        {
+            german: 'der Handschuh',
+            plural: 'die Handschuhe',
+            translation: 'glove',
+            category: 'clothes',
+            hint: ''
+        },
+        {
+            german: 'die Mütze',
+            plural: 'die Mützen',
+            translation: ['cap', 'beanie'],
+            category: 'clothes',
+            hint: ''
+        },
+        {
+            german: 'der Schal',
+            plural: 'die Schals',
+            translation: 'scarf',
+            category: 'clothes',
+            hint: 'Worn for style or to keep the neck warm.'
+        },
+        {
+            german: 'der Stiefel',
+            plural: 'die Stiefel',
+            translation: 'boot',
+            category: 'clothes',
+            hint: ''
+        },
+        {
             german: 'groß',
             translation: 'big',
             category: 'adjectives',
