@@ -822,9 +822,9 @@ gameArray = [
         {
             german: 'der Strumpf',
             plural: 'die Strümpfe',
-            translation: 'stocking',
+            translation: ['stocking', 'stockings'],
             category: 'clothes',
-            hint: ''
+            hint: 'Keeps legs warm under skirts.'
         },
         {
             german: 'die Tasche',
