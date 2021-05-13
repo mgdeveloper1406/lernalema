@@ -820,11 +820,11 @@ gameArray = [
             hint: 'Knot styles include the half Windsor, the Atlantic, and the Pratt.'
         },
         {
-            german: 'der Schal',
-            plural: 'die Schals',
-            translation: 'scarf',
+            german: 'der Strumpf',
+            plural: 'die Strümpfe',
+            translation: 'stocking',
             category: 'clothes',
-            hint: 'Worn for style or to keep the neck warm.'
+            hint: ''
         },
         {
             german: 'die Tasche',
