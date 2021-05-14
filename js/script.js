@@ -1948,21 +1948,21 @@ gameArray = [
             plural: 'die Fäustlinge',
             translation: 'mitten',
             category: 'clothes',
-            hint: ''
+            hint: 'Handwear that makes you look like a lobster.'
         },
         {
             german: 'der Handschuh',
             plural: 'die Handschuhe',
             translation: 'glove',
             category: 'clothes',
-            hint: ''
+            hint: 'Five-fingered handwear.'
         },
         {
             german: 'die Mütze',
             plural: 'die Mützen',
             translation: ['cap', 'beanie'],
             category: 'clothes',
-            hint: ''
+            hint: 'Warm headwear.'
         },
         {
             german: 'der Schal',
@@ -1976,7 +1976,7 @@ gameArray = [
             plural: 'die Stiefel',
             translation: 'boot',
             category: 'clothes',
-            hint: ''
+            hint: `This ${underline} is made for walking.`
         },
         {
             german: 'groß',
