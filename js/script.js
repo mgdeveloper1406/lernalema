@@ -1909,6 +1909,41 @@ gameArray = [
             hint: `This reptile doesn't need arms, to squeeze you.`
         },
         {
+            german: 'das Bauernhaus',
+            plural: 'die Bauernhäuser',
+            translation: 'farmhouse',
+            category: 'home',
+            hint: ''
+        },
+        {
+            german: 'das Herrenhaus',
+            plural: 'die Herrenhäuser',
+            translation: ['mansion', 'manor'],
+            category: 'home',
+            hint: ''
+        },
+        {
+            german: 'die Hütte',
+            plural: 'die Hütten',
+            translation: ['cottage', 'hut'],
+            category: 'home',
+            hint: ''
+        },
+        {
+            german: 'das Stadthaus',
+            plural: 'die Stadthäuser',
+            translation: 'townhouse',
+            category: 'home',
+            hint: ''
+        },
+        {
+            german: 'die Wohnung',
+            plural: 'die Wohnungen',
+            translation: 'apartment',
+            category: 'home',
+            hint: ''
+        },
+        {
             german: 'der Fluss',
             plural: 'die Flüsse',
             translation: 'river',
