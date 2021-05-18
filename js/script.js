@@ -1913,35 +1913,35 @@ gameArray = [
             plural: 'die Bauernhäuser',
             translation: 'farmhouse',
             category: 'home',
-            hint: ''
+            hint: 'A home in a rural setting.'
         },
         {
             german: 'das Herrenhaus',
             plural: 'die Herrenhäuser',
             translation: ['mansion', 'manor'],
             category: 'home',
-            hint: ''
+            hint: 'A large, fancy house.'
         },
         {
             german: 'die Hütte',
             plural: 'die Hütten',
             translation: ['cottage', 'hut'],
             category: 'home',
-            hint: ''
+            hint: 'A quaint, cozy home.'
         },
         {
             german: 'das Stadthaus',
             plural: 'die Stadthäuser',
             translation: 'townhouse',
             category: 'home',
-            hint: ''
+            hint: 'An attached dwelling.'
         },
         {
             german: 'die Wohnung',
             plural: 'die Wohnungen',
             translation: 'apartment',
             category: 'home',
-            hint: ''
+            hint: 'A building with multiple residences.'
         },
         {
             german: 'der Fluss',
