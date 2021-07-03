@@ -2816,8 +2816,8 @@ $('#open-categories').on('click keydown', function() {
     $('#total-words').html(wordTotal);
 
     // close the mobile nav to reveal the categories
-    if ($('nav').css('left') == '0px' && $(window).width() < 616) {
-        $('nav').animate({left: '100%'});
+    if ($('nav').css('right') == '0px' && $(window).width() < 616) {
+        $('nav').animate({right: '100%'});
     }
 
     // close the category selection, if the link is clicked again
