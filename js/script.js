@@ -3017,28 +3017,28 @@ $('.quiz-buttons').on('touchend', function() {
 
 //------------------------------------------------------------------
 
-// open and close the highlighter hamburger menu
-$('#hamburger').on('click', function(){
-    $('#info-switch-container').css('display', 'none');
-    $('nav').animate({left: 0});
-});
-$('#nav-x-bg').on('click', function(){
-    setTimeout(function() {
-        $('#info-switch-container').css('display', 'flex');
-    }, 300);
-    $('nav').animate({left: '100%'});
-});
-$(window).on('resize', function(){
-    $('nav').removeAttr('style');
-    $('#info-switch-container').css('display', 'flex');
-});
-
 // slide the highlighters, to make them appear to draw
 $('#highlighter-menu').on('mouseenter', function() {
     $('#highlighter-menu').animate({left: '5px'}, {queue: false, duration: 300});
 });
 $('#highlighter-menu').on('mouseleave', function() {
     $('#highlighter-menu').animate({left: 0}, {queue: false, duration: 500});
+});
+
+// open and close the highlighter hamburger menu
+$('#hamburger').on('click', function(){
+    $('#info-switch-container').css('display', 'none');
+    $('nav').animate({right: 0}, 750);
+});
+$('#nav-x-bg').on('click', function(){
+    setTimeout(function() {
+        $('#info-switch-container').css('display', 'flex');
+    }, 300);
+    $('nav').animate({right: '100%'});
+});
+$(window).on('resize', function(){
+    $('nav').removeAttr('style');
+    $('#info-switch-container').css('display', 'flex');
 });
 
 // use #info-switch to reveal the info overlay
