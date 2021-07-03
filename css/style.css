@@ -1150,7 +1150,7 @@ footer {
     nav {
         position: fixed;
         top: 0;
-        left: 100%;
+        right: 100%;
         background-image: url('../images/stationery-background.png');
         background-repeat: no-repeat;
         background-size: cover;
