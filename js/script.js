@@ -1804,31 +1804,31 @@ let gameArray = [
     round9 = [
         {
             german: 'einundvierzig',
-            translation: 'forty-one',
+            translation: ['forty-one', 'forty one'],
             category: 'numbers',
             hint: `Sum ${underline} is a Canadian pop-punk band.`
         },
         {
             german: 'zweiundvierzig',
-            translation: 'forty-two',
+            translation: ['forty-two', 'forty two'],
             category: 'numbers',
             hint: `Jackie Robinson's jersey number.`
         },
         {
             german: 'dreiundvierzig',
-            translation: 'forty-three',
+            translation: ['forty-three', 'forty three'],
             category: 'numbers',
             hint: 'Roman numeral XLIII.'
         },
         {
             german: 'vierundvierzig',
-            translation: 'forty-four',
+            translation: ['forty-four', 'forty four'],
             category: 'numbers',
             hint: `President Barack Obama, aka Number ${underline}.`
         },
         {
             german: 'fünfundvierzig',
-            translation: 'forty-five',
+            translation: ['forty-five', 'forty five'],
             category: 'numbers',
             hint: 'The number of degrees in half of a right angle.'
         },
