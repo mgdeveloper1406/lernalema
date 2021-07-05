@@ -2576,51 +2576,6 @@ $('#answer-key').on('click', function() {
     buildMiniReview();
 });
 
-// function reviewColors() {
-//     if (element.category === 'arts') {
-//         $(reviewWords).css('color', '#4682b4');
-//     } else if (element.category === 'adjectives') {
-//         $(reviewWords).css('color', '#9c538d');
-//     } else if (element.category === 'animals') {
-//         $(reviewWords).css('color', '#a08181');
-//     } else if (element.category === 'clothes') {
-//         $(reviewWords).css('color', '#0994bd');
-//     } else if (element.category === 'calendar') {
-//         $(reviewWords).css('color', '#cd5c5c');
-//     } else if (element.category === 'catastrophe') {
-//         $(reviewWords).css('color', '#759475');
-//     } else if (element.category === 'food') {
-//         $(reviewWords).css('color', '#f44336');
-//     } else if (element.category === 'home') {
-//         $(reviewWords).css('color', '#772e53');
-//     } else if (element.category === 'infinitives') {
-//         $(reviewWords).css('color', '#f56a37');
-//     } else if (element.category === 'nature') {
-//         $(reviewWords).css('color', '#2e8b57');
-//     } else if (element.category === 'numbers') {
-//         $(reviewWords).css('color', '#6b6a9e');
-//     } else if (element.category === 'people') {
-//         $(reviewWords).css('color', '#008b8b');
-//     } else if (element.category === 'phrases') {
-//         $(reviewWords).css('color', '#ce3c5e');
-//     } else if (element.category === 'tech') {
-//         $(reviewWords).css('color', '#607d8b');
-//     } else if (element.category === 'travel') {
-//         $(reviewWords).css('color', '#5e93f3');
-//     }
-// };
-
-// function clickReviewWords() {
-//     if ($(reviewAnswers).css('display') == 'block') {
-//         $(downArrows).addClass('up-arrows');
-//         $(reviewAnswers).fadeOut(2000);
-//         $(downArrows).fadeOut(2000);
-//     } else {
-//         $(downArrows).removeClass('up-arrows').css('display', 'block');
-//         $(reviewAnswers).hide().fadeIn(2000);
-//     }
-// };
-
 // open the end-of-round review 
 $('#mini-review').on('click', function() {
     $('#modal-body').css('display', 'none');
