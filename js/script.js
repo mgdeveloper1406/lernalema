@@ -2604,8 +2604,6 @@ $('#mini-review').on('click', function() {
                 $(reviewAnswers).hide().fadeIn(2000);
             }
         });
-
-        // $(reviewWords).on('click', clickReviewWords);
     });
 });
 
@@ -2680,8 +2678,6 @@ $('#final-review').on('click', function() {
                 $(finalReviewAnswers).hide().fadeIn(2000);
             }
         });
-
-        // $(reviewWords).on('click', clickReviewWords);
     });
 });
 
