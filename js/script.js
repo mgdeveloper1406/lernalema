@@ -20,48 +20,7 @@ const chameleonColors = () => {
     }
 };
 
-// wordArray = [
-//     {
-//         german: 'der Apfelsaft',
-//         plural: 'die Apfelsäfte',
-//         translation: 'apple juice',
-//         category: 'food',
-//     },
-//     {
-//         german: 'das Bier',
-//         plural: 'die Biere',
-//         translation: 'beer',
-//         category: 'food',
-//     },
-//     {
-//         german: 'das Fleisch',
-//         plural: 'das Fleisch',
-//         translation: 'meat',
-//         category: 'food',
-//     },
-//     {
-//         german: 'das Gemüse',
-//         plural: 'die Gemüse',
-//         translation: 'vegetable',
-//         category: 'food',
-//     },     
-//     {
-//         german: 'der Wald',
-//         plural: 'die Wälder',
-//         translation: 'forest',
-//         category: 'nature'
-//     },
-//     {
-//         german: 'der Wind',
-//         plural: 'die Winde',
-//         translation: 'wind',
-//         category: 'nature'
-//     },
-// ];
-
-
-
-gameArray = [
+let gameArray = [
     wordArray = [
         {
             german: 'die Frau',
