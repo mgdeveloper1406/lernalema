@@ -20,15 +20,24 @@ body {
 }
 button {
     display: block;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 1rem;
     text-transform: uppercase;
     border: none;
     border-radius: 2px;
     padding: .5rem 3rem;
     cursor: pointer;
+}
+
+/* FONTS */
+
+button,
+#hint-message,
+#your-translation,
+.review-answers,
+#copyright {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 /* HEADER */
@@ -392,9 +401,6 @@ button.lightning-round:hover {
 #hint-message {
     display: inline-block;
     padding: 1rem 1.3rem;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 1rem;
     color: rgb(16, 115, 106);
 }
@@ -529,9 +535,6 @@ span.curly-braces {
     padding: 0 .7rem 0 1.5rem;
 }
 #your-translation {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 2rem;
     text-align: center;
     background-color: rgb(41, 35, 70);
@@ -749,9 +752,6 @@ h2#review-sub {
 }
 .review-answers {
     display: none;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 1.1rem;
     letter-spacing: .05rem;
     color: rgb(85, 110, 144);
@@ -921,9 +921,6 @@ footer {
     padding: 1.5rem 2rem;
 }
 #copyright {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 14px;
     color: rgb(81, 68, 97);
     margin: 0;
