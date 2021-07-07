@@ -40,6 +40,26 @@ button,
     font-style: normal;
 }
 
+h1,
+h2,
+.close-x,
+.label-text,
+.countdown-text,
+#countdown,
+#german-word,
+#german-plural,
+.curly-braces,
+#level,
+.review-arrows,
+#mini-review,
+#final-review,
+.review-words,
+#info-countdown,
+.info-text,
+#info {
+    font-family: 'dinosaur', sans-serif;
+}
+
 /* HEADER */
 
 header {
@@ -75,7 +95,6 @@ a {
     padding: 0;
 }
 h1 {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 900;
     font-style: italic;
     line-height: 1.6rem;
@@ -83,7 +102,6 @@ h1 {
     text-transform: uppercase;
 }
 h2 {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 1rem;
@@ -183,7 +201,6 @@ a:hover {
     background-image: linear-gradient(rgb(237, 79, 84), rgb(237, 160, 117));
 }
 .close-x {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
@@ -335,7 +352,6 @@ button.lightning-round:hover {
     max-height: 24px;
 }
 .label-text {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: .8rem;
@@ -427,7 +443,6 @@ button.lightning-round:hover {
     margin: 0 0 10px 20px;
 }
 .countdown-text {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: .8rem;
@@ -438,7 +453,6 @@ button.lightning-round:hover {
     opacity: 0;
 }
 #countdown {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.3rem;
@@ -486,9 +500,8 @@ button.lightning-round:hover {
     justify-content: center;
     margin: 0 auto;
 }
-h3#german-word {
+#german-word {
     display: inline;
-    font-family: 'dinosaur', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 3.8rem;
@@ -507,9 +520,8 @@ h3#german-word {
 #plural-zone {
     display: block;
 }
-h4#german-plural,
-span.curly-braces {
-    font-family: 'dinosaur', sans-serif;
+#german-plural,
+.curly-braces {
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
@@ -517,7 +529,7 @@ span.curly-braces {
     display: inline;
     margin: 0;
 }
-span.curly-braces {
+.curly-braces {
     color: rgb(255, 215, 0);
 }
 /* #category-pattern {
@@ -682,7 +694,6 @@ h2#review-sub {
     margin-bottom: 1.5rem;
 }
 #level {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 7.8rem;
@@ -690,7 +701,6 @@ h2#review-sub {
     cursor: default;
 }
 .review-arrows {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 1.3rem;
@@ -698,7 +708,6 @@ h2#review-sub {
 }
 #mini-review,
 #final-review {
-    font-family: 'dinosaur', sans-serif;
     font-weight: bold;
     font-style: normal;
     font-size: .9rem;
@@ -730,7 +739,6 @@ h2#review-sub {
     padding-bottom: 1.5rem;
 }
 .review-words {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.5rem;
@@ -803,7 +811,6 @@ h2#review-sub {
     border-radius: 2px;
 }
 #info-countdown {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.3rem;
@@ -857,7 +864,6 @@ h2#review-sub {
     text-transform: uppercase;
 }
 .info-text {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
@@ -932,7 +938,6 @@ footer {
     z-index: 5;
 }
 #info {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: .9rem;
