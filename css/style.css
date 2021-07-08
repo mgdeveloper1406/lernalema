@@ -39,16 +39,13 @@ button,
     font-weight: 600;
     font-style: normal;
 }
-
 h1,
 h2,
 .close-x,
 .label-text,
 .countdown-text,
 #countdown,
-#german-word,
-#german-plural,
-.curly-braces,
+#german-box,
 #level,
 .review-arrows,
 #mini-review,
