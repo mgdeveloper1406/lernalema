@@ -2142,6 +2142,39 @@ let gameArray = [
             category: 'body',
             hint: 'Where you carry a rucksack.'
         },
+    ],
+
+    round10 = [
+        {
+            german: 'sechsundvierzig',
+            translation: ['forty-six', 'forty six'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'siebenundvierzig',
+            translation: ['forty-seven', 'forty seven'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'achtundvierzig',
+            translation: ['forty-eight', 'forty eight'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'neunundvierzig',
+            translation: ['forty-nine', 'forty nine'],
+            category: 'numbers',
+            hint: ''
+        },
+        {
+            german: 'fünfzig',
+            translation: 'fifty',
+            category: 'numbers',
+            hint: ''
+        },
     ]
 ];
 
