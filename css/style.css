@@ -516,24 +516,19 @@ button.lightning-round:hover {
 }
 #plural-zone {
     display: block;
-}
-#german-plural,
-.curly-braces {
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 215, 0);
     display: inline;
     margin: 0;
 }
-.curly-braces {
-    color: rgb(255, 215, 0);
+#plural-zone p {
+    margin: 0;
 }
-/* #category-pattern {
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 5px;
-} */
+#german-plural {
+    color: rgb(255, 255, 255);
+}
 #translation-container {
     display: flex;
     align-items: center;
