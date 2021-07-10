@@ -30,6 +30,13 @@ button {
 
 /* FONTS */
 
+.nav-links,
+#card-category,
+.info-item {
+    font-family: 'verveine', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
 button,
 #hint-message,
 #your-translation,
@@ -135,9 +142,6 @@ li {
 }
 .nav-links {
     display: inline;
-    font-family: 'verveine', sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 1.1rem;
     color: rgb(240, 248, 255);
     letter-spacing: .08rem;
@@ -475,9 +479,6 @@ button.lightning-round:hover {
     margin: 0 1rem;
 }
 #card-category {
-    font-family: 'verveine', sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 1rem;
     letter-spacing: .1rem;
     text-transform: uppercase;
@@ -851,9 +852,7 @@ h2#review-sub {
     margin: -3rem 2rem 0 2rem;
 }
 .info-item {
-    font-family: 'verveine', sans-serif;
     font-weight: 400;
-    font-style: normal;
     font-size: 1.1rem;
     color: rgb(255, 215, 0);
     letter-spacing: .1rem;
