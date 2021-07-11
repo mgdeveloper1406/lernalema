@@ -1212,8 +1212,7 @@ footer {
     h3#german-word {
         font-size: 2.4rem;
     }
-    #german-plural,
-    .curly-braces {
+    #plural-zone {
         font-size: 1.2rem;
     }
     input#your-translation {
