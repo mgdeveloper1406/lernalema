@@ -97,22 +97,6 @@ a {
     text-decoration: none;
     padding: 0;
 }
-h1 {
-    font-weight: 900;
-    font-style: italic;
-    line-height: 1.6rem;
-    letter-spacing: .08rem;
-    text-transform: uppercase;
-}
-h2 {
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1rem;
-    text-transform: lowercase;
-    letter-spacing: .03rem;
-    color: rgb(97, 183, 223);
-    margin: 0;
-}
 #hamburger {
     position: fixed;
     top: 25px;
@@ -220,11 +204,10 @@ a:hover {
     margin: .5rem;
     cursor: pointer;
 }
-h2#lightning-text {
+#lightning-text {
     font-size: 1.2rem;
     letter-spacing: .12rem;
     color: rgb(109, 103, 93);
-    text-transform: unset;
     padding: 1rem;
 }
 button.lightning-round {
@@ -656,22 +639,33 @@ button.lightning-round:hover {
     padding: 2px 16px;
     text-align: center;
 }
-h1#congrats,
-h1#review-title {
+h2 {
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1.6rem;
+    letter-spacing: .08rem;
+    text-transform: uppercase;
+}
+#congrats,
+#review-title {
     color: rgb(201, 124, 194);
     margin: 2rem 0;
     font-size: 3rem;
     padding: 0;
 }
-h2#congrats-sub,
-h2#review-sub {
+#congrats-sub,
+#review-sub {
+    font-family: 'dinosaur', sans-serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .12rem;
     color: rgb(109, 103, 93);
     padding-bottom: 1.5rem;
+    margin: 0; 
 }
-h2#review-sub {
+#review-sub {
     text-transform: unset;
 }
 #modal-image {
