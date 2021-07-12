@@ -1203,7 +1203,7 @@ footer {
         width: 1rem;
         margin: 0 .15rem;
     } 
-    h3#german-word {
+    #german-word {
         font-size: 2.4rem;
     }
     #plural-zone {
@@ -1269,23 +1269,23 @@ footer {
     .modal-content {
         width: 80%;
     }
-    h1#congrats {
+    #congrats {
         font-size: 2.3rem;
         margin: 2rem 0 1.5rem;
     }
-    h2#congrats-sub {
+    #congrats-sub {
         font-size: 1.1rem;
     }
     #modal-image {
         height: 235px;
         margin: 5px;
     }
-    h1#review-title {
+    #review-title {
         margin: 1.5rem auto 1rem;
         font-size: 2.7rem;
         line-height: 2.8rem;
     }
-    h2#review-sub {
+    #review-sub {
         font-size: 1rem;
         padding-bottom: 1rem;
     }
