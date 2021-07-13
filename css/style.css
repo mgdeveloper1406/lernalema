@@ -460,16 +460,14 @@ button.lightning-round:hover {
     align-items: center;
     justify-content: space-between;
     margin: 0 1rem;
+    opacity: .5;
 }
 #card-category {
     font-size: 1rem;
     letter-spacing: .1rem;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, .5);
+    color: rgb(255, 255, 255);
     margin: 0;
-}
-#card-icon {
-    opacity: .5;
 }
 #card-text-wrapper {
     width: fit-content;
@@ -757,7 +755,6 @@ h2 {
     color: rgb(240, 248, 255);
     background-color: rgb(128, 84, 181);
 }
-
 
 /* ONION SKIN */
 
