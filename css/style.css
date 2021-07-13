@@ -190,10 +190,13 @@ a:hover {
     cursor: pointer;
 }
 #lightning-text {
+    font-weight: 300;
+    font-style: normal;
     font-size: 1.2rem;
     letter-spacing: .12rem;
     color: rgb(109, 103, 93);
     padding: 1rem;
+    margin: 0;
 }
 button.lightning-round {
     background-color: rgb(255, 72, 0);
