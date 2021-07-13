@@ -2,6 +2,7 @@
 
 html {
     font-size: 16px;
+    font-family: 'dinosaur', sans-serif;
     box-sizing: border-box;
     height: -webkit-fill-available;
 
@@ -28,7 +29,7 @@ button {
     cursor: pointer;
 }
 
-/* FONTS */
+/* ACCENT FONTS */
 
 .nav-links,
 #card-category,
@@ -45,22 +46,6 @@ button,
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-style: normal;
-}
-h1,
-h2,
-.close-x,
-.label-text,
-#countdown-container,
-#german-box,
-#level,
-.review-arrows,
-#mini-review,
-#final-review,
-.review-words,
-#info-countdown,
-.info-text,
-#info {
-    font-family: 'dinosaur', sans-serif;
 }
 
 /* HEADER */
@@ -650,7 +635,6 @@ h2 {
 }
 #congrats-sub,
 #review-sub {
-    font-family: 'dinosaur', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 1.2rem;
