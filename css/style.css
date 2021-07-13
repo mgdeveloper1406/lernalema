@@ -690,7 +690,7 @@ h2 {
 #final-review:hover {
     padding: 0;
     color: rgb(217, 159, 247);
-    transition-duration: 2s;
+    transition: padding 2s, color 2s;
 }
 #end-review-container {
     display: none;
