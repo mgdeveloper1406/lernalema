@@ -674,8 +674,7 @@ h2 {
     font-size: 1.3rem;
     color: rgb(109, 103, 93);
 }
-#mini-review,
-#final-review {
+.review-button {
     font-weight: bold;
     font-style: normal;
     font-size: .9rem;
@@ -686,8 +685,7 @@ h2 {
     display: inline;
     cursor: pointer;
 }
-#mini-review:hover,
-#final-review:hover {
+.review-button:hover {
     padding: 0;
     color: rgb(217, 159, 247);
     transition: padding 2s, color 2s;
