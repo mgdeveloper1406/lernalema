@@ -2644,7 +2644,7 @@ $('#mini-review').on('click', function() {
 $('#final-review').on('click', function() {
     $('#modal-body').css('display', 'none');
     $('#modal-review').css('display', 'block');
-    $('#review-type').html('Final Review');
+    $('#modal-review h2').html('Final Review');
     $('#remove-round').css('display', 'none');
 
     if (endReviewArray.length == 1) {
