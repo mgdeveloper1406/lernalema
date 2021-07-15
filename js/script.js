@@ -2362,10 +2362,13 @@ function moveWord() {
     solvedArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]);
 };
 
-// update the modal-box level by one 
 function updateLevel() {
+    // every time the level box is closed
     if ($('#level-box').css('display') === 'none') {
+        // increase level by 1
         level += 1;
+        
+        // update the level number in the purple circle
         $('#level').html(level);
     }
 };
