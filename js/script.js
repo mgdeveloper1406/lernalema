@@ -2376,12 +2376,13 @@ function buildMiniReview() {
 };
 
 function displayMiniReview() {
+    // if the level modal is displayed, and miniReviewArray is empty
     if ($('#modal-body').css('display') === 'block' && miniReviewArray.length == 0) {
-        $('.review-arrows').css('display', 'none');
-        $('#mini-review').css('display', 'none');
+        // hide the mini-review button
+        $('#mini-review-container').css('display', 'none');
     } else if ($('#modal-body').css('display') === 'block' && miniReviewArray.length >= 1) {
-        $('.review-arrows').css('display', 'inline');
-        $('#mini-review').css('display', 'inline');
+        // but display the button, when the array has content
+        $('#mini-review-container').css('display', 'block');
     }
 };
 
