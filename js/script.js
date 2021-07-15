@@ -2354,10 +2354,11 @@ function revealCountdownText() {
 
 revealCountdownText();
 
-// get the index of the current random word, splice it from the array, and then push it to the end of the array (so it can be popped out)
 function moveWord() {
+    // get the index of the current random word
     i = wordArray.indexOf(randomWord);
-    // wordArray.pop(wordArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]));
+    
+    // move the word (at that index position in wordArray) from wordArray to solvedArray
     solvedArray.push(wordArray.splice(wordArray.indexOf(wordArray[i]), 1)[0]);
 };
 
