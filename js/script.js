@@ -2388,16 +2388,19 @@ function displayMiniReview() {
 };
 
 function displayEndReview() {
+    // if endReviewArray is empty
     if ($('#modal-body').css('display') === 'block' && endReviewArray.length == 0) {
-        $('.review-arrows').css('display', 'none');
-        $('#mini-review').css('display', 'none');
+        // hide the mini-review button
+        $('#mini-review-container').css('display', 'none');
     } else if ($('#modal-body').css('display') === 'block' && endReviewArray.length >= 1) {
         // ensure that the final round is included in the end review
         endReviewArray.push.apply(endReviewArray, miniReviewArray.splice(0));
+
+        // hide the mini-review button
         $('#mini-review-container').css('display', 'none');
+
+        // reveal the final-review button, when the array has content
         $('#end-review-container').css('display', 'block');
-        $('.review-arrows').css('display', 'inline');
-        $('#final-review').css('display', 'inline');
     }
 };
 
