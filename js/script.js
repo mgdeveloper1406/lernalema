@@ -2183,7 +2183,10 @@ let consolidatedArray = [].concat.apply([], gameArray);
 
 // getRandom and gimmeWords work in conjunction to pick a random word from wordArray
 function getRandom(object) {
+    // assign a number to each object (in wordArray), by listing each object as a key
     let theKeys = Object.keys(object);
+
+    // return a randomly selected number (i.e., object)
     return theKeys[Math.floor(Math.random() * theKeys.length)];
 }
 
@@ -2203,10 +2206,11 @@ function gimmeWords() {
     checkForArticles();
     
     if (wordArray.length > 0) {
-        // using the getRandom function, this assigns the value of the random word
+        // the result of getRandom(wordArray), a random "number" (object), creates a random wordArray index 
         randomWord = wordArray[getRandom(wordArray)];
-        console.log(randomWord.german);
-        console.log(wordArray.length);
+
+        console.log(`WORD NUMBER: ${wordArray.length}`);
+        console.log(`TRANSLATE: ${randomWord.german}`);
 
         // this populates the flashcard words, when the document loads
         $('#german-word').html(randomWord.german);
