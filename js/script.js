@@ -2329,12 +2329,6 @@ const categoryColors = () => {
             $('#card-icon').attr('src', 'images/category-icons-travel.svg');
             break;
     }
-
-    if ($('#plural-zone').css('display') == 'none') {
-        $('#card-text-wrapper').css('height', 'unset');
-    } else if ($('#plural-zone').css('display') == 'block') {
-        $('#card-text-wrapper').css('height', 'fit-content');
-    }
 };
 
 categoryColors();
