@@ -2223,9 +2223,13 @@ function gimmeWords() {
         $('#hint-message').html(randomWord.hint);
     }
 
-    // split randomWord, to hide the article and show only the noun
+    // on the der, die, das quiz page
     if ($('body').hasClass('quiz-page')) {
-        $('#german-word').html(randomWord.german.split(' ')[0]).css('display', 'none').html(randomWord.german.split(' ')[1]).css('display', 'block');
+        // split randomWord at the space, so the article is at index 0 and the noun is at index 1
+        let nounSansArticle = randomWord.german.split(' ')[1];
+    
+        // display only the noun
+        $('#german-word').html(nounSansArticle);
     }
 };
 
