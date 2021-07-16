@@ -2235,8 +2235,8 @@ function gimmeWords() {
 
 gimmeWords();
 
-// this changes the flashcards' colors, based on the given word's category
 const categoryColors = () => {
+    // update each flashcard's color and icon, based on the current word's category
     switch (randomWord.category) {
         case 'adjectives':
             $('#german-box').css('backgroundColor', '#9c538d');
