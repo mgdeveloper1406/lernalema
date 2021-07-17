@@ -423,7 +423,7 @@ button.lightning-round:hover {
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: rgb(245, 245, 245);
-    margin: 0 1rem;
+    margin: 0;
     opacity: 0;
     width: 140px;
 }
@@ -436,7 +436,7 @@ button.lightning-round:hover {
     color: rgb(255, 255, 255);
     border-radius: 2px;
     padding: .3rem .8rem .4rem .8rem;
-    display: inline-block;
+    margin: 0 .5rem;
     cursor: pointer;
 }
 #update-remaining {
