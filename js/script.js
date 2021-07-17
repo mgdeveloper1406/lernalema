@@ -2333,23 +2333,32 @@ const categoryColors = () => {
 
 categoryColors();
 
-// a countdown that lets users know how many words are in the round
 function updateCountdown() {
+    // if there's only one word in wordArray
     if (wordArray.length == 1) {
+        // 'word' should be singular in the countdown text 
         $('#update-remaining').html('word remaining');
     } else if (wordArray.length >= 2 || wordArray.length == 0) {
+        // otherwise, use the plural: 'words'
         $('#update-remaining').html('words remaining');
     }
+
+    // display the correct number of words in the round
     $('#countdown').html(wordArray.length);
 };
 
 updateCountdown();
 
 function revealCountdownText() {
+    // when the user mouses over the countdown number
     $('#countdown').mouseenter(function() {
+        // reveal the hidden countdown message
         $('#countdown-container p').animate({'opacity': '1'}, 2000);
     });
+
+    // when the user's mouse leaves the countdown number
     $('#countdown').mouseleave(function() {
+        // make the countdown message fade away
         $('#countdown-container p').animate({'opacity': '0'}, 2000);
     });
 };
