@@ -2336,9 +2336,9 @@ categoryColors();
 // a countdown that lets users know how many words are in the round
 function updateCountdown() {
     if (wordArray.length == 1) {
-        $('#countdown-container').html('<span class="countdown-text">This round has</span> <span id="countdown"></span> <span class="countdown-text">word remaining</span>');
+        $('#update-remaining').html('word remaining');
     } else if (wordArray.length >= 2 || wordArray.length == 0) {
-        $('#countdown-container').html('<span class="countdown-text">This round has</span> <span id="countdown"></span> <span class="countdown-text">words remaining</span>');
+        $('#update-remaining').html('words remaining');
     }
     $('#countdown').html(wordArray.length);
 };
