@@ -410,18 +410,22 @@ button.lightning-round:hover {
     padding-top: 1.5rem;
 }
 #countdown-container {
-    text-align: center;
-    margin: 0 0 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .625rem;
 }
-.countdown-text {
+#countdown-container p {
     font-weight: 300;
     font-style: normal;
     font-size: .8rem;
+    text-align: right;
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: rgb(245, 245, 245);
-    margin: 1.5rem auto;
+    margin: 0 1rem;
     opacity: 0;
+    width: 140px;
 }
 #countdown {
     font-weight: 700;
@@ -434,6 +438,9 @@ button.lightning-round:hover {
     padding: .3rem .8rem .4rem .8rem;
     display: inline-block;
     cursor: pointer;
+}
+#update-remaining {
+    text-align: left !important;
 }
 #german-box {
     display: grid;
