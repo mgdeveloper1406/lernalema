@@ -2347,10 +2347,10 @@ updateCountdown();
 
 function revealCountdownText() {
     $('#countdown').mouseenter(function() {
-        $('.countdown-text').animate({'opacity': '1'}, 2000);
+        $('#countdown-container p').animate({'opacity': '1'}, 2000);
     });
     $('#countdown').mouseleave(function() {
-        $('.countdown-text').animate({'opacity': '0'}, 2000);
+        $('#countdown-container p').animate({'opacity': '0'}, 2000);
     });
 };
 
