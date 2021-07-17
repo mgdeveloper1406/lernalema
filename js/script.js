@@ -2383,10 +2383,12 @@ function updateLevel() {
         $('#level').html(level);
     }
 };
-
-// add (hint bulb and answer key) words to a mini review and remove duplicates 
+ 
 function buildMiniReview() {
+    // add randomWord to miniReviewArray (each time the hint bulb and answer key icons are clicked)
     miniReviewArray.push(randomWord);
+
+    // scan for, and remove, duplicate words
     $.uniqueSort(miniReviewArray);
 };
 
