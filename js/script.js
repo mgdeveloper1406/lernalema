@@ -2735,12 +2735,18 @@ $('#final-review').on('click', function() {
     });
 });
 
-// continue button in modal popup; this progresses users to the next level
+// the modal-popup continue button progresses users to the next level
 $('#continue').on('click', function() {
+    // move the current mini-review words into endReviewArray
     endReviewArray.push.apply(endReviewArray, miniReviewArray.splice(0));
+    
+    // clear the current mini-review words from the review box 
     $('#review-box').text('');
 
+    // hide the review area until the user reopens it
     $('#modal-review').css('display', 'none');
+
+    // close the level box
     $('#level-box').css('display', 'none');
 
     for (let nextArr = 1; nextArr < 2; nextArr++) {
