@@ -2750,8 +2750,12 @@ $('#continue').on('click', function() {
     $('#level-box').css('display', 'none');
 
     for (let nextArr = 1; nextArr < 2; nextArr++) {
+        // if there is more than one round in gameArray
         if (gameArray.length > 1) {
+            // send a copy of the round at index 1 to wordArray
             wordArray.push.apply(wordArray, gameArray[nextArr]);
+            
+            // excise the index 1 round, so the remaining rounds move forward
             gameArray.splice(gameArray[nextArr], 1);
         }
     }
