@@ -2821,17 +2821,23 @@ $('#open-categories').on('click keydown', function() {
 });
 
 function closeCategories() {
+    // if the categories panel is being closed
     if ($('#categories-wrapper').css('display') == ('block')) {
+        // remove the shadow under the header
         setTimeout(function removeHeaderShadow() {
             $('header').removeClass('header-shadow');
         }, 800);
     }
+
+    // slide the categories panel up, to close it
     $('#categories-wrapper').slideUp(800);
 };
 
-// easily close the Categories panel, on mobile devices
+// the mobile x reduces the num of clicks to close the categories panel
 $('#categories-x-bg').on('click', function() {
     closeCategories();
+
+    // reveal the info switch, which gets hidden when the categories panel is open
     $('#info-switch-container').css('display', 'flex');
 });
 
