@@ -2844,16 +2844,25 @@ $('#categories-x-bg').on('click', function() {
 $('.lightning-round').on('click', function() {
     checkForArticles();
 
+    // create the lightningRound array
     let lightningRound = [];
-    // needed to first splice words in wordArray and set them aside in solvedArray, to avoid duplicates. then the remaining rounds can be pushed into the lightningRound. finally, wordArray concatenates lightningRound and solvedArray.
+    
+    // for each round in gameArray
     gameArray.forEach(round => {
+        // take the current wordArray words
         if (round === wordArray) {
+            // and combine them with solvedArray, so nothing gets missed
             solvedArray.push.apply(solvedArray, wordArray.splice(0));
         } else {
+            // add the remaining rounds to lightningRound
             lightningRound.push.apply(lightningRound, round);
         }
     });
+
+    // reassign wordArray, so it combines solvedArray and lightningRound
     wordArray = lightningRound.concat(solvedArray);
+    
+    // remove all gameArray rounds after wordArray
     gameArray.splice(1);
 
     gimmeWords();
