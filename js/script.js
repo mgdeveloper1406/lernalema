@@ -2873,7 +2873,7 @@ $('.lightning-round').on('click', function() {
     closeCategories();    
 });
 
-$('input.category[type=checkbox]').on('click keydown', function() {
+$('.hidden-checkbox').on('click keydown', function() {
     // toggle the visibility of the purple .selection-circle around the category icons, when the corresponding input is clicked
     $(this).next('label').children('div').children('div').toggle();
     // if the circle is visible, make label text bold
@@ -2911,7 +2911,7 @@ $('input.category[type=checkbox]').on('click keydown', function() {
 // confirm category selection 
 $('.select-categories').on('click', function() {
     // if any category is selected
-    if ($('input.category[type=checkbox]').is(':checked') === true && selectionConfirmed == false) {
+    if ($('.hidden-checkbox').is(':checked') === true && selectionConfirmed == false) {
         // update the selectionConfirmed boolean
         selectionConfirmed = true;
 
@@ -2926,7 +2926,7 @@ $('.select-categories').on('click', function() {
         categoryColors();
         updateCountdown();
         revealCountdownText();
-    } else if ($('input.category[type=checkbox]').is(':checked') === true && selectionConfirmed == true) {
+    } else if ($('.hidden-checkbox').is(':checked') === true && selectionConfirmed == true) {
         // wordArray isn't zeroed out, so the confirmed selections aren't removed
 
         gimmeWords();
