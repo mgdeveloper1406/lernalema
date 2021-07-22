@@ -222,6 +222,7 @@ button.lightning-round:hover {
     margin: 10px;
     padding: 15px;
     position: relative;
+    cursor: pointer;
 }
 .selection-circle {
     border-radius: 100%;
@@ -258,7 +259,6 @@ button.lightning-round:hover {
     border-radius: 100%;
     width: 45px;
     height: 45px;
-    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
