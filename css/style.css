@@ -237,7 +237,7 @@ button.lightning-round:hover {
 .bolded {
     font-weight: 700 !important;
 }
-.category {
+.hidden-checkbox {
     clip-path: inset(100% 100% 100% 100%);
     position: absolute;
 }
