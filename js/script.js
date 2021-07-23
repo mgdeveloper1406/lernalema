@@ -2771,34 +2771,19 @@ $('#open-categories').on('click keydown', function() {
     // update the number of levels remaining
     $('#total-levels').html(gameArray.length);
 
-    // create an array to hold all the array lengths
-    let arrLengths = [];
-
-    // for each array in gameArray
-    gameArray.forEach(arr => {
-        // make an exception on the quiz page
-        if ($('body').hasClass('quiz-page')) {
-            // to filter out any words without articles
-            arr = arr.filter(item => 
-                (item.category !== 'numbers') && 
-                (item.category !== 'phrases') &&
-                (item.category !== 'adjectives') &&
-                (item.subcategory !== 'quiz exempt')
-            );
-        }
-
-        // push each array length into the arrLengths array
-        arrLengths.push(arr.length);
-    });
-
-    // set up the reducer variable for the reduce() method
-    const reducer = (accumulator, currentValue) => accumulator + currentValue;
-    
-    // use the reducer method to combine all the lengths, and include solvedArray.length to add words that may have been already spliced
-    const wordTotal = arrLengths.reduce(reducer, solvedArray.length);
+    // make an exception on the quiz page
+    if ($('body').hasClass('quiz-page')) {
+        // to filter out any words without articles
+        consolidatedArray = consolidatedArray.filter(item => 
+            (item.category !== 'numbers') && 
+            (item.category !== 'phrases') &&
+            (item.category !== 'adjectives') &&
+            (item.subcategory !== 'quiz exempt')
+        );
+    }
     
     // display the total number of flashcard words 
-    $('#total-words').html(wordTotal);
+    $('#total-words').html(consolidatedArray.length);
 
     // on narrow devices
     if ($('nav').css('right') == '0px' && $(window).width() < 616) {
