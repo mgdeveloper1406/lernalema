@@ -238,13 +238,13 @@ button.lightning-round:hover {
     font-weight: 700 !important;
 }
 
-#adjectives-selected {
+/* #adjectives-selected {
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 100%;
     border: transparent;
-    /* border: 3px solid rgb(165, 175, 232); */
+    border: 3px solid rgb(165, 175, 232);
     background-color: transparent;
     width: 55px;
     height: 55px;
@@ -260,7 +260,7 @@ button.lightning-round:hover {
     justify-content: center;
     margin: 0 auto;
     background-color: rgb(156, 83, 141);
-}
+} */
 
 
 .hidden-checkbox {
