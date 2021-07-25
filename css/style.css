@@ -238,20 +238,26 @@ button.lightning-round:hover {
     font-weight: 700 !important;
 }
 
-/* #adjectives-selected {
+.is-selected {
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 100%;
-    border: transparent;
-    border: 3px solid rgb(165, 175, 232);
+    /* border: transparent; */
+    /* border: 3px solid rgb(165, 175, 232); */
     background-color: transparent;
     width: 55px;
     height: 55px;
     margin: 0 auto;
     cursor: pointer;
 }
-#adjectives-button {
+.hidden-checkbox:checked + label .is-selected {
+    border: 3px solid rgb(165, 175, 232);
+}
+.hidden-checkbox:checked + label .label-text {
+    font-weight: 700 !important;
+}
+.is-selected div {
     border-radius: 100%;
     width: 45px;
     height: 45px;
@@ -259,8 +265,13 @@ button.lightning-round:hover {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+}
+#adjectives-button {
     background-color: rgb(156, 83, 141);
-} */
+}
+#animals-button {
+    background-color: rgb(160, 129, 129);
+}
 
 
 .hidden-checkbox {
