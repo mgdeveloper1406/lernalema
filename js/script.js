@@ -2859,15 +2859,6 @@ $('.lightning-round').on('click', function() {
 });
 
 $('.hidden-checkbox').on('click keydown', function() {
-    // toggle the visibility of the purple .selection-circle around the category icons, when the corresponding input is clicked
-    $(this).next('label').children('div').children('div').toggle();
-    // if the circle is visible, make label text bold
-    if ($(this).next('label').children('div').children('div').css('display') == ('block')) {
-        $(this).next('label').children('p').addClass('bolded');
-    } else {
-        $(this).next('label').children('p').removeClass('bolded');
-    }
-
     // if a category button is selected
     if ($(this).is(':checked') === true) {
         // loop through the words in consolidatedArray
