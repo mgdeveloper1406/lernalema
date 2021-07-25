@@ -224,75 +224,30 @@ button.lightning-round:hover {
     position: relative;
     cursor: pointer;
 }
-.selection-circle {
-    border-radius: 100%;
-    border: 3px solid rgb(165, 175, 232);
-    background-color: transparent;
-    width: 55px;
-    height: 55px;
-    cursor: pointer;
-    display: none;
-    position: absolute;
-}
-.bolded {
-    font-weight: 700 !important;
-}
 
-.is-selected {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    /* border: transparent; */
-    /* border: 3px solid rgb(165, 175, 232); */
-    background-color: transparent;
-    width: 55px;
-    height: 55px;
-    margin: 0 auto;
-    cursor: pointer;
-}
-.hidden-checkbox:checked + label .is-selected {
-    border: 3px solid rgb(165, 175, 232);
-}
-.hidden-checkbox:checked + label .label-text {
-    font-weight: 700 !important;
-}
-.is-selected div {
-    border-radius: 100%;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-#adjectives-button {
-    background-color: rgb(156, 83, 141);
-}
-#animals-button {
-    background-color: rgb(160, 129, 129);
-}
 
 
 .hidden-checkbox {
     clip-path: inset(100% 100% 100% 100%);
     position: absolute;
 }
-#adjectives-color,
-#animals-color,
-#arts-color,
-#body-color,
-#calendar-color,
-#catastrophe-color,
-#clothes-color,
-#food-color,
-#home-color,
-#nature-color,
-#numbers-color,
-#people-color,
-#phrases-color,
-#tech-color,
-#travel-color {
+.hidden-checkbox:checked + label .selection-ring {
+    border: 3px solid rgb(165, 175, 232);
+}
+.hidden-checkbox:checked + label .label-text {
+    font-weight: 700 !important;
+}
+.selection-ring {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.selection-ring div {
     border-radius: 100%;
     width: 45px;
     height: 45px;
