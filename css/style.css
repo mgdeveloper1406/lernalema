@@ -65,14 +65,8 @@ header {
     display: flex;
     align-items: center;
 }
-img.chameleon {
-    display: none;
-}
-img.chameleon.active {
-    display: block;
-}
-.chameleon {
-    height: 50px;
+#chameleon {
+    width: 61.16px;
 }
 img#logo {
     height: 53px;
