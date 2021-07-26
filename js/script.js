@@ -1,3 +1,4 @@
+let flash = 0;
 let randomWord;
 let wordArray;
 let underline = `<span class="underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>`;
@@ -11,13 +12,28 @@ let level = 1;
 let infoCountdown;
 let selectionConfirmed = false;
 
-// change the chameleon's color every time submit is clicked
 const chameleonColors = () => {
-    $('.active').next('img').addClass('active').prev('img').removeClass('active');
-    if ($('#four').hasClass('active')) {
-        $('#one').addClass('active');
-        $('#four').removeClass('active');
+    // store the three versions of flash, the chameleon
+    let chameleonArray = [
+        // green flash
+        'images/flash-chameleon.svg',
+        // orange flash 
+        'images/flash-german-03.png', 
+        // white flash
+        'images/flash-american.png'
+    ];
+
+    // increase the index, each time the function is called
+    flash += 1;
+
+    // at the end of the array
+    if (flash == chameleonArray.length) {
+        // return to the beginning
+        flash = 0;
     }
+
+    // update the chameleon image in the header
+    $('#chameleon').attr('src', chameleonArray[flash]);
 };
 
 let gameArray = [
