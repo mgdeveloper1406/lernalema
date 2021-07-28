@@ -1249,6 +1249,9 @@ footer {
 
     /* CATEGORIES */
 
+    #round-totals-container {
+        width: 80%;
+    }
     #categories-box label {
         padding: 13px;
         margin: 5px;
