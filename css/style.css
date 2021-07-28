@@ -1249,7 +1249,7 @@ footer {
 
     /* CATEGORIES */
 
-    .category-buttons {
+    #categories-box label {
         padding: 13px;
         margin: 5px;
     }
