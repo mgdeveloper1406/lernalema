@@ -1260,6 +1260,9 @@ footer {
         width: 80%;
         max-height: 31.25rem;
     }
+    .help-circle {
+        margin: 0 .5rem;
+    }
     .preview-box {
         right: unset;
         height: unset;
@@ -1306,5 +1309,14 @@ footer {
 
     #categories-box {
         padding: 0 0 20px 0;
+    }
+
+    /* ONION SKIN */
+
+    .info-graphics {
+        margin: 1rem .5rem;
+    }
+    .help-circle {
+        margin: 0 .3rem;
     }
 }
