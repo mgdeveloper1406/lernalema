@@ -183,6 +183,41 @@ a:hover {
     margin: .5rem;
     cursor: pointer;
 }
+#round-totals-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: .5rem auto;
+}
+#round-totals-container div {
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(109, 103, 93);
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+#round-totals-container p {
+    margin: .5rem .25rem;
+}
+.flashcard-total {
+    font-weight: 700;
+    font-size: 2rem;
+}
+#lightning-total {
+    color: rgb(255, 72, 0);
+}
+#customized-total {
+    color: rgb(128, 84, 181);
+}
+.gray-divider {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(208, 205, 200);
+    border-radius: 25px;
+}
 #lightning-text {
     font-weight: 300;
     font-style: normal;
