@@ -2798,6 +2798,9 @@ $('#open-categories').on('click keydown', function() {
         );
     }
     
+    // display the lightning round flashcard total
+    $('#lightning-total').html(consolidatedArray.length);
+
     // display the total number of flashcard words 
     $('#total-words').html(consolidatedArray.length);
 
@@ -2883,6 +2886,9 @@ $('.hidden-checkbox').on('click keydown', function() {
             if (randomWord.category == $(this).attr('id')) {
                 // push the words into customRoundArray 
                 customRoundArray.push(randomWord);
+
+                // display the customized round flashcard total
+                $('#customized-total').html(customRoundArray.length);
             }
         });
     }
@@ -2895,6 +2901,9 @@ $('.hidden-checkbox').on('click keydown', function() {
             if (customRoundArray[x].category == $(this).attr('id')) {
                 // splice it, and push it into deselectedArray
                 deselectedArray.push(customRoundArray.splice(x, 1));
+
+                // display the customized round flashcard total
+                $('#customized-total').html(customRoundArray.length);
             }
         }
 
@@ -2904,6 +2913,9 @@ $('.hidden-checkbox').on('click keydown', function() {
             if (wordArray[xx].category == $(this).attr('id')) {
                 // splice it, and push it into deselectedArray
                 deselectedArray.push(wordArray.splice(xx, 1));
+
+                // display the customized round flashcard total
+                $('#customized-total').html(wordArray.length);
             }
         }
     }
