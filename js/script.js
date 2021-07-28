@@ -2893,9 +2893,9 @@ $('.hidden-checkbox').on('click keydown', function() {
         });
     }
 
-    // if a category button is deselected
+    // if a category button is deselected BEFORE .select-categories is clicked
     if ($(this).is(':checked') == false) {
-        // before confirmation: loop backward through customRoundArray
+        // loop backward through customRoundArray
         for (let x = customRoundArray.length - 1; x >= 0; --x) {
             // and if a word's category matches the deselected button's ID  
             if (customRoundArray[x].category == $(this).attr('id')) {
@@ -2906,8 +2906,11 @@ $('.hidden-checkbox').on('click keydown', function() {
                 $('#customized-total').html(customRoundArray.length);
             }
         }
+    }
 
-        // after confirmation: loop backward through wordArray
+    // if a category button is deselected AFTER .select-categories is clicked
+    if ($(this).is(':checked') == false && selectionConfirmed == true) {
+        // loop backward through wordArray
         for (let xx = wordArray.length - 1; xx >= 0; xx--) {
             // and if a word's category matches the deselected button's ID 
             if (wordArray[xx].category == $(this).attr('id')) {
