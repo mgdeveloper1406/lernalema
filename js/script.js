@@ -2258,31 +2258,31 @@ const categoryColors = () => {
             $('#german-box').css('backgroundColor', '#9c538d');
             $('#plural-zone').css('display', 'none');
             $('#insert-category').html('Adjectives');
-            $('#card-icon').attr('src', 'images/category-icons-adjectives.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-adjectives.svg');
             break;
         case 'animals':
             $('#german-box').css('backgroundColor', '#a08181');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Animals');
-            $('#card-icon').attr('src', 'images/category-icons-animals.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-animals.svg');
             break;
         case 'arts':
             $('#german-box').css('backgroundColor', '#4682b4');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Arts');
-            $('#card-icon').attr('src', 'images/category-icons-arts.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-arts.svg');
             break;
         case 'body':
             $('#german-box').css('backgroundColor', '#f56a37');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Body');
-            $('#card-icon').attr('src', 'images/category-icons-body.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-body.svg');
             break;
         case 'calendar':
             $('#german-box').css('backgroundColor', '#cd5c5c');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Calendar');
-            $('#card-icon').attr('src', 'images/category-icons-calendar.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-calendar.svg');
             break;
         case 'catastrophe':
             $('#german-box').css('backgroundColor', '#759475');
