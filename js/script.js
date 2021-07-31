@@ -2288,31 +2288,31 @@ const categoryColors = () => {
             $('#german-box').css('backgroundColor', '#759475');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Catastrophe');
-            $('#card-icon').attr('src', 'images/category-icons-catastrophe.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-catastrophe.svg');
             break;
         case 'clothes':
             $('#german-box').css('backgroundColor', '#0994bd');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Clothes');
-            $('#card-icon').attr('src', 'images/category-icons-clothes.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-clothes.svg');
             break;
         case 'food':
             $('#german-box').css('backgroundColor', '#f44336');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Food');
-            $('#card-icon').attr('src', 'images/category-icon-food.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icon-food.svg');
             break;
         case 'home':
             $('#german-box').css('backgroundColor', '#772e53');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Home');
-            $('#card-icon').attr('src', 'images/category-icons-home.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-home.svg');
             break;
         case 'nature':
             $('#german-box').css('backgroundColor', '#2e8b57');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Nature');
-            $('#card-icon').attr('src', 'images/category-icons-nature.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-nature.svg');
             break;
         case 'numbers':
             $('#german-box').css('backgroundColor', '#6b6a9e');
