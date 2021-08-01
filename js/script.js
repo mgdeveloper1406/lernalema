@@ -2318,31 +2318,31 @@ const categoryColors = () => {
             $('#german-box').css('backgroundColor', '#6b6a9e');
             $('#plural-zone').css('display', 'none');
             $('#insert-category').html('Numbers');
-            $('#card-icon').attr('src', 'images/category-icons-numbers.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-numbers.svg');
             break;
         case 'people':
             $('#german-box').css('backgroundColor', '#008b8b');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('People');
-            $('#card-icon').attr('src', 'images/category-icons-people.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-people.svg');
             break;
         case 'phrases':
             $('#german-box').css('backgroundColor', '#ce3c5e');
             $('#plural-zone').css('display', 'none');
             $('#insert-category').html('Phrases');
-            $('#card-icon').attr('src', 'images/category-icons-phrases.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-phrases.svg');
             break;
         case 'tech':
             $('#german-box').css('backgroundColor', '#607d8b');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Tech');
-            $('#card-icon').attr('src', 'images/category-icons-technology.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-technology.svg');
             break;
         case 'travel':
             $('#german-box').css('backgroundColor', '#5e93f3');
             $('#plural-zone').css('display', 'block');
             $('#insert-category').html('Travel');
-            $('#card-icon').attr('src', 'images/category-icons-travel.svg');
+            $('#card-icon').attr('src', 'images/category-icons/category-icons-travel.svg');
             break;
     }
 };
