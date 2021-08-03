@@ -111,14 +111,14 @@ li {
     text-transform: lowercase;
     list-style: none;
     cursor: pointer;
-    background-image: url('../images/nav-hover-highlight.svg');
+    background-image: url('../images/nav-images/nav-hover-highlight.svg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .nav-links:hover {
     color: rgb(196, 255, 236);
-    background-image: url('../images/nav-hover-highlight-dark.svg');
+    background-image: url('../images/nav-images/nav-hover-highlight-dark.svg');
 }
 a {
     text-decoration: none;
@@ -1169,7 +1169,7 @@ footer {
     }
     .nav-links:hover {
         color: rgb(99, 135, 172);
-        background-image: url('../images/nav-hover-highlight-dark.svg');
+        background-image: url('../images/nav-images/nav-hover-highlight-dark.svg');
     }
     #nav-x-bg {
         display: flex;
