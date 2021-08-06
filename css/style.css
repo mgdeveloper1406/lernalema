@@ -1143,7 +1143,7 @@ footer {
         position: fixed;
         top: 0;
         right: 100%;
-        background-image: url('../images/stationery-background.png');
+        background-image: url('../images/nav-images/stationery-background.png');
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
