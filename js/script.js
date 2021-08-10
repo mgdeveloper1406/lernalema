@@ -13,6 +13,9 @@ let level = 1;
 let infoCountdown;
 let selectionConfirmed = false;
 
+// merge all the rounds in gameArray
+let consolidatedArray = [].concat.apply([], gameArray);
+
 const chameleonColors = () => {
     // store the three versions of flash, the chameleon
     let chameleonArray = [
@@ -36,9 +39,6 @@ const chameleonColors = () => {
     // update the chameleon image in the header
     $('#chameleon').attr('src', chameleonArray[flash]);
 };
-
-// merge all the rounds in gameArray
-let consolidatedArray = [].concat.apply([], gameArray);
 
 // getRandom and gimmeWords work in conjunction to pick a random word from wordArray
 function getRandom(object) {
