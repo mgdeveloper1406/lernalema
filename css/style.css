@@ -879,9 +879,9 @@ h2 {
     display: inline;
     position: relative;
 }
-.yellow-dash {
+.dashed-underline {
     position: relative;
-    background-image: url('../images/yellow-dash.svg');
+    background-image: url('../images/info-images/yellow-dash.svg');
     background-position: bottom;
     background-size: 63%;
     background-repeat: repeat-x;
@@ -1118,8 +1118,8 @@ footer {
     #about-help {
         text-align: left;
     }
-    .yellow-dash {
-        background-image: url('../images/green-dash.svg');
+    .dashed-underline {
+        background-image: url('../images/info-images/green-dash.svg');
     }
     .info-arrows {
         display: none;
