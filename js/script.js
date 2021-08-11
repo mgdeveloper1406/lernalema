@@ -20,11 +20,11 @@ const chameleonColors = () => {
     // store the three versions of flash, the chameleon
     let chameleonArray = [
         // green flash
-        'images/flash-chameleon.svg',
+        'images/nav-images/flash-chameleon.svg',
         // orange flash 
-        'images/flash-german-03.png', 
+        'images/nav-images/flash-german.png', 
         // white flash
-        'images/flash-american.png'
+        'images/nav-images/flash-american.png'
     ];
 
     // increase the index, each time the function is called
