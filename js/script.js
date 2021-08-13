@@ -463,7 +463,7 @@ $('#mini-review').on('click', function() {
 
     miniReviewArray.forEach(element => {
         let reviewWords = $('<p class="review-words" lang="de"></p>');
-        let downArrows = $('<img class="down-arrows" src="images/review-arrows.svg" />');
+        let downArrows = $('<img class="down-arrows" src="images/arrows/review-arrows.svg" />');
         let reviewAnswers = $('<p class="review-answers"></p>');
 
         $(reviewWords).text(element.german);
@@ -537,7 +537,7 @@ $('#final-review').on('click', function() {
 
     endReviewArray.forEach(thing => {
         let finalReviewWords = $('<p class="review-words" lang="de"></p>');
-        let finalDownArrows = $('<img class="down-arrows" src="images/review-arrows.svg" />');
+        let finalDownArrows = $('<img class="down-arrows" src="images/arrows/review-arrows.svg" />');
         let finalReviewAnswers = $('<p class="review-answers"></p>');
 
         $(finalReviewWords).text(thing.german);
