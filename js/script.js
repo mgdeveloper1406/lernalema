@@ -298,7 +298,7 @@ function modalDisplay() {
         $('#modal-body').css('display', 'block');
         displayEndReview();
         $('#congrats-sub').html('You Did It!');
-        $('#modal-image').css({'backgroundImage': 'url("images/review-fireworks.png")', 'filter': 'saturate(1.5)'});
+        $('#modal-image').css({'backgroundImage': 'url("images/level-images/review-fireworks.png")', 'filter': 'saturate(1.5)'});
         $('#level').css('display', 'none');
         $('#continue').html('Start Over');
         $(document).on('click', '#continue', function() {
