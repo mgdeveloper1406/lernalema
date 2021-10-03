@@ -2165,6 +2165,13 @@ let gameArray = [
             category: 'numbers',
             hint: ''
         },
+        {
+            german: 'das Auge',
+            plural: 'die Augen',
+            translation: 'eye',
+            category: 'body',
+            hint: 'A cyclops has only one.'
+        }
     ]
 ];
 
