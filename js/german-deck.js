@@ -2139,31 +2139,31 @@ let gameArray = [
             german: 'sechsundvierzig',
             translation: ['forty-six', 'forty six'],
             category: 'numbers',
-            hint: ''
+            hint: 'The number of human chromosomes.'
         },
         {
             german: 'siebenundvierzig',
             translation: ['forty-seven', 'forty seven'],
             category: 'numbers',
-            hint: ''
+            hint: 'The number of prefectures in Japan.'
         },
         {
             german: 'achtundvierzig',
             translation: ['forty-eight', 'forty eight'],
             category: 'numbers',
-            hint: ''
+            hint: 'The number of contiguous states in the US.'
         },
         {
             german: 'neunundvierzig',
             translation: ['forty-nine', 'forty nine'],
             category: 'numbers',
-            hint: ''
+            hint: 'Often associated with the California Gold Rush.'
         },
         {
             german: 'fünfzig',
             translation: 'fifty',
             category: 'numbers',
-            hint: ''
+            hint: 'Half of one hundred.'
         },
         {
             german: 'das Auge',
