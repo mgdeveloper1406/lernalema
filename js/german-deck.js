@@ -2185,6 +2185,13 @@ let gameArray = [
             translation: 'mouth',
             category: 'body',
             hint: 'Where your tongue lives.'
+        },
+        {
+            german: 'die Nase',
+            plural: 'die Nasen',
+            translation: 'nose',
+            category: 'body',
+            hint: `<span class="ital">Sniff, sniff.</span>`
         }
     ]
 ];
