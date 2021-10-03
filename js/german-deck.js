@@ -2171,6 +2171,13 @@ let gameArray = [
             translation: 'eye',
             category: 'body',
             hint: 'A cyclops has only one.'
+        },
+        {
+            german: 'das Kinn',
+            plural: 'die Kinns',
+            translation: 'chin',
+            category: 'body',
+            hint: 'Rhymes with shin.'
         }
     ]
 ];
