@@ -2178,6 +2178,13 @@ let gameArray = [
             translation: 'chin',
             category: 'body',
             hint: 'Rhymes with shin.'
+        },
+        {
+            german: 'der Mund',
+            plural: 'die Münder',
+            translation: 'mouth',
+            category: 'body',
+            hint: 'Where your tongue lives.'
         }
     ]
 ];
