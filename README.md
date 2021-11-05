@@ -6,6 +6,8 @@
  
  Organized into ten levels of increasing difficulty, Karteikarten features more than 300 German to English flashcards, color-coordinated by category. 
  
+<img src="images/read-me/the-quiz.png" style="width: 75%">
+
  Switch over to “The” Quiz to test knowledge of *Geschlecht*, “gender,” by filling in the flashcard blanks with *der*, *die*, or *das*.
 
 ## Features
