@@ -1,5 +1,7 @@
 # Karteikarten
 
+ ## Introduction
+
  ![Homepage screenshot](images/read-me/homepage.png "Homepage screenshot")
 
  *Hallo!* Karteikarten (literally, "flashcards," or "index cards") is a supplementary learning tool, intended to strengthen beginners’ German-language vocabulary skills. 
