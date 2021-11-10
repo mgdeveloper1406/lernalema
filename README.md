@@ -4,6 +4,7 @@
 
  + [Introduction](#introduction)
  + [Features](#features)
+ + [Favicon](#favicon)
  + [Tech Specs](#tech-specs)
  
 ## Introduction
@@ -27,6 +28,12 @@
  <img src="images/read-me/categories.png" style="width: 75%">
 
  Click the *categories* button, to reveal a hidden panel where you can curate a customized deck of flashcards, or challenge yourself with the lightning round. 
+
+## Favicon
+
+ <img src="images/flag-favicon.png" style="width: 25%">
+
+ The Karteikarten favicon was designed to be a flag—in more ways than one. Sporting the hues of the German tricolor, the K-shaped (for *Karteikarten*) symbol is also meant to represent the kind of colorful, adhesive page flags one might use while studying. 
 
 ## Tech Specs
 
