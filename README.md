@@ -11,7 +11,7 @@
 
  ![Homepage screenshot](images/read-me/homepage.png "Homepage screenshot")
 
- *Hallo!* Karteikarten (literally, "flashcards," or "index cards") is a supplementary learning tool, intended to strengthen beginners’ German-language vocabulary skills. 
+ *Hallo!* [Karteikarten](https://cassiopeian.github.io/Karteikarten/) (literally, "flashcards," or "index cards") is a supplementary learning tool, intended to strengthen beginners’ German-language vocabulary skills. 
  
  Organized into ten levels of increasing difficulty, Karteikarten features more than 300 German to English flashcards, color-coordinated by category. 
  
