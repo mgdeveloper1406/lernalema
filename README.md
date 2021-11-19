@@ -21,9 +21,13 @@
 
 ## Features
 
+ ### Info Overlay
+
  <img src="images/read-me/info.png" style="width: 75%">
 
  Toggle the *info* switch, at the bottom of the page, to see a summary of flashcard features.
+
+ ### Curated Decks
 
  <img src="images/read-me/categories.png" style="width: 75%">
 
