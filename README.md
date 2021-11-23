@@ -33,6 +33,12 @@
 
  As you progress, the levels get longer and the words get trickier, but Flash will always congratulate you when you successfully complete a batch of flashcards. If you use any of the help tools during a round, you’ll see a Mini Review link on your checkpoint notification.
 
+ ### Mini Reviews
+
+ <img src="images/read-me/mini-review.png" style="width: 75%">
+
+ Any word you solve with the assistance of the *Hint Bulb* or *Answer Key* will be added to your end-of-round Mini Review. These optional reviews give you an opportunity to quiz yourself before clicking to see the correct translations of the words you may have missed.
+
  ### Curated Decks
 
  <img src="images/read-me/categories.png" style="width: 75%">
