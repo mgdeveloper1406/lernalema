@@ -45,6 +45,8 @@
 
  Click the *categories* button, to reveal a hidden panel where you can curate a customized deck of flashcards, or challenge yourself with the lightning round. 
 
+ The orange number displays the amount of flashcards in the lightning round, and the purple one represents the number of flashcards in any customized round you build. The purple figure will increase or decrease depending on how many categories you select.
+
 ## Favicon
 
  <img src="images/flag-favicon.png" style="width: 25%">
