@@ -46,6 +46,8 @@
 
  <img src="images/read-me/end-of-deck.png" style="width: 75%">
 
+ Enjoy the animated fireworks, when you reach the end of the flashcard deck! Then, click the *Final Review* link, to see a compilation of all your Mini Review words.
+
  ### Curated Decks
 
  <img src="images/read-me/categories.png" style="width: 75%">
