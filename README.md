@@ -25,7 +25,7 @@
 
  <img src="images/read-me/info.png" style="width: 75%">
 
- Toggle the *info* switch, at the bottom of the page, to see a summary of flashcard features.
+ Toggle the *info* switch, at the bottom of the page, to see brief summaries of the site's features. Hint: Click on *Mini Reviews*, underlined with yellow dashes, to watch a video example of a Mini Review.
 
  ### Success Markers
 
