@@ -42,6 +42,10 @@
  + When you're ready to see the correct translations, click each word 
  + To hide the translations, and try again, click the words a second time
 
+ ### Final Review
+
+ <img src="images/read-me/end-of-deck.png" style="width: 75%">
+
  ### Curated Decks
 
  <img src="images/read-me/categories.png" style="width: 75%">
