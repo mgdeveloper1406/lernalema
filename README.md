@@ -31,7 +31,7 @@
 
  <img src="images/read-me/level-up.png" style="width: 75%">
 
- As you progress, the levels get longer and the words get trickier, but Flash will always congratulate you when you successfully complete a batch of flashcards. If you use any of the help tools during a round, you’ll see a Mini Review link on your checkpoint notification.
+ As you progress, the levels get longer and the words get trickier, but Flash will always congratulate you when you successfully complete a batch of flashcards. If you use any of the help tools during a round, you’ll see a *Mini Review* link on your checkpoint notification.
 
  ### Mini Reviews
 
