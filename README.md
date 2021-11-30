@@ -4,6 +4,7 @@
 
  + [Introduction](#introduction)
  + [Features](#features)
+    - [Info Overlay](#info-overlay)
  + [Favicon](#favicon)
  + [Tech Specs](#tech-specs)
  
