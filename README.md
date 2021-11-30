@@ -5,6 +5,11 @@
  + [Introduction](#introduction)
  + [Features](#features)
     - [Info Overlay](#info-overlay)
+    - [Help Tools](#help-tools)
+    - [Success Markers](#success-markers)
+    - [Mini Reviews](#mini-reviews)
+    - [Final Review](#final-review)
+    - [Curated Decks](#curated-decks)
  + [Favicon](#favicon)
  + [Tech Specs](#tech-specs)
  
