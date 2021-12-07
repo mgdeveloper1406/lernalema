@@ -10,6 +10,7 @@
     - [Mini Reviews](#mini-reviews)
     - [Final Review](#final-review)
     - [Curated Decks](#curated-decks)
+    - [Colorful Chameleon](#colorful-chameleon)
  + [Favicon](#favicon)
  + [Tech Specs](#tech-specs)
  
