@@ -31,7 +31,7 @@
 
  <img src="images/read-me/info.png" style="width: 75%">
 
- Toggle the *info* switch, at the bottom of the page, to see brief summaries of the site's features. Hint: Click on *Mini Reviews*, underlined with yellow dashes, to watch a video example of a Mini Review.
+ Toggle the *Info* switch, at the bottom of the page, to see brief summaries of the site's features. Hint: Click on *Mini Reviews*, underlined with yellow dashes, to watch a video example of a Mini Review.
 
  ### Help Tools
 
