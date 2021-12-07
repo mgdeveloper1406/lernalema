@@ -72,6 +72,10 @@
 
  The icons of the categories you’ve selected will be purple-ringed, and the category name will turn bold.
 
+ ### Colorful Chameleon
+
+ <img src="images/nav-images/flash-chameleon.svg" style="width: 25%"> <img src="images/nav-images/flash-german.png" style="width: 25%"> <img src="images/nav-images/flash-american.png" style="width: 25%">
+
 ## Favicon
 
  <img src="images/flag-favicon.png" style="width: 25%">
