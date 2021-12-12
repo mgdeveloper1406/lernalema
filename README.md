@@ -84,7 +84,11 @@
 
  <img src="images/flag-favicon.png" style="width: 25%">
 
- The Karteikarten favicon was designed to be a flag—in more ways than one. Sporting the hues of the German tricolor, the K-shaped (for *Karteikarten*) symbol is also meant to represent the kind of colorful, adhesive page flags one might use while studying. 
+ The Karteikarten favicon was designed to be a flag—in more ways than one. Sporting the hues of the German tricolor, the K-shaped (for *Karteikarten*) symbol is also meant to represent the kind of colorful, adhesive page flags one might use while studying.
+
+## Inspiration
+
+ If you don’t learn a noun’s gender in the nominative case—when the noun is the subject—it becomes harder to express yourself in the accusative (direct object), dative (indirect object), and genitive (possessive) cases. Furthermore, gender can change a noun’s meaning. *Die Leiter* means “the ladder,” while *der Leiter* means “the leader.”
 
 ## Tech Specs
 
