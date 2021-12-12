@@ -12,6 +12,7 @@
     - [Curated Decks](#curated-decks)
     - [Colorful Chameleon](#colorful-chameleon)
  + [Favicon](#favicon)
+ + [Inspiration](#inspiration)
  + [Tech Specs](#tech-specs)
  
 ## Introduction
