@@ -90,6 +90,8 @@
 
  If you don’t learn a noun’s gender in the nominative case—when the noun is the subject—it becomes harder to express yourself in the accusative (direct object), dative (indirect object), and genitive (possessive) cases. Furthermore, gender can change a noun’s meaning. For example, *__die__ Leiter* means “the ladder,” while *__der__ Leiter* means “the leader.”
 
+ Free language-learning apps, like Duolingo, don’t offer flashcards, and I realized the lessons weren’t enough to help me retain noun genders. I created Karteikarten to improve my German-language vocabulary, so I would have better confidence constructing complex sentences.
+
 ## Tech Specs
 
  Karteikarten was built with jQuery version 3.4.1.
