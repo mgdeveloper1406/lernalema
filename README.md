@@ -73,6 +73,7 @@
  #### Interactive Number Display
  The orange number displays the amount of flashcards in the lightning round, and the purple one represents the number of flashcards in any customized round you build. The purple figure will increase or decrease depending on how many categories you select.
 
+ #### Visible Category Selection
  The icons of the categories you’ve selected will be purple-ringed, and the category name will turn bold.
 
  ### Colorful Chameleon
