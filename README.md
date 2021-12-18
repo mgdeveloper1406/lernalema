@@ -84,7 +84,7 @@
 
 ## Mobile Version
 
- <img src="images/read-me/mobile-nav.png" style="width: 50%"> <img src="images/read-me/mobile-nav-clicked.png" style="width: 50%">
+ <img src="images/read-me/mobile-nav.png" style="width: 50%"><img src="images/read-me/mobile-nav-clicked.png" style="width: 50%">
 
 ## Favicon
 
