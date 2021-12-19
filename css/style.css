@@ -1243,6 +1243,18 @@ footer {
     }
 }
 
+@media only screen and (max-width: 530px) {
+    /* MODAL BOX */
+
+    h2 {
+        font-size: 2rem;
+        margin: 1.5rem auto;
+    }
+    #congrats-sub {
+        font-size: 1.1rem;
+    }
+}
+
 @media only screen and (max-width: 415px) {
 
     /* CATEGORIES */
@@ -1280,13 +1292,6 @@ footer {
     }
     .modal-content {
         width: 80%;
-    }
-    h2 {
-        font-size: 2rem;
-        margin: 1.5rem auto;
-    }
-    #congrats-sub {
-        font-size: 1.1rem;
     }
     #modal-image {
         height: 235px;
