@@ -11,6 +11,7 @@
     - [Final Review](#final-review)
     - [Curated Decks](#curated-decks)
     - [Colorful Chameleon](#colorful-chameleon)
+ + [Mobile Version](#mobile-version)
  + [Favicon](#favicon)
  + [Inspiration](#inspiration)
  + [Tech Specs](#tech-specs)
