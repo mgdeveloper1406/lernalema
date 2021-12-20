@@ -87,6 +87,8 @@
 
  <img src="images/read-me/mobile-nav.png" style="width: 40%">      <img src="images/read-me/mobile-nav-clicked.png" style="width: 40%">
 
+ In the mobile version, the navigation links are replaced by a hamburger menu shaped like three highlighters. When the menu is clicked, the highlighters slide to the right, and appear to draw three lines, as the navigation panel sweeps across the page.
+
 ## Favicon
 
  <img src="images/flag-favicon.png" style="width: 25%">
