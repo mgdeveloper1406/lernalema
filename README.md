@@ -5,6 +5,7 @@
  + [Introduction](#introduction)
  + [Features](#features)
     - [Info Overlay](#info-overlay)
+    - [Categories](#categories)
     - [Help Tools](#help-tools)
     - [Success Markers](#success-markers)
     - [Mini Reviews](#mini-reviews)
