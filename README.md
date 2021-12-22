@@ -43,6 +43,8 @@
 
  Each flashcard belongs to one of more than a dozen color-coordinated categories, to help Karteikarten users build mental associations. 
 
+ The word *die Sonne* (the sun) appears in the green Nature deck, while *der Sohn* (the son) is in the teal People deck. Likewise, *die Frucht* (the fruit), a botanical term, belongs to the Nature deck, whereas *das Obst* (the fruit), found in a local supermarket, belongs to the red Food deck.
+
  ### Help Tools
 
  <img src="images/read-me/hint-example.png" style="width: 75%">
