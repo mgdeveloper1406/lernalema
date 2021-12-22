@@ -41,6 +41,8 @@
 
  <img src="images/read-me/category-labels.png" style="width: 75%">
 
+ Each flashcard belongs to one of more than a dozen color-coordinated categories, to help Karteikarten users build mental associations. 
+
  ### Help Tools
 
  <img src="images/read-me/hint-example.png" style="width: 75%">
