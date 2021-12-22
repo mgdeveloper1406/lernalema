@@ -47,6 +47,8 @@
 
  For colorblind users, the flashcards also state the name of category they belong to, along with an illustrated visual cue.
 
+ This feature can be turned off by clicking the *Category Labels* icon, next to the help tools. When the labels are hidden, the *Category Labels* icon switches to an outline of itself.
+
  ### Help Tools
 
  <img src="images/read-me/hint-example.png" style="width: 75%">
