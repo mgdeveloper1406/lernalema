@@ -5,6 +5,7 @@
  + [Introduction](#introduction)
  + [Features](#features)
     - [Info Overlay](#info-overlay)
+    - [Countdown](#countdown)
     - [Categories](#categories)
     - [Help Tools](#help-tools)
     - [Success Markers](#success-markers)
