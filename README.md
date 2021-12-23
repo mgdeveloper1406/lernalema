@@ -42,7 +42,7 @@
 
  <img src="images/read-me/countdown-text.png" style="width: 75%">
 
- Use the countdown in the pink box above the flashcards, to keep track of how many words remain in each round. (Psst... try hovering your mouse over the countdown.)
+ Use the countdown in the pink box above the flashcards, to keep track of how many words remain in each round. (*Psst*... try hovering your mouse over the countdown.)
 
  ### Categories
 
