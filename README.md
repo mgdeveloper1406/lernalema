@@ -61,6 +61,8 @@
 
  <img src="images/read-me/bzzt-nah.png" style="width: 75%">
 
+ After typing your translation, click the green *Arrow* button, or your *Enter* key, to check your work. If you were right, the next flashcard will appear. Otherwise, the input area will flash red and your incorrect translation will fade away, so you can try again.
+
  ### Help Tools
 
  <img src="images/read-me/hint-example.png" style="width: 75%">
