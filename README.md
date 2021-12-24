@@ -7,6 +7,7 @@
     - [Info Overlay](#info-overlay)
     - [Countdown](#countdown)
     - [Categories](#categories)
+    - [Instant Feedback](#instant-feedback)
     - [Help Tools](#help-tools)
     - [Success Markers](#success-markers)
     - [Mini Reviews](#mini-reviews)
