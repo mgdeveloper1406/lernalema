@@ -56,6 +56,10 @@
 
  This feature can be turned off by clicking the *Category Labels* icon, next to the help tools. When the labels are hidden, the *Category Labels* icon switches to an outline of itself.
 
+ ### Instant Feedback
+
+ <img src="images/read-me/bzzt-nah.png" style="width: 75%">
+
  ### Help Tools
 
  <img src="images/read-me/hint-example.png" style="width: 75%">
