@@ -81,7 +81,7 @@
 
  <img src="images/read-me/mini-review.png" style="width: 75%">
 
- Any word you solve with the assistance of the *Hint Bulb* or *Answer Key* will be added to your end-of-round Mini Review. These optional reviews give you an opportunity to quiz yourself until you feel confident.
+ Any word you solve with the assistance of the *Hint Bulb* or *Answer Key*, or translate incorrectly, will be added to your end-of-round Mini Review. These optional reviews give you an opportunity to quiz yourself until you feel confident.
  + Think about your review words, presented in their category colors
  + When you're ready to see the correct translations, click each word 
  + To hide the translations, and try again, click the words a second time
