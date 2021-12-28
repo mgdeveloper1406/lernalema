@@ -68,8 +68,8 @@
  <img src="images/read-me/hint-example.png" style="width: 75%">
 
  If you find yourself drawing a blank, don’t worry! Use the help tools.
- + *Hint Bulb* — Reveals a clue in a green speech bubble.
- + *Answer Key* — Populates the input with the correct translation.
+ + *Hint Bulb* — Reveals a clue in a green speech bubble
+ + *Answer Key* — Populates the input with the correct translation
 
  ### Success Markers
 
