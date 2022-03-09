@@ -466,13 +466,19 @@ $('#mini-review').on('click', function() {
         let downArrows = $('<img class="down-arrows" src="images/arrows/review-arrows.svg" />');
         let reviewAnswers = $('<p class="review-answers"></p>');
 
+        // insert each review word into its own paragraph element
         $(reviewWords).text(element.german);
+
+        // if the review word's translation is a string
         if (typeof element.translation === 'string') {
+            // insert it into its own paragraph element
             $(reviewAnswers).text(element.translation);
         } else {
+            // if the translation is an array, choose the first option
             $(reviewAnswers).text(element.translation[0]);
         }
 
+        // add the review words, arrows, and translations to the review
         $('#review-box').append(reviewWords, downArrows, reviewAnswers);
 
         if (element.category === 'adjectives') {
