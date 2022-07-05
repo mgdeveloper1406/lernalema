@@ -142,10 +142,7 @@ const categoryColors = () => {
             colorDisplayCategoryIcon('#008b8b', 'block', 'People', 'images/category-icons/category-icons-people.svg');
             break;
         case 'phrases':
-            $('#german-box').css('backgroundColor', '#ce3c5e');
-            $('#plural-zone').css('display', 'none');
-            $('#insert-category').html('Phrases');
-            $('#card-icon').attr('src', 'images/category-icons/category-icons-phrases.svg');
+            colorDisplayCategoryIcon('#ce3c5e', 'none', 'Phrases', 'images/category-icons/category-icons-phrases.svg');
             break;
         case 'tech':
             $('#german-box').css('backgroundColor', '#607d8b');
