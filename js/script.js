@@ -94,6 +94,14 @@ function gimmeWords() {
 
 gimmeWords();
 
+// set flashcard bg color, plural-zone display, category, and icon
+function colorDisplayCategoryIcon(hex, visibility, group, symbol) {
+    $('#german-box').css('backgroundColor', hex);
+    $('#plural-zone').css('display', visibility);
+    $('#insert-category').html(group);
+    $('#card-icon').attr('src', symbol);
+};
+
 const categoryColors = () => {
     // update each flashcard's color and icon, based on the current word's category
     switch (randomWord.category) {
