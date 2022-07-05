@@ -124,22 +124,13 @@ const categoryColors = () => {
             colorDisplayCategoryIcon('#759475', 'block', 'Catastrophe', 'images/category-icons/category-icons-catastrophe.svg');
             break;
         case 'clothes':
-            $('#german-box').css('backgroundColor', '#0994bd');
-            $('#plural-zone').css('display', 'block');
-            $('#insert-category').html('Clothes');
-            $('#card-icon').attr('src', 'images/category-icons/category-icons-clothes.svg');
+            colorDisplayCategoryIcon('#0994bd', 'block', 'Clothes', 'images/category-icons/category-icons-clothes.svg');
             break;
         case 'food':
-            $('#german-box').css('backgroundColor', '#f44336');
-            $('#plural-zone').css('display', 'block');
-            $('#insert-category').html('Food');
-            $('#card-icon').attr('src', 'images/category-icons/category-icon-food.svg');
+            colorDisplayCategoryIcon('#f44336', 'block', 'Food', 'images/category-icons/category-icon-food.svg');
             break;
         case 'home':
-            $('#german-box').css('backgroundColor', '#772e53');
-            $('#plural-zone').css('display', 'block');
-            $('#insert-category').html('Home');
-            $('#card-icon').attr('src', 'images/category-icons/category-icons-home.svg');
+            colorDisplayCategoryIcon('#772e53', 'block', 'Home', 'images/category-icons/category-icons-home.svg');
             break;
         case 'nature':
             $('#german-box').css('backgroundColor', '#2e8b57');
