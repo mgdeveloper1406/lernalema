@@ -106,22 +106,13 @@ const categoryColors = () => {
     // update each flashcard's color and icon, based on the current word's category
     switch (randomWord.category) {
         case 'adjectives':
-            $('#german-box').css('backgroundColor', '#9c538d');
-            $('#plural-zone').css('display', 'none');
-            $('#insert-category').html('Adjectives');
-            $('#card-icon').attr('src', 'images/category-icons/category-icons-adjectives.svg');
+            colorDisplayCategoryIcon('#9c538d', 'none', 'Adjectives', 'images/category-icons/category-icons-adjectives.svg');
             break;
         case 'animals':
-            $('#german-box').css('backgroundColor', '#a08181');
-            $('#plural-zone').css('display', 'block');
-            $('#insert-category').html('Animals');
-            $('#card-icon').attr('src', 'images/category-icons/category-icons-animals.svg');
+            colorDisplayCategoryIcon('#a08181', 'block', 'Animals', 'images/category-icons/category-icons-animals.svg');
             break;
         case 'arts':
-            $('#german-box').css('backgroundColor', '#4682b4');
-            $('#plural-zone').css('display', 'block');
-            $('#insert-category').html('Arts');
-            $('#card-icon').attr('src', 'images/category-icons/category-icons-arts.svg');
+            colorDisplayCategoryIcon('#4682b4', 'block', 'Arts', 'images/category-icons/category-icons-arts.svg');
             break;
         case 'body':
             $('#german-box').css('backgroundColor', '#f56a37');
