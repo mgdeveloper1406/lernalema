@@ -145,10 +145,7 @@ const categoryColors = () => {
             colorDisplayCategoryIcon('#ce3c5e', 'none', 'Phrases', 'images/category-icons/category-icons-phrases.svg');
             break;
         case 'tech':
-            $('#german-box').css('backgroundColor', '#607d8b');
-            $('#plural-zone').css('display', 'block');
-            $('#insert-category').html('Tech');
-            $('#card-icon').attr('src', 'images/category-icons/category-icons-technology.svg');
+            colorDisplayCategoryIcon('#607d8b', 'block', 'Tech', 'images/category-icons/category-icons-technology.svg');
             break;
         case 'travel':
             $('#german-box').css('backgroundColor', '#5e93f3');
