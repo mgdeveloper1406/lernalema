@@ -133,10 +133,7 @@ const categoryColors = () => {
             colorDisplayCategoryIcon('#772e53', 'block', 'Home', 'images/category-icons/category-icons-home.svg');
             break;
         case 'nature':
-            $('#german-box').css('backgroundColor', '#2e8b57');
-            $('#plural-zone').css('display', 'block');
-            $('#insert-category').html('Nature');
-            $('#card-icon').attr('src', 'images/category-icons/category-icons-nature.svg');
+            colorDisplayCategoryIcon('#2e8b57', 'block', 'Nature', 'images/category-icons/category-icons-nature.svg');
             break;
         case 'numbers':
             $('#german-box').css('backgroundColor', '#6b6a9e');
