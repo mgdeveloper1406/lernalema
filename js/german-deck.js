@@ -2194,6 +2194,13 @@ let gameArray = [
             hint: 'A current.'
         },
         {
+            german: 'der Stromausfall',
+            plural: 'die Stromausfälle',
+            translation: ['outage', 'blackout'],
+            category: 'tech',
+            hint: 'This might leave you in sudden darkness.'
+        },
+        {
             german: 'das Auge',
             plural: 'die Augen',
             translation: 'eye',
