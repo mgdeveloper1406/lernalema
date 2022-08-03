@@ -2173,6 +2173,13 @@ let gameArray = [
             hint: 'Charge me!'
         },
         {
+            german: 'das Kabel',
+            plural: 'die Kabel',
+            translation: 'cable',
+            category: 'tech',
+            hint: 'Used to transfer data or charge devices.'
+        },
+        {
             german: 'das Auge',
             plural: 'die Augen',
             translation: 'eye',
