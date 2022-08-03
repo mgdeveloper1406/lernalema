@@ -2166,6 +2166,13 @@ let gameArray = [
             hint: 'Half of one hundred.'
         },
         {
+            german: 'die Batterie',
+            plural: 'die Batterien',
+            translation: 'battery',
+            category: 'tech',
+            hint: 'Charge me!'
+        },
+        {
             german: 'das Auge',
             plural: 'die Augen',
             translation: 'eye',
