@@ -2187,6 +2187,13 @@ let gameArray = [
             hint: 'Where you plug in your chargers.'
         },
         {
+            german: 'der Strom',
+            plural: 'n/a',
+            translation: ['power', 'electricity'],
+            category: 'tech',
+            hint: 'A current.'
+        },
+        {
             german: 'das Auge',
             plural: 'die Augen',
             translation: 'eye',
