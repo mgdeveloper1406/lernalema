@@ -2180,6 +2180,13 @@ let gameArray = [
             hint: 'Used to transfer data or charge devices.'
         },
         {
+            german: 'die Steckdose',
+            plural: 'die Steckdosen',
+            translation: 'outlet',
+            category: 'tech',
+            hint: 'Where you plug in your chargers.'
+        },
+        {
             german: 'das Auge',
             plural: 'die Augen',
             translation: 'eye',
