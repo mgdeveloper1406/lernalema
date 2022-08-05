@@ -2215,6 +2215,13 @@ let gameArray = [
             hint: 'Some might call it a fiddle.'
         },
         {
+            german: 'die Gitarre',
+            plural: 'die Gitarren',
+            translation: 'guitar',
+            category: 'arts',
+            hint: 'Does this instrument make you feel like a hero?'
+        },
+        {
             german: 'das Auge',
             plural: 'die Augen',
             translation: 'eye',
