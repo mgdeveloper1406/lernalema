@@ -2208,6 +2208,13 @@ let gameArray = [
             hint: 'Known to have ivory keys.'
         },
         {
+            german: 'die Geige',
+            plural: 'die Geigen',
+            translation: 'violin',
+            category: 'arts',
+            hint: 'Some might call it a fiddle.'
+        },
+        {
             german: 'das Auge',
             plural: 'die Augen',
             translation: 'eye',
