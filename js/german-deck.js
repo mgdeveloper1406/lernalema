@@ -2201,6 +2201,13 @@ let gameArray = [
             hint: 'This might leave you in sudden darkness.'
         },
         {
+            german: 'das Klavier',
+            plural: 'die Klaviere',
+            translation: 'piano',
+            category: 'arts',
+            hint: 'Known to have ivory keys.'
+        },
+        {
             german: 'das Auge',
             plural: 'die Augen',
             translation: 'eye',
