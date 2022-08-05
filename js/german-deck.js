@@ -2222,6 +2222,13 @@ let gameArray = [
             hint: 'Does this instrument make you feel like a hero?'
         },
         {
+            german: 'das Instrument',
+            plural: 'die Instrumente',
+            translation: 'instrument',
+            category: 'arts',
+            hint: 'Use this to make music.'
+        },
+        {
             german: 'das Auge',
             plural: 'die Augen',
             translation: 'eye',
